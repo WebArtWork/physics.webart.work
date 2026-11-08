@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">Physics</string>
-    <string name="title_activity_main">Physics</string>
-    <string name="package_name">work.webart.physics</string>
-    <string name="custom_url_scheme">work.webart.physics</string>
-</resources>
