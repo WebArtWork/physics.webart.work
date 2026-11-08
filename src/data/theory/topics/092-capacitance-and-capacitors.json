@@ -1,0 +1,52 @@
+{
+	"n": 92,
+	"slug": "092-capacitance-and-capacitors",
+	"title": {
+		"en": "Capacitance and Capacitors",
+		"ua": "Електроємність. Конденсатори"
+	},
+	"short": {
+		"en": "Capacitance measures how much charge a capacitor stores per volt across its terminals. A capacitor of 10 μF at 5 V carries charge magnitude 50 μC on each plate. Capacitance depends chiefly on conductor geometry and intervening material, not on the voltage for an ideal linear capacitor.",
+		"ua": "Електроємність показує, який заряд накопичує конденсатор за одиничної напруги. Конденсатор 10 мкФ за напруги 5 В має на кожній пластині заряд за модулем 50 мкКл. Для ідеального лінійного конденсатора ємність визначається його геометрією та діелектриком, а не прикладеною напругою."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "The Leyden jar, developed in the eighteenth century, was an early device for storing separated electric charge. Modern capacitors use metal foils, ceramic or film dielectrics, or other electrode structures.",
+			"core": "A capacitor has two conductors separated by an insulator. A source moves charges so the plates acquire equal and opposite charges. The electric field between them stores energy. Increasing plate area or dielectric permittivity raises the capacitance, while increasing plate separation reduces it in an ideal parallel-plate model.",
+			"components": "C = |q|/|U|, where C is in farads (F), q is the magnitude of charge on one plate in C and U in V. For large ideal parallel plates C = ε_r ε₀S/d, with ε₀ ≈ 8.854 · 10⁻¹² F/m, area S in m² and separation d in m. 1 μF = 10⁻⁶ F; 1 nF = 10⁻⁹ F.",
+			"apply": "Convert capacitance and voltage to SI units. Use q = CU to find the magnitude of stored plate charge, not the sum of absolute charges on both plates. In a geometry problem check dielectric coverage and fringe-field assumptions. Disconnect power and discharge safely before touching capacitors.",
+			"example": "A capacitor has C = 22 μF and U = 9.0 V. |q| = CU = 22 · 10⁻⁶ F · 9.0 V = 1.98 · 10⁻⁴ C = 198 μC. Try it: C = 4.0 μF, U = 12 V; find |q|. (48 μC).",
+			"limits": "The parallel-plate formula neglects fringing and assumes a homogeneous linear dielectric. Real capacitors have voltage ratings and leakage. Do not add plate-charge magnitudes to obtain q; charge is specified per plate.",
+			"related": "Conductors and Dielectrics in an Electric Field (#89); Field Strength and Voltage in a Uniform Field (#91); Capacitor Combinations and Electric Field Energy (#93)"
+		},
+		"ua": {
+			"origin": "Лейденська банка XVIII століття стала одним із перших пристроїв для накопичення розділених зарядів. Сучасні конденсатори виготовляють із плівковими, керамічними й іншими діелектриками.",
+			"core": "Конденсатор складається з двох провідників, розділених діелектриком. Джерело створює на пластинах однакові за модулем протилежні заряди. Між пластинами виникає електричне поле. У плоскій моделі збільшення площі пластин чи проникності збільшує ємність, а збільшення відстані зменшує її.",
+			"components": "C = |q|/|U|, де C у Ф, q є модулем заряду однієї пластини в Кл, U у В. Для ідеального плоского конденсатора C = ε_r ε₀S/d, де ε₀ ≈ 8,854 · 10⁻¹² Ф/м, S у м², d у м, ε_r безрозмірна. 1 мкФ = 10⁻⁶ Ф, 1 нФ = 10⁻⁹ Ф.",
+			"apply": "Переведіть ємність у Ф, напругу у В. Знайдіть модуль заряду однієї пластини за формулою q = CU. Не додавайте модулі зарядів обох пластин. У геометричній задачі перевірте умови однорідного діелектрика й малого крайового ефекту. Перед роботою з конденсатором безпечно розрядіть його.",
+			"example": "Для C = 22 мкФ і U = 9,0 В маємо |q| = 22 · 10⁻⁶ Ф · 9,0 В = 1,98 · 10⁻⁴ Кл = 198 мкКл. Спробуйте самі: C = 4,0 мкФ, U = 12 В. Який заряд? (48 мкКл).",
+			"limits": "Формула плоского конденсатора нехтує крайовими ефектами та припускає однорідний лінійний діелектрик. Реальні конденсатори мають допустиму напругу й витік. Не додавайте модулі зарядів двох пластин.",
+			"related": "Провідники та діелектрики в електричному полі (#89); Зв’язок напруженості та напруги. Еквіпотенціальні поверхні (#91); З’єднання конденсаторів. Енергія електричного поля (#93)"
+		}
+	}
+}

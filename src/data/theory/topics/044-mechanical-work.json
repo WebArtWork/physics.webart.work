@@ -1,0 +1,52 @@
+{
+	"n": 44,
+	"slug": "044-mechanical-work",
+	"title": {
+		"en": "Mechanical Work",
+		"ua": "Механічна робота"
+	},
+	"short": {
+		"en": "Mechanical work measures energy transferred when a force acts through a displacement. For a constant force, W = Fs cos α, where α is the angle between force and displacement. Pulling a box 4 m with a 30 N horizontal force does 120 J of work. A force perpendicular to motion, such as the normal force on a level floor, does zero work.",
+		"ua": "Механічна робота показує, скільки енергії передає сила під час переміщення. Для сталої сили A = Fs cos α, де α є кутом між силою і переміщенням. Якщо тягнути валізу горизонтально силою 30 Н на 4 м, робота дорівнює 120 Дж. Сила, перпендикулярна переміщенню, роботи не виконує."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "The quantitative connection between force, displacement and energy developed in eighteenth- and nineteenth-century mechanics, including work by Coriolis and Poncelet. It enabled engineers to compare the useful effects of different machines.",
+			"core": "Work is positive when a force has a component along the displacement, negative when opposite, and zero when perpendicular. A force may act yet do no mechanical work if its point of application does not move. The work done by gravity depends on the vertical height difference, not on the path.",
+			"components": "W = Fs cos α for constant F in N and displacement s in m, with W in joules (J = N·m). For one-dimensional variable force W equals the signed area under F(x). Near Earth, work done by gravity during a downward height change h is W_g = mgh, with g ≈ 9.8 m/s².",
+			"apply": "Draw the displacement and the force, then identify the angle between them. Convert the distance to metres and find the component along motion. Multiply F by s and cos α; confirm whether work should be positive, negative or zero.",
+			"example": "A student pulls a suitcase horizontally with a constant 30 N force through 4.0 m. α = 0°, so W = 30 N · 4.0 m · cos 0° = 120 J. Try it: if the same force acts at 60° to the path, what work does it do? (60 J).",
+			"limits": "W = Fs cos α is valid for a constant force and a well-defined displacement of its application point. For varying forces use the integral or area under the graph. Do not confuse work with effort or count a perpendicular force as doing work.",
+			"related": "Power and Efficiency (#45); Kinetic Energy and the Work–Energy Theorem (#46); Potential Energy (#47)"
+		},
+		"ua": {
+			"origin": "Кількісне поняття механічної роботи сформувалося у XVIII–XIX століттях, зокрема завдяки працям Коріоліса й Понселе. Воно дало змогу порівнювати дію різних машин.",
+			"core": "Робота додатна, коли складова сили спрямована вздовж переміщення, від’ємна, коли проти нього, і нульова для перпендикулярної сили. Сила може діяти без виконання роботи, якщо точка її прикладання не переміщується. Робота сили тяжіння залежить від зміни висоти, а не від форми траєкторії.",
+			"components": "A = Fs cos α, де F вимірюють у Н, s у м, A у Дж. Один джоуль дорівнює одному ньютон-метру. Для змінної сили роботу визначають як площу з урахуванням знака під графіком F(x). Поблизу Землі робота сили тяжіння під час опускання на висоту h: A = mgh, g ≈ 9,8 м/с².",
+			"apply": "Намалюйте силу та переміщення, знайдіть кут між ними. Виразіть відстань у метрах, обчисліть проєкцію сили вздовж руху, а тоді її роботу. Перевірте, чи знак відповідає фізичній ситуації.",
+			"example": "Учень тягне валізу горизонтально силою 30 Н на відстань 4,0 м. α = 0°, тому A = 30 Н · 4,0 м · cos 0° = 120 Дж. Спробуйте самі: яка робота цієї сили під кутом 60° до руху? (60 Дж).",
+			"limits": "Формула для сталої сили не враховує її зміну вздовж шляху. У такому разі використовуйте площу під графіком або інтегрування. Не плутайте фізичну роботу з втомою та не додавайте роботу перпендикулярної сили.",
+			"related": "Потужність. Коефіцієнт корисної дії (#45); Кінетична енергія. Теорема про кінетичну енергію (#46); Потенціальна енергія (#47)"
+		}
+	}
+}

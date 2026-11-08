@@ -1,0 +1,52 @@
+{
+	"n": 77,
+	"slug": "077-heat-balance-equation",
+	"title": {
+		"en": "Heat Balance Equation",
+		"ua": "Рівняння теплового балансу"
+	},
+	"short": {
+		"en": "In a sufficiently insulated system, heat lost by warmer bodies equals heat gained by colder bodies. This is the heat balance equation, a practical form of energy conservation. Mixing equal masses of water at 20 °C and 60 °C gives 40 °C if there is no heat loss and the container's heat capacity is negligible.",
+		"ua": "У теплоізольованій системі кількість теплоти, віддана гарячішими тілами, дорівнює кількості теплоти, отриманій холоднішими. Це рівняння теплового балансу. Якщо змішати однакові маси води за 20 °C і 60 °C без втрат, кінцева температура становитиме 40 °C."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Calorimetry developed through experiments on heat exchange and heat capacities from the eighteenth century onward. The energy-conservation principle made it possible to calculate equilibrium temperatures without assuming that heat is a material fluid.",
+			"core": "Bodies at different temperatures exchange energy until thermal equilibrium. An isolated mixture has a total energy change of zero, so positive energy gains balance negative losses. A calorimeter reduces exchanges with the surroundings, but real calorimeters also absorb some energy. If ice is present, melting may consume energy while temperature stays near 0 °C.",
+			"components": "ΣQᵢ = 0 for an isolated set of bodies, with signed heat transfers Qᵢ in J. Without phase changes Qᵢ = mᵢcᵢ(T_f − Tᵢ), where T_f is common final temperature. During ice melting add Q_melt = λm, with λ in J/kg. The calorimeter contribution can be C_cal(T_f − T_cal,initial), with C_cal in J/K.",
+			"apply": "List all participating bodies, their initial temperatures and whether a phase transition occurs. Write each Q term with its proper sign, include the calorimeter if needed, and solve for one shared equilibrium temperature. Check that the answer lies between the initial temperatures when no phase change or external work intervenes.",
+			"example": "Mix 0.20 kg of water at 20 °C with 0.30 kg at 60 °C and ignore the vessel. Because c is the same, 0.20 kg · (T_f − 20 °C) + 0.30 kg · (T_f − 60 °C) = 0; T_f = (0.20 · 20 + 0.30 · 60)/0.50 = 44 °C. Try it: equal masses at 20 °C and 60 °C? (40 °C).",
+			"limits": "Heat loss, evaporation and the container's heat capacity cause deviations. Ice may only partly melt if there is insufficient incoming energy, so do not assume the entire sample changes phase. Never add heat magnitudes without assigning loss and gain correctly.",
+			"related": "Quantity of Heat and Specific Heat Capacity (#74); Melting, Vaporization and Latent Heat (#75); First Law of Thermodynamics (#79)"
+		},
+		"ua": {
+			"origin": "Калориметрія розвивалася з XVIII століття під час досліджень теплообміну та теплоємності. Закон збереження енергії дав змогу розраховувати рівноважну температуру суміші.",
+			"core": "Тіла з різними температурами обмінюються енергією до теплової рівноваги. У теплоізольованій системі алгебраїчна сума теплот дорівнює нулю. Калориметр зменшує втрати, але сам може нагріватися. Якщо в системі є лід, частина енергії витрачається на плавлення без підвищення температури.",
+			"components": "ΣQᵢ = 0, де Qᵢ у Дж зі знаками: отримана теплота додатна, віддана від’ємна. Без фазових переходів Qᵢ = mᵢcᵢ(tф − tᵢ), де tф є спільною кінцевою температурою. Для плавлення додають Qпл = λm. Теплоємність калориметра Cкал у Дж/К також може входити до балансу.",
+			"apply": "Перелічіть усі тіла та їхні початкові температури. Запишіть окремо теплоту кожного тіла, додайте теплоту фазових переходів і теплоємність калориметра, якщо потрібно. Прирівняйте алгебраїчну суму до нуля та перевірте кінцеву температуру.",
+			"example": "Змішали 0,20 кг води за 20 °C і 0,30 кг за 60 °C. Без втрат 0,20 кг · (tф − 20 °C) + 0,30 кг · (tф − 60 °C) = 0. Отже tф = (0,20 · 20 + 0,30 · 60)/0,50 = 44 °C. Спробуйте самі: яка температура за однакових мас води? (40 °C).",
+			"limits": "У реальній системі частина енергії йде на нагрівання посудини, випаровування чи теплообмін із довкіллям. Лід може розплавитися лише частково. Не додавайте модулі всіх Q без розрізнення відданої й отриманої теплоти.",
+			"related": "Кількість теплоти. Питома теплоємність речовини (#74); Плавлення і кристалізація. Пароутворення і конденсація (#75); Перший закон термодинаміки (#79)"
+		}
+	}
+}

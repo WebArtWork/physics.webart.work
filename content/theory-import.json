@@ -1,0 +1,1723 @@
+{
+  "lessons": 171,
+  "languages": [
+    "en",
+    "ua"
+  ],
+  "versions": [
+    "short",
+    "detailed"
+  ],
+  "sources": [
+    {
+      "file": "001.md",
+      "number": 1,
+      "title": {
+        "en": "What Physics Studies: Phenomena, Models and Laws",
+        "ua": "Що вивчає фізика: явища, моделі та закони"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "711661bb6767e94f1877db3a4dd33bcc4aaf4a6d50fe00a6b1b4b1904465ba84"
+    },
+    {
+      "file": "002.md",
+      "number": 2,
+      "title": {
+        "en": "Physical Quantities and SI Units",
+        "ua": "Фізичні величини та одиниці SI"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "ae3b26b5619ab21a215679d5d5dac5d2a736311fa2454525c58a2446f3e65e38"
+    },
+    {
+      "file": "003.md",
+      "number": 3,
+      "title": {
+        "en": "Measurement Uncertainty and Significant Figures",
+        "ua": "Похибки вимірювань і значущі цифри"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "52cf3654cb8e4bc95d5724f9c67d7be28ab57bf40a7c4f83fd38a9a2dd0db949"
+    },
+    {
+      "file": "004.md",
+      "number": 4,
+      "title": {
+        "en": "Dimensional Analysis and Estimation",
+        "ua": "Аналіз розмірностей і оцінювання"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "807ae20adc7965bf81c2e5937c8b4a2e1a32859d5dfbb7219eea0c029632d461"
+    },
+    {
+      "file": "005.md",
+      "number": 5,
+      "title": {
+        "en": "Scalars and Vectors",
+        "ua": "Скалярні та векторні величини"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "ebb8ded41bbf0031ad6ef71942448696cf3bdade562715c323039fe4c3bc3b3b"
+    },
+    {
+      "file": "006.md",
+      "number": 6,
+      "title": {
+        "en": "Graphs in Physics",
+        "ua": "Графіки у фізичних задачах"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "41f130c8197385e8be4608d90d78be45a8d4c7805b307c467af25b31ad84c0ad"
+    },
+    {
+      "file": "007.md",
+      "number": 7,
+      "title": {
+        "en": "Mechanical Motion and Frames of Reference",
+        "ua": "Механічний рух і система відліку"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "3e8ea4eafc869d0032c693c628e970612e43d6b4b9eca098c75fcfa610265821"
+    },
+    {
+      "file": "008.md",
+      "number": 8,
+      "title": {
+        "en": "Trajectory, Path Length and Displacement",
+        "ua": "Траєкторія, шлях і переміщення"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "72dbbcb14612d0cfde2dee21a69f58f4f2bc94f0f7391987779eecfd3ea08f09"
+    },
+    {
+      "file": "009.md",
+      "number": 9,
+      "title": {
+        "en": "Average and Instantaneous Velocity",
+        "ua": "Середня та миттєва швидкість"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "cce2c5c721145678fcb67128bca6dc156c1fea1dc067476974d3681646ed8db9"
+    },
+    {
+      "file": "010.md",
+      "number": 10,
+      "title": {
+        "en": "Uniform Straight-Line Motion",
+        "ua": "Рівномірний прямолінійний рух"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "61381e8eeec5918ecea4ea0f8e8f72f3f7bba79f81d5d4f5b4788daa2f553892"
+    },
+    {
+      "file": "011.md",
+      "number": 11,
+      "title": {
+        "en": "Acceleration",
+        "ua": "Прискорення"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "eace2ae9b5022a275683d4fdb25af19e7fbf6d56d1d92ef509e6fbfaacb631e7"
+    },
+    {
+      "file": "012.md",
+      "number": 12,
+      "title": {
+        "en": "Uniformly Accelerated Straight-Line Motion",
+        "ua": "Рівноприскорений прямолінійний рух"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "cf63090279906d8052e7e3416720f6c341edc9d703f8d10ed5b98df1359348e1"
+    },
+    {
+      "file": "013.md",
+      "number": 13,
+      "title": {
+        "en": "Motion Graphs",
+        "ua": "Графіки руху"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "426d5b193435f977fcad789b8148c7cc9014f147765168b117f3b43f4731b5b6"
+    },
+    {
+      "file": "014.md",
+      "number": 14,
+      "title": {
+        "en": "Relative Motion and Velocity Addition",
+        "ua": "Відносність руху. Додавання швидкостей"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "4ca1fa8366ee11e96d3f0b0e4549fb674696845286e21aec16982ce924e40c95"
+    },
+    {
+      "file": "015.md",
+      "number": 15,
+      "title": {
+        "en": "Free Fall and Vertical Throw",
+        "ua": "Вільне падіння. Рух тіла, кинутого вертикально"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "4309469e2f8ab715d2614408325a96edac11177cdc3473bdff47515c6f8a93dd"
+    },
+    {
+      "file": "016.md",
+      "number": 16,
+      "title": {
+        "en": "Horizontal Launch",
+        "ua": "Рух тіла, кинутого горизонтально"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "f5d0949eadf3dcd6a90134e5f2d4327cecd17f5c0da99614e9a457319fbc2597"
+    },
+    {
+      "file": "017.md",
+      "number": 17,
+      "title": {
+        "en": "Projectile Launched at an Angle",
+        "ua": "Рух тіла, кинутого під кутом до горизонту"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "141d0fb322c4d74b77a51913e81830ca517782b82bce72138cd7d42172f0d104"
+    },
+    {
+      "file": "018.md",
+      "number": 18,
+      "title": {
+        "en": "Uniform Circular Motion: Period, Frequency and Angular Velocity",
+        "ua": "Рівномірний рух по колу: період, частота, кутова швидкість"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "1d6b976281f0280efd88b6bbe12f6001a5d651e880120e57856de8536d8972c3"
+    },
+    {
+      "file": "019.md",
+      "number": 19,
+      "title": {
+        "en": "Centripetal Acceleration",
+        "ua": "Доцентрове прискорення"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "0e6a8e1387619302401454a9fb345027c00af59f19e1815bde0750f38898dc24"
+    },
+    {
+      "file": "020.md",
+      "number": 20,
+      "title": {
+        "en": "Newton's First Law and Inertial Frames",
+        "ua": "Перший закон Ньютона. Інерціальні системи відліку"
+      },
+      "archive": "physics-theories-001-020.zip",
+      "sha256": "eb766fd9044de102bf8b58a265cf481d507240a9789ee3b607cc6cce949ddf53"
+    },
+    {
+      "file": "021.md",
+      "number": 21,
+      "title": {
+        "en": "Mass and Density",
+        "ua": "Маса тіла. Густина речовини"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "17999a1adce88233752b512228e74a50ccaec17fdffb318ad1d099b771d7e9c7"
+    },
+    {
+      "file": "022.md",
+      "number": 22,
+      "title": {
+        "en": "Force and Net Force",
+        "ua": "Сила. Рівнодійна сил"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "4dd8892e2c0ba92823224c35f7d1a9f4c7846733e05becbe6341e41e9411c1ed"
+    },
+    {
+      "file": "023.md",
+      "number": 23,
+      "title": {
+        "en": "Newton's Second Law",
+        "ua": "Другий закон Ньютона"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "7cee41b380febb46ba4f5b6611633cbef7f179787c50f473d35c3f92ea80aa8d"
+    },
+    {
+      "file": "024.md",
+      "number": 24,
+      "title": {
+        "en": "Newton's Third Law",
+        "ua": "Третій закон Ньютона"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "342076cccae1e37fa816735abf8a95a2fc2b8dcdcfe9856bbe81a50ec3fa4d72"
+    },
+    {
+      "file": "025.md",
+      "number": 25,
+      "title": {
+        "en": "Free-Body Diagrams and Solving Dynamics Problems",
+        "ua": "Схема сил і алгоритм розв’язування задач динаміки"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "70258533b1816ba885c910bfe32409a5208e52dcd59ef73839a33dad199a58e2"
+    },
+    {
+      "file": "026.md",
+      "number": 26,
+      "title": {
+        "en": "Law of Universal Gravitation",
+        "ua": "Закон всесвітнього тяжіння"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "ae3361bba285fab8344ff0a51d22abb25771bacc980949f175145aadb99b01be"
+    },
+    {
+      "file": "027.md",
+      "number": 27,
+      "title": {
+        "en": "Gravity, Weight, Weightlessness and Overload",
+        "ua": "Сила тяжіння, вага тіла, невагомість і перевантаження"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "c19cc6e984df7ede7cf8096842472d19bd4fc93d0f9d5805801c84c936445470"
+    },
+    {
+      "file": "028.md",
+      "number": 28,
+      "title": {
+        "en": "Elastic Force and Hooke's Law",
+        "ua": "Сила пружності. Закон Гука"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "4b9fcb5914a02abb5acfe07d1a5ec31065fd6ee0d4ad772414e5b6f8ce9a1f35"
+    },
+    {
+      "file": "029.md",
+      "number": 29,
+      "title": {
+        "en": "Friction Forces",
+        "ua": "Сили тертя"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "46bd5c822fc11b12a2012219343fdb5a4ab0b3dff672032d86724603085ab1c0"
+    },
+    {
+      "file": "030.md",
+      "number": 30,
+      "title": {
+        "en": "Motion on an Inclined Plane",
+        "ua": "Рух тіла по похилій площині"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "1a19c6fabb60dc9e3083ba306b1dab5b1bf32986679747ce6de67f836ec5c9a5"
+    },
+    {
+      "file": "031.md",
+      "number": 31,
+      "title": {
+        "en": "Connected Bodies: Strings and Pulleys",
+        "ua": "Рух зв’язаних тіл"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "8c21e1ba053f3f830d05e9654629040dc19c3e15c0ce915b6ad2d75416371b69"
+    },
+    {
+      "file": "032.md",
+      "number": 32,
+      "title": {
+        "en": "Dynamics of Circular Motion",
+        "ua": "Динаміка руху по колу"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "a2e8d63a5c160dc233707f43c7ce7a45caff9838423f7c6013794b26bc0acbfd"
+    },
+    {
+      "file": "033.md",
+      "number": 33,
+      "title": {
+        "en": "Satellite Motion and Cosmic Velocities",
+        "ua": "Рух штучних супутників. Космічні швидкості"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "80122d664eb08b37dfa9974cd816bf24f5ecf8a5c72ac45648bc194c2ce67f54"
+    },
+    {
+      "file": "034.md",
+      "number": 34,
+      "title": {
+        "en": "Drag Forces and Terminal Velocity",
+        "ua": "Сила опору середовища. Гранична швидкість"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "fc0118ee1e517294a1b642bbff9237e47991e0947d3ecbed99fddea1ecc24d46"
+    },
+    {
+      "file": "035.md",
+      "number": 35,
+      "title": {
+        "en": "Non-Inertial Frames and Inertial Forces",
+        "ua": "Неінерціальні системи відліку та сили інерції"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "2718ae3ea14ec1d974e79f24a8a3e32e838989af8d0fcfba78760218cb4e41b8"
+    },
+    {
+      "file": "036.md",
+      "number": 36,
+      "title": {
+        "en": "Moment of Force and Conditions of Equilibrium",
+        "ua": "Момент сили. Умови рівноваги тіла"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "0cf7b446e61ca28d41f2e4644598d5f1374a7947a4a523e32baa7ad0b3b4af15"
+    },
+    {
+      "file": "037.md",
+      "number": 37,
+      "title": {
+        "en": "Center of Mass and Types of Equilibrium",
+        "ua": "Центр мас. Види рівноваги"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "b5c4bdf12dbf4db7942399a1bb171079950e9669248e33b409fb50eb77a06342"
+    },
+    {
+      "file": "038.md",
+      "number": 38,
+      "title": {
+        "en": "Simple Machines and the Golden Rule of Mechanics",
+        "ua": "Прості механізми. «Золоте правило» механіки"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "6db7c8b1bfee8daed38840f974b83be840999c058f6c19ab217ffe15b392abef"
+    },
+    {
+      "file": "039.md",
+      "number": 39,
+      "title": {
+        "en": "Rotation of a Rigid Body and Moment of Inertia",
+        "ua": "Обертальний рух твердого тіла. Момент інерції"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "785d0c2872c3c61db964a17ebb5a47c8e7c809c8deb456088e572408d8c90a7f"
+    },
+    {
+      "file": "040.md",
+      "number": 40,
+      "title": {
+        "en": "Angular Momentum and Its Conservation",
+        "ua": "Момент імпульсу та закон його збереження"
+      },
+      "archive": "physics-theories-021-040.zip",
+      "sha256": "8f93f6366d204a58c94798422cc3acbbe0f0469cbc55f14f5605cc28ae7239c1"
+    },
+    {
+      "file": "041.md",
+      "number": 41,
+      "title": {
+        "en": "Momentum and Impulse",
+        "ua": "Імпульс тіла та імпульс сили"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "0cf84cd74d9c1744b488ec4ed36cc22864ebcab0dca7d91abe7b97dff446b1ca"
+    },
+    {
+      "file": "042.md",
+      "number": 42,
+      "title": {
+        "en": "Conservation of Momentum",
+        "ua": "Закон збереження імпульсу"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "ed1c18108acd960c570f0ba5dd84667c663d945b517b8b696ab6793d67da7ab6"
+    },
+    {
+      "file": "043.md",
+      "number": 43,
+      "title": {
+        "en": "Jet Propulsion",
+        "ua": "Реактивний рух"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "a5e1b983ed0b0a52d415df0fd8bd216d421e946b5aaf06b9727ef159244a2d1a"
+    },
+    {
+      "file": "044.md",
+      "number": 44,
+      "title": {
+        "en": "Mechanical Work",
+        "ua": "Механічна робота"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "ae4a9adb5660896fe1b776d97610fdd21f971244b3f40383317d5b9a09a797fa"
+    },
+    {
+      "file": "045.md",
+      "number": 45,
+      "title": {
+        "en": "Power and Efficiency",
+        "ua": "Потужність. Коефіцієнт корисної дії"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "5801eb57d409ce76d97563bc6fbf6c10d24ce81983dd58aeb06c9abc432b7ebc"
+    },
+    {
+      "file": "046.md",
+      "number": 46,
+      "title": {
+        "en": "Kinetic Energy and the Work–Energy Theorem",
+        "ua": "Кінетична енергія. Теорема про кінетичну енергію"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "88c4acfdf4143f3b4e433e0e7a4057e72b3fbc694f5414a56bca9fae07e669a1"
+    },
+    {
+      "file": "047.md",
+      "number": 47,
+      "title": {
+        "en": "Potential Energy",
+        "ua": "Потенціальна енергія"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "6803e4d897e34bd3c6cb8befb5e49d46703b70f9c8d16df3d5af8894833960eb"
+    },
+    {
+      "file": "048.md",
+      "number": 48,
+      "title": {
+        "en": "Conservation of Mechanical Energy",
+        "ua": "Закон збереження механічної енергії"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "a1a4ed0afa0aaea8a01077dfe63ec17bb7e2700cce0fd07a703e90a31ae72bc5"
+    },
+    {
+      "file": "049.md",
+      "number": 49,
+      "title": {
+        "en": "Elastic and Inelastic Collisions",
+        "ua": "Пружні та непружні удари"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "a1585a2cab1a1e6784ecb13c7eac97cbbdefdd3e4d9aaa0c523ffe058dde0fa2"
+    },
+    {
+      "file": "050.md",
+      "number": 50,
+      "title": {
+        "en": "Pressure",
+        "ua": "Тиск"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "319b3548feff297f70b5ef87c3e226e64152c38fb43ad04d6a2e78d7cd748144"
+    },
+    {
+      "file": "051.md",
+      "number": 51,
+      "title": {
+        "en": "Hydrostatic Pressure and Communicating Vessels",
+        "ua": "Гідростатичний тиск. Сполучені посудини"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "628da4c9dd690ba0aceb358b3f3f6654025d43636fccdb42c624e8053e7fdc48"
+    },
+    {
+      "file": "052.md",
+      "number": 52,
+      "title": {
+        "en": "Pascal's Law and the Hydraulic Press",
+        "ua": "Закон Паскаля. Гідравлічна машина"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "6aa88ecbb955483f52a32e27401199209b816f82e5a5f90c2705a0be2438c5ff"
+    },
+    {
+      "file": "053.md",
+      "number": 53,
+      "title": {
+        "en": "Atmospheric Pressure",
+        "ua": "Атмосферний тиск"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "96affab954270d00fd57051c9ad3f71f77ae327b1f7c5955912f710538054fd2"
+    },
+    {
+      "file": "054.md",
+      "number": 54,
+      "title": {
+        "en": "Archimedes' Principle and Flotation",
+        "ua": "Закон Архімеда. Умови плавання тіл"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "59f46408feab4931137da19d20d80450f7fd3ea116f8ac22385625ad728d266b"
+    },
+    {
+      "file": "055.md",
+      "number": 55,
+      "title": {
+        "en": "Fluid Flow and the Continuity Equation",
+        "ua": "Течія рідини. Рівняння нерозривності"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "4bab821f3c8903141383d29e984ce1cf311640a0570a7c6a467571ba6dc56bb5"
+    },
+    {
+      "file": "056.md",
+      "number": 56,
+      "title": {
+        "en": "Bernoulli's Equation and Its Applications",
+        "ua": "Рівняння Бернуллі та його застосування"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "7f719793158f9354646faec39c0ff67ab312cfe026e20a1de52760977fd8f5a6"
+    },
+    {
+      "file": "057.md",
+      "number": 57,
+      "title": {
+        "en": "Main Ideas of Molecular-Kinetic Theory",
+        "ua": "Основні положення молекулярно-кінетичної теорії"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "e1b1ef0768328f27713322c245edb43e78c5a7d9b8009eb8c66735533283da71"
+    },
+    {
+      "file": "058.md",
+      "number": 58,
+      "title": {
+        "en": "Amount of Substance and the Avogadro Constant",
+        "ua": "Кількість речовини. Стала Авогадро. Молярна маса"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "afef9ff50114255eb8e0c741c12ea2dbd47d8aeda1d32f36ceff4b76720a11b2"
+    },
+    {
+      "file": "059.md",
+      "number": 59,
+      "title": {
+        "en": "Brownian Motion and Diffusion",
+        "ua": "Броунівський рух і дифузія"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "4c048154f359fba092da400ebedda048bb46eefe1b680c59672880250e084cc6"
+    },
+    {
+      "file": "060.md",
+      "number": 60,
+      "title": {
+        "en": "Ideal Gas and the Basic Equation of Molecular-Kinetic Theory",
+        "ua": "Ідеальний газ. Основне рівняння МКТ"
+      },
+      "archive": "physics-theories-041-060.zip",
+      "sha256": "3c664b9e6ec7143aed2de72e09b5444d1a5fdaf3aced5b61186c1732c8adc1a8"
+    },
+    {
+      "file": "061.md",
+      "number": 61,
+      "title": {
+        "en": "Temperature and Thermal Equilibrium",
+        "ua": "Температура. Теплова рівновага"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "3a777cc20ead1ba1079ed3c7ba18702b38143fedf165136fb7cdab6cdafdfdb9"
+    },
+    {
+      "file": "062.md",
+      "number": 62,
+      "title": {
+        "en": "Temperature and the Kinetic Energy of Molecules",
+        "ua": "Температура як міра середньої кінетичної енергії молекул"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "c67941d7d5a638fcf9f045861005502976ccb05761524f33b2b28f6768e23c07"
+    },
+    {
+      "file": "063.md",
+      "number": 63,
+      "title": {
+        "en": "Ideal Gas Equation of State",
+        "ua": "Рівняння стану ідеального газу (Клапейрона–Менделєєва)"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "764830519ebd2d2075f183c64e502f4555a448bd3456f55382f92d01cbb1029f"
+    },
+    {
+      "file": "064.md",
+      "number": 64,
+      "title": {
+        "en": "Isoprocesses in Gases",
+        "ua": "Ізопроцеси в газах"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "05779683c8234151563578289750452193651120d294a5f2b5695a8524cd2e98"
+    },
+    {
+      "file": "065.md",
+      "number": 65,
+      "title": {
+        "en": "Evaporation, Boiling and Saturated Vapor",
+        "ua": "Пароутворення. Насичена й ненасичена пара. Кипіння"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "5e3f66279ad8c0e13142d3e3c9b26c41de5e6562bbd5401aa38022b4c44164d1"
+    },
+    {
+      "file": "066.md",
+      "number": 66,
+      "title": {
+        "en": "Air Humidity",
+        "ua": "Вологість повітря"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "f2b87a457b73ad2f4fcd1e43c120b4ae92d903a6580ae3e14ac6512907dc6310"
+    },
+    {
+      "file": "067.md",
+      "number": 67,
+      "title": {
+        "en": "Surface Tension",
+        "ua": "Поверхневий натяг"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "4ccf3f9ff3741d496e20de7af65ddff596ff45c6b298a7dd2ef77b8b1a4ef40b"
+    },
+    {
+      "file": "068.md",
+      "number": 68,
+      "title": {
+        "en": "Wetting and Capillary Action",
+        "ua": "Змочування. Капілярні явища"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "d3b7180efaac225cbb3fb00b56072760b41a78da0d4aee59715ee9213e003e8f"
+    },
+    {
+      "file": "069.md",
+      "number": 69,
+      "title": {
+        "en": "Crystalline and Amorphous Solids",
+        "ua": "Кристалічні та аморфні тіла"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "aaf46b0cb645c6a44c235b20a15dcf01d3db8771fe2a0e197758c806f089f58a"
+    },
+    {
+      "file": "070.md",
+      "number": 70,
+      "title": {
+        "en": "Mechanical Properties of Solids",
+        "ua": "Механічні властивості твердих тіл"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "e61a0486d33dab127829740800d029f9898f557103fd3e58057047e995e9382d"
+    },
+    {
+      "file": "071.md",
+      "number": 71,
+      "title": {
+        "en": "Thermal Expansion",
+        "ua": "Теплове розширення тіл"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "0d8bd675c2b72a62ba9cb59b8008fbb806a70460c449c4d579665e3553f63185"
+    },
+    {
+      "file": "072.md",
+      "number": 72,
+      "title": {
+        "en": "Internal Energy and Ways to Change It",
+        "ua": "Внутрішня енергія та способи її зміни"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "93b730115afeaf8c9b30de712ec0d975fdb8bb3fed61c76cc5db685ef741449b"
+    },
+    {
+      "file": "073.md",
+      "number": 73,
+      "title": {
+        "en": "Heat Transfer: Conduction, Convection and Radiation",
+        "ua": "Види теплопередачі: теплопровідність, конвекція, випромінювання"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "75bbf7140fb50cec2d6e02698626893d3717865c3e59fa9f74cc961c89d4c6f0"
+    },
+    {
+      "file": "074.md",
+      "number": 74,
+      "title": {
+        "en": "Quantity of Heat and Specific Heat Capacity",
+        "ua": "Кількість теплоти. Питома теплоємність речовини"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "898ed312d195af8622d8818700c0fa5b3424413332312a9d80c675f2be0d98ad"
+    },
+    {
+      "file": "075.md",
+      "number": 75,
+      "title": {
+        "en": "Melting, Vaporization and Latent Heat",
+        "ua": "Плавлення і кристалізація. Пароутворення і конденсація"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "8461b4708400dac9e3791b499470ff98093c4b1a54227ee50cee995200851479"
+    },
+    {
+      "file": "076.md",
+      "number": 76,
+      "title": {
+        "en": "Fuel Combustion and Heat of Combustion",
+        "ua": "Згоряння палива. Питома теплота згоряння"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "b9a3e51f039a9dc0d24c3ffd585c811debac6e140fce485182a00b78ee7d0cd1"
+    },
+    {
+      "file": "077.md",
+      "number": 77,
+      "title": {
+        "en": "Heat Balance Equation",
+        "ua": "Рівняння теплового балансу"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "733cfee986f0d35ad36a496761230032f07a2150847fa8892464be6852390ab5"
+    },
+    {
+      "file": "078.md",
+      "number": 78,
+      "title": {
+        "en": "Work Done by a Gas",
+        "ua": "Робота газу в термодинаміці"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "e1ff2126ec7d16438526ea4f3772eec16aac1d5c05b0afc68bc4b07ea052d9d9"
+    },
+    {
+      "file": "079.md",
+      "number": 79,
+      "title": {
+        "en": "First Law of Thermodynamics",
+        "ua": "Перший закон термодинаміки"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "43c7bc6f9477b2d479b1a709c56b190ee891ba18712b643a9a1438f19dd622fd"
+    },
+    {
+      "file": "080.md",
+      "number": 80,
+      "title": {
+        "en": "First Law for Isoprocesses and the Adiabatic Process",
+        "ua": "Застосування першого закону термодинаміки до ізопроцесів. Адіабатний процес"
+      },
+      "archive": "physics-theories-061-080.zip",
+      "sha256": "ff0ed86c8d3b46fc03f46a7f2144c0ef11591dac160397a6959a033970acc23a"
+    },
+    {
+      "file": "081.md",
+      "number": 81,
+      "title": {
+        "en": "Heat Engines and Their Efficiency",
+        "ua": "Теплові двигуни. ККД теплового двигуна"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "07586ae22d76c637376907cb85746373c5919ff61977f31abd640cf2baa6c814"
+    },
+    {
+      "file": "082.md",
+      "number": 82,
+      "title": {
+        "en": "The Carnot Cycle and Maximum Efficiency",
+        "ua": "Цикл Карно. Максимальний ККД теплового двигуна"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "731cf9a40f7ef01be0d24a3a6a3181c611c2a496f898e2768ea329903ba50ee1"
+    },
+    {
+      "file": "083.md",
+      "number": 83,
+      "title": {
+        "en": "Second Law of Thermodynamics and Entropy",
+        "ua": "Другий закон термодинаміки. Ентропія"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "4ec7e1864466aee8fd791cb88a1563033613850de3c1972fb5a297617a382303"
+    },
+    {
+      "file": "084.md",
+      "number": 84,
+      "title": {
+        "en": "Refrigerators and Heat Pumps",
+        "ua": "Холодильні машини та теплові насоси"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "35df5bb147f24d375d85690efcabecc9380798ecfed02345d63bc27716cf70ad"
+    },
+    {
+      "file": "085.md",
+      "number": 85,
+      "title": {
+        "en": "Electric Charge and Its Conservation",
+        "ua": "Електричний заряд. Закон збереження заряду"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "0d9f3d17a569a19d0fe56a4baa570ea503d99f246b94b8f680cbd91127efb426"
+    },
+    {
+      "file": "086.md",
+      "number": 86,
+      "title": {
+        "en": "Coulomb's Law",
+        "ua": "Закон Кулона"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "3e6e86c46bbc01d0253a9fddde48f347a48c8596ebfbaae9e521103cb17a15c0"
+    },
+    {
+      "file": "087.md",
+      "number": 87,
+      "title": {
+        "en": "Electric Field and Field Strength",
+        "ua": "Електричне поле. Напруженість електричного поля"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "c4e55df6600b9b32983c4505053ea174527740491b2d4d1fe5da533848f50e61"
+    },
+    {
+      "file": "088.md",
+      "number": 88,
+      "title": {
+        "en": "Field Lines and the Superposition Principle",
+        "ua": "Лінії напруженості. Принцип суперпозиції полів"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "56a5b22c9563436577d5a5773ffb71c498ffe9c6302d2fa3f311086b0f379fa0"
+    },
+    {
+      "file": "089.md",
+      "number": 89,
+      "title": {
+        "en": "Conductors and Dielectrics in an Electric Field",
+        "ua": "Провідники та діелектрики в електричному полі"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "2d806ab153c75205b67af847a446dfb5a4b7a756010b993ffa2b0a150c1c36f8"
+    },
+    {
+      "file": "090.md",
+      "number": 90,
+      "title": {
+        "en": "Work of the Electric Field, Potential and Voltage",
+        "ua": "Робота електричного поля. Потенціал. Напруга"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "e8e2a03e73ce6622678a8c06ae45c9bd3d1f851b98993fdb6dd9c4a6edb10d79"
+    },
+    {
+      "file": "091.md",
+      "number": 91,
+      "title": {
+        "en": "Field Strength and Voltage in a Uniform Field",
+        "ua": "Зв’язок напруженості та напруги. Еквіпотенціальні поверхні"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "4b7f3d3346e6eb26c0e5c7ae2db634d8961bf31da8fed864dc17c4767df5d921"
+    },
+    {
+      "file": "092.md",
+      "number": 92,
+      "title": {
+        "en": "Capacitance and Capacitors",
+        "ua": "Електроємність. Конденсатори"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "16b321a888761e8fef50b2bd702e8e515550f14d923c4d70f98e2b60380f83cd"
+    },
+    {
+      "file": "093.md",
+      "number": 93,
+      "title": {
+        "en": "Capacitor Combinations and Electric Field Energy",
+        "ua": "З’єднання конденсаторів. Енергія електричного поля"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "d72c50a3e7b185e33a0ab45af5bf6cca4a8aa02dc82055e709592bff2eb2f1e3"
+    },
+    {
+      "file": "094.md",
+      "number": 94,
+      "title": {
+        "en": "Electric Current and Current Strength",
+        "ua": "Електричний струм. Сила струму"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "3a738fe3711f9e5eec7de590f10d6ea7318aef3d41320db7305090f195f832e9"
+    },
+    {
+      "file": "095.md",
+      "number": 95,
+      "title": {
+        "en": "Electrical Resistance and Resistivity",
+        "ua": "Електричний опір. Питомий опір провідника"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "92edd7872c90b72fdca72a759de85995a5f8cc893a5556ef80374c36e066d2ca"
+    },
+    {
+      "file": "096.md",
+      "number": 96,
+      "title": {
+        "en": "Ohm's Law for a Circuit Section",
+        "ua": "Закон Ома для ділянки кола"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "e552926a8fe7d49fb9206646959eac6ee2cc4e9abfbc4dfa83d4b13cfef08da6"
+    },
+    {
+      "file": "097.md",
+      "number": 97,
+      "title": {
+        "en": "Series and Parallel Connections",
+        "ua": "Послідовне та паралельне з’єднання провідників"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "24d8fdff57c94b0ca8b01971f6df787c07351a380e9a6ff19fbdb101dd94c39d"
+    },
+    {
+      "file": "098.md",
+      "number": 98,
+      "title": {
+        "en": "Electromotive Force and Ohm's Law for a Complete Circuit",
+        "ua": "Електрорушійна сила. Закон Ома для повного кола"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "25f869ba2c36b58e516e07fc595366e0ef50445c7486def832f2d5351175d4d9"
+    },
+    {
+      "file": "099.md",
+      "number": 99,
+      "title": {
+        "en": "Kirchhoff's Rules",
+        "ua": "Правила Кірхгофа"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "5e3f2dbc7319751df29df5325416d1f16ea63628005bd85fb957a2a3ee008f44"
+    },
+    {
+      "file": "100.md",
+      "number": 100,
+      "title": {
+        "en": "Work and Power of Electric Current",
+        "ua": "Робота і потужність електричного струму. Закон Джоуля–Ленца"
+      },
+      "archive": "physics-theories-081-100.zip",
+      "sha256": "597e8cb8ae84b9cd2d45f559535fea0c4120e7717cabd64d76ffac9490d7b3f3"
+    },
+    {
+      "file": "101.md",
+      "number": 101,
+      "title": {
+        "en": "Ammeters, Voltmeters and Multimeters",
+        "ua": "Вимірювання сили струму та напруги: амперметр, вольтметр, мультиметр"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "178cc58cd4a6c8c61b4bc5d257d572a48cfcedd98e845a445cd281e62e6c7d42"
+    },
+    {
+      "file": "102.md",
+      "number": 102,
+      "title": {
+        "en": "Charging and Discharging a Capacitor",
+        "ua": "Заряджання і розряджання конденсатора (RC-коло)"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "fce9da1f3e5498717706c28581e82f2711d80dbae1c1aad176cf34478ff4db20"
+    },
+    {
+      "file": "103.md",
+      "number": 103,
+      "title": {
+        "en": "Current in Metals and Superconductivity",
+        "ua": "Електричний струм у металах. Надпровідність"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "b1a382ad36935a4e47e478359495ed07034afe9c5658e659bb8b079a074b949d"
+    },
+    {
+      "file": "104.md",
+      "number": 104,
+      "title": {
+        "en": "Current in Electrolytes and Electrolysis",
+        "ua": "Електричний струм в електролітах. Закони електролізу"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "6f736c8623990a80942c299ad3d55d955b7b7be761368f513ea577d5f770a705"
+    },
+    {
+      "file": "105.md",
+      "number": 105,
+      "title": {
+        "en": "Current in Gases and Vacuum",
+        "ua": "Електричний струм у газах і вакуумі"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "8aaef5c188ed52d72e4025a3df75c6a37f7d33306e74568d737bd67236698f40"
+    },
+    {
+      "file": "106.md",
+      "number": 106,
+      "title": {
+        "en": "Semiconductors and Their Conductivity",
+        "ua": "Напівпровідники. Власна та домішкова провідність"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "de5eca71e96ed0fc3642a89d7c993537ea5561db49a5f180a503355db1cafdb5"
+    },
+    {
+      "file": "107.md",
+      "number": 107,
+      "title": {
+        "en": "The p–n Junction, Diodes and Transistors",
+        "ua": "p–n-перехід. Напівпровідниковий діод. Транзистор"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "a413219a9c13d66ae545bdd25c2f18a60e9ca0ebb80830c16cb2a8c67cbce0a2"
+    },
+    {
+      "file": "108.md",
+      "number": 108,
+      "title": {
+        "en": "Magnetic Field and Magnetic Induction",
+        "ua": "Магнітне поле. Індукція магнітного поля"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "b18fc5c69e7b24fb12e0851c95f9957662f8404db0c5878efd57f465aa8d80e2"
+    },
+    {
+      "file": "109.md",
+      "number": 109,
+      "title": {
+        "en": "Magnetic Field of an Electric Current",
+        "ua": "Магнітне поле струму"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "e3c6d99e7293c3a4bd0f8d215217fb4854d868f903b8e25eab01dc108d349cf0"
+    },
+    {
+      "file": "110.md",
+      "number": 110,
+      "title": {
+        "en": "The Ampère Force and Electric Motors",
+        "ua": "Сила Ампера. Електродвигун"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "051e562b67a20df9a3d0859fcd00d6968f77e86fa10c09f4b2b7d2b91fd2db7d"
+    },
+    {
+      "file": "111.md",
+      "number": 111,
+      "title": {
+        "en": "The Lorentz Force and Charged Particles in a Magnetic Field",
+        "ua": "Сила Лоренца. Рух заряджених частинок у магнітному полі"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "9cc8b0c9ce85e7e1b916f4aab3127dca29b2a0ba7de2297c6f76b7c71dfa88fa"
+    },
+    {
+      "file": "112.md",
+      "number": 112,
+      "title": {
+        "en": "Magnetic Properties of Matter",
+        "ua": "Магнітні властивості речовини"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "30309eb58f1c1c3d4978d3bc67c34a4b9332d7f6ba7a446e37acbf805eff4c44"
+    },
+    {
+      "file": "113.md",
+      "number": 113,
+      "title": {
+        "en": "Magnetic Flux",
+        "ua": "Магнітний потік"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "abf7d04bd48b5f28ce41da74266568a1a34b8ffb5638599d07986163c7816b78"
+    },
+    {
+      "file": "114.md",
+      "number": 114,
+      "title": {
+        "en": "Electromagnetic Induction and Faraday's Law",
+        "ua": "Явище електромагнітної індукції. Закон Фарадея"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "a9df78e3be3eb4e79c40a542227b37fb17d1cd098e8ed2f50a42e6c456e45e7c"
+    },
+    {
+      "file": "115.md",
+      "number": 115,
+      "title": {
+        "en": "Lenz's Rule",
+        "ua": "Правило Ленца"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "f4d8dba6f1fdcea5dee737a3df93619544bd4e7b6c4bd343e40dc679d5a00d1b"
+    },
+    {
+      "file": "116.md",
+      "number": 116,
+      "title": {
+        "en": "Induced EMF in a Moving Conductor",
+        "ua": "ЕРС індукції в провіднику, що рухається"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "673a7e807f082247bae4e4bbb0fc59073cbfe3cab552ff733c660407c20a4b03"
+    },
+    {
+      "file": "117.md",
+      "number": 117,
+      "title": {
+        "en": "Self-Induction, Inductance and Magnetic Field Energy",
+        "ua": "Самоіндукція. Індуктивність. Енергія магнітного поля"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "fa6057a1137cb1e07b5ccedf5255e89212fc16a2de2b3fdd72096c17549f3c24"
+    },
+    {
+      "file": "118.md",
+      "number": 118,
+      "title": {
+        "en": "Oscillatory Motion: Amplitude, Period and Frequency",
+        "ua": "Механічні коливання. Амплітуда, період, частота"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "134ab66e62151efdced3c1c6ef8462d4bbca2963460e61462cd65340b18eb1aa"
+    },
+    {
+      "file": "119.md",
+      "number": 119,
+      "title": {
+        "en": "Harmonic Oscillations",
+        "ua": "Гармонічні коливання"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "f265dc54436d598bb5916b649d1087c976598dc52f21f5490f4e1f51d9846d9d"
+    },
+    {
+      "file": "120.md",
+      "number": 120,
+      "title": {
+        "en": "Spring and Simple Pendulums",
+        "ua": "Пружинний і математичний маятники"
+      },
+      "archive": "physics-theories-101-120.zip",
+      "sha256": "1bebc883b8904836bccef4b34381e2f2cd9af54c4e7eb3cf39c4a7176d27a07f"
+    },
+    {
+      "file": "121.md",
+      "number": 121,
+      "title": {
+        "en": "Energy in Oscillations and Damping",
+        "ua": "Перетворення енергії під час коливань. Згасаючі коливання"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "04e580f08ae06e04705f910bf7404c07e3fc9d487f209bc9570e0c9cf514d976"
+    },
+    {
+      "file": "122.md",
+      "number": 122,
+      "title": {
+        "en": "Forced Oscillations and Resonance",
+        "ua": "Вимушені коливання. Резонанс"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "b3f8c86724e258a4fff830b256f483177cbdc66bb36bd56ccb635dcad577f161"
+    },
+    {
+      "file": "123.md",
+      "number": 123,
+      "title": {
+        "en": "Mechanical Waves",
+        "ua": "Механічні хвилі. Поперечні та поздовжні хвилі"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "ca03318ea67b2fab0881ba64f0808bf2e130c6d098d3081c70711f24b527aff0"
+    },
+    {
+      "file": "124.md",
+      "number": 124,
+      "title": {
+        "en": "Wavelength, Frequency and Wave Speed",
+        "ua": "Довжина хвилі. Швидкість поширення хвилі"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "06d3ca10f55a64c711e148dbb38b293c37efc5b05445a4d5d12939ab02e7936e"
+    },
+    {
+      "file": "125.md",
+      "number": 125,
+      "title": {
+        "en": "Interference, Diffraction and Standing Waves",
+        "ua": "Інтерференція та дифракція механічних хвиль. Стоячі хвилі"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "a6564bead24a3dbbdd283309d3946fe48a2749b7b6056580bc76e90a5ad26672"
+    },
+    {
+      "file": "126.md",
+      "number": 126,
+      "title": {
+        "en": "Sound Waves: Pitch, Loudness and Timbre",
+        "ua": "Звукові хвилі. Висота, гучність і тембр звуку"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "660eb6081514207b55c0eb2829ec43480e8271712acfb8df32f55d12b36c8f0c"
+    },
+    {
+      "file": "127.md",
+      "number": 127,
+      "title": {
+        "en": "The Doppler Effect",
+        "ua": "Ефект Доплера"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "39b70f52cec761937ea154710d94dd44cc49a109adc6ffbc89a93e7f179211e9"
+    },
+    {
+      "file": "128.md",
+      "number": 128,
+      "title": {
+        "en": "The LC Circuit and Electromagnetic Oscillations",
+        "ua": "Коливальний контур. Вільні електромагнітні коливання"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "45d8a07c9d01f63f4a1e97bb8334bc4968dfe61fedbeb9df7d0a38990dad6f73"
+    },
+    {
+      "file": "129.md",
+      "number": 129,
+      "title": {
+        "en": "Alternating Current and Generators",
+        "ua": "Змінний струм. Генератор змінного струму"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "29d00fb41198c2c23d45343da7326faa160b8f615951a351047835b5b6242483"
+    },
+    {
+      "file": "130.md",
+      "number": 130,
+      "title": {
+        "en": "Effective Values of Current and Voltage",
+        "ua": "Діючі значення сили струму та напруги"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "6c52a03df1b9a30b9224a64a75f647802ee23b29f884edec8ae25f1582e8dcc4"
+    },
+    {
+      "file": "131.md",
+      "number": 131,
+      "title": {
+        "en": "Resistors, Capacitors and Inductors in AC Circuits",
+        "ua": "Активний, ємнісний та індуктивний опори в колі змінного струму"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "4affa483d9e0968b90726da0bf3777818efe01f63e53fca3c4c2453cef8ab011"
+    },
+    {
+      "file": "132.md",
+      "number": 132,
+      "title": {
+        "en": "Transformers and Power Transmission",
+        "ua": "Трансформатор. Передавання електроенергії"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "39e527ada8a9f987f18861dc7b1c0dd2e9c0843ad1e155b9b624904c59deccbd"
+    },
+    {
+      "file": "133.md",
+      "number": 133,
+      "title": {
+        "en": "Electromagnetic Waves",
+        "ua": "Електромагнітні хвилі"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "8a6ab6e1f6c398ebc598756cfcebcf6ed25119b3acc6dfa07d5b3f4556485ddf"
+    },
+    {
+      "file": "134.md",
+      "number": 134,
+      "title": {
+        "en": "Principles of Radio Communication",
+        "ua": "Принципи радіозв’язку"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "594ae2d8e6f974fe7f64e2b09882c79eec5426df7b9cf4b4da01fdc5df92d988"
+    },
+    {
+      "file": "135.md",
+      "number": 135,
+      "title": {
+        "en": "The Electromagnetic Spectrum",
+        "ua": "Шкала електромагнітних хвиль"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "f86c6283c6eaf50f2db48601f778b02b5c18f12fb0563595d0a6b6ba07d080f2"
+    },
+    {
+      "file": "136.md",
+      "number": 136,
+      "title": {
+        "en": "Light: Its Nature and Speed",
+        "ua": "Світло. Природа світла та швидкість його поширення"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "4fe1b05115a13401d51c4dbdd96f279f3a48769081af33f419a44f86e7397b47"
+    },
+    {
+      "file": "137.md",
+      "number": 137,
+      "title": {
+        "en": "Rectilinear Propagation of Light, Shadows and Eclipses",
+        "ua": "Прямолінійне поширення світла. Тінь і півтінь. Затемнення"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "44bd26650cea4c886a401c9c5f4dd0b07c8bcf9872c9aae993e16681f07732a1"
+    },
+    {
+      "file": "138.md",
+      "number": 138,
+      "title": {
+        "en": "Reflection of Light and Plane Mirrors",
+        "ua": "Відбивання світла. Плоске дзеркало"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "ae4b4601b11e3a54322e0cbc6036bbc7caf52c5b57dfa81285a4f1d31b121631"
+    },
+    {
+      "file": "139.md",
+      "number": 139,
+      "title": {
+        "en": "Spherical Mirrors",
+        "ua": "Сферичні дзеркала"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "8de8d24675e2a7a536dd5be9360f7f9668df578023f6ffd44e8aa2491cc47b56"
+    },
+    {
+      "file": "140.md",
+      "number": 140,
+      "title": {
+        "en": "Refraction of Light and Snell's Law",
+        "ua": "Заломлення світла. Закон заломлення"
+      },
+      "archive": "physics-theories-121-140.zip",
+      "sha256": "d31450d7f07f25dea9da450b185236729e2c6451fd50f8e6ffb165b7ece2a2b8"
+    },
+    {
+      "file": "141.md",
+      "number": 141,
+      "title": {
+        "en": "Total Internal Reflection",
+        "ua": "Повне внутрішнє відбивання"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "d0f5da20e823a960f83423ba4cbfb0eec1f923e7a1a24652154a0fc33c51ffae"
+    },
+    {
+      "file": "142.md",
+      "number": 142,
+      "title": {
+        "en": "Lenses and Optical Power",
+        "ua": "Лінзи. Оптична сила лінзи"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "e2d166dace1d08a22d54b04b8e233df0e3a0fe9801578926ca252ff29dea1558"
+    },
+    {
+      "file": "143.md",
+      "number": 143,
+      "title": {
+        "en": "Image Formation by Thin Lenses",
+        "ua": "Побудова зображень у тонких лінзах. Формула тонкої лінзи"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "df2b43a311ebb60c70f8bc8131857edd70034b2aea6ee115a5c09a5c17f17a26"
+    },
+    {
+      "file": "144.md",
+      "number": 144,
+      "title": {
+        "en": "The Eye and Vision Correction",
+        "ua": "Око як оптична система. Вади зору та їх корекція"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "202dc42e005cc60bf3f7913a0aedef6cca05d270851e60548ec25dda04c45ea4"
+    },
+    {
+      "file": "145.md",
+      "number": 145,
+      "title": {
+        "en": "Optical Instruments",
+        "ua": "Оптичні прилади"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "6ead332ed8a54de9fc08cae29c112328bc0fa11e7eec673cace755aaa6017418"
+    },
+    {
+      "file": "146.md",
+      "number": 146,
+      "title": {
+        "en": "Dispersion of Light and Color",
+        "ua": "Дисперсія світла. Колір"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "25ad75aa9f841b756b732998a4bbeeeb7af2b58a8ed4d9e9bc4a88266ccbdb1d"
+    },
+    {
+      "file": "147.md",
+      "number": 147,
+      "title": {
+        "en": "Interference of Light",
+        "ua": "Інтерференція світла"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "b670ae160e8d16fa21dadcad04eb4ccff8600c669bdf22c6a40c056e0e211899"
+    },
+    {
+      "file": "148.md",
+      "number": 148,
+      "title": {
+        "en": "Diffraction of Light and the Diffraction Grating",
+        "ua": "Дифракція світла. Дифракційна ґратка"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "ca7144f13cdc0dbdfc58a80965152d1146ed7da9db7854e5af12eab06921dd1f"
+    },
+    {
+      "file": "149.md",
+      "number": 149,
+      "title": {
+        "en": "Polarization of Light",
+        "ua": "Поляризація світла"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "cdf0dd2ca79f910ea0a8af045872b7549f851d6da0146ebea71459b5db1c95e8"
+    },
+    {
+      "file": "150.md",
+      "number": 150,
+      "title": {
+        "en": "Postulates of Special Relativity",
+        "ua": "Постулати спеціальної теорії відносності"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "0883458e7a246d3aaaec07801187b4823e259516a39cda3b3413968020809020"
+    },
+    {
+      "file": "151.md",
+      "number": 151,
+      "title": {
+        "en": "Time Dilation and Length Contraction",
+        "ua": "Відносність проміжків часу та довжини"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "6aaec7f7f1250574cb2801c30c686b23a6197986507a81de2d5faa52843f8ccd"
+    },
+    {
+      "file": "152.md",
+      "number": 152,
+      "title": {
+        "en": "Relativistic Velocity Addition",
+        "ua": "Релятивістський закон додавання швидкостей"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "d0c944e40b5154062c105dc60e10c4bbc70d3ba97142492e954568eb474e0ae5"
+    },
+    {
+      "file": "153.md",
+      "number": 153,
+      "title": {
+        "en": "Mass–Energy Equivalence",
+        "ua": "Взаємозв’язок маси та енергії"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "2ac6ba78daf8611f1b0c0b5e8bfc83574d5bb5284a3ad99e61966082456a8914"
+    },
+    {
+      "file": "154.md",
+      "number": 154,
+      "title": {
+        "en": "Thermal Radiation and Planck's Hypothesis",
+        "ua": "Теплове випромінювання. Гіпотеза Планка"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "5f8660b853b59429118b4e491d248662f77aceeafe68c8736aad6e16e91f0331"
+    },
+    {
+      "file": "155.md",
+      "number": 155,
+      "title": {
+        "en": "Photons",
+        "ua": "Фотон. Енергія та імпульс фотона"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "bda10bb96ca91678beef559761fc80046ca442a1cca8221422d48cd7b2ceeb30"
+    },
+    {
+      "file": "156.md",
+      "number": 156,
+      "title": {
+        "en": "The Photoelectric Effect",
+        "ua": "Фотоефект. Рівняння Ейнштейна"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "dd673511cfccac23d312352491322156cb7f500184385feeff13dace3a8b59fb"
+    },
+    {
+      "file": "157.md",
+      "number": 157,
+      "title": {
+        "en": "Wave–Particle Duality and de Broglie Waves",
+        "ua": "Корпускулярно-хвильовий дуалізм. Хвилі де Бройля"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "e279ca7e8c819b97496a55ce39ba7472d50225b302db9ca80818a917f688114c"
+    },
+    {
+      "file": "158.md",
+      "number": 158,
+      "title": {
+        "en": "The Uncertainty Principle",
+        "ua": "Співвідношення невизначеностей Гейзенберга"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "5405d8df7e391aa6384fbe84aed11c9eda4167c71dd040ffd3726ec91a36cf5c"
+    },
+    {
+      "file": "159.md",
+      "number": 159,
+      "title": {
+        "en": "Rutherford's Nuclear Model of the Atom",
+        "ua": "Ядерна модель атома. Досліди Резерфорда"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "1fbe745d2a93beabc3a12c2ebaec7b28651876fc743c6bf5592c619fa1118ed2"
+    },
+    {
+      "file": "160.md",
+      "number": 160,
+      "title": {
+        "en": "Bohr's Postulates and Energy Levels",
+        "ua": "Квантові постулати Бора. Енергетичні рівні атома"
+      },
+      "archive": "physics-theories-141-160.zip",
+      "sha256": "11e933bf1db3e656172bd261ce36a0bc7c3033ec503a169321e201274912e295"
+    },
+    {
+      "file": "161.md",
+      "number": 161,
+      "title": {
+        "en": "Emission and Absorption Spectra",
+        "ua": "Спектри випромінювання та поглинання. Спектральний аналіз"
+      },
+      "archive": "physics-theories-161-171.zip",
+      "sha256": "8a695e884d343b723655898fae5521bfbcd39dcfa15e69921f156beca4c2b13d"
+    },
+    {
+      "file": "162.md",
+      "number": 162,
+      "title": {
+        "en": "Lasers",
+        "ua": "Лазери"
+      },
+      "archive": "physics-theories-161-171.zip",
+      "sha256": "ad47d0f12470788cc6ee9fa07d03c84743222c475a1f058890b5b0dd568618c0"
+    },
+    {
+      "file": "163.md",
+      "number": 163,
+      "title": {
+        "en": "Structure of the Atomic Nucleus and Isotopes",
+        "ua": "Склад атомного ядра. Ізотопи"
+      },
+      "archive": "physics-theories-161-171.zip",
+      "sha256": "4cd086d058efd18f2a8a1d95f9247aa0ceedb0fed62c8db028fc4bdc9fd3dada"
+    },
+    {
+      "file": "164.md",
+      "number": 164,
+      "title": {
+        "en": "Nuclear Forces, Mass Defect and Binding Energy",
+        "ua": "Ядерні сили. Дефект мас. Енергія зв’язку ядра"
+      },
+      "archive": "physics-theories-161-171.zip",
+      "sha256": "e5d22ebf314e74c88ab179e9829df74f7a695fcbf1cc19e0c7b505c496e2c107"
+    },
+    {
+      "file": "165.md",
+      "number": 165,
+      "title": {
+        "en": "Radioactivity: Alpha, Beta and Gamma Radiation",
+        "ua": "Радіоактивність. Альфа-, бета- і гамма-випромінювання"
+      },
+      "archive": "physics-theories-161-171.zip",
+      "sha256": "b9a6ffda37f5f17b85d98fb9259b24d71c1fd398dbd21bfd0d3c209fcbf9e531"
+    },
+    {
+      "file": "166.md",
+      "number": 166,
+      "title": {
+        "en": "The Law of Radioactive Decay and Half-Life",
+        "ua": "Закон радіоактивного розпаду. Період напіврозпаду"
+      },
+      "archive": "physics-theories-161-171.zip",
+      "sha256": "25ff24a77dbf4aebd461978806efb5859fa8e5d39684cd76070beed9bda23acc"
+    },
+    {
+      "file": "167.md",
+      "number": 167,
+      "title": {
+        "en": "Nuclear Reactions",
+        "ua": "Ядерні реакції"
+      },
+      "archive": "physics-theories-161-171.zip",
+      "sha256": "e308e8e340d5cfb793cf73bac71d7b7e155ffd01268d18800b3bba509e71409e"
+    },
+    {
+      "file": "168.md",
+      "number": 168,
+      "title": {
+        "en": "Nuclear Fission and Nuclear Reactors",
+        "ua": "Поділ ядер урану. Ланцюгова реакція. Ядерний реактор"
+      },
+      "archive": "physics-theories-161-171.zip",
+      "sha256": "5cb1e8aa9810be1406de051fcec76a8615326c605909efc5f7f5b9b01271452f"
+    },
+    {
+      "file": "169.md",
+      "number": 169,
+      "title": {
+        "en": "Nuclear Fusion",
+        "ua": "Термоядерний синтез"
+      },
+      "archive": "physics-theories-161-171.zip",
+      "sha256": "20945bf86ffa4845771552436a449af63ba8892d1e1aadd4916d776d82548935"
+    },
+    {
+      "file": "170.md",
+      "number": 170,
+      "title": {
+        "en": "Ionizing Radiation: Dose and Protection",
+        "ua": "Дія іонізуючого випромінювання. Дозиметрія. Захист"
+      },
+      "archive": "physics-theories-161-171.zip",
+      "sha256": "338854605e1c5c116dfdef4832714c3e2418974b781d8bac8aed132bc9ef8f3d"
+    },
+    {
+      "file": "171.md",
+      "number": 171,
+      "title": {
+        "en": "Elementary Particles and Fundamental Interactions",
+        "ua": "Елементарні частинки. Фундаментальні взаємодії"
+      },
+      "archive": "physics-theories-161-171.zip",
+      "sha256": "f97b2306f0bbca25674f87c815e8b3e5f3e422736a6010094e4bda16406a758a"
+    }
+  ]
+}

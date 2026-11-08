@@ -1,0 +1,52 @@
+{
+	"n": 78,
+	"slug": "078-work-done-by-a-gas",
+	"title": {
+		"en": "Work Done by a Gas",
+		"ua": "Робота газу в термодинаміці"
+	},
+	"short": {
+		"en": "A gas can perform mechanical work when it expands against its surroundings. At constant pressure the work done by the gas equals pressure times the change in volume. Expanding from 0.020 m³ to 0.030 m³ against 100 kPa gives 1000 J of positive work. Compression produces negative work by the gas under this sign convention.",
+		"ua": "Газ виконує механічну роботу, коли розширюється й рухає поршень або інше тіло. За сталого тиску робота газу дорівнює добутку тиску на зміну об’єму. Якщо газ збільшує об’єм від 0,020 м³ до 0,030 м³ за 100 кПа, він виконує додатну роботу 1000 Дж. Під час стискання робота самого газу від’ємна."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "The nineteenth-century development of steam engines motivated the mathematical description of pressure–volume work. Thermodynamics established work as an energy transfer rather than a form of energy stored inside a substance.",
+			"core": "Gas particles collide with a moving piston and exert force on it. During expansion the piston moves in the direction of the force, transferring energy from the gas to its surroundings. On a p–V graph, the area under the path gives work for a quasistatic change. Different paths between the same states can produce different amounts of work.",
+			"components": "At constant pressure A = pΔV = p(V₂ − V₁), with A in J, p in Pa and V in m³. More generally for quasistatic work A = ∫p dV, the signed area under the p–V path. With work by gas positive, A > 0 for expansion and A < 0 for compression; work done on the gas is −A.",
+			"apply": "Sketch the p–V graph and identify expansion or compression. Convert kPa to Pa and litres to m³. If pressure is constant, multiply it by the signed volume change. If pressure varies, calculate the area using the graph or a given pressure law rather than blindly applying pΔV with an arbitrary p.",
+			"example": "A cylinder contains gas at p = 100 kPa = 100000 Pa. The volume rises from 0.020 m³ to 0.030 m³. ΔV = 0.010 m³, so A = 100000 Pa · 0.010 m³ = 1000 J. Try it: what is the work if the same gas is compressed through 0.005 m³ at that pressure? (−500 J).",
+			"limits": "The area formula assumes pressure is well defined along the process. In a rapid irreversible expansion the gas pressure may not match external pressure; external-pressure work must then be handled carefully. Do not confuse work by the gas with work on the gas or forget to convert litres.",
+			"related": "Ideal Gas Equation of State (#63); First Law of Thermodynamics (#79); First Law for Isoprocesses and the Adiabatic Process (#80)"
+		},
+		"ua": {
+			"origin": "Розвиток парових машин у XIX столітті вимагав обчислення роботи газу та пари. У термодинаміці роботу розглядають як спосіб передавання енергії між системою та оточенням.",
+			"core": "Частинки газу тиснуть на рухомий поршень. Під час розширення поршень переміщується вздовж сили, тому газ передає енергію зовнішнім тілам. На графіку p(V) робота чисельно дорівнює площі під кривою з урахуванням знака. За однакових початкового й кінцевого станів робота може залежати від шляху процесу.",
+			"components": "За сталого тиску A = pΔV = p(V₂ − V₁), де A у Дж, p у Па, V у м³. Для квазістатичного процесу A = ∫p dV, тобто алгебраїчна площа під графіком p(V). Під час розширення A > 0, під час стискання A < 0. Робота зовнішніх сил над газом дорівнює −A.",
+			"apply": "Намалюйте графік p(V) і визначте, чи газ розширюється, чи стискається. Переведіть тиск і об’єм в SI. За p = const помножте p на ΔV зі знаком. За змінного тиску знайдіть площу під графіком.",
+			"example": "За p = 100 кПа = 100000 Па газ збільшив об’єм від 0,020 м³ до 0,030 м³. ΔV = 0,010 м³, тому A = 100000 Па · 0,010 м³ = 1000 Дж. Спробуйте самі: яка робота газу під час стискання на 0,005 м³ за того самого тиску? (−500 Дж).",
+			"limits": "Площа під графіком має однозначний зміст за визначеного тиску в кожному стані. Під час швидкого необоротного розширення внутрішній і зовнішній тиски можуть різнитися. Не плутайте роботу газу з роботою над газом та не підставляйте літри замість м³.",
+			"related": "Рівняння стану ідеального газу (Клапейрона–Менделєєва) (#63); Перший закон термодинаміки (#79); Застосування першого закону термодинаміки до ізопроцесів. Адіабатний процес (#80)"
+		}
+	}
+}

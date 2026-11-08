@@ -1,0 +1,52 @@
+{
+	"n": 41,
+	"slug": "041-momentum-and-impulse",
+	"title": {
+		"en": "Momentum and Impulse",
+		"ua": "Імпульс тіла та імпульс сили"
+	},
+	"short": {
+		"en": "Momentum describes how difficult it is to stop a moving object: p = mv. A force acting over a time interval produces an impulse J = FΔt = Δp. A 0.20 kg ball moving at 10 m/s carries 2.0 kg·m/s of momentum. Extending the stopping time reduces the average force for the same change in momentum, which is why helmets and airbags matter.",
+		"ua": "Імпульс тіла характеризує рух: p = mv. Імпульс сили J = FΔt дорівнює зміні імпульсу тіла Δp. М’яч масою 0,20 кг зі швидкістю 10 м/с має імпульс 2,0 кг·м/с. Якщо збільшити тривалість гальмування, середня сила зменшиться. Саме тому подушки безпеки та захисне спорядження пом’якшують удари."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Newton developed the mathematical description of momentum in the seventeenth century. His second law relates force to the rate of change of momentum, which is especially useful for impacts that happen over short times.",
+			"core": "Momentum is a vector in the direction of velocity. A push changes it; doubling mass at fixed speed doubles momentum. Impulse measures the accumulated action of force during an interval. For a fixed momentum change, a longer collision distributes the change over more time and lowers the average force. During a rebound the change can exceed the initial momentum magnitude.",
+			"components": "p = mv, where p is momentum in kg·m/s, m mass in kg and v velocity in m/s. J = F_avgΔt = Δp for a constant average net force F_avg in N over time Δt in s. More generally J is the area under a force–time graph; its unit N·s equals kg·m/s. Use signed projections along an axis.",
+			"apply": "Choose a positive direction. Convert masses to kilograms and speeds to metres per second. Calculate initial and final signed momenta, subtract to obtain Δp, then divide by collision time for average net force. Include a negative sign if the force opposes your axis.",
+			"example": "A 0.20 kg ball travelling right at 10 m/s stops in 0.050 s. Initial momentum p₁ = 0.20 kg · 10 m/s = 2.0 kg·m/s; final p₂ = 0. Therefore Δp = −2.0 kg·m/s and F_avg = −2.0 kg·m/s / 0.050 s = −40 N. Try it: stopping in 0.10 s instead gives what force? (−20 N).",
+			"limits": "For a changing force use its time average or integrate its force–time graph. Momentum is not kinetic energy: the first depends linearly on velocity and has direction. Do not confuse impulse with force, omit units, or ignore the sign when a ball reverses direction.",
+			"related": "Conservation of Momentum (#42); Elastic and Inelastic Collisions (#49); Newton's Second Law (#23)"
+		},
+		"ua": {
+			"origin": "Ісаак Ньютон сформулював закони руху в XVII столітті. Другий закон у загальному вигляді пов’язує силу зі швидкістю зміни імпульсу тіла.",
+			"core": "Імпульс тіла є вектором і спрямований так само, як швидкість. Збільшення маси за незмінної швидкості збільшує імпульс. Імпульс сили описує її дію за певний проміжок часу. За однакової зміни імпульсу довший час контакту означає меншу середню силу. Коли м’яч відскакує назад, зміна імпульсу більша, ніж під час його простої зупинки.",
+			"components": "p = mv, де p вимірюється в кг·м/с, m у кг, v у м/с. J = FсерΔt = Δp, де Fсер є середньою рівнодійною в Н, Δt часом у с. Одиниця імпульсу сили Н·с дорівнює кг·м/с. Для змінної сили імпульс дорівнює площі під графіком F(t).",
+			"apply": "Оберіть додатний напрям осі. Виразіть масу в кілограмах, а швидкості в метрах за секунду. Знайдіть проєкції початкового й кінцевого імпульсів, обчисліть різницю та поділіть її на час дії сили. Перевірте знак.",
+			"example": "М’яч масою 0,20 кг рухався праворуч зі швидкістю 10 м/с і зупинився за 0,050 с. p₁ = 0,20 кг · 10 м/с = 2,0 кг·м/с; p₂ = 0. Δp = −2,0 кг·м/с. Fсер = −2,0 кг·м/с / 0,050 с = −40 Н. Спробуйте самі: якою буде сила за часу зупинки 0,10 с? (−20 Н).",
+			"limits": "Якщо сила змінюється, беріть середнє значення або площу під графіком. Імпульс тіла не є кінетичною енергією: він має напрям і лінійно залежить від швидкості. Типові помилки: ігнорування знака, плутання імпульсу сили із силою, неправильне переведення одиниць.",
+			"related": "Закон збереження імпульсу (#42); Пружні та непружні удари (#49); Другий закон Ньютона (#23)"
+		}
+	}
+}

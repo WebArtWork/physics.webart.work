@@ -1,0 +1,52 @@
+{
+	"n": 150,
+	"slug": "150-postulates-of-special-relativity",
+	"title": {
+		"en": "Postulates of Special Relativity",
+		"ua": "Постулати спеціальної теорії відносності"
+	},
+	"short": {
+		"en": "Special relativity describes space and time in inertial frames when speeds approach the speed of light. Einstein's two postulates state that physical laws have the same form in all inertial frames and that light in vacuum has the same speed c for all inertial observers. Events simultaneous in one frame need not be simultaneous in another.",
+		"ua": "Спеціальна теорія відносності описує простір і час в інерціальних системах відліку, зокрема за швидкостей, близьких до швидкості світла. Два постулати Ейнштейна стверджують однаковість законів фізики в усіх інерціальних системах і сталість швидкості світла у вакуумі для всіх інерціальних спостерігачів. Одночасність віддалених подій відносна."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Albert Einstein formulated special relativity in 1905. The earlier Michelson–Morley experiment found no expected ether-wind effect, motivating changes to classical ideas about light propagation.",
+			"core": "Space and time coordinates depend on the observer's inertial frame, but the spacetime description is consistent across frames. Ordinary Galilean addition would incorrectly predict different vacuum light speeds. Changing frames also changes which spatially separated events share a time coordinate.",
+			"components": "c = 299 792 458 m/s exactly in vacuum. For relative speed v, the Lorentz factor γ = 1/√(1 − v²/c²) is dimensionless and applies for |v| < c. At v much smaller than c, γ is close to 1.",
+			"apply": "First identify two inertial observers and their relative speed. Compare v/c before choosing classical or relativistic relations. Distinguish the measured speed of light in vacuum from a light signal's speed in matter.",
+			"example": "For v = 0.60c, γ = 1/√(1 − 0.60²) = 1/0.80 = 1.25. Try it: does an inertial observer measure vacuum light traveling at c + v? (No, at c.)",
+			"limits": "The postulates apply to inertial frames in flat spacetime; accelerated observers and gravity need more care. The constant c is vacuum speed, not light speed in glass.",
+			"related": "Relative Motion and Velocity Addition (#14); Time Dilation and Length Contraction (#151); Relativistic Velocity Addition (#152)"
+		},
+		"ua": {
+			"origin": "Альберт Ейнштейн сформулював спеціальну теорію відносності 1905 року. Раніше дослід Майкельсона–Морлі не виявив очікуваного ефекту руху крізь ефір, що спонукало переглянути класичні уявлення.",
+			"core": "Просторові й часові координати залежать від інерціальної системи, хоча фізичний опис узгоджений між ними. Класичне додавання швидкостей неправильно передбачало б різні швидкості світла у вакуумі. Події, одночасні в одній системі, можуть бути неодночасними в іншій.",
+			"components": "c = 299 792 458 м/с точно у вакуумі. Для відносної швидкості v лоренцівський множник γ = 1/√(1 − v²/c²), безрозмірний за |v| < c. За v значно меншої від c значення γ близьке до одиниці.",
+			"apply": "Позначте дві інерціальні системи та їхню відносну швидкість. Порівняйте v/c, перш ніж обирати класичний чи релятивістський опис. Не плутайте швидкість світла у вакуумі зі швидкістю в речовині.",
+			"example": "Для v = 0,60c маємо γ = 1/√(1 − 0,60²) = 1/0,80 = 1,25. Спробуйте самі: чи вимірює спостерігач швидкість світла у вакуумі c + v? (Ні, c.)",
+			"limits": "Постулати сформульовано для інерціальних систем без урахування викривлення простору-часу. Стала c означає швидкість у вакуумі, а не у склі.",
+			"related": "Відносність руху. Додавання швидкостей (#14); Відносність проміжків часу та довжини (#151); Релятивістський закон додавання швидкостей (#152)"
+		}
+	}
+}

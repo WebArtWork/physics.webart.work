@@ -1,0 +1,52 @@
+{
+	"n": 85,
+	"slug": "085-electric-charge-and-its-conservation",
+	"title": {
+		"en": "Electric Charge and Its Conservation",
+		"ua": "Електричний заряд. Закон збереження заряду"
+	},
+	"short": {
+		"en": "Electric charge is a property of matter responsible for electric interactions. Positive and negative charges attract when unlike and repel when alike. Charge is conserved in an isolated system: rubbing a plastic object can move electrons between materials but cannot create net charge. A charge of −3.2 · 10⁻¹⁹ C corresponds to two additional electrons.",
+		"ua": "Електричний заряд є властивістю частинок речовини, що зумовлює електричну взаємодію. Однойменні заряди відштовхуються, різнойменні притягуються. В ізольованій системі сума зарядів зберігається: під час тертя електрони переходять між тілами, а не виникають з нічого."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Observations of electrical attraction go back to antiquity. Franklin distinguished two signs of charge; nineteenth-century experiments established their conservation, and Millikan measured the elementary charge in the early twentieth century.",
+			"core": "Protons carry positive charge, electrons negative charge and neutrons no net charge. In ordinary charging, electrons transfer between objects or redistribute inside them. Friction, contact and electrostatic induction can produce charge separation. An electroscope shows that charge is present, but its deflection alone does not identify the sign.",
+			"components": "q = ne, where q is charge in coulombs (C), n is a signed integer for isolated charged objects with quantised net charge, and e = 1.602176634 · 10⁻¹⁹ C. In a closed system Σq_before = Σq_after. Charge is a scalar with a positive or negative sign.",
+			"apply": "List all bodies and give charge signs before and after contact. For electron transfer, each added electron decreases charge by e. Apply conservation to the entire isolated set rather than one object. Keep nano- and microcoulomb conversion factors straight.",
+			"example": "A neutral metal sphere receives 5.0 · 10¹² electrons. Its charge becomes q = −Ne = −5.0 · 10¹² · 1.602 · 10⁻¹⁹ C = −8.01 · 10⁻⁷ C = −0.801 μC. Try it: removing 2 electrons leaves what charge? (+3.20 · 10⁻¹⁹ C).",
+			"limits": "Charge conservation applies to the complete isolated system, not to an individual body exchanging electrons. Charge quantisation is most obvious at particle scale. Do not confuse charge with current, or assume induction creates charge from nothing.",
+			"related": "Coulomb's Law (#86); Electric Field and Field Strength (#87); Electric Current and Current Strength (#94)"
+		},
+		"ua": {
+			"origin": "Електризацію спостерігали ще в давнину. Франклін запровадив умовні позначення двох знаків заряду, а досліди Міллікена на початку XX століття дали змогу визначити елементарний заряд.",
+			"core": "Протон має додатний заряд, електрон від’ємний, нейтрон електрично нейтральний. Електризація тертям або дотиком пов’язана з перенесенням заряду, а впливом можна перерозподілити заряди без безпосереднього контакту. Електроскоп показує наявність заряду, але не завжди його знак.",
+			"components": "q = ne, де q у Кл, n є цілим числом з урахуванням знака заряду, e = 1,602176634 · 10⁻¹⁹ Кл. Для ізольованої системи Σq_до = Σq_після. Заряд є скалярною величиною, яка може бути додатною або від’ємною.",
+			"apply": "Позначте всі тіла та знаки їхніх зарядів. За надходження електронів заряд зменшується на e для кожного електрона; за втрати збільшується. Застосуйте збереження до всієї системи. Уважно переводьте мкКл і нКл у Кл.",
+			"example": "Нейтральній металевій кулі передали 5,0 · 10¹² електронів. q = −Ne = −5,0 · 10¹² · 1,602 · 10⁻¹⁹ Кл = −8,01 · 10⁻⁷ Кл = −0,801 мкКл. Спробуйте самі: який заряд тіла після втрати двох електронів? (+3,20 · 10⁻¹⁹ Кл).",
+			"limits": "Заряд зберігається в усій ізольованій системі, а не обов’язково в кожному тілі. Квантування особливо помітне на рівні частинок. Не плутайте електричний заряд із силою струму й не вважайте електризацію впливом створенням заряду.",
+			"related": "Закон Кулона (#86); Електричне поле. Напруженість електричного поля (#87); Електричний струм. Сила струму (#94)"
+		}
+	}
+}

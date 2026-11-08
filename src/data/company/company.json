@@ -1,0 +1,914 @@
+{
+	"_id": "",
+	"name": "Physics",
+	"title": "Physics | Understand how the universe works",
+	"description": "171 physics theories in English and Ukrainian, with short explanations, detailed lessons, formulas and worked examples.",
+	"image": "https://physics.webart.work/logo.svg",
+	"siteUrl": "https://physics.webart.work",
+	"defaultSeo": {
+		"image": "/seo/physics.jpg",
+		"title": "Physics | Understand how the universe works",
+		"description": "171 physics theories in English and Ukrainian, with short explanations, detailed lessons, formulas and worked examples."
+	},
+	"pageSeo": {
+		"/": {
+			"title": "Physics | Understand how the universe works",
+			"description": "171 physics theories in English and Ukrainian, with short explanations, detailed lessons, formulas and worked examples.",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory": {
+			"title": "Physics theories",
+			"description": "Explore all 171 physics theories across 18 topics, from measurement and motion to quantum and nuclear physics.",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/print/short": {
+			"title": "Print short physics theories",
+			"robots": "noindex, nofollow"
+		},
+		"/theory/print/full": {
+			"title": "Print full physics theories",
+			"robots": "noindex, nofollow"
+		},
+		"/privacy": {
+			"title": "Privacy policy",
+			"description": "How Physics handles account information and study marks.",
+			"image": "/seo/physics.jpg"
+		},
+		"/support": {
+			"title": "Support",
+			"description": "Contact the Physics learning platform team.",
+			"image": "/seo/physics.jpg"
+		},
+		"/licenses": {
+			"title": "Licenses and credits",
+			"description": "Software licenses and credits for Physics.",
+			"image": "/seo/physics.jpg"
+		},
+		"/sign-in": {
+			"title": "Sign in",
+			"robots": "noindex, nofollow",
+			"image": "/seo/physics.jpg"
+		},
+		"/profile": {
+			"title": "Your Physics profile",
+			"robots": "noindex, nofollow",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/001-what-physics-studies-phenomena-models-and-laws": {
+			"title": "What Physics Studies: Phenomena, Models and Laws",
+			"description": "Physics investigates matter, energy, motion and interactions through observations, controlled experiments and mathematical models. A model keeps essential features and leaves out o",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/002-physical-quantities-and-si-units": {
+			"title": "Physical Quantities and SI Units",
+			"description": "Every physical measurement consists of a number and a unit. The International System of Units uses seven base units, including metre (m), kilogram (kg) and second (s), so that meas",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/003-measurement-uncertainty-and-significant-figures": {
+			"title": "Measurement Uncertainty and Significant Figures",
+			"description": "No measurement gives an infinitely exact number. An instrument with 1 mm markings cannot reliably distinguish every possible fraction of a millimetre, and repeated readings may dif",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/004-dimensional-analysis-and-estimation": {
+			"title": "Dimensional Analysis and Estimation",
+			"description": "Dimensional analysis checks whether an equation uses compatible kinds of quantities. You may add 3 m to 2 m, but not to 2 s. The period of a simple pendulum can depend on length l ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/005-scalars-and-vectors": {
+			"title": "Scalars and Vectors",
+			"description": "A scalar has size only, while a vector has both magnitude and direction. Mass 3 kg is a scalar, but a displacement 3 m east is a vector. Walking 3 m east and then 4 m north gives a",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/006-graphs-in-physics": {
+			"title": "Graphs in Physics",
+			"description": "Graphs turn numerical measurements into patterns you can read. On a distance-time graph a straight line that rises 30 m over 10 s has slope 3 m/s; on a speed-time graph a rectangle",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/007-mechanical-motion-and-frames-of-reference": {
+			"title": "Mechanical Motion and Frames of Reference",
+			"description": "Mechanical motion means a body changes position relative to a chosen reference body as time passes. A passenger seated in a moving train is at rest relative to the carriage but mov",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/008-trajectory-path-length-and-displacement": {
+			"title": "Trajectory, Path Length and Displacement",
+			"description": "A trajectory is the line traced by a moving body. Path length is the total distance travelled along that line; displacement is the directed straight segment from the initial point ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/009-average-and-instantaneous-velocity": {
+			"title": "Average and Instantaneous Velocity",
+			"description": "Average speed compares total path with total time; average velocity compares displacement with total time and includes direction. A runner who completes a 400 m lap in 100 s has av",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/010-uniform-straight-line-motion": {
+			"title": "Uniform Straight-Line Motion",
+			"description": "Uniform straight-line motion means velocity stays constant in magnitude and direction. Position then follows x = x₀ + vt. A bus at x₀ = 20 m moving at 5 m/s reaches x = 70 m after ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/011-acceleration": {
+			"title": "Acceleration",
+			"description": "Acceleration measures how quickly velocity changes, including changes in direction. A car that increases velocity from 4 m/s to 16 m/s in 3 s has average acceleration (16 − 4) / 3 ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/012-uniformly-accelerated-straight-line-motion": {
+			"title": "Uniformly Accelerated Straight-Line Motion",
+			"description": "With constant acceleration in a straight line, velocity changes by equal amounts during equal times. Position follows x = x₀ + v₀t + at² / 2. A car starting from rest with a = 2.0 ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/013-motion-graphs": {
+			"title": "Motion Graphs",
+			"description": "Position, velocity and acceleration graphs offer three views of the same motion. The slope of an x–t graph is velocity, the slope of a v–t graph is acceleration, and the signed are",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/014-relative-motion-and-velocity-addition": {
+			"title": "Relative Motion and Velocity Addition",
+			"description": "Velocity depends on the observer. A passenger walks forward at 2 m/s inside a train that travels at 20 m/s relative to the ground; the walking passenger moves at 22 m/s relative to",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/015-free-fall-and-vertical-throw": {
+			"title": "Free Fall and Vertical Throw",
+			"description": "In free fall without air resistance, every body near Earth accelerates downward at approximately g = 9.8 m/s² regardless of its mass. A ball dropped from rest falls about 4.9 m in ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/016-horizontal-launch": {
+			"title": "Horizontal Launch",
+			"description": "An object launched horizontally keeps its horizontal velocity while gravity increases its downward speed, provided air drag is negligible. A ball rolling off a 19.6 m high platform",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/017-projectile-launched-at-an-angle": {
+			"title": "Projectile Launched at an Angle",
+			"description": "A projectile launched at an angle combines steady horizontal motion with vertically accelerated motion under gravity. At 20 m/s and 30° above the horizontal, the initial vertical c",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/018-uniform-circular-motion-period-frequency-and-angular-velocity": {
+			"title": "Uniform Circular Motion: Period, Frequency and Angular Velocity",
+			"description": "In uniform circular motion, a body travels around a circle at constant speed but continually changes velocity direction. One revolution takes a period T, and the number of revoluti",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/019-centripetal-acceleration": {
+			"title": "Centripetal Acceleration",
+			"description": "A body moving in a circle needs acceleration directed toward the centre, even if its speed stays constant. For a car moving around a 50 m radius curve at 10 m/s, centripetal accele",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/020-newtons-first-law-and-inertial-frames": {
+			"title": "Newton's First Law and Inertial Frames",
+			"description": "Newton’s first law states that a body remains at rest or moves in a straight line with constant velocity when the net external force is zero, provided the reference frame is inerti",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/021-mass-and-density": {
+			"title": "Mass and Density",
+			"description": "Mass measures inertia, while density compares mass with volume: ρ = m / V. A 2.0 kg piece of material occupying 0.001 m³ has density 2000 kg/m³. Mass does not change when the objec",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/022-force-and-net-force": {
+			"title": "Force and Net Force",
+			"description": "A force describes an interaction that can change a body’s velocity or shape. Forces are vectors, so 8 N to the right and 3 N to the left produce a net force of 5 N to the right, no",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/023-newtons-second-law": {
+			"title": "Newton's Second Law",
+			"description": "Newton’s second law links net force and acceleration: ΣF = ma for a constant-mass body in an inertial frame. A 3.0 kg trolley acted on by a net 12 N accelerates at 4.0 m/s² in the ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/024-newtons-third-law": {
+			"title": "Newton's Third Law",
+			"description": "When one body pushes a second, the second simultaneously pushes the first with an equally large opposite force. A person pushes a wall with 40 N, and the wall pushes the person bac",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/025-free-body-diagrams-and-solving-dynamics-problems": {
+			"title": "Free-Body Diagrams and Solving Dynamics Problems",
+			"description": "A free-body diagram separates one object from its surroundings and shows every external force acting on it. For a 4.0 kg block on a horizontal floor, gravity is 39.2 N down and the",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/026-law-of-universal-gravitation": {
+			"title": "Law of Universal Gravitation",
+			"description": "Any two masses attract gravitationally. Newton’s law gives F = Gm₁m₂ / r², so doubling the separation cuts the force to one quarter. Gravity holds satellites in orbit and contribut",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/027-gravity-weight-weightlessness-and-overload": {
+			"title": "Gravity, Weight, Weightlessness and Overload",
+			"description": "Gravity is the force mg exerted by Earth, whereas weight is the force a body exerts on its support or suspension. A 60 kg person at rest has weight about 588 N. In an elevator acce",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/028-elastic-force-and-hookes-law": {
+			"title": "Elastic Force and Hooke's Law",
+			"description": "A spring resists stretching or compression. Within its elastic range, Hooke’s law says restoring force is proportional to displacement: F = −kx. A spring with k = 200 N/m stretched",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/029-friction-forces": {
+			"title": "Friction Forces",
+			"description": "Friction resists relative sliding or the tendency to slide between surfaces. Static friction adjusts up to a limit, while kinetic friction approximately obeys Fₖ = μₖN. On level gr",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/030-motion-on-an-inclined-plane": {
+			"title": "Motion on an Inclined Plane",
+			"description": "On an inclined plane gravity splits into a component mg sin α down the slope and mg cos α perpendicular to it. A frictionless 5.0 kg sled on a 30° slope accelerates down at 4.9 m/s",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/031-connected-bodies-strings-and-pulleys": {
+			"title": "Connected Bodies: Strings and Pulleys",
+			"description": "Connected bodies share motion constraints imposed by strings and pulleys. For two hanging masses of 3.0 kg and 2.0 kg joined over an ideal pulley, the heavier side descends with ac",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/032-dynamics-of-circular-motion": {
+			"title": "Dynamics of Circular Motion",
+			"description": "Circular motion needs a net force toward the centre: ΣF_radial = mv²/R. A 1000 kg car turning at 10 m/s on a level curve of radius 50 m requires 2000 N of inward force, usually sup",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/033-satellite-motion-and-cosmic-velocities": {
+			"title": "Satellite Motion and Cosmic Velocities",
+			"description": "A satellite can remain in orbit because gravity continuously bends its path. For a circular orbit of radius r around a spherical planet, speed is v = √(GM/r). Near Earth’s surface ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/034-drag-forces-and-terminal-velocity": {
+			"title": "Drag Forces and Terminal Velocity",
+			"description": "Drag opposes motion through air or water and usually grows as speed rises. A falling person speeds up until downward gravity and upward drag balance; then acceleration becomes zero",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/035-non-inertial-frames-and-inertial-forces": {
+			"title": "Non-Inertial Frames and Inertial Forces",
+			"description": "An accelerating or rotating reference frame is non-inertial. A passenger in a bus accelerating forward appears to be pushed backward relative to the bus, although no real backward ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/036-moment-of-force-and-conditions-of-equilibrium": {
+			"title": "Moment of Force and Conditions of Equilibrium",
+			"description": "For a body to remain at rest without turning, both its net force and net torque must be zero. Torque measures the turning tendency of a force: τ = Fd, where d is the perpendicular ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/037-center-of-mass-and-types-of-equilibrium": {
+			"title": "Center of Mass and Types of Equilibrium",
+			"description": "The centre of mass is the mass-weighted average position of a body or system. A 2.0 kg mass at x = 0 m and a 1.0 kg mass at x = 3.0 m have centre of mass at x = 1.0 m. A standing o",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/038-simple-machines-and-the-golden-rule-of-mechanics": {
+			"title": "Simple Machines and the Golden Rule of Mechanics",
+			"description": "Simple machines exchange force for distance. A lever, pulley or inclined plane can make a heavy load easier to move, but an ideal machine does not reduce the total work. With a two",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/039-rotation-of-a-rigid-body-and-moment-of-inertia": {
+			"title": "Rotation of a Rigid Body and Moment of Inertia",
+			"description": "Rotational dynamics uses angular speed, angular acceleration and moment of inertia. A solid disk has I = MR²/2 about its central axis, so a 2.0 kg disk of radius 0.50 m has I = 0.2",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/040-angular-momentum-and-its-conservation": {
+			"title": "Angular Momentum and Its Conservation",
+			"description": "Angular momentum describes rotational motion and remains conserved if the external net torque is zero. For fixed-axis rotation L = Iω. A skater who pulls their arms inward reduces ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/041-momentum-and-impulse": {
+			"title": "Momentum and Impulse",
+			"description": "Momentum describes how difficult it is to stop a moving object: p = mv. A force acting over a time interval produces an impulse J = FΔt = Δp. A 0.20 kg ball moving at 10 m/s carrie",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/042-conservation-of-momentum": {
+			"title": "Conservation of Momentum",
+			"description": "In a system whose net external impulse is zero, total momentum stays constant even when objects collide or push each other. Two skaters initially at rest can move apart with equal ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/043-jet-propulsion": {
+			"title": "Jet Propulsion",
+			"description": "Jet propulsion works when an object expels matter in one direction and receives momentum in the opposite direction. A rocket can accelerate in a vacuum because it pushes exhaust ga",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/044-mechanical-work": {
+			"title": "Mechanical Work",
+			"description": "Mechanical work measures energy transferred when a force acts through a displacement. For a constant force, W = Fs cos α, where α is the angle between force and displacement. Pulli",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/045-power-and-efficiency": {
+			"title": "Power and Efficiency",
+			"description": "Power tells you how quickly work is done or energy is transferred: P = W / t. Efficiency compares useful output with total input: η = W_useful / W_input. A hoist that lifts a 50 kg",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/046-kinetic-energy-and-the-work-energy-theorem": {
+			"title": "Kinetic Energy and the Work–Energy Theorem",
+			"description": "Kinetic energy is energy due to motion: Eₖ = mv² / 2. The net work done on an object equals its change in kinetic energy. A 1000 kg car travelling at 20 m/s has 200,000 J of kineti",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/047-potential-energy": {
+			"title": "Potential Energy",
+			"description": "Potential energy belongs to an interaction or configuration rather than motion. Near Earth, gravitational potential energy can be written U = mgh relative to a chosen zero height. ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/048-conservation-of-mechanical-energy": {
+			"title": "Conservation of Mechanical Energy",
+			"description": "When only conservative forces do work, the sum of kinetic and potential energy stays constant: Eₖ + U = constant. A ball released from a height of 5 m falls faster as its height de",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/049-elastic-and-inelastic-collisions": {
+			"title": "Elastic and Inelastic Collisions",
+			"description": "Collisions always conserve the total momentum of an isolated system. In an elastic collision, total kinetic energy is also conserved; in an inelastic collision, some of it becomes ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/050-pressure": {
+			"title": "Pressure",
+			"description": "Pressure describes how much perpendicular force acts on each unit area: p = F / A. The same 200 N force produces 20,000 Pa on an area of 0.010 m² but just 2000 Pa on 0.10 m². Sharp",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/051-hydrostatic-pressure-and-communicating-vessels": {
+			"title": "Hydrostatic Pressure and Communicating Vessels",
+			"description": "In a liquid at rest, pressure increases with depth: the extra pressure below the surface is p = ρgh. At 2.0 m depth in fresh water, the gauge pressure is about 19.6 kPa. At the sam",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/052-pascals-law-and-the-hydraulic-press": {
+			"title": "Pascal's Law and the Hydraulic Press",
+			"description": "Pascal’s law says that a change of pressure applied to an enclosed fluid is transmitted throughout that fluid. A hydraulic press uses a small input force on a small piston to creat",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/053-atmospheric-pressure": {
+			"title": "Atmospheric Pressure",
+			"description": "Air has weight, so the atmosphere exerts pressure on surfaces. At sea level a representative standard atmospheric pressure is 101,325 Pa, or about 760 mmHg. A barometer measures th",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/054-archimedes-principle-and-flotation": {
+			"title": "Archimedes' Principle and Flotation",
+			"description": "An immersed object experiences an upward buoyant force equal to the weight of displaced fluid. This is Archimedes’ principle: F_b = ρ_fluid g V_submerged. A block displacing 0.003 ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/055-fluid-flow-and-the-continuity-equation": {
+			"title": "Fluid Flow and the Continuity Equation",
+			"description": "In steady incompressible flow, the same volume of liquid passes each section of a pipe per second. The continuity equation is A₁v₁ = A₂v₂. When a hose narrows from 4 cm² to 1 cm², ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/056-bernoullis-equation-and-its-applications": {
+			"title": "Bernoulli's Equation and Its Applications",
+			"description": "Bernoulli’s equation links fluid pressure, speed and height along a streamline: p + ρv²/2 + ρgh = constant. In a level ideal pipe, faster flow has lower static pressure. If water s",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/057-main-ideas-of-molecular-kinetic-theory": {
+			"title": "Main Ideas of Molecular-Kinetic Theory",
+			"description": "Molecular-kinetic theory explains matter using particles. Substances consist of atoms, molecules or ions; these particles move continually and randomly and interact by attraction a",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/058-amount-of-substance-and-the-avogadro-constant": {
+			"title": "Amount of Substance and the Avogadro Constant",
+			"description": "The mole counts enormous numbers of microscopic particles. One mole contains exactly 6.02214076 · 10²³ specified entities. Amount of substance is ν = m / M = N / N_A. For water wit",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/059-brownian-motion-and-diffusion": {
+			"title": "Brownian Motion and Diffusion",
+			"description": "Brownian motion is the irregular jitter of tiny particles suspended in a liquid or gas, caused by countless impacts from surrounding molecules. Diffusion is the net spreading of pa",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/060-ideal-gas-and-the-basic-equation-of-molecular-kinetic-theory": {
+			"title": "Ideal Gas and the Basic Equation of Molecular-Kinetic Theory",
+			"description": "An ideal gas is a simplified model whose particles occupy negligible volume and interact mainly in brief elastic collisions. Its pressure comes from momentum transferred when parti",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/061-temperature-and-thermal-equilibrium": {
+			"title": "Temperature and Thermal Equilibrium",
+			"description": "Temperature tells us whether energy will flow as heat when two bodies touch. When the flow stops, they have reached thermal equilibrium. A room at 20 °C has temperature 293.15 K, w",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/062-temperature-and-the-kinetic-energy-of-molecules": {
+			"title": "Temperature and the Kinetic Energy of Molecules",
+			"description": "For an ideal monatomic gas, absolute temperature is proportional to the average kinetic energy of random translational motion: Ēₖ = 3kT / 2. At 300 K each molecule has on average a",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/063-ideal-gas-equation-of-state": {
+			"title": "Ideal Gas Equation of State",
+			"description": "The ideal gas equation connects pressure, volume, amount of gas and absolute temperature: pV = νRT. It predicts how a sealed balloon's pressure changes when warmed and how much gas",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/064-isoprocesses-in-gases": {
+			"title": "Isoprocesses in Gases",
+			"description": "An isoprocess is a gas-state change in which one of pressure, volume or temperature remains constant. Boyle's law says pV is constant at fixed temperature; at fixed pressure, volum",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/065-evaporation-boiling-and-saturated-vapor": {
+			"title": "Evaporation, Boiling and Saturated Vapor",
+			"description": "Evaporation occurs at a liquid surface at many temperatures, while boiling begins throughout the liquid when its saturated vapour pressure reaches the surrounding pressure. In a cl",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/066-air-humidity": {
+			"title": "Air Humidity",
+			"description": "Relative humidity states how close air's water-vapour pressure is to saturation at the same temperature. At 20 °C, if vapour pressure is 1.17 kPa and saturation pressure is about 2",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/067-surface-tension": {
+			"title": "Surface Tension",
+			"description": "Surface tension makes a liquid surface behave as though it resists being stretched. It helps explain why small drops become nearly spherical and why some insects can rest on water.",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/068-wetting-and-capillary-action": {
+			"title": "Wetting and Capillary Action",
+			"description": "Wetting describes how strongly a liquid spreads over a solid. Water wets clean glass and makes a concave meniscus; mercury does not wet glass and makes a convex one. In a narrow cl",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/069-crystalline-and-amorphous-solids": {
+			"title": "Crystalline and Amorphous Solids",
+			"description": "A crystal has long-range ordered atomic arrangement; an amorphous solid lacks such periodic order. Table salt forms crystals with repeating structure, while ordinary glass is amorp",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/070-mechanical-properties-of-solids": {
+			"title": "Mechanical Properties of Solids",
+			"description": "Solids respond to forces by changing shape or size. Small elastic deformation disappears when the load is removed, while plastic deformation remains. A metal wire lengthens under t",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/071-thermal-expansion": {
+			"title": "Thermal Expansion",
+			"description": "Most materials expand when heated because the average spacing between their particles increases. A 10 m steel rail with linear expansion coefficient 12 · 10⁻⁶ K⁻¹ lengthens by 4.8 ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/072-internal-energy-and-ways-to-change-it": {
+			"title": "Internal Energy and Ways to Change It",
+			"description": "Internal energy is the energy associated with particles' microscopic random motion and their interactions. It can increase when you heat an object or do work on it, such as compres",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/073-heat-transfer-conduction-convection-and-radiation": {
+			"title": "Heat Transfer: Conduction, Convection and Radiation",
+			"description": "Energy transfers as heat by conduction, convection and radiation. A metal spoon warms by conduction, circulating air carries heat by convection, and sunlight reaches Earth by radia",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/074-quantity-of-heat-and-specific-heat-capacity": {
+			"title": "Quantity of Heat and Specific Heat Capacity",
+			"description": "Specific heat capacity tells us how much energy is needed to raise the temperature of one kilogram of material by one kelvin without changing its phase. Liquid water has a high spe",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/075-melting-vaporization-and-latent-heat": {
+			"title": "Melting, Vaporization and Latent Heat",
+			"description": "During melting and boiling, a substance can absorb energy while remaining at nearly constant temperature. This energy changes molecular arrangement or separation rather than simply",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/076-fuel-combustion-and-heat-of-combustion": {
+			"title": "Fuel Combustion and Heat of Combustion",
+			"description": "Fuel combustion releases chemical energy, part of which can be transferred as heat. The specific heat of combustion gives the energy released by burning one kilogram of a fuel comp",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/077-heat-balance-equation": {
+			"title": "Heat Balance Equation",
+			"description": "In a sufficiently insulated system, heat lost by warmer bodies equals heat gained by colder bodies. This is the heat balance equation, a practical form of energy conservation. Mixi",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/078-work-done-by-a-gas": {
+			"title": "Work Done by a Gas",
+			"description": "A gas can perform mechanical work when it expands against its surroundings. At constant pressure the work done by the gas equals pressure times the change in volume. Expanding from",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/079-first-law-of-thermodynamics": {
+			"title": "First Law of Thermodynamics",
+			"description": "The first law of thermodynamics expresses energy conservation for thermal processes: energy supplied as heat changes a system's internal energy and can be spent doing work. If a ga",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/080-first-law-for-isoprocesses-and-the-adiabatic-process": {
+			"title": "First Law for Isoprocesses and the Adiabatic Process",
+			"description": "The first law takes useful special forms for ideal-gas processes. At constant volume, the gas does no pressure–volume work; at constant temperature, an ideal gas has no change in i",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/081-heat-engines-and-their-efficiency": {
+			"title": "Heat Engines and Their Efficiency",
+			"description": "A heat engine repeatedly converts some heat taken from a hot source into useful work while rejecting the remaining heat to a cooler environment. If it absorbs 1000 J, rejects 650 J",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/082-the-carnot-cycle-and-maximum-efficiency": {
+			"title": "The Carnot Cycle and Maximum Efficiency",
+			"description": "The Carnot cycle gives the theoretical upper limit on heat-engine efficiency between two fixed absolute temperatures. A reversible engine operating between 600 K and 300 K can reac",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/083-second-law-of-thermodynamics-and-entropy": {
+			"title": "Second Law of Thermodynamics and Entropy",
+			"description": "The second law of thermodynamics specifies which energy changes can occur spontaneously. Heat naturally flows from hotter to colder objects; transferring it back requires external ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/084-refrigerators-and-heat-pumps": {
+			"title": "Refrigerators and Heat Pumps",
+			"description": "A refrigerator uses work to move heat from a cooler space into warmer surroundings. A heat pump uses the same principle but values the heat delivered to the warm space. A heat pump",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/085-electric-charge-and-its-conservation": {
+			"title": "Electric Charge and Its Conservation",
+			"description": "Electric charge is a property of matter responsible for electric interactions. Positive and negative charges attract when unlike and repel when alike. Charge is conserved in an iso",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/086-coulombs-law": {
+			"title": "Coulomb's Law",
+			"description": "Coulomb's law gives the magnitude of the electrostatic force between two stationary point charges. It grows with the product of charge magnitudes and decreases as the inverse squar",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/087-electric-field-and-field-strength": {
+			"title": "Electric Field and Field Strength",
+			"description": "An electric field describes the force that a charge would experience at a location without requiring contact with another charge. Field strength E is force per positive test charge",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/088-field-lines-and-the-superposition-principle": {
+			"title": "Field Lines and the Superposition Principle",
+			"description": "Electric field lines are a drawing tool: their tangent gives the local direction of the electric field, and a denser pattern represents a stronger field when lines are drawn consis",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/089-conductors-and-dielectrics-in-an-electric-field": {
+			"title": "Conductors and Dielectrics in an Electric Field",
+			"description": "A conductor contains mobile charges that move until electrostatic equilibrium is reached. In that equilibrium, the electric field inside the conducting material is zero and excess ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/090-work-of-the-electric-field-potential-and-voltage": {
+			"title": "Work of the Electric Field, Potential and Voltage",
+			"description": "Electric potential describes electric potential energy per unit charge. Voltage is the potential difference between two points and determines the work a static electric field does ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/091-field-strength-and-voltage-in-a-uniform-field": {
+			"title": "Field Strength and Voltage in a Uniform Field",
+			"description": "In an approximately uniform electric field, voltage between two points separated along the field direction equals field strength times distance. Therefore E = U/d for a suitable pa",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/092-capacitance-and-capacitors": {
+			"title": "Capacitance and Capacitors",
+			"description": "Capacitance measures how much charge a capacitor stores per volt across its terminals. A capacitor of 10 μF at 5 V carries charge magnitude 50 μC on each plate. Capacitance depends",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/093-capacitor-combinations-and-electric-field-energy": {
+			"title": "Capacitor Combinations and Electric Field Energy",
+			"description": "Capacitors connected in parallel share the same voltage; their capacitances add. Capacitors in series carry the same magnitude of charge and split the total voltage. Stored energy ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/094-electric-current-and-current-strength": {
+			"title": "Electric Current and Current Strength",
+			"description": "Electric current is directed transport of electric charge. In a metal, mobile electrons drift opposite the conventional positive-current direction. A current of 2 A means 2 C of ch",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/095-electrical-resistance-and-resistivity": {
+			"title": "Electrical Resistance and Resistivity",
+			"description": "Electrical resistance characterises how strongly a conductor opposes current under specified conditions. For a uniform wire, resistance grows with length and decreases with cross-s",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/096-ohms-law-for-a-circuit-section": {
+			"title": "Ohm's Law for a Circuit Section",
+			"description": "Ohm's law for a circuit section states that current is proportional to voltage when resistance is constant: I = U/R. A 12 V source applied across an ideal 6 Ω resistor gives 2 A. T",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/097-series-and-parallel-connections": {
+			"title": "Series and Parallel Connections",
+			"description": "In a series circuit the same current passes through each resistor and their voltage drops add. In parallel circuits every branch has the same voltage and branch currents add. Two 6",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/098-electromotive-force-and-ohms-law-for-a-complete-circuit": {
+			"title": "Electromotive Force and Ohm's Law for a Complete Circuit",
+			"description": "A real battery has an electromotive force (EMF) and internal resistance. EMF is energy supplied to each unit charge by non-electrostatic processes inside the source. When current f",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/099-kirchhoffs-rules": {
+			"title": "Kirchhoff's Rules",
+			"description": "Kirchhoff's rules solve electrical networks whose branches cannot be simplified by simple series and parallel combinations. The junction rule expresses conservation of charge: curr",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/100-work-and-power-of-electric-current": {
+			"title": "Work and Power of Electric Current",
+			"description": "Electric current transfers electrical energy to components. Electrical power is the rate of energy transfer, and the Joule–Lenz law gives resistive heating. A 100 W device operatin",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/101-ammeters-voltmeters-and-multimeters": {
+			"title": "Ammeters, Voltmeters and Multimeters",
+			"description": "An ammeter measures current through a circuit element and must be inserted in series. A voltmeter measures the potential difference between two points and connects in parallel. A m",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/102-charging-and-discharging-a-capacitor": {
+			"title": "Charging and Discharging a Capacitor",
+			"description": "An RC circuit contains a resistor and capacitor. Charging begins rapidly but slows as the capacitor voltage approaches the source voltage; discharge follows the opposite exponentia",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/103-current-in-metals-and-superconductivity": {
+			"title": "Current in Metals and Superconductivity",
+			"description": "Electrical current in a metal is mainly the directed drift of conduction electrons within a lattice of positive ions. Their random thermal motion does not produce a net current. Fo",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/104-current-in-electrolytes-and-electrolysis": {
+			"title": "Current in Electrolytes and Electrolysis",
+			"description": "In an electrolyte, dissolved or molten substances conduct electric current through positive and negative ions, not through free electrons as in a metal wire. At electrodes, chemica",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/105-current-in-gases-and-vacuum": {
+			"title": "Current in Gases and Vacuum",
+			"description": "Ordinary gas is usually a poor conductor because it has few free charged particles. When atoms become ionized, electrons and ions carry current; sustained strong ionization can for",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/106-semiconductors-and-their-conductivity": {
+			"title": "Semiconductors and Their Conductivity",
+			"description": "A semiconductor has conductivity between that of common metals and good insulators, but its key feature is that conductivity can be controlled strongly by temperature, light and sm",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/107-the-p-n-junction-diodes-and-transistors": {
+			"title": "The p–n Junction, Diodes and Transistors",
+			"description": "A p–n junction is the boundary between p-type and n-type semiconductor regions. It conducts readily under forward bias but limits current under reverse bias, so a diode can rectify",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/108-magnetic-field-and-magnetic-induction": {
+			"title": "Magnetic Field and Magnetic Induction",
+			"description": "A magnetic field exists around magnets and electric currents, exerting forces on moving charges and current-carrying wires. Its strength and direction are described by magnetic ind",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/109-magnetic-field-of-an-electric-current": {
+			"title": "Magnetic Field of an Electric Current",
+			"description": "An electric current produces a magnetic field. Around a long straight conductor, field lines are concentric circles; inside an elongated solenoid the field is nearly uniform away f",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/110-the-amp-re-force-and-electric-motors": {
+			"title": "The Ampère Force and Electric Motors",
+			"description": "A current-carrying conductor placed in a magnetic field experiences the Ampère force. The force is greatest when the current is perpendicular to the field and vanishes when they ar",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/111-the-lorentz-force-and-charged-particles-in-a-magnetic-field": {
+			"title": "The Lorentz Force and Charged Particles in a Magnetic Field",
+			"description": "The magnetic part of the Lorentz force acts on a charged particle only while it moves, and is perpendicular to its velocity. It can bend a path without changing the particle's spee",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/112-magnetic-properties-of-matter": {
+			"title": "Magnetic Properties of Matter",
+			"description": "Materials respond differently to a magnetic field. Diamagnets weakly oppose the applied field; paramagnets weakly align with it; ferromagnets such as iron can develop strong magnet",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/113-magnetic-flux": {
+			"title": "Magnetic Flux",
+			"description": "Magnetic flux measures how much magnetic field passes through a chosen surface, taking its orientation into account. For a flat surface in a uniform field it equals B times area ti",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/114-electromagnetic-induction-and-faradays-law": {
+			"title": "Electromagnetic Induction and Faraday's Law",
+			"description": "A changing magnetic flux through a conducting loop creates an induced electromotive force (EMF). If the loop is closed, it can drive current. Moving a magnet through a coil or swit",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/115-lenzs-rule": {
+			"title": "Lenz's Rule",
+			"description": "Lenz's rule tells which way an induced current flows. Its magnetic field opposes the change in magnetic flux that produced the current. When a north pole approaches a conducting lo",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/116-induced-emf-in-a-moving-conductor": {
+			"title": "Induced EMF in a Moving Conductor",
+			"description": "A conducting rod moving across magnetic-field lines can develop a voltage between its ends. Magnetic force separates mobile charges until the resulting electric force balances it. ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/117-self-induction-inductance-and-magnetic-field-energy": {
+			"title": "Self-Induction, Inductance and Magnetic Field Energy",
+			"description": "A changing current in a coil changes its own magnetic flux and produces a self-induced EMF opposing that current change. This is why current through an inductor cannot jump instant",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/118-oscillatory-motion-amplitude-period-and-frequency": {
+			"title": "Oscillatory Motion: Amplitude, Period and Frequency",
+			"description": "Oscillatory motion repeats around an equilibrium position, as in a swinging pendulum or vibrating spring. The amplitude describes the maximum distance from equilibrium, the period ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/119-harmonic-oscillations": {
+			"title": "Harmonic Oscillations",
+			"description": "Harmonic oscillation is the simplest periodic motion: displacement varies as a sine or cosine of time. The acceleration is proportional to displacement but points in the opposite d",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/120-spring-and-simple-pendulums": {
+			"title": "Spring and Simple Pendulums",
+			"description": "An ideal mass–spring oscillator and a simple pendulum have predictable periods. The spring period depends on mass and spring stiffness, while the pendulum period depends on length ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/121-energy-in-oscillations-and-damping": {
+			"title": "Energy in Oscillations and Damping",
+			"description": "A pendulum exchanges kinetic energy with potential energy as it swings. At the lowest point its speed is greatest; at its turning points it momentarily stops. Real oscillations fad",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/122-forced-oscillations-and-resonance": {
+			"title": "Forced Oscillations and Resonance",
+			"description": "A periodic external force can keep an oscillator moving despite friction. When the forcing frequency is near the natural frequency, the response can become especially large: this i",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/123-mechanical-waves": {
+			"title": "Mechanical Waves",
+			"description": "A mechanical wave transports a disturbance and energy through a material medium without carrying the medium as a whole along its route. A wave on a string is transverse because the",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/124-wavelength-frequency-and-wave-speed": {
+			"title": "Wavelength, Frequency and Wave Speed",
+			"description": "A periodic wave repeats after one period in time and after one wavelength in space. Its frequency measures cycles per second, while speed measures how quickly its phase propagates.",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/125-interference-diffraction-and-standing-waves": {
+			"title": "Interference, Diffraction and Standing Waves",
+			"description": "When waves overlap, their displacements add. Coherent waves can reinforce or cancel each other, producing interference. Waves also bend and spread around obstacles, an effect calle",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/126-sound-waves-pitch-loudness-and-timbre": {
+			"title": "Sound Waves: Pitch, Loudness and Timbre",
+			"description": "Sound is a mechanical pressure wave. Its frequency mainly controls pitch, its intensity contributes to loudness, and its waveform and spectrum contribute to timbre. Two instruments",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/127-the-doppler-effect": {
+			"title": "The Doppler Effect",
+			"description": "The Doppler effect is a change in the observed wave frequency caused by relative motion between source and observer. An approaching ambulance sounds higher-pitched and a receding o",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/128-the-lc-circuit-and-electromagnetic-oscillations": {
+			"title": "The LC Circuit and Electromagnetic Oscillations",
+			"description": "An ideal LC circuit exchanges energy between the electric field of a capacitor and the magnetic field of an inductor. As capacitor charge falls, current rises; after the capacitor ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/129-alternating-current-and-generators": {
+			"title": "Alternating Current and Generators",
+			"description": "Alternating current changes direction periodically. In a generator, a rotating coil experiences a changing magnetic flux and develops an alternating electromotive force. Many elect",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/130-effective-values-of-current-and-voltage": {
+			"title": "Effective Values of Current and Voltage",
+			"description": "The effective or root-mean-square value of alternating voltage is the DC voltage that would produce the same average heating in a resistor. For a sinusoidal voltage the RMS value i",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/131-resistors-capacitors-and-inductors-in-ac-circuits": {
+			"title": "Resistors, Capacitors and Inductors in AC Circuits",
+			"description": "In an AC circuit, resistors dissipate energy while ideal capacitors and inductors store and return it each cycle. A capacitor lets higher frequencies pass more readily; an inductor",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/132-transformers-and-power-transmission": {
+			"title": "Transformers and Power Transmission",
+			"description": "A transformer changes alternating voltage using electromagnetic induction between coils linked by a magnetic core. Ideally, the ratio of voltages equals the ratio of turns. Power g",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/133-electromagnetic-waves": {
+			"title": "Electromagnetic Waves",
+			"description": "Electromagnetic waves consist of coupled changing electric and magnetic fields. Unlike sound, they travel through empty space. They are transverse, carry energy and momentum, and u",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/134-principles-of-radio-communication": {
+			"title": "Principles of Radio Communication",
+			"description": "Radio communication sends information by altering a high-frequency electromagnetic carrier wave. A transmitter modulates the carrier and sends it through an antenna; a receiver sel",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/135-the-electromagnetic-spectrum": {
+			"title": "The Electromagnetic Spectrum",
+			"description": "The electromagnetic spectrum orders waves by frequency or wavelength: radio, microwave, infrared, visible, ultraviolet, X-rays and gamma rays. They all travel at the same speed in ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/136-light-its-nature-and-speed": {
+			"title": "Light: Its Nature and Speed",
+			"description": "Light is electromagnetic radiation that can be described by waves and by photons. In a vacuum its speed is exactly 299 792 458 m/s. Sunlight needs about eight minutes to reach Eart",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/137-rectilinear-propagation-of-light-shadows-and-eclipses": {
+			"title": "Rectilinear Propagation of Light, Shadows and Eclipses",
+			"description": "In a uniform transparent medium, light travels along approximately straight rays. An opaque body blocks some rays, producing a shadow. An extended light source also produces a part",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/138-reflection-of-light-and-plane-mirrors": {
+			"title": "Reflection of Light and Plane Mirrors",
+			"description": "When light strikes a smooth surface, it reflects with an angle equal to its angle of incidence, measured from the normal. A plane mirror creates an upright virtual image at the sam",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/139-spherical-mirrors": {
+			"title": "Spherical Mirrors",
+			"description": "Spherical mirrors have reflecting surfaces that form part of a sphere. Concave mirrors can concentrate parallel rays near a focus and form real or virtual images. Convex mirrors sp",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/140-refraction-of-light-and-snells-law": {
+			"title": "Refraction of Light and Snell's Law",
+			"description": "Refraction is the change of light direction when it passes obliquely between media with different refractive indices. Light generally bends toward the normal when entering a medium",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/141-total-internal-reflection": {
+			"title": "Total Internal Reflection",
+			"description": "Total internal reflection occurs when light travels from a larger refractive index to a smaller one and strikes the boundary at an angle greater than the critical angle. No propaga",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/142-lenses-and-optical-power": {
+			"title": "Lenses and Optical Power",
+			"description": "A lens redirects light by refraction. A converging lens brings paraxial parallel rays toward a real focus, while a diverging lens spreads them as if they came from a virtual focus.",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/143-image-formation-by-thin-lenses": {
+			"title": "Image Formation by Thin Lenses",
+			"description": "A thin lens forms an image where refracted rays meet or where their backward extensions appear to meet. Depending on object distance and lens type, the image may be real or virtual",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/144-the-eye-and-vision-correction": {
+			"title": "The Eye and Vision Correction",
+			"description": "The eye focuses light on the retina using its cornea and adjustable lens. Accommodation changes the optical power so objects at different distances appear sharp. Myopia makes dista",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/145-optical-instruments": {
+			"title": "Optical Instruments",
+			"description": "Optical instruments control how images appear to the eye or to a sensor. A magnifier increases angular size, a microscope reveals tiny nearby structures, and a telescope gathers li",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/146-dispersion-of-light-and-color": {
+			"title": "Dispersion of Light and Color",
+			"description": "White light separates into colors in a prism because a transparent material generally refracts different wavelengths by different amounts. This is dispersion. An object's color dep",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/147-interference-of-light": {
+			"title": "Interference of Light",
+			"description": "Light waves interfere when their electric fields overlap. With stable phase difference, some positions become brighter and others darker because wave amplitudes add. Young's double",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/148-diffraction-of-light-and-the-diffraction-grating": {
+			"title": "Diffraction of Light and the Diffraction Grating",
+			"description": "Diffraction is the spreading of light near edges or through openings, most noticeable when their size approaches a wavelength. A diffraction grating has many evenly spaced lines; t",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/149-polarization-of-light": {
+			"title": "Polarization of Light",
+			"description": "Polarization describes the orientation of light's transverse electric-field oscillations. Ordinary sunlight is largely unpolarized; a polarizing filter transmits one selected field",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/150-postulates-of-special-relativity": {
+			"title": "Postulates of Special Relativity",
+			"description": "Special relativity describes space and time in inertial frames when speeds approach the speed of light. Einstein's two postulates state that physical laws have the same form in all",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/151-time-dilation-and-length-contraction": {
+			"title": "Time Dilation and Length Contraction",
+			"description": "Moving clocks run more slowly relative to an inertial observer when compared through correctly defined events, and a moving object's length parallel to its motion is smaller than i",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/152-relativistic-velocity-addition": {
+			"title": "Relativistic Velocity Addition",
+			"description": "Speeds measured in different inertial frames do not simply add at relativistic speeds. Special relativity combines collinear velocities through a fraction that keeps the result bel",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/153-mass-energy-equivalence": {
+			"title": "Mass–Energy Equivalence",
+			"description": "Mass and energy are equivalent: a body at rest has energy even without motion. The rest energy of one kilogram is enormous because it is multiplied by the square of light speed. Nu",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/154-thermal-radiation-and-plancks-hypothesis": {
+			"title": "Thermal Radiation and Planck's Hypothesis",
+			"description": "Every object with a temperature above absolute zero emits thermal electromagnetic radiation. An ideal blackbody absorbs all incident radiation and has a temperature-dependent spect",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/155-photons": {
+			"title": "Photons",
+			"description": "Light is emitted and absorbed in photons, discrete quanta of electromagnetic radiation. A photon has energy proportional to frequency and momentum inversely proportional to wavelen",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/156-the-photoelectric-effect": {
+			"title": "The Photoelectric Effect",
+			"description": "In the external photoelectric effect, light can eject electrons from a material if each photon has enough energy to overcome the work function. Increasing light intensity below the",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/157-wave-particle-duality-and-de-broglie-waves": {
+			"title": "Wave–Particle Duality and de Broglie Waves",
+			"description": "Particles such as electrons can produce interference and diffraction, behavior previously associated with waves. De Broglie proposed that every particle with momentum has an associ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/158-the-uncertainty-principle": {
+			"title": "The Uncertainty Principle",
+			"description": "Quantum mechanics imposes a fundamental lower limit on how sharply position and momentum can simultaneously be specified for one state. A sharply localized particle has a broad spr",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/159-rutherfords-nuclear-model-of-the-atom": {
+			"title": "Rutherford's Nuclear Model of the Atom",
+			"description": "Most of an atom's mass and nearly all its positive charge are concentrated in a tiny nucleus. Rutherford's scattering experiment demonstrated this when some alpha particles passed ",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/160-bohrs-postulates-and-energy-levels": {
+			"title": "Bohr's Postulates and Energy Levels",
+			"description": "Atoms emit and absorb light at specific frequencies because their electrons occupy discrete energy states. Bohr proposed that an electron in a stationary atomic state does not cont",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/161-emission-and-absorption-spectra": {
+			"title": "Emission and Absorption Spectra",
+			"description": "When atoms or molecules exchange energy with light, they produce characteristic spectra. A hot dense source often gives a continuous rainbow; a thin excited gas gives bright lines;",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/162-lasers": {
+			"title": "Lasers",
+			"description": "A laser produces light through stimulated emission inside an optical gain medium. Its beam can have narrow wavelength range, strong directional focus and high coherence. A red lase",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/163-structure-of-the-atomic-nucleus-and-isotopes": {
+			"title": "Structure of the Atomic Nucleus and Isotopes",
+			"description": "An atomic nucleus consists of protons and neutrons, collectively called nucleons. Proton number Z determines the chemical element; mass number A counts all nucleons, so neutron num",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/164-nuclear-forces-mass-defect-and-binding-energy": {
+			"title": "Nuclear Forces, Mass Defect and Binding Energy",
+			"description": "Nuclear binding energy is the energy needed to separate a nucleus into free protons and neutrons. A bound nucleus has slightly less mass than its separated nucleons: the mass defec",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/165-radioactivity-alpha-beta-and-gamma-radiation": {
+			"title": "Radioactivity: Alpha, Beta and Gamma Radiation",
+			"description": "Radioactive nuclei may transform while emitting alpha particles, beta radiation or gamma photons. An alpha particle is a helium-4 nucleus; beta radiation consists of electrons or p",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/166-the-law-of-radioactive-decay-and-half-life": {
+			"title": "The Law of Radioactive Decay and Half-Life",
+			"description": "Radioactive decay is random for an individual nucleus but predictable for very large collections. The half-life T is the time in which the expected number of undecayed nuclei falls",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/167-nuclear-reactions": {
+			"title": "Nuclear Reactions",
+			"description": "A nuclear reaction changes one or more nuclei through interaction with particles or other nuclei. The total electric charge and total nucleon number are conserved in ordinary schoo",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/168-nuclear-fission-and-nuclear-reactors": {
+			"title": "Nuclear Fission and Nuclear Reactors",
+			"description": "Nuclear fission splits a heavy nucleus into lighter fragments and releases energy, typically together with neutrons. Neutrons can induce further fissions, allowing a chain reaction",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/169-nuclear-fusion": {
+			"title": "Nuclear Fusion",
+			"description": "Nuclear fusion joins light nuclei into a more tightly bound nucleus and can release energy. Fusion powers the Sun, where extreme temperature and gravitational confinement support r",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/170-ionizing-radiation-dose-and-protection": {
+			"title": "Ionizing Radiation: Dose and Protection",
+			"description": "Ionizing radiation transfers enough energy to remove electrons from atoms and can damage living tissue. Absorbed dose describes energy deposited per kilogram and is measured in gra",
+			"image": "/seo/physics.jpg"
+		},
+		"/theory/171-elementary-particles-and-fundamental-interactions": {
+			"title": "Elementary Particles and Fundamental Interactions",
+			"description": "Matter is built from elementary particles such as quarks and leptons. Quarks form protons and neutrons; the electron is a lepton. The four fundamental interactions are strong, elec",
+			"image": "/seo/physics.jpg"
+		}
+	},
+	"logo": "/logo.svg"
+}

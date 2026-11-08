@@ -1,0 +1,52 @@
+{
+	"n": 26,
+	"slug": "026-law-of-universal-gravitation",
+	"title": {
+		"en": "Law of Universal Gravitation",
+		"ua": "Закон всесвітнього тяжіння"
+	},
+	"short": {
+		"en": "Any two masses attract gravitationally. Newton’s law gives F = Gm₁m₂ / r², so doubling the separation cuts the force to one quarter. Gravity holds satellites in orbit and contributes to the falling of objects. For spherical bodies you measure r between their centres; the inverse-square form is not a universal formula for arbitrary irregular nearby masses.",
+		"ua": "Будь-які два тіла притягуються гравітаційно. Закон всесвітнього тяжіння дає F = Gm₁m₂ / r², тому збільшення відстані удвічі зменшує силу вчетверо. Гравітація утримує супутники на орбітах. Для кулястих тіл відстань r вимірюють між центрами, а не між поверхнями."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Newton published the universal-gravitation law in 1687. In 1798 Henry Cavendish measured the tiny attraction between laboratory masses using a torsion balance, enabling determination of Earth’s density and later G.",
+			"core": "The force of gravity acts along the line joining the mass centres and is always attractive. All masses participate, yet the small numerical value of G makes gravity between ordinary objects difficult to notice. Above a roughly spherical planet, gravitational acceleration decreases as distance from its centre increases.",
+			"components": "F = Gm₁m₂ / r², G ≈ 6.67430 · 10⁻¹¹ Н·м²/кг². F is in Н, masses in кг and centre-to-centre distance r in м. g = GM / r² for a spherical planet of mass M; at altitude h, r = R + h, where R is planetary radius. Near Earth’s surface g ≈ 9.8 м/с² (9.8 m/s²).",
+			"apply": "Draw the centres of both bodies and measure their separation in metres. Identify masses in kg and substitute into the inverse-square law. For an altitude problem use R + h rather than height above the surface alone. Check that doubling r reduces F fourfold.",
+			"example": "Two 100 kg spherical masses have centres 1.0 m apart. The attraction is F = 6.67430 · 10⁻¹¹ N·m²/kg² · (100 kg)(100 kg) / (1.0 m)² ≈ 6.67 · 10⁻⁷ N. Try it: what happens to F if r becomes 2.0 m? (Answer: F ≈ 1.67 · 10⁻⁷ N.)",
+			"limits": "The simple point-mass formula is exact for spherical symmetric distributions viewed externally and for point masses; arbitrary shapes require integrating their mass. Near intense gravity, general relativity gives a more complete description. Do not use surface-to-surface separation in place of centre-to-centre distance or mix km and m.",
+			"related": "Gravity, Weight, Weightlessness and Overload (#27); Satellite Motion and Cosmic Velocities (#33); Potential Energy (#47)"
+		},
+		"ua": {
+			"origin": "Ньютон опублікував закон всесвітнього тяжіння 1687 року. Генрі Кавендіш 1798 року виміряв дуже слабке притягання лабораторних тіл за допомогою крутильних терезів, що дало змогу оцінити густину Землі, а згодом визначати G.",
+			"core": "Сила тяжіння напрямлена вздовж прямої, яка з’єднує центри мас, і є силою притягання. Гравітаційно взаємодіють усі тіла, але мала стала G робить дію між звичайними предметами непомітною. Над кулястою планетою прискорення вільного падіння зменшується з висотою.",
+			"components": "F = Gm₁m₂ / r², G ≈ 6,67430 · 10⁻¹¹ Н·м²/кг². Тут F у Н, m₁ і m₂ у кг, r у м. Для планети приблизно кулястої форми g = GM / r². На висоті h від поверхні r = R + h, де R є радіусом планети. Поблизу поверхні Землі g ≈ 9,8 м/с².",
+			"apply": "Накресліть центри тіл та відстань між ними. Переведіть маси в кг, відстань у м і підставте значення у закон. Для супутника використайте r = R + h, а не саму висоту h. Перевірте, що за подвоєння відстані сила зменшується у чотири рази.",
+			"example": "Дві кулі масою по 100 кг розташовані центрами на відстані 1,0 м. F = 6,67430 · 10⁻¹¹ Н·м²/кг² · (100 кг)(100 кг) / (1,0 м)² ≈ 6,67 · 10⁻⁷ Н. Спробуйте самі: якою стане сила за відстані 2,0 м? (Відповідь: приблизно 1,67 · 10⁻⁷ Н.)",
+			"limits": "Формула для матеріальних точок також працює ззовні сферично-симетричних тіл. Для нерівномірних складних форм потрібні додаткові розрахунки, а сильні гравітаційні поля краще описує загальна теорія відносності. Не плутайте відстань між поверхнями з відстанню між центрами та не змішуйте км і м.",
+			"related": "Сила тяжіння, вага тіла, невагомість і перевантаження (#27); Рух штучних супутників. Космічні швидкості (#33); Потенціальна енергія (#47)"
+		}
+	}
+}

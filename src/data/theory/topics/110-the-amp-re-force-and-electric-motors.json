@@ -1,0 +1,52 @@
+{
+	"n": 110,
+	"slug": "110-the-amp-re-force-and-electric-motors",
+	"title": {
+		"en": "The Ampère Force and Electric Motors",
+		"ua": "Сила Ампера. Електродвигун"
+	},
+	"short": {
+		"en": "A current-carrying conductor placed in a magnetic field experiences the Ampère force. The force is greatest when the current is perpendicular to the field and vanishes when they are parallel. In electric motors, forces on opposite sides of a current loop produce a turning moment. Speakers similarly use magnetic force to move their cones.",
+		"ua": "На провідник зі струмом у магнітному полі діє сила Ампера. Вона найбільша, коли напрям струму перпендикулярний до індукції поля, і дорівнює нулю за паралельності. В електродвигуні сили, що діють на протилежні сторони рамки зі струмом, створюють обертальний момент. Так само магнітна сила рухає дифузор гучномовця."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "André-Marie Ampère studied interactions between electric currents during the 1820s. Faraday and other inventors built early electric-motor demonstrations during the nineteenth century.",
+			"core": "Moving charges within a wire feel magnetic forces; these are transmitted to the wire. In a uniform field, a straight wire has force perpendicular to both conventional current and B. Parallel wires attract if their currents flow in the same direction and repel if opposite. A motor's commutation or electronic control maintains a useful turning moment as the rotor rotates.",
+			"components": "F = BIl sin α, where F in N, B in T, I in A, wire length l in m and α the angle between current and magnetic field. For a single rectangular loop, moment magnitude M = BIA sin θ, where A in m² and θ is the angle between loop normal and B; N turns multiply the result by N.",
+			"apply": "Draw the current arrow and magnetic-field direction, then apply the left-hand motor rule or vector-force rule to determine force direction. Compute the sine of the angle, noting that zero degrees gives zero force. For motor problems check whether the angle is to the wire or to the loop normal. Do not handle energized motor windings or rotating parts carelessly.",
+			"example": "A 0.30 m wire carries I = 4.0 A perpendicular to B = 0.20 T. F = 0.20 T · 4.0 A · 0.30 m = 0.24 N. Try it: if the wire makes a 30° angle with B, what is F? (0.12 N).",
+			"limits": "The expression assumes a straight wire in a uniform B. Use the angle to current for force, but to the loop normal for torque; parallel wires interact through their fields.",
+			"related": "Magnetic Field and Magnetic Induction (#108); Magnetic Field of an Electric Current (#109); The Lorentz Force and Charged Particles in a Magnetic Field (#111)"
+		},
+		"ua": {
+			"origin": "Андре-Марі Ампер досліджував взаємодію електричних струмів у 1820-х роках. У XIX столітті Фарадей та інші винахідники створили ранні електричні двигуни.",
+			"core": "Рухомі заряджені частинки всередині провідника зазнають дії магнітних сил, які передаються всьому провіднику. Напрям сили перпендикулярний до струму й B. Паралельні струми одного напряму притягуються, протилежних напрямів відштовхуються. Для безперервного обертання двигуна потрібне відповідне перемикання струму або електронне керування.",
+			"components": "F = BIl sin α, де F у Н, B у Тл, I у А, l у м, α є кутом між струмом і B. Для одного прямокутного витка модуль моменту M = BIA sin θ, де площа A у м², θ є кутом між нормаллю до рамки й полем. Для N однакових витків момент множиться на N.",
+			"apply": "Накресліть напрям струму та поля, застосуйте правило лівої руки для напряму сили. Встановіть саме кут між струмом і B, знайдіть синус, а потім силу. Для рамки врахуйте кут до нормалі. Не торкайтеся рухомих деталей і обмоток працюючого електродвигуна.",
+			"example": "Дріт завдовжки 0,30 м проводить I = 4,0 А перпендикулярно до поля B = 0,20 Тл. F = 0,20 Тл · 4,0 А · 0,30 м = 0,24 Н. Спробуйте самі: яка сила за кута 30°? (0,12 Н).",
+			"limits": "Формула сили припускає прямий провідник в однорідному полі. Для сили беріть кут до напряму струму, а для моменту рамки кут до нормалі.",
+			"related": "Магнітне поле. Індукція магнітного поля (#108); Магнітне поле струму (#109); Сила Лоренца. Рух заряджених частинок у магнітному полі (#111)"
+		}
+	}
+}

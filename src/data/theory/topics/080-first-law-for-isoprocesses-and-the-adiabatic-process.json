@@ -1,0 +1,52 @@
+{
+	"n": 80,
+	"slug": "080-first-law-for-isoprocesses-and-the-adiabatic-process",
+	"title": {
+		"en": "First Law for Isoprocesses and the Adiabatic Process",
+		"ua": "Застосування першого закону термодинаміки до ізопроцесів. Адіабатний процес"
+	},
+	"short": {
+		"en": "The first law takes useful special forms for ideal-gas processes. At constant volume, the gas does no pressure–volume work; at constant temperature, an ideal gas has no change in internal energy; and in an adiabatic process no heat crosses the boundary. A rapidly compressed gas can become hotter because work is done on it.",
+		"ua": "Перший закон термодинаміки спрощується для ізопроцесів і адіабатного процесу. За сталого об’єму газ не виконує роботи розширення, за сталої температури внутрішня енергія ідеального газу не змінюється, а в адіабатному процесі немає теплообміну. Швидке стискання може нагрівати газ."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Nineteenth-century thermodynamics analysed idealised isothermal, isobaric, isochoric and adiabatic changes while steam-engine technology advanced. Poisson's relations describe reversible adiabatic changes of ideal gases under additional assumptions.",
+			"core": "For an isochoric change ΔV = 0, so supplied heat changes internal energy. For an isothermal ideal-gas change ΔT = 0, so ΔU = 0 and heat absorbed equals work done. Under isobaric heating, the gas both warms and expands. During adiabatic compression Q = 0 and negative work by the gas increases its internal energy; adiabatic expansion cools it.",
+			"components": "General law Q = ΔU + A in J. Isochoric: A = 0, Q = ΔU. Isothermal ideal gas: ΔU = 0, Q = A. Isobaric: A = pΔV, Q = ΔU + pΔV. Adiabatic: Q = 0, ΔU = −A. For a reversible adiabatic ideal gas with constant heat capacities, pV^γ = const, where γ = C_p/C_v is dimensionless.",
+			"apply": "Identify which quantity stays constant or whether heat transfer is negligible. Sketch p–V behaviour and choose the matching first-law simplification. In adiabatic problems assign signs carefully: compression means ΔV < 0 and A < 0. If calculating temperatures, include the gas's heat capacity or amount of substance.",
+			"example": "An ideal gas undergoes adiabatic compression. The surroundings do 250 J of work on it, so the work by the gas is A = −250 J and Q = 0 J. ΔU = Q − A = 0 J − (−250 J) = +250 J. Try it: during adiabatic expansion the gas does 100 J of work. What is ΔU? (−100 J).",
+			"limits": "Adiabatic does not mean temperature is constant. Real processes may exchange heat, and γ is not constant across all temperatures. Isochoric, isothermal and isobaric assumptions must be explicitly justified rather than chosen for convenience. Rapid compression can heat pumps and cylinders, so avoid touching hot surfaces.",
+			"related": "Isoprocesses in Gases (#64); Work Done by a Gas (#78); First Law of Thermodynamics (#79)"
+		},
+		"ua": {
+			"origin": "У XIX столітті термодинаміка описала ідеалізовані ізотермічні, ізобарні, ізохорні й адіабатні процеси. Рівняння Пуассона характеризують оборотну адіабатну зміну ідеального газу за додаткових припущень.",
+			"core": "В ізохорному процесі ΔV = 0, тому робота газу дорівнює нулю, а теплота змінює внутрішню енергію. Для ізотермічного ідеального газу ΔU = 0: отримана теплота дорівнює виконаній роботі. За сталого тиску газ нагрівається й розширюється. Під час адіабатного стискання Q = 0, робота газу від’ємна, тому його внутрішня енергія зростає.",
+			"components": "Основне рівняння Q = ΔU + A у Дж. Ізохорно: A = 0, Q = ΔU. Ізотермічно для ідеального газу: ΔU = 0, Q = A. Ізобарно: A = pΔV, Q = ΔU + pΔV. Адіабатно: Q = 0, ΔU = −A. Для оборотної адіабати ідеального газу pV^γ = const, де γ = Cₚ/Cᵥ є безрозмірним показником адіабати.",
+			"apply": "З’ясуйте, який параметр є сталим або чи теплообмін відсутній. Накресліть можливий графік p(V), оберіть відповідне спрощення першого закону. Під час стискання ΔV < 0, тому A < 0. Для температурних розрахунків врахуйте теплоємність газу.",
+			"example": "Газ адіабатно стискають, виконуючи над ним роботу 250 Дж. Робота газу A = −250 Дж, Q = 0 Дж. ΔU = Q − A = 0 Дж − (−250 Дж) = +250 Дж. Спробуйте самі: під час адіабатного розширення газ виконав роботу 100 Дж. Яка ΔU? (−100 Дж).",
+			"limits": "Адіабатний процес не є ізотермічним. Реальні системи можуть обмінюватися теплотою, а γ залежить від складу й температури газу. Не обирайте ізопроцес без фізичного обґрунтування. Під час швидкого стискання насос або циліндр можуть нагріватися.",
+			"related": "Ізопроцеси в газах (#64); Робота газу в термодинаміці (#78); Перший закон термодинаміки (#79)"
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"n": 165,
+	"slug": "165-radioactivity-alpha-beta-and-gamma-radiation",
+	"title": {
+		"en": "Radioactivity: Alpha, Beta and Gamma Radiation",
+		"ua": "Радіоактивність. Альфа-, бета- і гамма-випромінювання"
+	},
+	"short": {
+		"en": "Radioactive nuclei may transform while emitting alpha particles, beta radiation or gamma photons. An alpha particle is a helium-4 nucleus; beta radiation consists of electrons or positrons; gamma radiation consists of high-energy photons. Their penetrating abilities differ, so protection must match the source. For example, alpha radiation is easily stopped externally but may be harmful if alpha-emitting material enters the body.",
+		"ua": "Нестійкі ядра можуть перетворюватися з випромінюванням альфа-частинок, бета-частинок або гамма-фотонів. Альфа-частинка є ядром Гелію-4, бета-випромінювання складається з електронів або позитронів, а гамма-випромінювання є потоком високоенергетичних фотонів. Проникна здатність цих видів різна. Наприклад, альфа-випромінювання легко зупинити зовні, проте потрапляння альфа-активної речовини всередину організму небезпечне."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Henri Becquerel discovered spontaneous uranium radiation in 1896. Marie and Pierre Curie studied radioactivity and identified new radioactive elements. Later experiments distinguished alpha, beta and gamma radiation and established nuclear transformation rules associated with Frederick Soddy and Kazimierz Fajans.",
+			"core": "Alpha decay ejects two protons and two neutrons from an unstable nucleus. Beta-minus decay converts a neutron into a proton while emitting an electron and an electron antineutrino; beta-plus converts a proton into a neutron and emits a positron and neutrino. Gamma emission releases excitation energy without changing proton or nucleon counts. Radioactivity is a property of unstable nuclei, not a consequence of ordinary heating.",
+			"components": "In alpha decay, A decreases by 4 and Z by 2. In β⁻ decay, A is unchanged and Z increases by 1; in β⁺ decay, A is unchanged and Z decreases by 1. In gamma emission, A and Z remain unchanged. Nuclear charge number Z and mass number A are counts without SI units. Alpha radiation has charge +2e, beta particles charge −e or +e and gamma photons charge zero.",
+			"apply": "Identify the emitted radiation and write the parent nucleus with mass number A and charge number Z. Apply the corresponding change to both numbers, then determine the daughter element from its new Z. Check conservation of charge and nucleon number. For protection, rely on established radiation-safety guidance and avoid handling unknown sources.",
+			"example": "In alpha decay, ²³⁸₉₂U changes its mass number to 238 − 4 = 234 and charge number to 92 − 2 = 90. The daughter is ²³⁴₉₀Th, with an alpha particle emitted. Try it: what Z results from β⁻ decay of a nucleus with Z = 6? (Answer: Z = 7; A stays the same.)",
+			"limits": "Penetration depends on radiation energy and shielding material; simple labels such as “gamma always passes through everything” are wrong. Beta decay also includes a neutrino or antineutrino, which cannot be omitted from the full physical account. External exposure and contamination inside the body pose different risks. Radiation cannot be judged safe by whether it can be seen or felt.",
+			"related": "Structure of the Atomic Nucleus and Isotopes (#163); The Law of Radioactive Decay and Half-Life (#166); Ionizing Radiation: Dose and Protection (#170)"
+		},
+		"ua": {
+			"origin": "Анрі Беккерель відкрив спонтанне випромінювання солей Урану в 1896 році. Марія та П’єр Кюрі досліджували радіоактивність і відкрили нові радіоактивні елементи. Надалі вчені розрізнили альфа-, бета- та гамма-випромінювання й установили правила ядерних перетворень, відомі як правила Содді та Фаянса.",
+			"core": "Під час альфа-розпаду ядро випускає частинку з двох протонів і двох нейтронів. За бета-мінус-розпаду нейтрон перетворюється на протон, електрон та електронне антинейтрино. За бета-плюс-розпаду протон перетворюється на нейтрон із випромінюванням позитрона й нейтрино. Гамма-випромінювання супроводжує перехід ядра в стан із меншою енергією, не змінюючи його складу.",
+			"components": "Під час α-розпаду A зменшується на 4, а Z на 2. Під час β⁻-розпаду A не змінюється, Z збільшується на 1. Під час β⁺-розпаду A не змінюється, Z зменшується на 1. За γ-випромінювання обидва числа залишаються сталими. Альфа-частинка має заряд +2e, бета-частинки заряд −e або +e, а фотон заряд не має.",
+			"apply": "Спершу визначте тип випромінювання. Запишіть початкові A та Z і застосуйте правило зміни цих чисел. За новим Z знайдіть елемент, що утворився, та перевірте баланс заряду й кількості нуклонів. Для питань захисту використовуйте правила радіаційної безпеки й не торкайтеся невідомих джерел.",
+			"example": "Під час α-розпаду ²³⁸₉₂U масове число зменшується: 238 − 4 = 234; зарядове число: 92 − 2 = 90. Утворюється ²³⁴₉₀Th і альфа-частинка. Спробуйте самі: яким стане Z після β⁻-розпаду ядра із Z = 6? (Відповідь: Z = 7; A не зміниться.)",
+			"limits": "Проникна здатність залежить від енергії частинок і матеріалу захисту: гамма-промені не проходять без послаблення крізь будь-яку перешкоду. Повний опис бета-розпаду потребує нейтрино або антинейтрино. Зовнішнє опромінення й потрапляння радіоактивної речовини всередину організму мають різні ризики. За відчуттями людина не може визначити дозу.",
+			"related": "Склад атомного ядра. Ізотопи (#163); Закон радіоактивного розпаду. Період напіврозпаду (#166); Дія іонізуючого випромінювання. Дозиметрія. Захист (#170)"
+		}
+	}
+}

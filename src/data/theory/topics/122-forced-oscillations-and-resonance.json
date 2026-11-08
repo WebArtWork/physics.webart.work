@@ -1,0 +1,52 @@
+{
+	"n": 122,
+	"slug": "122-forced-oscillations-and-resonance",
+	"title": {
+		"en": "Forced Oscillations and Resonance",
+		"ua": "Вимушені коливання. Резонанс"
+	},
+	"short": {
+		"en": "A periodic external force can keep an oscillator moving despite friction. When the forcing frequency is near the natural frequency, the response can become especially large: this is resonance. Resonance helps tune radios and musical instruments but excessive vibrations can damage machines and bridges.",
+		"ua": "Зовнішня періодична сила може підтримувати коливання попри втрати на тертя. Якщо частота дії близька до власної частоти системи, амплітуда помітно зростає. Це явище називають резонансом. Воно корисне для музичних інструментів, але небезпечне для механізмів за надмірних вібрацій."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Galileo described sympathetic oscillations; nineteenth-century vibration theory and later engineering clarified driven resonance. Resonance is not the complete explanation of every structural failure: aerodynamic instabilities also matter.",
+			"core": "A driven oscillator receives energy from an external source each cycle. Close to its natural frequency the energy transfer can balance damping at a relatively large amplitude. More damping makes the peak lower and broader. Away from resonance the amplitude usually becomes smaller. The steady oscillation follows the driving frequency, not necessarily the free frequency.",
+			"components": "For an ideal spring oscillator ω₀ = √(k/m), with k in N/m, m in kg and angular frequency ω₀ in rad/s. f₀ = ω₀/(2π) in Hz. A damped, driven model is m ẍ + b ẋ + kx = F₀ cos(ωt), where F₀ is forcing amplitude in N, b in kg/s and ω in rad/s.",
+			"apply": "Compute the natural frequency from the mass and stiffness. Compare the driving frequency using the same units, and check whether damping is small or large. Avoid claiming that the highest displacement must occur at exactly ω₀ for every damped model. Keep clear whether frequency is in hertz or radians per second.",
+			"example": "For k = 100 N/m and m = 1.0 kg, ω₀ = √(100/1.0) rad/s = 10 rad/s and f₀ = 10/(2π) Hz ≈ 1.59 Hz. A 1.6 Hz drive is near resonance. Try it: if mass becomes 4.0 kg, what is f₀? (0.796 Hz).",
+			"limits": "The ideal resonance estimate ignores the shift caused by damping. Do not equate structural aeroelastic instability with simple forced resonance, or confuse hertz with radians per second.",
+			"related": "Oscillatory Motion: Amplitude, Period and Frequency (#118); Spring and Simple Pendulums (#120); Energy in Oscillations and Damping (#121)"
+		},
+		"ua": {
+			"origin": "Уявлення про співзвучні коливання розвивалися від часів Галілея. Теорія вимушених коливань сформувалася в XIX столітті, а згодом стала важливою для інженерії. Не кожне руйнування мосту є прикладом простого резонансу.",
+			"core": "Зовнішня сила передає коливальній системі енергію. Поблизу власної частоти передавання енергії може бути найбільш ефективним, тому усталена амплітуда велика. В’язке тертя зменшує й розширює резонансний максимум. За усталеного режиму частота коливань дорівнює частоті зовнішньої сили.",
+			"components": "Для ідеального пружинного маятника ω₀ = √(k/m), де k у Н/м, m у кг, ω₀ у рад/с. Частота ν₀ = ω₀/(2π) у Гц. Модель вимушених коливань: m ẍ + b ẋ + kx = F₀ cos(ωt), де F₀ у Н, b у кг/с, ω у рад/с.",
+			"apply": "Спочатку обчисліть власну частоту, потім порівняйте її з частотою збуджувальної сили. Зведіть обидві частоти до однакових одиниць. Оцініть тертя: великий опір зменшує резонансну амплітуду. Не вважайте, що максимум завжди точно збігається з власною частотою за сильного згасання.",
+			"example": "Для k = 100 Н/м і m = 1,0 кг маємо ω₀ = √(100/1,0) рад/с = 10 рад/с та ν₀ = 10/(2π) Гц ≈ 1,59 Гц. Зовнішня дія з частотою 1,6 Гц близька до резонансу. Спробуйте самі: що буде за m = 4,0 кг? (ν₀ = 0,796 Гц).",
+			"limits": "Наближена формула власної частоти не враховує зміщення максимуму через згасання. Не плутайте аеропружну нестійкість із простим резонансом та Гц із рад/с.",
+			"related": "Механічні коливання. Амплітуда, період, частота (#118); Пружинний і математичний маятники (#120); Перетворення енергії під час коливань. Згасаючі коливання (#121)"
+		}
+	}
+}

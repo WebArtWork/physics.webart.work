@@ -1,0 +1,52 @@
+{
+	"n": 82,
+	"slug": "082-the-carnot-cycle-and-maximum-efficiency",
+	"title": {
+		"en": "The Carnot Cycle and Maximum Efficiency",
+		"ua": "Цикл Карно. Максимальний ККД теплового двигуна"
+	},
+	"short": {
+		"en": "The Carnot cycle gives the theoretical upper limit on heat-engine efficiency between two fixed absolute temperatures. A reversible engine operating between 600 K and 300 K can reach at most 50% efficiency. Real engines achieve less because friction, finite-temperature heat transfer and other irreversible effects waste useful work.",
+		"ua": "Цикл Карно задає найбільший теоретичний ККД теплового двигуна між двома джерелами теплоти з фіксованими абсолютними температурами. Між 600 К і 300 К межа ККД становить 50%. Реальні машини працюють гірше через тертя, теплообмін за скінченної різниці температур та інші необоротні явища."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Sadi Carnot described an ideal reversible engine in 1824. Clausius and Kelvin later developed the second law that explains why no engine using the same two reservoirs can surpass this limit.",
+			"core": "An ideal Carnot cycle has two reversible isothermal steps, one in contact with each heat reservoir, and two reversible adiabatic steps that change the working substance's temperature without transferring heat. Reversibility makes the required rejected heat as small as thermodynamics permits for the given temperatures.",
+			"components": "η_C = 1 − T_c/T_h = (T_h − T_c)/T_h, with hot-reservoir temperature T_h and cold-reservoir temperature T_c both in kelvin (K), T_h > T_c > 0. The ratio is dimensionless. No real cyclic engine between only these reservoirs has η > η_C.",
+			"apply": "Convert both source temperatures to kelvin, identify the hotter and colder reservoirs and substitute in the Carnot expression. Compare any stated real efficiency with the bound. Increasing T_h or reducing T_c can raise the bound, but material limits and environmental costs matter.",
+			"example": "For T_h = 500 K and T_c = 300 K, η_C = 1 − 300 K/500 K = 0.40 = 40%. An engine claiming 55% between those reservoirs is impossible. Try it: calculate the limit for 800 K and 400 K. (50%).",
+			"limits": "Carnot efficiency applies to cyclic engines operating only between two fixed-temperature reservoirs and requires absolute temperatures. Reversible operation is a theoretical ideal. Never substitute Celsius values or claim that 100% follows from perfect engineering.",
+			"related": "Heat Engines and Their Efficiency (#81); Second Law of Thermodynamics and Entropy (#83); Refrigerators and Heat Pumps (#84)"
+		},
+		"ua": {
+			"origin": "Саді Карно описав ідеальну оборотну теплову машину 1824 року. Згодом Клаузіус і Кельвін обґрунтували другий закон термодинаміки, який визначає межу ефективності.",
+			"core": "Цикл Карно містить дві оборотні ізотерми, під час яких робоче тіло обмінюється теплотою з нагрівником і холодильником, і дві оборотні адіабати без теплообміну. Для заданих температур оборотність забезпечує найбільшу можливу частку теплоти, перетвореної на роботу.",
+			"components": "η_max = 1 − T₂/T₁ = (T₁ − T₂)/T₁, де T₁ є температурою нагрівника в К, T₂ температурою холодильника в К, T₁ > T₂ > 0. ККД безрозмірний. Для реального двигуна між цими джерелами η ≤ η_max.",
+			"apply": "Переведіть температуру нагрівника та холодильника в кельвіни. Підставте значення у формулу та порівняйте реальний ККД з межею Карно. Підвищення температури нагрівника або зниження температури холодильника збільшує межу, але технічні можливості обмежені.",
+			"example": "Для T₁ = 500 К, T₂ = 300 К: η_max = 1 − 300/500 = 0,40 = 40%. Твердження про ККД 55% за таких умов помилкове. Спробуйте самі: знайдіть межу за 800 К і 400 К. (50%).",
+			"limits": "Межа Карно діє для циклічної машини між двома термостатами й обчислюється лише за температурами в К. Оборотність є ідеалізацією. Не підставляйте градуси Цельсія й не вважайте 100% досяжними завдяки усуненню тертя.",
+			"related": "Теплові двигуни. ККД теплового двигуна (#81); Другий закон термодинаміки. Ентропія (#83); Холодильні машини та теплові насоси (#84)"
+		}
+	}
+}

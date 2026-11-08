@@ -1,0 +1,52 @@
+{
+	"n": 111,
+	"slug": "111-the-lorentz-force-and-charged-particles-in-a-magnetic-field",
+	"title": {
+		"en": "The Lorentz Force and Charged Particles in a Magnetic Field",
+		"ua": "Сила Лоренца. Рух заряджених частинок у магнітному полі"
+	},
+	"short": {
+		"en": "The magnetic part of the Lorentz force acts on a charged particle only while it moves, and is perpendicular to its velocity. It can bend a path without changing the particle's speed in a static magnetic field. When a charged particle enters a uniform field at right angles, it travels in a circle; this helps explain cyclotrons, mass spectrometers and auroras.",
+		"ua": "Магнітна складова сили Лоренца діє на заряджену частинку лише під час руху й завжди перпендикулярна до її швидкості. Вона змінює напрям швидкості, але не її модуль у сталому магнітному полі. Частинка, що влітає перпендикулярно до однорідного поля, рухається по колу. Це використовують у циклотроні та масспектрометрі, а природним прикладом є полярне сяйво."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Hendrik Lorentz formulated the electromagnetic force on charges in the late nineteenth century, extending the understanding of particle motion in electromagnetic fields.",
+			"core": "The force direction is given by the cross product of velocity and magnetic field for a positive charge and reversed for a negative charge. A particle with velocity parallel to B experiences no magnetic force. With a perpendicular component, the force acts as a centripetal force; an added parallel component produces a helix. A magnetic field alone performs no work on the charge.",
+			"components": "Magnitude F = |q|vB sin α, with charge q in C, speed v in m/s, B in T. For perpendicular entry r = mv/(|q|B), where mass m in kg and radius r in m; period T = 2πm/(|q|B), independent of speed in the nonrelativistic approximation. If an electric field is also present, include electric force qE.",
+			"apply": "Choose the sign of q and mark v and B directions. For circular motion equate |q|vB = mv²/r, then solve for the unknown. Check unit conversions and whether relativistic speeds or particle collisions invalidate the simple model. Do not confuse the magnetic force with a force along the direction of motion.",
+			"example": "A proton with m = 1.67 · 10⁻²⁷ kg and q = 1.60 · 10⁻¹⁹ C moves at v = 2.0 · 10⁶ m/s perpendicular to B = 0.50 T. r = mv/(qB) ≈ 0.0418 m = 4.18 cm. Try it: double B. What is r? (2.09 cm).",
+			"limits": "The circular-radius and period formulas assume uniform B and nonrelativistic speed. Magnetic force changes direction, not kinetic energy; a negative charge reverses the force direction.",
+			"related": "Centripetal Acceleration (#19); Magnetic Field and Magnetic Induction (#108); The Ampère Force and Electric Motors (#110)"
+		},
+		"ua": {
+			"origin": "Гендрік Лоренц наприкінці XIX століття описав силу, що діє на електричні заряди в електромагнітному полі.",
+			"core": "Для додатного заряду напрям сили визначають за напрямами v і B, для від’ємного він протилежний. Якщо швидкість паралельна полю, магнітна сила дорівнює нулю. За наявності паралельної складової швидкості частинка рухається гвинтовою лінією. Магнітне поле саме по собі не виконує роботи над зарядом.",
+			"components": "Модуль F = |q|vB sin α, де q у Кл, v у м/с, B у Тл. За перпендикулярного руху r = mv/(|q|B), де m у кг, r у м. Період T = 2πm/(|q|B) у с не залежить від швидкості за нерелятивістських умов. За наявності електричного поля додають силу qE.",
+			"apply": "Визначте знак заряду, позначте v та B. Для руху по колу прирівняйте |q|vB = mv²/r. Перевірте одиниці та допустимість нерелятивістського наближення. Не вважайте, що магнітна сила прискорює частинку вздовж її траєкторії.",
+			"example": "Протон із m = 1,67 · 10⁻²⁷ кг і q = 1,60 · 10⁻¹⁹ Кл рухається зі швидкістю v = 2,0 · 10⁶ м/с перпендикулярно до поля B = 0,50 Тл. r = mv/(qB) ≈ 0,0418 м = 4,18 см. Спробуйте самі: який радіус за B = 1,0 Тл? (2,09 см).",
+			"limits": "Формули радіуса й періоду передбачають однорідне поле та нерелятивістську швидкість. Магнітна сила змінює напрям руху, а не кінетичну енергію; знак заряду визначає напрям сили.",
+			"related": "Доцентрове прискорення (#19); Магнітне поле. Індукція магнітного поля (#108); Сила Ампера. Електродвигун (#110)"
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"n": 38,
+	"slug": "038-simple-machines-and-the-golden-rule-of-mechanics",
+	"title": {
+		"en": "Simple Machines and the Golden Rule of Mechanics",
+		"ua": "Прості механізми. «Золоте правило» механіки"
+	},
+	"short": {
+		"en": "Simple machines exchange force for distance. A lever, pulley or inclined plane can make a heavy load easier to move, but an ideal machine does not reduce the total work. With a twofold mechanical advantage, pulling 4.0 m moves a load only 2.0 m. Real machines need extra input because friction and deformation reduce efficiency.",
+		"ua": "Прості механізми дають виграш у силі за рахунок програшу в переміщенні. Важіль, блок або похила площина полегшують прикладання сили, але ідеальний механізм не зменшує виконану роботу. Якщо сила зменшується вдвічі, шлях прикладання сили збільшується вдвічі. У реальності частина енергії витрачається на тертя."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Levers and pulleys were used in ancient construction and studied systematically by Archimedes. Energy conservation later explained the common work trade-off in ideal machines.",
+			"core": "A lever uses different distances from a pivot; a movable pulley shares a load across rope segments; an inclined plane extends the travel distance needed to gain height. In ideal conditions input work equals useful output work. Real devices convert some input energy into internal energy through friction.",
+			"components": "Ideal work relation F_in s_in = F_out s_out, with force in Н and displacement in м, work in Дж. Mechanical advantage MA = F_out/F_in. Efficiency η = A_useful/A_input · 100%, where η ≤ 100%. For a lever in equilibrium F₁d₁ = F₂d₂; an ideal single movable pulley provides MA = 2.",
+			"apply": "Choose the machine geometry and identify input and output movements. Count supporting rope segments for a pulley or measure lever arms. Apply ideal work balance, then account for efficiency if given. Check that a gain in force corresponds to a greater input distance.",
+			"example": "An ideal movable pulley raises a 200 N load by 2.0 m. With two supporting rope segments, applied force is F_in = 200 N / 2 = 100 N and pulled rope length is 4.0 m. Input and output work are each 400 J. Try it: at 80% efficiency, what input work is needed for 400 J useful work? (Answer: 500 J.)",
+			"limits": "Simple machines cannot create energy. A fixed pulley redirects force but has no ideal force advantage. Do not claim force gain is work gain, count the free rope end incorrectly, or assume a real machine has 100% efficiency.",
+			"related": "Moment of Force and Conditions of Equilibrium (#36); Mechanical Work (#44); Power and Efficiency (#45)"
+		},
+		"ua": {
+			"origin": "Важелі та блоки застосовували в давньому будівництві, а Архімед описав їхню механіку. Закон збереження енергії пізніше пояснив «золоте правило» ідеальних механізмів.",
+			"core": "Важіль використовує різні плечі сили, рухомий блок розподіляє навантаження між ділянками каната, а похила площина подовжує шлях підйому. В ідеальному механізмі виконана робота дорівнює корисній. У реальному механізмі частина роботи переходить у внутрішню енергію.",
+			"components": "Fвх sвх = Fвих sвих для ідеального механізму, сила у Н, шлях у м, робота у Дж. Виграш у силі MA = Fвих/Fвх. ККД η = Aкор/Aзат · 100%, η ≤ 100%. Для важеля F₁d₁ = F₂d₂, а ідеальний одинарний рухомий блок дає виграш у силі 2.",
+			"apply": "Визначте точки прикладання сил і пройдені шляхи. Для блока порахуйте ділянки каната, що підтримують вантаж; для важеля виміряйте плечі. Застосуйте рівність робіт в ідеальному випадку та врахуйте ККД, якщо він заданий. Перевірте баланс сил і відстаней.",
+			"example": "Ідеальний рухомий блок піднімає вантаж вагою 200 Н на 2,0 м. Дві ділянки каната тримають вантаж, тому Fвх = 200 Н / 2 = 100 Н, а витягнута довжина каната 4,0 м. Робота з обох боків дорівнює 400 Дж. Спробуйте самі: потрібна затрачена робота за ККД 80% і корисної роботи 400 Дж? (Відповідь: 500 Дж.)",
+			"limits": "Прості механізми не створюють енергію. Нерухомий блок лише змінює напрямок сили, не даючи ідеального виграшу в ній. Не плутайте виграш у силі з виграшем у роботі й не вважайте ККД реального механізму рівним 100%.",
+			"related": "Момент сили. Умови рівноваги тіла (#36); Механічна робота (#44); Потужність. Коефіцієнт корисної дії (#45)"
+		}
+	}
+}

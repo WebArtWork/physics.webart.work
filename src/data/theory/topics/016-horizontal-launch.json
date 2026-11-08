@@ -1,0 +1,52 @@
+{
+	"n": 16,
+	"slug": "016-horizontal-launch",
+	"title": {
+		"en": "Horizontal Launch",
+		"ua": "Рух тіла, кинутого горизонтально"
+	},
+	"short": {
+		"en": "An object launched horizontally keeps its horizontal velocity while gravity increases its downward speed, provided air drag is negligible. A ball rolling off a 19.6 m high platform at 5.0 m/s takes 2.0 s to fall and lands 10 m horizontally from the edge. Its path is a parabola. The time of fall depends on height, not on horizontal launch speed, within this ideal model.",
+		"ua": "Тіло, кинуте горизонтально, зберігає горизонтальну складову швидкості, а під дією тяжіння набуває швидкості вниз, якщо опором повітря можна знехтувати. М’яч, що злітає з майданчика заввишки 19,6 м зі швидкістю 5,0 м/с, падає 2,0 с та приземляється за 10 м по горизонталі. Його траєкторія є параболою. Час падіння залежить від висоти, а не від горизонтальної швидкості."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Galileo established that horizontal and vertical aspects of projectile motion can be analyzed independently in the seventeenth century. Combining uniform horizontal motion with uniform vertical acceleration explains the parabolic trajectories observed in experiments.",
+			"core": "At launch, the horizontal velocity component is v₀ and vertical velocity is zero. Gravity acts downward, so the horizontal component is unchanged while the vertical component grows in magnitude. The two motions happen during the same time interval. The landing velocity is the vector sum of its horizontal and vertical components and usually points diagonally downward.",
+			"components": "With horizontal x and downward-positive vertical y starting at launch, x = v₀t, y = gt²/2, vₓ = v₀ and vᵧ = gt. From height h, fall time t = √(2h/g); horizontal range L = v₀√(2h/g). Impact speed v = √(v₀² + (gt)²), with angle below horizontal given by tan θ = gt/v₀. Lengths are m, speeds m/s and g = 9.8 m/s².",
+			"apply": "Sketch the platform, start and landing level. Choose x horizontally and y downward from the launch point. Solve vertical motion first for the common flight time using known height. Substitute time into horizontal equation to obtain range. If asked about impact speed, calculate both components and combine them using Pythagoras.",
+			"example": "A ball leaves a 19.6 m high platform horizontally at 5.0 m/s. The fall time t = √(2·19.6 m / 9.8 m/s²) = √(4.0 s²) = 2.0 s. Range L = 5.0 m/s · 2.0 s = 10 m. The downward impact component is 9.8 m/s² · 2.0 s = 19.6 m/s. Try it: if horizontal speed doubles, what is the range? (Answer: 20 m.)",
+			"limits": "The equations require a nearly uniform gravitational field and negligible air drag. Do not use the total launch speed for vertical motion, because the vertical component initially equals zero. The horizontal speed does not determine fall time when launch height is fixed. The ideal path is parabolic, but wind and drag alter real trajectories.",
+			"related": "Uniformly Accelerated Straight-Line Motion (#12); Free Fall and Vertical Throw (#15); Projectile Launched at an Angle (#17)"
+		},
+		"ua": {
+			"origin": "Галілей у XVII столітті показав, що горизонтальний і вертикальний рухи тіла можна розглядати незалежно. Поєднання рівномірного руху по горизонталі та рівноприскореного падіння пояснило параболічні траєкторії.",
+			"core": "Під час горизонтального кидання початкова вертикальна складова швидкості дорівнює нулю. Тяжіння змінює лише вертикальну складову, а горизонтальна залишається сталою. Обидва рухи тривають той самий час. Під час удару об землю швидкість напрямлена навскіс донизу, її модуль знаходять за двома складовими.",
+			"components": "Нехай вісь x напрямлена горизонтально, а вісь y униз від місця старту. Тоді x = v₀t, y = gt²/2, vₓ = v₀, vᵧ = gt. Для висоти h час t = √(2h/g), дальність L = v₀√(2h/g). Модуль швидкості під час приземлення v = √(v₀² + (gt)²), кут униз визначає tan θ = gt/v₀. Довжини у м, швидкості в м/с, g = 9,8 м/с².",
+			"apply": "Намалюйте край майданчика й рівень приземлення. Напряміть вісь x горизонтально, а y униз. Спочатку за вертикальним рухом знайдіть час падіння з відомої висоти. Після цього обчисліть горизонтальну дальність. Для швидкості при ударі знайдіть обидві проєкції та застосуйте теорему Піфагора.",
+			"example": "М’яч вилетів горизонтально з висоти 19,6 м зі швидкістю 5,0 м/с. Час t = √(2·19,6 м / 9,8 м/с²) = √(4,0 с²) = 2,0 с. Дальність L = 5,0 м/с · 2,0 с = 10 м. Вертикальна швидкість під час удару становить 9,8 м/с² · 2,0 с = 19,6 м/с. Спробуйте самі: якою стане дальність, якщо швидкість кидання подвоїти? (Відповідь: 20 м.)",
+			"limits": "Формули діють за майже сталого g та малого опору повітря. Не використовуйте початкову горизонтальну швидкість як вертикальну складову. За сталої висоти вона не визначає час падіння. Вітер і опір повітря змінюють реальну траєкторію, яка тоді вже не є точною параболою.",
+			"related": "Рівноприскорений прямолінійний рух (#12); Вільне падіння. Рух тіла, кинутого вертикально (#15); Рух тіла, кинутого під кутом до горизонту (#17)"
+		}
+	}
+}

@@ -1,0 +1,128 @@
+[
+	{
+		"id": "foundations",
+		"label": "Foundations",
+		"labelUa": "Основи",
+		"from": 1,
+		"to": 6
+	},
+	{
+		"id": "kinematics",
+		"label": "Kinematics",
+		"labelUa": "Кінематика",
+		"from": 7,
+		"to": 19
+	},
+	{
+		"id": "dynamics",
+		"label": "Dynamics",
+		"labelUa": "Динаміка",
+		"from": 20,
+		"to": 35
+	},
+	{
+		"id": "statics-and-rotation",
+		"label": "Statics and rotation",
+		"labelUa": "Статика й обертальний рух",
+		"from": 36,
+		"to": 40
+	},
+	{
+		"id": "conservation-laws",
+		"label": "Conservation laws",
+		"labelUa": "Закони збереження",
+		"from": 41,
+		"to": 49
+	},
+	{
+		"id": "fluids",
+		"label": "Fluids",
+		"labelUa": "Механіка рідин і газів",
+		"from": 50,
+		"to": 56
+	},
+	{
+		"id": "molecular-physics",
+		"label": "Molecular physics",
+		"labelUa": "Молекулярна фізика",
+		"from": 57,
+		"to": 71
+	},
+	{
+		"id": "thermodynamics",
+		"label": "Thermodynamics",
+		"labelUa": "Термодинаміка",
+		"from": 72,
+		"to": 84
+	},
+	{
+		"id": "electrostatics",
+		"label": "Electrostatics",
+		"labelUa": "Електростатика",
+		"from": 85,
+		"to": 93
+	},
+	{
+		"id": "direct-current",
+		"label": "Direct current",
+		"labelUa": "Постійний струм",
+		"from": 94,
+		"to": 102
+	},
+	{
+		"id": "current-in-different-media",
+		"label": "Current in different media",
+		"labelUa": "Електричний струм у різних середовищах",
+		"from": 103,
+		"to": 107
+	},
+	{
+		"id": "magnetism-and-electromagnetic-induction",
+		"label": "Magnetism and electromagnetic induction",
+		"labelUa": "Магнетизм і електромагнітна індукція",
+		"from": 108,
+		"to": 117
+	},
+	{
+		"id": "mechanical-oscillations-and-waves",
+		"label": "Mechanical oscillations and waves",
+		"labelUa": "Механічні коливання і хвилі",
+		"from": 118,
+		"to": 127
+	},
+	{
+		"id": "electromagnetic-oscillations-and-waves",
+		"label": "Electromagnetic oscillations and waves",
+		"labelUa": "Електромагнітні коливання і хвилі",
+		"from": 128,
+		"to": 135
+	},
+	{
+		"id": "optics",
+		"label": "Optics",
+		"labelUa": "Оптика",
+		"from": 136,
+		"to": 149
+	},
+	{
+		"id": "special-relativity",
+		"label": "Special relativity",
+		"labelUa": "Елементи теорії відносності",
+		"from": 150,
+		"to": 153
+	},
+	{
+		"id": "quantum-physics",
+		"label": "Quantum physics",
+		"labelUa": "Квантова фізика",
+		"from": 154,
+		"to": 158
+	},
+	{
+		"id": "atoms-and-nuclei",
+		"label": "Atoms and nuclei",
+		"labelUa": "Атом і атомне ядро",
+		"from": 159,
+		"to": 171
+	}
+]

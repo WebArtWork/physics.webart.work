@@ -1,0 +1,52 @@
+{
+	"n": 132,
+	"slug": "132-transformers-and-power-transmission",
+	"title": {
+		"en": "Transformers and Power Transmission",
+		"ua": "Трансформатор. Передавання електроенергії"
+	},
+	"short": {
+		"en": "A transformer changes alternating voltage using electromagnetic induction between coils linked by a magnetic core. Ideally, the ratio of voltages equals the ratio of turns. Power grids raise voltage for long-distance transmission because the same power at higher voltage needs less current and therefore loses less energy as heat in wires.",
+		"ua": "Трансформатор змінює змінну напругу завдяки електромагнітній індукції між обмотками на спільному магнітопроводі. В ідеальній моделі відношення напруг дорівнює відношенню кількості витків. Під час передавання енергії на далекі відстані напругу підвищують, щоб зменшити силу струму та теплові втрати в лініях."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Faraday established induction in 1831; practical transformers and alternating-current networks developed in the late nineteenth century.",
+			"core": "Changing current in the primary winding creates changing magnetic flux through the core. The flux induces voltage in the secondary winding. If the secondary has more turns, its voltage is higher, while its current is lower for approximately conserved power. Real transformers have copper losses, core losses and leakage. They require changing flux rather than steady DC operation.",
+			"components": "Ideal transformer U₁/U₂ = N₁/N₂ and U₁I₁ = U₂I₂, with voltage U in V, current I in A and turns N dimensionless. Efficiency η = P_out/P_in. Wire heating loss P_loss = I²R with I in A and wire resistance R in Ω.",
+			"apply": "Compare turns first to decide step-up or step-down action. Determine the ideal secondary voltage, then use power balance to estimate current. In real devices adjust for efficiency; do not claim step-up increases energy. Never dismantle or handle mains-connected transformers.",
+			"example": "A transformer has N₁ = 1000 turns, N₂ = 100 turns and U₁ = 230 V AC. U₂ = 230 V · 100/1000 = 23 V. For an ideal 2.0 A secondary load, P₂ = 23 V · 2.0 A = 46 W and I₁ = 46 W / 230 V = 0.20 A. Try it: double N₂. What is U₂? (46 V).",
+			"limits": "The ideal ratio neglects copper, core and leakage losses. A transformer cannot produce extra energy and does not transform a steady DC supply continuously.",
+			"related": "Electromagnetic Induction and Faraday's Law (#114); Alternating Current and Generators (#129); Effective Values of Current and Voltage (#130)"
+		},
+		"ua": {
+			"origin": "Фарадей відкрив індукцію 1831 року. Практичні трансформатори й системи змінного струму поширилися наприкінці XIX століття.",
+			"core": "Змінний струм первинної обмотки створює змінний магнітний потік у магнітопроводі, що індукує напругу у вторинній. Більша кількість вторинних витків означає вищу напругу, але за однакової потужності меншу силу струму. Реальний прилад має втрати в обмотках та осерді. Постійна напруга не забезпечує сталого трансформування.",
+			"components": "Для ідеального трансформатора U₁/U₂ = N₁/N₂ та U₁I₁ = U₂I₂, де напруга U у В, сила струму I в А, N кількість витків. ККД η = P_кор/P_спож. Втрати в проводі P_втрат = I²R, де R в Ом.",
+			"apply": "Визначте, яка обмотка має більше витків, і обчисліть вторинну напругу. За відомим навантаженням використайте баланс потужностей, а для реального трансформатора врахуйте ККД. Підвищення напруги не створює додаткової енергії. Не розбирайте трансформатор, під’єднаний до електромережі.",
+			"example": "N₁ = 1000, N₂ = 100, U₁ = 230 В. U₂ = 230 В · 100/1000 = 23 В. За вторинної сили струму 2,0 А потужність P₂ = 23 В · 2,0 А = 46 Вт, первинний струм I₁ = 46 Вт / 230 В = 0,20 А. Спробуйте самі: U₂ за подвоєння N₂? (46 В).",
+			"limits": "Ідеальні співвідношення нехтують втратами в обмотках, осерді й потоках розсіювання. Трансформатор не створює енергію та не працює безперервно від сталої напруги.",
+			"related": "Явище електромагнітної індукції. Закон Фарадея (#114); Змінний струм. Генератор змінного струму (#129); Діючі значення сили струму та напруги (#130)"
+		}
+	}
+}

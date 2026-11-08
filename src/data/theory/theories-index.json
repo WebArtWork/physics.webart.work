@@ -1,0 +1,1370 @@
+[
+	{
+		"n": 1,
+		"slug": "001-what-physics-studies-phenomena-models-and-laws",
+		"title": {
+			"en": "What Physics Studies: Phenomena, Models and Laws",
+			"ua": "Що вивчає фізика: явища, моделі та закони"
+		}
+	},
+	{
+		"n": 2,
+		"slug": "002-physical-quantities-and-si-units",
+		"title": {
+			"en": "Physical Quantities and SI Units",
+			"ua": "Фізичні величини та одиниці SI"
+		}
+	},
+	{
+		"n": 3,
+		"slug": "003-measurement-uncertainty-and-significant-figures",
+		"title": {
+			"en": "Measurement Uncertainty and Significant Figures",
+			"ua": "Похибки вимірювань і значущі цифри"
+		}
+	},
+	{
+		"n": 4,
+		"slug": "004-dimensional-analysis-and-estimation",
+		"title": {
+			"en": "Dimensional Analysis and Estimation",
+			"ua": "Аналіз розмірностей і оцінювання"
+		}
+	},
+	{
+		"n": 5,
+		"slug": "005-scalars-and-vectors",
+		"title": {
+			"en": "Scalars and Vectors",
+			"ua": "Скалярні та векторні величини"
+		}
+	},
+	{
+		"n": 6,
+		"slug": "006-graphs-in-physics",
+		"title": {
+			"en": "Graphs in Physics",
+			"ua": "Графіки у фізичних задачах"
+		}
+	},
+	{
+		"n": 7,
+		"slug": "007-mechanical-motion-and-frames-of-reference",
+		"title": {
+			"en": "Mechanical Motion and Frames of Reference",
+			"ua": "Механічний рух і система відліку"
+		}
+	},
+	{
+		"n": 8,
+		"slug": "008-trajectory-path-length-and-displacement",
+		"title": {
+			"en": "Trajectory, Path Length and Displacement",
+			"ua": "Траєкторія, шлях і переміщення"
+		}
+	},
+	{
+		"n": 9,
+		"slug": "009-average-and-instantaneous-velocity",
+		"title": {
+			"en": "Average and Instantaneous Velocity",
+			"ua": "Середня та миттєва швидкість"
+		}
+	},
+	{
+		"n": 10,
+		"slug": "010-uniform-straight-line-motion",
+		"title": {
+			"en": "Uniform Straight-Line Motion",
+			"ua": "Рівномірний прямолінійний рух"
+		}
+	},
+	{
+		"n": 11,
+		"slug": "011-acceleration",
+		"title": {
+			"en": "Acceleration",
+			"ua": "Прискорення"
+		}
+	},
+	{
+		"n": 12,
+		"slug": "012-uniformly-accelerated-straight-line-motion",
+		"title": {
+			"en": "Uniformly Accelerated Straight-Line Motion",
+			"ua": "Рівноприскорений прямолінійний рух"
+		}
+	},
+	{
+		"n": 13,
+		"slug": "013-motion-graphs",
+		"title": {
+			"en": "Motion Graphs",
+			"ua": "Графіки руху"
+		}
+	},
+	{
+		"n": 14,
+		"slug": "014-relative-motion-and-velocity-addition",
+		"title": {
+			"en": "Relative Motion and Velocity Addition",
+			"ua": "Відносність руху. Додавання швидкостей"
+		}
+	},
+	{
+		"n": 15,
+		"slug": "015-free-fall-and-vertical-throw",
+		"title": {
+			"en": "Free Fall and Vertical Throw",
+			"ua": "Вільне падіння. Рух тіла, кинутого вертикально"
+		}
+	},
+	{
+		"n": 16,
+		"slug": "016-horizontal-launch",
+		"title": {
+			"en": "Horizontal Launch",
+			"ua": "Рух тіла, кинутого горизонтально"
+		}
+	},
+	{
+		"n": 17,
+		"slug": "017-projectile-launched-at-an-angle",
+		"title": {
+			"en": "Projectile Launched at an Angle",
+			"ua": "Рух тіла, кинутого під кутом до горизонту"
+		}
+	},
+	{
+		"n": 18,
+		"slug": "018-uniform-circular-motion-period-frequency-and-angular-velocity",
+		"title": {
+			"en": "Uniform Circular Motion: Period, Frequency and Angular Velocity",
+			"ua": "Рівномірний рух по колу: період, частота, кутова швидкість"
+		}
+	},
+	{
+		"n": 19,
+		"slug": "019-centripetal-acceleration",
+		"title": {
+			"en": "Centripetal Acceleration",
+			"ua": "Доцентрове прискорення"
+		}
+	},
+	{
+		"n": 20,
+		"slug": "020-newtons-first-law-and-inertial-frames",
+		"title": {
+			"en": "Newton's First Law and Inertial Frames",
+			"ua": "Перший закон Ньютона. Інерціальні системи відліку"
+		}
+	},
+	{
+		"n": 21,
+		"slug": "021-mass-and-density",
+		"title": {
+			"en": "Mass and Density",
+			"ua": "Маса тіла. Густина речовини"
+		}
+	},
+	{
+		"n": 22,
+		"slug": "022-force-and-net-force",
+		"title": {
+			"en": "Force and Net Force",
+			"ua": "Сила. Рівнодійна сил"
+		}
+	},
+	{
+		"n": 23,
+		"slug": "023-newtons-second-law",
+		"title": {
+			"en": "Newton's Second Law",
+			"ua": "Другий закон Ньютона"
+		}
+	},
+	{
+		"n": 24,
+		"slug": "024-newtons-third-law",
+		"title": {
+			"en": "Newton's Third Law",
+			"ua": "Третій закон Ньютона"
+		}
+	},
+	{
+		"n": 25,
+		"slug": "025-free-body-diagrams-and-solving-dynamics-problems",
+		"title": {
+			"en": "Free-Body Diagrams and Solving Dynamics Problems",
+			"ua": "Схема сил і алгоритм розв’язування задач динаміки"
+		}
+	},
+	{
+		"n": 26,
+		"slug": "026-law-of-universal-gravitation",
+		"title": {
+			"en": "Law of Universal Gravitation",
+			"ua": "Закон всесвітнього тяжіння"
+		}
+	},
+	{
+		"n": 27,
+		"slug": "027-gravity-weight-weightlessness-and-overload",
+		"title": {
+			"en": "Gravity, Weight, Weightlessness and Overload",
+			"ua": "Сила тяжіння, вага тіла, невагомість і перевантаження"
+		}
+	},
+	{
+		"n": 28,
+		"slug": "028-elastic-force-and-hookes-law",
+		"title": {
+			"en": "Elastic Force and Hooke's Law",
+			"ua": "Сила пружності. Закон Гука"
+		}
+	},
+	{
+		"n": 29,
+		"slug": "029-friction-forces",
+		"title": {
+			"en": "Friction Forces",
+			"ua": "Сили тертя"
+		}
+	},
+	{
+		"n": 30,
+		"slug": "030-motion-on-an-inclined-plane",
+		"title": {
+			"en": "Motion on an Inclined Plane",
+			"ua": "Рух тіла по похилій площині"
+		}
+	},
+	{
+		"n": 31,
+		"slug": "031-connected-bodies-strings-and-pulleys",
+		"title": {
+			"en": "Connected Bodies: Strings and Pulleys",
+			"ua": "Рух зв’язаних тіл"
+		}
+	},
+	{
+		"n": 32,
+		"slug": "032-dynamics-of-circular-motion",
+		"title": {
+			"en": "Dynamics of Circular Motion",
+			"ua": "Динаміка руху по колу"
+		}
+	},
+	{
+		"n": 33,
+		"slug": "033-satellite-motion-and-cosmic-velocities",
+		"title": {
+			"en": "Satellite Motion and Cosmic Velocities",
+			"ua": "Рух штучних супутників. Космічні швидкості"
+		}
+	},
+	{
+		"n": 34,
+		"slug": "034-drag-forces-and-terminal-velocity",
+		"title": {
+			"en": "Drag Forces and Terminal Velocity",
+			"ua": "Сила опору середовища. Гранична швидкість"
+		}
+	},
+	{
+		"n": 35,
+		"slug": "035-non-inertial-frames-and-inertial-forces",
+		"title": {
+			"en": "Non-Inertial Frames and Inertial Forces",
+			"ua": "Неінерціальні системи відліку та сили інерції"
+		}
+	},
+	{
+		"n": 36,
+		"slug": "036-moment-of-force-and-conditions-of-equilibrium",
+		"title": {
+			"en": "Moment of Force and Conditions of Equilibrium",
+			"ua": "Момент сили. Умови рівноваги тіла"
+		}
+	},
+	{
+		"n": 37,
+		"slug": "037-center-of-mass-and-types-of-equilibrium",
+		"title": {
+			"en": "Center of Mass and Types of Equilibrium",
+			"ua": "Центр мас. Види рівноваги"
+		}
+	},
+	{
+		"n": 38,
+		"slug": "038-simple-machines-and-the-golden-rule-of-mechanics",
+		"title": {
+			"en": "Simple Machines and the Golden Rule of Mechanics",
+			"ua": "Прості механізми. «Золоте правило» механіки"
+		}
+	},
+	{
+		"n": 39,
+		"slug": "039-rotation-of-a-rigid-body-and-moment-of-inertia",
+		"title": {
+			"en": "Rotation of a Rigid Body and Moment of Inertia",
+			"ua": "Обертальний рух твердого тіла. Момент інерції"
+		}
+	},
+	{
+		"n": 40,
+		"slug": "040-angular-momentum-and-its-conservation",
+		"title": {
+			"en": "Angular Momentum and Its Conservation",
+			"ua": "Момент імпульсу та закон його збереження"
+		}
+	},
+	{
+		"n": 41,
+		"slug": "041-momentum-and-impulse",
+		"title": {
+			"en": "Momentum and Impulse",
+			"ua": "Імпульс тіла та імпульс сили"
+		}
+	},
+	{
+		"n": 42,
+		"slug": "042-conservation-of-momentum",
+		"title": {
+			"en": "Conservation of Momentum",
+			"ua": "Закон збереження імпульсу"
+		}
+	},
+	{
+		"n": 43,
+		"slug": "043-jet-propulsion",
+		"title": {
+			"en": "Jet Propulsion",
+			"ua": "Реактивний рух"
+		}
+	},
+	{
+		"n": 44,
+		"slug": "044-mechanical-work",
+		"title": {
+			"en": "Mechanical Work",
+			"ua": "Механічна робота"
+		}
+	},
+	{
+		"n": 45,
+		"slug": "045-power-and-efficiency",
+		"title": {
+			"en": "Power and Efficiency",
+			"ua": "Потужність. Коефіцієнт корисної дії"
+		}
+	},
+	{
+		"n": 46,
+		"slug": "046-kinetic-energy-and-the-work-energy-theorem",
+		"title": {
+			"en": "Kinetic Energy and the Work–Energy Theorem",
+			"ua": "Кінетична енергія. Теорема про кінетичну енергію"
+		}
+	},
+	{
+		"n": 47,
+		"slug": "047-potential-energy",
+		"title": {
+			"en": "Potential Energy",
+			"ua": "Потенціальна енергія"
+		}
+	},
+	{
+		"n": 48,
+		"slug": "048-conservation-of-mechanical-energy",
+		"title": {
+			"en": "Conservation of Mechanical Energy",
+			"ua": "Закон збереження механічної енергії"
+		}
+	},
+	{
+		"n": 49,
+		"slug": "049-elastic-and-inelastic-collisions",
+		"title": {
+			"en": "Elastic and Inelastic Collisions",
+			"ua": "Пружні та непружні удари"
+		}
+	},
+	{
+		"n": 50,
+		"slug": "050-pressure",
+		"title": {
+			"en": "Pressure",
+			"ua": "Тиск"
+		}
+	},
+	{
+		"n": 51,
+		"slug": "051-hydrostatic-pressure-and-communicating-vessels",
+		"title": {
+			"en": "Hydrostatic Pressure and Communicating Vessels",
+			"ua": "Гідростатичний тиск. Сполучені посудини"
+		}
+	},
+	{
+		"n": 52,
+		"slug": "052-pascals-law-and-the-hydraulic-press",
+		"title": {
+			"en": "Pascal's Law and the Hydraulic Press",
+			"ua": "Закон Паскаля. Гідравлічна машина"
+		}
+	},
+	{
+		"n": 53,
+		"slug": "053-atmospheric-pressure",
+		"title": {
+			"en": "Atmospheric Pressure",
+			"ua": "Атмосферний тиск"
+		}
+	},
+	{
+		"n": 54,
+		"slug": "054-archimedes-principle-and-flotation",
+		"title": {
+			"en": "Archimedes' Principle and Flotation",
+			"ua": "Закон Архімеда. Умови плавання тіл"
+		}
+	},
+	{
+		"n": 55,
+		"slug": "055-fluid-flow-and-the-continuity-equation",
+		"title": {
+			"en": "Fluid Flow and the Continuity Equation",
+			"ua": "Течія рідини. Рівняння нерозривності"
+		}
+	},
+	{
+		"n": 56,
+		"slug": "056-bernoullis-equation-and-its-applications",
+		"title": {
+			"en": "Bernoulli's Equation and Its Applications",
+			"ua": "Рівняння Бернуллі та його застосування"
+		}
+	},
+	{
+		"n": 57,
+		"slug": "057-main-ideas-of-molecular-kinetic-theory",
+		"title": {
+			"en": "Main Ideas of Molecular-Kinetic Theory",
+			"ua": "Основні положення молекулярно-кінетичної теорії"
+		}
+	},
+	{
+		"n": 58,
+		"slug": "058-amount-of-substance-and-the-avogadro-constant",
+		"title": {
+			"en": "Amount of Substance and the Avogadro Constant",
+			"ua": "Кількість речовини. Стала Авогадро. Молярна маса"
+		}
+	},
+	{
+		"n": 59,
+		"slug": "059-brownian-motion-and-diffusion",
+		"title": {
+			"en": "Brownian Motion and Diffusion",
+			"ua": "Броунівський рух і дифузія"
+		}
+	},
+	{
+		"n": 60,
+		"slug": "060-ideal-gas-and-the-basic-equation-of-molecular-kinetic-theory",
+		"title": {
+			"en": "Ideal Gas and the Basic Equation of Molecular-Kinetic Theory",
+			"ua": "Ідеальний газ. Основне рівняння МКТ"
+		}
+	},
+	{
+		"n": 61,
+		"slug": "061-temperature-and-thermal-equilibrium",
+		"title": {
+			"en": "Temperature and Thermal Equilibrium",
+			"ua": "Температура. Теплова рівновага"
+		}
+	},
+	{
+		"n": 62,
+		"slug": "062-temperature-and-the-kinetic-energy-of-molecules",
+		"title": {
+			"en": "Temperature and the Kinetic Energy of Molecules",
+			"ua": "Температура як міра середньої кінетичної енергії молекул"
+		}
+	},
+	{
+		"n": 63,
+		"slug": "063-ideal-gas-equation-of-state",
+		"title": {
+			"en": "Ideal Gas Equation of State",
+			"ua": "Рівняння стану ідеального газу (Клапейрона–Менделєєва)"
+		}
+	},
+	{
+		"n": 64,
+		"slug": "064-isoprocesses-in-gases",
+		"title": {
+			"en": "Isoprocesses in Gases",
+			"ua": "Ізопроцеси в газах"
+		}
+	},
+	{
+		"n": 65,
+		"slug": "065-evaporation-boiling-and-saturated-vapor",
+		"title": {
+			"en": "Evaporation, Boiling and Saturated Vapor",
+			"ua": "Пароутворення. Насичена й ненасичена пара. Кипіння"
+		}
+	},
+	{
+		"n": 66,
+		"slug": "066-air-humidity",
+		"title": {
+			"en": "Air Humidity",
+			"ua": "Вологість повітря"
+		}
+	},
+	{
+		"n": 67,
+		"slug": "067-surface-tension",
+		"title": {
+			"en": "Surface Tension",
+			"ua": "Поверхневий натяг"
+		}
+	},
+	{
+		"n": 68,
+		"slug": "068-wetting-and-capillary-action",
+		"title": {
+			"en": "Wetting and Capillary Action",
+			"ua": "Змочування. Капілярні явища"
+		}
+	},
+	{
+		"n": 69,
+		"slug": "069-crystalline-and-amorphous-solids",
+		"title": {
+			"en": "Crystalline and Amorphous Solids",
+			"ua": "Кристалічні та аморфні тіла"
+		}
+	},
+	{
+		"n": 70,
+		"slug": "070-mechanical-properties-of-solids",
+		"title": {
+			"en": "Mechanical Properties of Solids",
+			"ua": "Механічні властивості твердих тіл"
+		}
+	},
+	{
+		"n": 71,
+		"slug": "071-thermal-expansion",
+		"title": {
+			"en": "Thermal Expansion",
+			"ua": "Теплове розширення тіл"
+		}
+	},
+	{
+		"n": 72,
+		"slug": "072-internal-energy-and-ways-to-change-it",
+		"title": {
+			"en": "Internal Energy and Ways to Change It",
+			"ua": "Внутрішня енергія та способи її зміни"
+		}
+	},
+	{
+		"n": 73,
+		"slug": "073-heat-transfer-conduction-convection-and-radiation",
+		"title": {
+			"en": "Heat Transfer: Conduction, Convection and Radiation",
+			"ua": "Види теплопередачі: теплопровідність, конвекція, випромінювання"
+		}
+	},
+	{
+		"n": 74,
+		"slug": "074-quantity-of-heat-and-specific-heat-capacity",
+		"title": {
+			"en": "Quantity of Heat and Specific Heat Capacity",
+			"ua": "Кількість теплоти. Питома теплоємність речовини"
+		}
+	},
+	{
+		"n": 75,
+		"slug": "075-melting-vaporization-and-latent-heat",
+		"title": {
+			"en": "Melting, Vaporization and Latent Heat",
+			"ua": "Плавлення і кристалізація. Пароутворення і конденсація"
+		}
+	},
+	{
+		"n": 76,
+		"slug": "076-fuel-combustion-and-heat-of-combustion",
+		"title": {
+			"en": "Fuel Combustion and Heat of Combustion",
+			"ua": "Згоряння палива. Питома теплота згоряння"
+		}
+	},
+	{
+		"n": 77,
+		"slug": "077-heat-balance-equation",
+		"title": {
+			"en": "Heat Balance Equation",
+			"ua": "Рівняння теплового балансу"
+		}
+	},
+	{
+		"n": 78,
+		"slug": "078-work-done-by-a-gas",
+		"title": {
+			"en": "Work Done by a Gas",
+			"ua": "Робота газу в термодинаміці"
+		}
+	},
+	{
+		"n": 79,
+		"slug": "079-first-law-of-thermodynamics",
+		"title": {
+			"en": "First Law of Thermodynamics",
+			"ua": "Перший закон термодинаміки"
+		}
+	},
+	{
+		"n": 80,
+		"slug": "080-first-law-for-isoprocesses-and-the-adiabatic-process",
+		"title": {
+			"en": "First Law for Isoprocesses and the Adiabatic Process",
+			"ua": "Застосування першого закону термодинаміки до ізопроцесів. Адіабатний процес"
+		}
+	},
+	{
+		"n": 81,
+		"slug": "081-heat-engines-and-their-efficiency",
+		"title": {
+			"en": "Heat Engines and Their Efficiency",
+			"ua": "Теплові двигуни. ККД теплового двигуна"
+		}
+	},
+	{
+		"n": 82,
+		"slug": "082-the-carnot-cycle-and-maximum-efficiency",
+		"title": {
+			"en": "The Carnot Cycle and Maximum Efficiency",
+			"ua": "Цикл Карно. Максимальний ККД теплового двигуна"
+		}
+	},
+	{
+		"n": 83,
+		"slug": "083-second-law-of-thermodynamics-and-entropy",
+		"title": {
+			"en": "Second Law of Thermodynamics and Entropy",
+			"ua": "Другий закон термодинаміки. Ентропія"
+		}
+	},
+	{
+		"n": 84,
+		"slug": "084-refrigerators-and-heat-pumps",
+		"title": {
+			"en": "Refrigerators and Heat Pumps",
+			"ua": "Холодильні машини та теплові насоси"
+		}
+	},
+	{
+		"n": 85,
+		"slug": "085-electric-charge-and-its-conservation",
+		"title": {
+			"en": "Electric Charge and Its Conservation",
+			"ua": "Електричний заряд. Закон збереження заряду"
+		}
+	},
+	{
+		"n": 86,
+		"slug": "086-coulombs-law",
+		"title": {
+			"en": "Coulomb's Law",
+			"ua": "Закон Кулона"
+		}
+	},
+	{
+		"n": 87,
+		"slug": "087-electric-field-and-field-strength",
+		"title": {
+			"en": "Electric Field and Field Strength",
+			"ua": "Електричне поле. Напруженість електричного поля"
+		}
+	},
+	{
+		"n": 88,
+		"slug": "088-field-lines-and-the-superposition-principle",
+		"title": {
+			"en": "Field Lines and the Superposition Principle",
+			"ua": "Лінії напруженості. Принцип суперпозиції полів"
+		}
+	},
+	{
+		"n": 89,
+		"slug": "089-conductors-and-dielectrics-in-an-electric-field",
+		"title": {
+			"en": "Conductors and Dielectrics in an Electric Field",
+			"ua": "Провідники та діелектрики в електричному полі"
+		}
+	},
+	{
+		"n": 90,
+		"slug": "090-work-of-the-electric-field-potential-and-voltage",
+		"title": {
+			"en": "Work of the Electric Field, Potential and Voltage",
+			"ua": "Робота електричного поля. Потенціал. Напруга"
+		}
+	},
+	{
+		"n": 91,
+		"slug": "091-field-strength-and-voltage-in-a-uniform-field",
+		"title": {
+			"en": "Field Strength and Voltage in a Uniform Field",
+			"ua": "Зв’язок напруженості та напруги. Еквіпотенціальні поверхні"
+		}
+	},
+	{
+		"n": 92,
+		"slug": "092-capacitance-and-capacitors",
+		"title": {
+			"en": "Capacitance and Capacitors",
+			"ua": "Електроємність. Конденсатори"
+		}
+	},
+	{
+		"n": 93,
+		"slug": "093-capacitor-combinations-and-electric-field-energy",
+		"title": {
+			"en": "Capacitor Combinations and Electric Field Energy",
+			"ua": "З’єднання конденсаторів. Енергія електричного поля"
+		}
+	},
+	{
+		"n": 94,
+		"slug": "094-electric-current-and-current-strength",
+		"title": {
+			"en": "Electric Current and Current Strength",
+			"ua": "Електричний струм. Сила струму"
+		}
+	},
+	{
+		"n": 95,
+		"slug": "095-electrical-resistance-and-resistivity",
+		"title": {
+			"en": "Electrical Resistance and Resistivity",
+			"ua": "Електричний опір. Питомий опір провідника"
+		}
+	},
+	{
+		"n": 96,
+		"slug": "096-ohms-law-for-a-circuit-section",
+		"title": {
+			"en": "Ohm's Law for a Circuit Section",
+			"ua": "Закон Ома для ділянки кола"
+		}
+	},
+	{
+		"n": 97,
+		"slug": "097-series-and-parallel-connections",
+		"title": {
+			"en": "Series and Parallel Connections",
+			"ua": "Послідовне та паралельне з’єднання провідників"
+		}
+	},
+	{
+		"n": 98,
+		"slug": "098-electromotive-force-and-ohms-law-for-a-complete-circuit",
+		"title": {
+			"en": "Electromotive Force and Ohm's Law for a Complete Circuit",
+			"ua": "Електрорушійна сила. Закон Ома для повного кола"
+		}
+	},
+	{
+		"n": 99,
+		"slug": "099-kirchhoffs-rules",
+		"title": {
+			"en": "Kirchhoff's Rules",
+			"ua": "Правила Кірхгофа"
+		}
+	},
+	{
+		"n": 100,
+		"slug": "100-work-and-power-of-electric-current",
+		"title": {
+			"en": "Work and Power of Electric Current",
+			"ua": "Робота і потужність електричного струму. Закон Джоуля–Ленца"
+		}
+	},
+	{
+		"n": 101,
+		"slug": "101-ammeters-voltmeters-and-multimeters",
+		"title": {
+			"en": "Ammeters, Voltmeters and Multimeters",
+			"ua": "Вимірювання сили струму та напруги: амперметр, вольтметр, мультиметр"
+		}
+	},
+	{
+		"n": 102,
+		"slug": "102-charging-and-discharging-a-capacitor",
+		"title": {
+			"en": "Charging and Discharging a Capacitor",
+			"ua": "Заряджання і розряджання конденсатора (RC-коло)"
+		}
+	},
+	{
+		"n": 103,
+		"slug": "103-current-in-metals-and-superconductivity",
+		"title": {
+			"en": "Current in Metals and Superconductivity",
+			"ua": "Електричний струм у металах. Надпровідність"
+		}
+	},
+	{
+		"n": 104,
+		"slug": "104-current-in-electrolytes-and-electrolysis",
+		"title": {
+			"en": "Current in Electrolytes and Electrolysis",
+			"ua": "Електричний струм в електролітах. Закони електролізу"
+		}
+	},
+	{
+		"n": 105,
+		"slug": "105-current-in-gases-and-vacuum",
+		"title": {
+			"en": "Current in Gases and Vacuum",
+			"ua": "Електричний струм у газах і вакуумі"
+		}
+	},
+	{
+		"n": 106,
+		"slug": "106-semiconductors-and-their-conductivity",
+		"title": {
+			"en": "Semiconductors and Their Conductivity",
+			"ua": "Напівпровідники. Власна та домішкова провідність"
+		}
+	},
+	{
+		"n": 107,
+		"slug": "107-the-p-n-junction-diodes-and-transistors",
+		"title": {
+			"en": "The p–n Junction, Diodes and Transistors",
+			"ua": "p–n-перехід. Напівпровідниковий діод. Транзистор"
+		}
+	},
+	{
+		"n": 108,
+		"slug": "108-magnetic-field-and-magnetic-induction",
+		"title": {
+			"en": "Magnetic Field and Magnetic Induction",
+			"ua": "Магнітне поле. Індукція магнітного поля"
+		}
+	},
+	{
+		"n": 109,
+		"slug": "109-magnetic-field-of-an-electric-current",
+		"title": {
+			"en": "Magnetic Field of an Electric Current",
+			"ua": "Магнітне поле струму"
+		}
+	},
+	{
+		"n": 110,
+		"slug": "110-the-amp-re-force-and-electric-motors",
+		"title": {
+			"en": "The Ampère Force and Electric Motors",
+			"ua": "Сила Ампера. Електродвигун"
+		}
+	},
+	{
+		"n": 111,
+		"slug": "111-the-lorentz-force-and-charged-particles-in-a-magnetic-field",
+		"title": {
+			"en": "The Lorentz Force and Charged Particles in a Magnetic Field",
+			"ua": "Сила Лоренца. Рух заряджених частинок у магнітному полі"
+		}
+	},
+	{
+		"n": 112,
+		"slug": "112-magnetic-properties-of-matter",
+		"title": {
+			"en": "Magnetic Properties of Matter",
+			"ua": "Магнітні властивості речовини"
+		}
+	},
+	{
+		"n": 113,
+		"slug": "113-magnetic-flux",
+		"title": {
+			"en": "Magnetic Flux",
+			"ua": "Магнітний потік"
+		}
+	},
+	{
+		"n": 114,
+		"slug": "114-electromagnetic-induction-and-faradays-law",
+		"title": {
+			"en": "Electromagnetic Induction and Faraday's Law",
+			"ua": "Явище електромагнітної індукції. Закон Фарадея"
+		}
+	},
+	{
+		"n": 115,
+		"slug": "115-lenzs-rule",
+		"title": {
+			"en": "Lenz's Rule",
+			"ua": "Правило Ленца"
+		}
+	},
+	{
+		"n": 116,
+		"slug": "116-induced-emf-in-a-moving-conductor",
+		"title": {
+			"en": "Induced EMF in a Moving Conductor",
+			"ua": "ЕРС індукції в провіднику, що рухається"
+		}
+	},
+	{
+		"n": 117,
+		"slug": "117-self-induction-inductance-and-magnetic-field-energy",
+		"title": {
+			"en": "Self-Induction, Inductance and Magnetic Field Energy",
+			"ua": "Самоіндукція. Індуктивність. Енергія магнітного поля"
+		}
+	},
+	{
+		"n": 118,
+		"slug": "118-oscillatory-motion-amplitude-period-and-frequency",
+		"title": {
+			"en": "Oscillatory Motion: Amplitude, Period and Frequency",
+			"ua": "Механічні коливання. Амплітуда, період, частота"
+		}
+	},
+	{
+		"n": 119,
+		"slug": "119-harmonic-oscillations",
+		"title": {
+			"en": "Harmonic Oscillations",
+			"ua": "Гармонічні коливання"
+		}
+	},
+	{
+		"n": 120,
+		"slug": "120-spring-and-simple-pendulums",
+		"title": {
+			"en": "Spring and Simple Pendulums",
+			"ua": "Пружинний і математичний маятники"
+		}
+	},
+	{
+		"n": 121,
+		"slug": "121-energy-in-oscillations-and-damping",
+		"title": {
+			"en": "Energy in Oscillations and Damping",
+			"ua": "Перетворення енергії під час коливань. Згасаючі коливання"
+		}
+	},
+	{
+		"n": 122,
+		"slug": "122-forced-oscillations-and-resonance",
+		"title": {
+			"en": "Forced Oscillations and Resonance",
+			"ua": "Вимушені коливання. Резонанс"
+		}
+	},
+	{
+		"n": 123,
+		"slug": "123-mechanical-waves",
+		"title": {
+			"en": "Mechanical Waves",
+			"ua": "Механічні хвилі. Поперечні та поздовжні хвилі"
+		}
+	},
+	{
+		"n": 124,
+		"slug": "124-wavelength-frequency-and-wave-speed",
+		"title": {
+			"en": "Wavelength, Frequency and Wave Speed",
+			"ua": "Довжина хвилі. Швидкість поширення хвилі"
+		}
+	},
+	{
+		"n": 125,
+		"slug": "125-interference-diffraction-and-standing-waves",
+		"title": {
+			"en": "Interference, Diffraction and Standing Waves",
+			"ua": "Інтерференція та дифракція механічних хвиль. Стоячі хвилі"
+		}
+	},
+	{
+		"n": 126,
+		"slug": "126-sound-waves-pitch-loudness-and-timbre",
+		"title": {
+			"en": "Sound Waves: Pitch, Loudness and Timbre",
+			"ua": "Звукові хвилі. Висота, гучність і тембр звуку"
+		}
+	},
+	{
+		"n": 127,
+		"slug": "127-the-doppler-effect",
+		"title": {
+			"en": "The Doppler Effect",
+			"ua": "Ефект Доплера"
+		}
+	},
+	{
+		"n": 128,
+		"slug": "128-the-lc-circuit-and-electromagnetic-oscillations",
+		"title": {
+			"en": "The LC Circuit and Electromagnetic Oscillations",
+			"ua": "Коливальний контур. Вільні електромагнітні коливання"
+		}
+	},
+	{
+		"n": 129,
+		"slug": "129-alternating-current-and-generators",
+		"title": {
+			"en": "Alternating Current and Generators",
+			"ua": "Змінний струм. Генератор змінного струму"
+		}
+	},
+	{
+		"n": 130,
+		"slug": "130-effective-values-of-current-and-voltage",
+		"title": {
+			"en": "Effective Values of Current and Voltage",
+			"ua": "Діючі значення сили струму та напруги"
+		}
+	},
+	{
+		"n": 131,
+		"slug": "131-resistors-capacitors-and-inductors-in-ac-circuits",
+		"title": {
+			"en": "Resistors, Capacitors and Inductors in AC Circuits",
+			"ua": "Активний, ємнісний та індуктивний опори в колі змінного струму"
+		}
+	},
+	{
+		"n": 132,
+		"slug": "132-transformers-and-power-transmission",
+		"title": {
+			"en": "Transformers and Power Transmission",
+			"ua": "Трансформатор. Передавання електроенергії"
+		}
+	},
+	{
+		"n": 133,
+		"slug": "133-electromagnetic-waves",
+		"title": {
+			"en": "Electromagnetic Waves",
+			"ua": "Електромагнітні хвилі"
+		}
+	},
+	{
+		"n": 134,
+		"slug": "134-principles-of-radio-communication",
+		"title": {
+			"en": "Principles of Radio Communication",
+			"ua": "Принципи радіозв’язку"
+		}
+	},
+	{
+		"n": 135,
+		"slug": "135-the-electromagnetic-spectrum",
+		"title": {
+			"en": "The Electromagnetic Spectrum",
+			"ua": "Шкала електромагнітних хвиль"
+		}
+	},
+	{
+		"n": 136,
+		"slug": "136-light-its-nature-and-speed",
+		"title": {
+			"en": "Light: Its Nature and Speed",
+			"ua": "Світло. Природа світла та швидкість його поширення"
+		}
+	},
+	{
+		"n": 137,
+		"slug": "137-rectilinear-propagation-of-light-shadows-and-eclipses",
+		"title": {
+			"en": "Rectilinear Propagation of Light, Shadows and Eclipses",
+			"ua": "Прямолінійне поширення світла. Тінь і півтінь. Затемнення"
+		}
+	},
+	{
+		"n": 138,
+		"slug": "138-reflection-of-light-and-plane-mirrors",
+		"title": {
+			"en": "Reflection of Light and Plane Mirrors",
+			"ua": "Відбивання світла. Плоске дзеркало"
+		}
+	},
+	{
+		"n": 139,
+		"slug": "139-spherical-mirrors",
+		"title": {
+			"en": "Spherical Mirrors",
+			"ua": "Сферичні дзеркала"
+		}
+	},
+	{
+		"n": 140,
+		"slug": "140-refraction-of-light-and-snells-law",
+		"title": {
+			"en": "Refraction of Light and Snell's Law",
+			"ua": "Заломлення світла. Закон заломлення"
+		}
+	},
+	{
+		"n": 141,
+		"slug": "141-total-internal-reflection",
+		"title": {
+			"en": "Total Internal Reflection",
+			"ua": "Повне внутрішнє відбивання"
+		}
+	},
+	{
+		"n": 142,
+		"slug": "142-lenses-and-optical-power",
+		"title": {
+			"en": "Lenses and Optical Power",
+			"ua": "Лінзи. Оптична сила лінзи"
+		}
+	},
+	{
+		"n": 143,
+		"slug": "143-image-formation-by-thin-lenses",
+		"title": {
+			"en": "Image Formation by Thin Lenses",
+			"ua": "Побудова зображень у тонких лінзах. Формула тонкої лінзи"
+		}
+	},
+	{
+		"n": 144,
+		"slug": "144-the-eye-and-vision-correction",
+		"title": {
+			"en": "The Eye and Vision Correction",
+			"ua": "Око як оптична система. Вади зору та їх корекція"
+		}
+	},
+	{
+		"n": 145,
+		"slug": "145-optical-instruments",
+		"title": {
+			"en": "Optical Instruments",
+			"ua": "Оптичні прилади"
+		}
+	},
+	{
+		"n": 146,
+		"slug": "146-dispersion-of-light-and-color",
+		"title": {
+			"en": "Dispersion of Light and Color",
+			"ua": "Дисперсія світла. Колір"
+		}
+	},
+	{
+		"n": 147,
+		"slug": "147-interference-of-light",
+		"title": {
+			"en": "Interference of Light",
+			"ua": "Інтерференція світла"
+		}
+	},
+	{
+		"n": 148,
+		"slug": "148-diffraction-of-light-and-the-diffraction-grating",
+		"title": {
+			"en": "Diffraction of Light and the Diffraction Grating",
+			"ua": "Дифракція світла. Дифракційна ґратка"
+		}
+	},
+	{
+		"n": 149,
+		"slug": "149-polarization-of-light",
+		"title": {
+			"en": "Polarization of Light",
+			"ua": "Поляризація світла"
+		}
+	},
+	{
+		"n": 150,
+		"slug": "150-postulates-of-special-relativity",
+		"title": {
+			"en": "Postulates of Special Relativity",
+			"ua": "Постулати спеціальної теорії відносності"
+		}
+	},
+	{
+		"n": 151,
+		"slug": "151-time-dilation-and-length-contraction",
+		"title": {
+			"en": "Time Dilation and Length Contraction",
+			"ua": "Відносність проміжків часу та довжини"
+		}
+	},
+	{
+		"n": 152,
+		"slug": "152-relativistic-velocity-addition",
+		"title": {
+			"en": "Relativistic Velocity Addition",
+			"ua": "Релятивістський закон додавання швидкостей"
+		}
+	},
+	{
+		"n": 153,
+		"slug": "153-mass-energy-equivalence",
+		"title": {
+			"en": "Mass–Energy Equivalence",
+			"ua": "Взаємозв’язок маси та енергії"
+		}
+	},
+	{
+		"n": 154,
+		"slug": "154-thermal-radiation-and-plancks-hypothesis",
+		"title": {
+			"en": "Thermal Radiation and Planck's Hypothesis",
+			"ua": "Теплове випромінювання. Гіпотеза Планка"
+		}
+	},
+	{
+		"n": 155,
+		"slug": "155-photons",
+		"title": {
+			"en": "Photons",
+			"ua": "Фотон. Енергія та імпульс фотона"
+		}
+	},
+	{
+		"n": 156,
+		"slug": "156-the-photoelectric-effect",
+		"title": {
+			"en": "The Photoelectric Effect",
+			"ua": "Фотоефект. Рівняння Ейнштейна"
+		}
+	},
+	{
+		"n": 157,
+		"slug": "157-wave-particle-duality-and-de-broglie-waves",
+		"title": {
+			"en": "Wave–Particle Duality and de Broglie Waves",
+			"ua": "Корпускулярно-хвильовий дуалізм. Хвилі де Бройля"
+		}
+	},
+	{
+		"n": 158,
+		"slug": "158-the-uncertainty-principle",
+		"title": {
+			"en": "The Uncertainty Principle",
+			"ua": "Співвідношення невизначеностей Гейзенберга"
+		}
+	},
+	{
+		"n": 159,
+		"slug": "159-rutherfords-nuclear-model-of-the-atom",
+		"title": {
+			"en": "Rutherford's Nuclear Model of the Atom",
+			"ua": "Ядерна модель атома. Досліди Резерфорда"
+		}
+	},
+	{
+		"n": 160,
+		"slug": "160-bohrs-postulates-and-energy-levels",
+		"title": {
+			"en": "Bohr's Postulates and Energy Levels",
+			"ua": "Квантові постулати Бора. Енергетичні рівні атома"
+		}
+	},
+	{
+		"n": 161,
+		"slug": "161-emission-and-absorption-spectra",
+		"title": {
+			"en": "Emission and Absorption Spectra",
+			"ua": "Спектри випромінювання та поглинання. Спектральний аналіз"
+		}
+	},
+	{
+		"n": 162,
+		"slug": "162-lasers",
+		"title": {
+			"en": "Lasers",
+			"ua": "Лазери"
+		}
+	},
+	{
+		"n": 163,
+		"slug": "163-structure-of-the-atomic-nucleus-and-isotopes",
+		"title": {
+			"en": "Structure of the Atomic Nucleus and Isotopes",
+			"ua": "Склад атомного ядра. Ізотопи"
+		}
+	},
+	{
+		"n": 164,
+		"slug": "164-nuclear-forces-mass-defect-and-binding-energy",
+		"title": {
+			"en": "Nuclear Forces, Mass Defect and Binding Energy",
+			"ua": "Ядерні сили. Дефект мас. Енергія зв’язку ядра"
+		}
+	},
+	{
+		"n": 165,
+		"slug": "165-radioactivity-alpha-beta-and-gamma-radiation",
+		"title": {
+			"en": "Radioactivity: Alpha, Beta and Gamma Radiation",
+			"ua": "Радіоактивність. Альфа-, бета- і гамма-випромінювання"
+		}
+	},
+	{
+		"n": 166,
+		"slug": "166-the-law-of-radioactive-decay-and-half-life",
+		"title": {
+			"en": "The Law of Radioactive Decay and Half-Life",
+			"ua": "Закон радіоактивного розпаду. Період напіврозпаду"
+		}
+	},
+	{
+		"n": 167,
+		"slug": "167-nuclear-reactions",
+		"title": {
+			"en": "Nuclear Reactions",
+			"ua": "Ядерні реакції"
+		}
+	},
+	{
+		"n": 168,
+		"slug": "168-nuclear-fission-and-nuclear-reactors",
+		"title": {
+			"en": "Nuclear Fission and Nuclear Reactors",
+			"ua": "Поділ ядер урану. Ланцюгова реакція. Ядерний реактор"
+		}
+	},
+	{
+		"n": 169,
+		"slug": "169-nuclear-fusion",
+		"title": {
+			"en": "Nuclear Fusion",
+			"ua": "Термоядерний синтез"
+		}
+	},
+	{
+		"n": 170,
+		"slug": "170-ionizing-radiation-dose-and-protection",
+		"title": {
+			"en": "Ionizing Radiation: Dose and Protection",
+			"ua": "Дія іонізуючого випромінювання. Дозиметрія. Захист"
+		}
+	},
+	{
+		"n": 171,
+		"slug": "171-elementary-particles-and-fundamental-interactions",
+		"title": {
+			"en": "Elementary Particles and Fundamental Interactions",
+			"ua": "Елементарні частинки. Фундаментальні взаємодії"
+		}
+	}
+]

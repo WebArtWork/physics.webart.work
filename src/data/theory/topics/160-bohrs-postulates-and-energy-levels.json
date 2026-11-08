@@ -1,0 +1,52 @@
+{
+	"n": 160,
+	"slug": "160-bohrs-postulates-and-energy-levels",
+	"title": {
+		"en": "Bohr's Postulates and Energy Levels",
+		"ua": "Квантові постулати Бора. Енергетичні рівні атома"
+	},
+	"short": {
+		"en": "Atoms emit and absorb light at specific frequencies because their electrons occupy discrete energy states. Bohr proposed that an electron in a stationary atomic state does not continuously radiate energy, but a transition between states can emit or absorb a photon. This model predicts hydrogen's simplest spectral lines.",
+		"ua": "Атоми випромінюють і поглинають світло на визначених частотах, бо електрони мають дискретні енергетичні стани. Бор припустив, що електрон у стаціонарному стані не випромінює безперервно, а під час переходу між рівнями атом випромінює або поглинає фотон. Модель пояснила найпростіші лінії спектра Гідрогену."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Niels Bohr proposed his atomic model in 1913 to explain the hydrogen spectrum while addressing the instability of Rutherford's classical atomic picture.",
+			"core": "Hydrogen energy levels are negative relative to a separated electron and proton. A transition downward emits a photon whose energy equals the decrease in atomic energy; an upward transition absorbs the needed energy. Modern quantum mechanics replaces classical electron orbits with orbitals and probability distributions.",
+			"components": "For hydrogen Eₙ ≈ −13.6 eV/n², where n = 1, 2, 3… and 1 eV = 1.602 · 10⁻¹⁹ J. For emission hν = Eupper − Elower > 0 and λ = hc/(Eupper − Elower). Use hc ≈ 1240 eV·nm for convenient wavelength calculations.",
+			"apply": "Identify initial and final principal quantum numbers. Calculate both signed level energies, subtract lower from upper for emitted photon energy, then convert to wavelength. Do not confuse energy sign with photon energy.",
+			"example": "For hydrogen transition n = 3 to n = 2, E₃ ≈ −13.6/9 eV = −1.51 eV; E₂ = −13.6/4 eV = −3.40 eV. Eγ = −1.51 eV − (−3.40 eV) = 1.89 eV; λ ≈ 1240/1.89 nm = 656 nm. Try it: energy of n = 1? (−13.6 eV.)",
+			"limits": "Bohr’s simple formulas describe hydrogen and hydrogen-like one-electron ions with adjustments, not arbitrary many-electron atoms. An electron is not a planet on a classical path.",
+			"related": "Rutherford's Nuclear Model of the Atom (#159); Photons (#155); Emission and Absorption Spectra (#161)"
+		},
+		"ua": {
+			"origin": "Нільс Бор запропонував модель атома 1913 року, щоб пояснити спектр Гідрогену й подолати проблему нестійкості класичної ядерної моделі Резерфорда.",
+			"core": "Енергії рівнів Гідрогену від’ємні відносно вільних електрона та протона. Перехід на нижчий рівень супроводжується випромінюванням фотона з енергією, рівною втраті атома; перехід угору потребує поглинання. Сучасна квантова механіка описує орбіталі, а не класичні орбіти.",
+			"components": "Для Гідрогену Eₙ ≈ −13,6 еВ/n², де n = 1, 2, 3… і 1 еВ = 1,602 · 10⁻¹⁹ Дж. Для випромінювання hν = Eверх − Eниз > 0 і λ = hc/(Eверх − Eниз). Для зручності hc ≈ 1240 еВ·нм.",
+			"apply": "Запишіть початкове й кінцеве квантові числа. Обчисліть енергії рівнів зі знаками, знайдіть додатну різницю енергій під час випромінювання та визначте довжину хвилі. Не плутайте знак енергії рівня з енергією фотона.",
+			"example": "Для переходу Гідрогену n = 3 до n = 2: E₃ ≈ −13,6/9 еВ = −1,51 еВ; E₂ = −13,6/4 еВ = −3,40 еВ. Eγ = −1,51 еВ − (−3,40 еВ) = 1,89 еВ; λ ≈ 1240/1,89 нм = 656 нм. Спробуйте самі: енергія n = 1? (−13,6 еВ.)",
+			"limits": "Прості формули Бора описують Гідроген і з поправками воднеподібні одноелектронні йони, а не довільні багатоелектронні атоми. Електрон не рухається класичною планетною орбітою.",
+			"related": "Ядерна модель атома. Досліди Резерфорда (#159); Фотон. Енергія та імпульс фотона (#155); Спектри випромінювання та поглинання. Спектральний аналіз (#161)"
+		}
+	}
+}

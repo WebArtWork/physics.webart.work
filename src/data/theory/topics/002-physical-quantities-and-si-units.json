@@ -1,0 +1,52 @@
+{
+	"n": 2,
+	"slug": "002-physical-quantities-and-si-units",
+	"title": {
+		"en": "Physical Quantities and SI Units",
+		"ua": "Фізичні величини та одиниці SI"
+	},
+	"short": {
+		"en": "Every physical measurement consists of a number and a unit. The International System of Units uses seven base units, including metre (m), kilogram (kg) and second (s), so that measurements can be compared worldwide. For example, 72 km/h equals 20 m/s because 72 · 1000 / 3600 = 20. A result written as 20 without a unit is incomplete, and units must be converted before substitution into equations.",
+		"ua": "Кожне фізичне вимірювання містить число та одиницю. Міжнародна система одиниць SI має сім основних одиниць, зокрема метр (м), кілограм (кг) і секунду (с), тому результати можна порівнювати в різних країнах. Наприклад, 72 км/год дорівнює 20 м/с, адже 72 · 1000 / 3600 = 20. Запис «20» без одиниці є неповним, а перед підстановкою у формули величини необхідно узгодити."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Metric units emerged from eighteenth-century efforts to standardize measurements. The International System of Units was established in 1960; the mole became a seventh base unit in 1971. Since 2019 the units have been defined using fixed numerical values of fundamental constants rather than a physical kilogram artifact.",
+			"core": "A physical quantity expresses a measurable property. A base quantity is assigned one of the seven base units; derived units combine them by multiplication and division. Prefixes rescale a unit without changing the quantity. Scientific notation keeps very large and small numbers readable. A unit is not an optional decoration: it tells you which quantity a number represents.",
+			"components": "The seven SI base units are metre (m) for length, kilogram (kg) for mass, second (s) for time, ampere (A) for electric current, kelvin (K) for temperature, mole (mol) for amount of substance and candela (cd) for luminous intensity. Derived examples: speed m/s, acceleration m/s², force newton (N = kg·m/s²). Prefixes: nano n = 10⁻⁹, micro µ = 10⁻⁶, milli m = 10⁻³, centi c = 10⁻², kilo k = 10³, mega M = 10⁶ and giga G = 10⁹.",
+			"apply": "Write the given quantity with its unit; identify the target SI unit; multiply by conversion factors whose units cancel. Convert every value before evaluating a physical law. For a squared unit, square the conversion factor too: 1 cm² = 10⁻⁴ m². Express extreme values in powers of ten and check that the final dimension matches the requested quantity.",
+			"example": "A bus travels at 72 km/h. Since 1 km = 1000 m and 1 h = 3600 s, v = 72 · 1000 m / 3600 s = 20 m/s. In 15 s at unchanged speed it travels s = vt = 20 m/s · 15 s = 300 m. Try it: convert 54 km/h to m/s. (Answer: 15 m/s.)",
+			"limits": "SI is a convention for communicating measurements, not a separate physical law. Never use 72 directly in s = vt when time is in seconds and distance is needed in metres. Distinguish lowercase m for milli from uppercase M for mega, and never mistake kg for a derived unit by attaching another prefix to it directly.",
+			"related": "Measurement Uncertainty and Significant Figures (#3); Dimensional Analysis and Estimation (#4); Average and Instantaneous Velocity (#9)"
+		},
+		"ua": {
+			"origin": "Метрична система виникла наприкінці XVIII століття для уніфікації вимірювань. Систему SI запровадили 1960 року, а моль став сьомою основною одиницею 1971 року. З 2019 року одиниці визначають через фіксовані значення фундаментальних сталих, а не через матеріальний еталон кілограма.",
+			"core": "Фізична величина описує властивість, яку можна виміряти. Основним величинам відповідають основні одиниці, а похідні утворюють їх множенням або діленням. Префікси задають кратні та частинні одиниці. Науковий запис полегшує роботу з великими й малими числами. Одиниця не є необов’язковим додатком: вона допомагає зрозуміти зміст числа.",
+			"components": "Сім основних одиниць SI: метр (м) для довжини, кілограм (кг) для маси, секунда (с) для часу, ампер (А) для сили струму, кельвін (К) для температури, моль для кількості речовини, кандела (кд) для сили світла. Похідні одиниці: м/с для швидкості, м/с² для прискорення, ньютон Н = кг·м/с² для сили. Префікси: нано н = 10⁻⁹, мікро мк = 10⁻⁶, мілі м = 10⁻³, санти с = 10⁻², кіло к = 10³, мега М = 10⁶, гіга Г = 10⁹.",
+			"apply": "Запишіть дані разом з одиницями й визначте необхідну одиницю SI. Помножте на коефіцієнти перетворення так, щоб зайві одиниці скоротилися. Переводьте всі величини до підстановки. Для площі коефіцієнт переведення підносять до квадрата: 1 см² = 10⁻⁴ м². Наприкінці перевірте розмірність відповіді.",
+			"example": "Автобус їде зі швидкістю 72 км/год. Оскільки 1 км = 1000 м, а 1 год = 3600 с, маємо v = 72 · 1000 м / 3600 с = 20 м/с. За 15 с рівномірного руху автобус проїде s = vt = 20 м/с · 15 с = 300 м. Спробуйте самі: переведіть 54 км/год у м/с. (Відповідь: 15 м/с.)",
+			"limits": "SI є системою узгодження вимірювань, а не окремим законом природи. Не підставляйте 72 у формулу s = vt, якщо час задано в секундах, а шлях потрібно отримати в метрах. Не плутайте позначення мілі та мега й пам’ятайте, що основною одиницею маси є кілограм.",
+			"related": "Похибки вимірювань і значущі цифри (#3); Аналіз розмірностей і оцінювання (#4); Середня та миттєва швидкість (#9)"
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"n": 53,
+	"slug": "053-atmospheric-pressure",
+	"title": {
+		"en": "Atmospheric Pressure",
+		"ua": "Атмосферний тиск"
+	},
+	"short": {
+		"en": "Air has weight, so the atmosphere exerts pressure on surfaces. At sea level a representative standard atmospheric pressure is 101,325 Pa, or about 760 mmHg. A barometer measures this pressure; weather systems and altitude cause variations. The pressure decreases as you climb because less air lies above you.",
+		"ua": "Повітря має масу й створює атмосферний тиск. Стандартний тиск біля рівня моря становить 101 325 Па, або приблизно 760 мм рт. ст. Барометр вимірює атмосферний тиск, який змінюється з погодою та висотою. Під час підйому в гори тиск зазвичай зменшується, бо над вами залишається менший стовп повітря."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Evangelista Torricelli demonstrated the mercury barometer in 1643. Pascal later investigated how atmospheric pressure varies with altitude. Otto von Guericke demonstrated atmospheric forces with the Magdeburg hemispheres.",
+			"core": "The atmosphere presses on all exposed surfaces. A barometer balances atmospheric pressure against the weight of a liquid column. A sealed or evacuated chamber can therefore experience a large net force from external air. Atmospheric pressure generally falls with altitude, but density and temperature also vary.",
+			"components": "Near sea level standard atmospheric pressure p₀ = 101,325 Pa ≈ 101 kPa ≈ 760 mmHg. For a barometer, p_atm = ρgh, with ρ liquid density in kg/m³ and h column height in m; g ≈ 9.8 m/s². These numbers are reference values, not every location’s actual pressure.",
+			"apply": "Check whether the pressure given is absolute or gauge. For a liquid column use the density of that liquid, not water unless stated. Convert mmHg to pascals using approximately 133.322 Pa per mmHg, and compare to the standard value.",
+			"example": "A mercury barometer reads 760 mmHg. With 1 mmHg ≈ 133.322 Pa, p ≈ 760 · 133.322 Pa = 101,324.7 Pa ≈ 101 kPa. Try it: what pressure corresponds to 750 mmHg? (about 100 kPa).",
+			"limits": "Air density changes with altitude, so p = ρgh cannot describe a tall atmosphere using one constant density. Mercury is toxic; never open or construct mercury barometers. Do not assume standard pressure is the exact pressure at every place or time.",
+			"related": "Pressure (#50); Hydrostatic Pressure and Communicating Vessels (#51); Archimedes' Principle and Flotation (#54)"
+		},
+		"ua": {
+			"origin": "Еванджеліста Торрічеллі продемонстрував ртутний барометр у 1643 році. Паскаль досліджував зміну тиску з висотою. Отто фон Геріке показав дію атмосферного тиску за допомогою магдебурзьких півкуль.",
+			"core": "Атмосфера тисне на всі відкриті поверхні. У рідинному барометрі атмосферний тиск урівноважує вагу стовпа рідини. Якщо з камери відкачати повітря, зовнішній тиск може сильно стискати її стінки. Тиск з висотою зменшується, але температура й густина повітря теж змінюються.",
+			"components": "Стандартний атмосферний тиск p₀ = 101 325 Па ≈ 101 кПа ≈ 760 мм рт. ст. Для барометра pатм = ρgh, де ρ у кг/м³, h у м, g ≈ 9,8 м/с². 1 мм рт. ст. ≈ 133,322 Па.",
+			"apply": "З’ясуйте, чи задано абсолютний або надлишковий тиск. Для барометра використовуйте густину саме його рідини. Переведіть мм рт. ст. у паскалі та порівняйте результат зі стандартним значенням.",
+			"example": "Барометр показує 760 мм рт. ст. За співвідношенням 1 мм рт. ст. ≈ 133,322 Па маємо p ≈ 760 · 133,322 Па = 101 324,7 Па ≈ 101 кПа. Спробуйте самі: який тиск відповідає 750 мм рт. ст.? (приблизно 100 кПа).",
+			"limits": "Густина атмосфери змінюється з висотою, тому для всієї атмосфери не можна брати сталу ρ у формулі ρgh. Ртуть токсична: не розбирайте й не виготовляйте ртутні барометри. Стандартний тиск не є фактичним тиском у кожному місці.",
+			"related": "Тиск (#50); Гідростатичний тиск. Сполучені посудини (#51); Закон Архімеда. Умови плавання тіл (#54)"
+		}
+	}
+}

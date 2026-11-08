@@ -1,0 +1,52 @@
+{
+	"n": 137,
+	"slug": "137-rectilinear-propagation-of-light-shadows-and-eclipses",
+	"title": {
+		"en": "Rectilinear Propagation of Light, Shadows and Eclipses",
+		"ua": "Прямолінійне поширення світла. Тінь і півтінь. Затемнення"
+	},
+	"short": {
+		"en": "In a uniform transparent medium, light travels along approximately straight rays. An opaque body blocks some rays, producing a shadow. An extended light source also produces a partially illuminated penumbra. Solar and lunar eclipses follow from the relative geometry of the Sun, Earth and Moon.",
+		"ua": "В однорідному прозорому середовищі світло поширюється майже прямолінійно. Непрозоре тіло перекриває частину променів, утворюючи тінь. Протяжне джерело створює також півтінь. Сонячне й місячне затемнення пояснюються взаємним розташуванням Сонця, Землі та Місяця."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Ray optics developed from ancient studies of shadows and vision. Astronomers explained eclipse geometry long before modern wave theory; geometric optics remains a useful approximation for everyday objects.",
+			"core": "A point light source casts a sharp geometric shadow. A source with visible size allows some rays to reach points near the shadow edge, forming a penumbra. During a solar eclipse the Moon's shadow falls on Earth; during a lunar eclipse Earth shadows the Moon. Light can diffract near tiny obstacles, so perfectly sharp rays are only an approximation.",
+			"components": "For similar triangles in a point-source arrangement, shadow size/object size = distance(source, screen)/distance(source, object). All distances are measured in m. A solar eclipse requires an approximately aligned new Moon; a lunar eclipse requires an approximately aligned full Moon, but the Moon's orbit is tilted so eclipses do not occur every month.",
+			"apply": "Draw the source, obstacle and screen to scale where possible. Trace limiting rays from source edges to locate umbra and penumbra. Use similar triangles for numerical sizes. Never observe the Sun directly without certified solar filters.",
+			"example": "A point lamp is 1.0 m from a 0.20 m tall object, and a screen is 3.0 m from the lamp. Similar triangles give shadow height h = 0.20 m · 3.0/1.0 = 0.60 m. Try it: if the screen is 2.0 m from the lamp, how high is the shadow? (0.40 m).",
+			"limits": "Straight rays are an approximation when diffraction is negligible. Extended sources give penumbrae, and lunar orbital tilt prevents an eclipse at every new or full Moon.",
+			"related": "Light: Its Nature and Speed (#136); Reflection of Light and Plane Mirrors (#138); Refraction of Light and Snell's Law (#140)"
+		},
+		"ua": {
+			"origin": "Геометрична оптика виникла зі спостережень тіней і зору ще в давнину. Геометрію затемнень вивчали астрономи задовго до сучасної хвильової теорії.",
+			"core": "Точкове джерело створює чітку геометричну тінь. Від протяжного джерела в деякі точки потрапляє лише частина світла, тому виникає півтінь. За сонячного затемнення тінь Місяця падає на Землю, за місячного Земля затінює Місяць. Біля дуже малих перешкод помітна дифракція, тому наближення прямолінійних променів має межі.",
+			"components": "За подібністю трикутників для точкового джерела висота тіні/висота предмета = відстань від джерела до екрана/відстань від джерела до предмета. Довжини вимірюють у м. Сонячне затемнення можливе біля молодика, місячне біля повні, але не щомісяця через нахил місячної орбіти.",
+			"apply": "Намалюйте джерело, предмет і екран. Проведіть крайні промені від меж джерела, позначте область повної тіні та півтіні. Для числових задач використайте подібність трикутників. Не дивіться на Сонце без сертифікованого сонячного фільтра.",
+			"example": "Лампа розташована за 1,0 м від предмета заввишки 0,20 м, екран за 3,0 м від лампи. Висота тіні h = 0,20 м · 3,0/1,0 = 0,60 м. Спробуйте самі: висота тіні за відстані до екрана 2,0 м? (0,40 м).",
+			"limits": "Прямолінійні промені є наближенням без помітної дифракції. Протяжне джерело створює півтінь, а нахил орбіти Місяця унеможливлює затемнення щомісяця.",
+			"related": "Світло. Природа світла та швидкість його поширення (#136); Відбивання світла. Плоске дзеркало (#138); Заломлення світла. Закон заломлення (#140)"
+		}
+	}
+}

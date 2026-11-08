@@ -1,0 +1,437 @@
+[
+  {
+    "page": "home",
+    "status": "completed",
+    "measured": true,
+    "score": 100,
+    "summary": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "total": 0
+    },
+    "findings": []
+  },
+  {
+    "page": "theory",
+    "status": "completed",
+    "measured": true,
+    "score": 100,
+    "summary": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "total": 0
+    },
+    "findings": []
+  },
+  {
+    "page": "lesson",
+    "status": "completed",
+    "measured": true,
+    "score": 100,
+    "summary": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "total": 0
+    },
+    "findings": []
+  },
+  {
+    "page": "privacy",
+    "status": "completed",
+    "measured": true,
+    "score": 100,
+    "summary": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "total": 0
+    },
+    "findings": []
+  },
+  {
+    "page": "support",
+    "status": "completed",
+    "measured": true,
+    "score": 100,
+    "summary": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "total": 0
+    },
+    "findings": []
+  },
+  {
+    "page": "licenses",
+    "status": "completed",
+    "measured": true,
+    "score": 70,
+    "summary": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 6,
+      "total": 6
+    },
+    "findings": [
+      {
+        "ruleId": "spacing/touch-target",
+        "state": "licenses-light-390",
+        "severity": "moderate",
+        "message": "Geist measures 40.47x44px, below the recommended 44x44px touch target.",
+        "fix": "Increase the interactive hit area to at least 44x44px without relying on the visible icon size.",
+        "elementIds": [
+          "e17"
+        ],
+        "evidence": [
+          {
+            "label": "Width",
+            "value": 40.47,
+            "unit": "px"
+          },
+          {
+            "label": "Height",
+            "value": 44,
+            "unit": "px"
+          }
+        ],
+        "id": "spacing-1"
+      },
+      {
+        "ruleId": "spacing/touch-target",
+        "state": "licenses-light-1440",
+        "severity": "moderate",
+        "message": "Geist measures 40.47x44px, below the recommended 44x44px touch target.",
+        "fix": "Increase the interactive hit area to at least 44x44px without relying on the visible icon size.",
+        "elementIds": [
+          "e20"
+        ],
+        "evidence": [
+          {
+            "label": "Width",
+            "value": 40.47,
+            "unit": "px"
+          },
+          {
+            "label": "Height",
+            "value": 44,
+            "unit": "px"
+          }
+        ],
+        "id": "spacing-2"
+      },
+      {
+        "ruleId": "spacing/touch-target",
+        "state": "licenses-light-1728",
+        "severity": "moderate",
+        "message": "Geist measures 40.47x44px, below the recommended 44x44px touch target.",
+        "fix": "Increase the interactive hit area to at least 44x44px without relying on the visible icon size.",
+        "elementIds": [
+          "e20"
+        ],
+        "evidence": [
+          {
+            "label": "Width",
+            "value": 40.47,
+            "unit": "px"
+          },
+          {
+            "label": "Height",
+            "value": 44,
+            "unit": "px"
+          }
+        ],
+        "id": "spacing-3"
+      },
+      {
+        "ruleId": "spacing/touch-target",
+        "state": "licenses-dark-390",
+        "severity": "moderate",
+        "message": "Geist measures 40.08x44px, below the recommended 44x44px touch target.",
+        "fix": "Increase the interactive hit area to at least 44x44px without relying on the visible icon size.",
+        "elementIds": [
+          "e17"
+        ],
+        "evidence": [
+          {
+            "label": "Width",
+            "value": 40.08,
+            "unit": "px"
+          },
+          {
+            "label": "Height",
+            "value": 44,
+            "unit": "px"
+          }
+        ],
+        "id": "spacing-4"
+      },
+      {
+        "ruleId": "spacing/touch-target",
+        "state": "licenses-dark-1440",
+        "severity": "moderate",
+        "message": "Geist measures 40.08x44px, below the recommended 44x44px touch target.",
+        "fix": "Increase the interactive hit area to at least 44x44px without relying on the visible icon size.",
+        "elementIds": [
+          "e20"
+        ],
+        "evidence": [
+          {
+            "label": "Width",
+            "value": 40.08,
+            "unit": "px"
+          },
+          {
+            "label": "Height",
+            "value": 44,
+            "unit": "px"
+          }
+        ],
+        "id": "spacing-5"
+      },
+      {
+        "ruleId": "spacing/touch-target",
+        "state": "licenses-dark-1728",
+        "severity": "moderate",
+        "message": "Geist measures 40.08x44px, below the recommended 44x44px touch target.",
+        "fix": "Increase the interactive hit area to at least 44x44px without relying on the visible icon size.",
+        "elementIds": [
+          "e20"
+        ],
+        "evidence": [
+          {
+            "label": "Width",
+            "value": 40.08,
+            "unit": "px"
+          },
+          {
+            "label": "Height",
+            "value": 44,
+            "unit": "px"
+          }
+        ],
+        "id": "spacing-6"
+      }
+    ]
+  },
+  {
+    "page": "sign-in",
+    "status": "completed",
+    "measured": true,
+    "score": 70,
+    "summary": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 6,
+      "total": 6
+    },
+    "findings": [
+      {
+        "ruleId": "spacing/off-scale-value",
+        "state": "sign-in-light-390",
+        "severity": "moderate",
+        "message": "sign-in-light-390 uses 1 off-scale spacing value across 2 elements: 22.4px.",
+        "fix": "Replace the measured values with the nearest project spacing token. Active scale: 2, 4, 6, 8, 10, 12, 14, 16, 20, 24, 28, 32, 36, 40, 44, 48, 56, 64, 72, 80, 96, 128px.",
+        "elementIds": [
+          "e8",
+          "e9"
+        ],
+        "evidence": [
+          {
+            "label": "Continue with Google padding right",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Google padding left",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Apple padding right",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Apple padding left",
+            "value": 22.4,
+            "unit": "px"
+          }
+        ],
+        "id": "spacing-1"
+      },
+      {
+        "ruleId": "spacing/off-scale-value",
+        "state": "sign-in-light-1440",
+        "severity": "moderate",
+        "message": "sign-in-light-1440 uses 1 off-scale spacing value across 2 elements: 22.4px.",
+        "fix": "Replace the measured values with the nearest project spacing token. Active scale: 2, 4, 6, 8, 10, 12, 14, 16, 20, 24, 28, 32, 36, 40, 44, 48, 56, 64, 72, 80, 96, 128px.",
+        "elementIds": [
+          "e11",
+          "e12"
+        ],
+        "evidence": [
+          {
+            "label": "Continue with Google padding right",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Google padding left",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Apple padding right",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Apple padding left",
+            "value": 22.4,
+            "unit": "px"
+          }
+        ],
+        "id": "spacing-2"
+      },
+      {
+        "ruleId": "spacing/off-scale-value",
+        "state": "sign-in-light-1728",
+        "severity": "moderate",
+        "message": "sign-in-light-1728 uses 1 off-scale spacing value across 2 elements: 22.4px.",
+        "fix": "Replace the measured values with the nearest project spacing token. Active scale: 2, 4, 6, 8, 10, 12, 14, 16, 20, 24, 28, 32, 36, 40, 44, 48, 56, 64, 72, 80, 96, 128px.",
+        "elementIds": [
+          "e11",
+          "e12"
+        ],
+        "evidence": [
+          {
+            "label": "Continue with Google padding right",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Google padding left",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Apple padding right",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Apple padding left",
+            "value": 22.4,
+            "unit": "px"
+          }
+        ],
+        "id": "spacing-3"
+      },
+      {
+        "ruleId": "spacing/off-scale-value",
+        "state": "sign-in-dark-390",
+        "severity": "moderate",
+        "message": "sign-in-dark-390 uses 1 off-scale spacing value across 2 elements: 22.4px.",
+        "fix": "Replace the measured values with the nearest project spacing token. Active scale: 2, 4, 6, 8, 10, 12, 14, 16, 20, 24, 28, 32, 36, 40, 44, 48, 56, 64, 72, 80, 96, 128px.",
+        "elementIds": [
+          "e8",
+          "e9"
+        ],
+        "evidence": [
+          {
+            "label": "Continue with Google padding right",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Google padding left",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Apple padding right",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Apple padding left",
+            "value": 22.4,
+            "unit": "px"
+          }
+        ],
+        "id": "spacing-4"
+      },
+      {
+        "ruleId": "spacing/off-scale-value",
+        "state": "sign-in-dark-1440",
+        "severity": "moderate",
+        "message": "sign-in-dark-1440 uses 1 off-scale spacing value across 2 elements: 22.4px.",
+        "fix": "Replace the measured values with the nearest project spacing token. Active scale: 2, 4, 6, 8, 10, 12, 14, 16, 20, 24, 28, 32, 36, 40, 44, 48, 56, 64, 72, 80, 96, 128px.",
+        "elementIds": [
+          "e11",
+          "e12"
+        ],
+        "evidence": [
+          {
+            "label": "Continue with Google padding right",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Google padding left",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Apple padding right",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Apple padding left",
+            "value": 22.4,
+            "unit": "px"
+          }
+        ],
+        "id": "spacing-5"
+      },
+      {
+        "ruleId": "spacing/off-scale-value",
+        "state": "sign-in-dark-1728",
+        "severity": "moderate",
+        "message": "sign-in-dark-1728 uses 1 off-scale spacing value across 2 elements: 22.4px.",
+        "fix": "Replace the measured values with the nearest project spacing token. Active scale: 2, 4, 6, 8, 10, 12, 14, 16, 20, 24, 28, 32, 36, 40, 44, 48, 56, 64, 72, 80, 96, 128px.",
+        "elementIds": [
+          "e11",
+          "e12"
+        ],
+        "evidence": [
+          {
+            "label": "Continue with Google padding right",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Google padding left",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Apple padding right",
+            "value": 22.4,
+            "unit": "px"
+          },
+          {
+            "label": "Continue with Apple padding left",
+            "value": 22.4,
+            "unit": "px"
+          }
+        ],
+        "id": "spacing-6"
+      }
+    ]
+  }
+]

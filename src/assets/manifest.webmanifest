@@ -1,0 +1,17 @@
+{
+  "name": "Physics",
+  "short_name": "Physics",
+  "description": "171 physics theories in English and Ukrainian, with short explanations, detailed lessons, formulas and worked examples.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#EFEEEA",
+  "theme_color": "#292524",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

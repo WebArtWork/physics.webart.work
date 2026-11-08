@@ -1,0 +1,7 @@
+* text=auto eol=lf
+content/theories/*.md -text
+*.png -text
+*.jpg -text
+*.webp -text
+*.woff2 -text
+*.jar -text

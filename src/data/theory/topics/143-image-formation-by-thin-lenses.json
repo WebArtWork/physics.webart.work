@@ -1,0 +1,52 @@
+{
+	"n": 143,
+	"slug": "143-image-formation-by-thin-lenses",
+	"title": {
+		"en": "Image Formation by Thin Lenses",
+		"ua": "Побудова зображень у тонких лінзах. Формула тонкої лінзи"
+	},
+	"short": {
+		"en": "A thin lens forms an image where refracted rays meet or where their backward extensions appear to meet. Depending on object distance and lens type, the image may be real or virtual, enlarged or reduced, upright or inverted. Three principal rays help locate it without measuring every ray.",
+		"ua": "Тонка лінза утворює зображення в точці перетину заломлених променів або їхніх продовжень. Залежно від відстані до предмета зображення буває дійсним чи уявним, збільшеним чи зменшеним, прямим чи перевернутим. Три характерні промені дають змогу побудувати його."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Geometric ray constructions developed with seventeenth-century optics; later lens equations provided a compact calculation method used in cameras and spectacles.",
+			"core": "A ray through the optical centre travels approximately straight; a ray parallel to the axis passes through the far focal point or appears to diverge from a near focus; a ray directed through the near focus emerges parallel. Real images can be projected; virtual images cannot be projected directly.",
+			"components": "Use signed distances 1/f = 1/dₒ + 1/dᵢ, with positive f for converging lenses and negative f for diverging lenses; dₒ > 0 for a real object, dᵢ > 0 for a real image and dᵢ < 0 for a virtual image. Magnification m = −dᵢ/dₒ; lengths are in metres.",
+			"apply": "Sketch the three rays first. Choose and state the sign convention. Rearrange 1/dᵢ = 1/f − 1/dₒ, then use m to find image size and orientation.",
+			"example": "A converging lens has f = +0.10 m and an object at dₒ = 0.30 m. 1/dᵢ = 10 m⁻¹ − 3.33 m⁻¹ = 6.67 m⁻¹; dᵢ = +0.15 m. m = −0.15/0.30 = −0.50, so the image is inverted and half-size. Try it: where is an object at 2f imaged? (At 2f on the other side.)",
+			"limits": "The thin-lens model is paraxial and ignores aberrations. State your sign convention: a negative image distance indicates a virtual image, not a negative physical distance.",
+			"related": "Lenses and Optical Power (#142); Reflection of Light and Plane Mirrors (#138); The Eye and Vision Correction (#144)"
+		},
+		"ua": {
+			"origin": "Побудови променів сформувалися разом із геометричною оптикою XVII століття. Формула тонкої лінзи стала розрахунковою основою камер, проєкторів та окулярів.",
+			"core": "Промінь через оптичний центр приблизно не змінює напрям. Паралельний осі промінь проходить через дальній фокус або має продовження до ближнього фокуса. Промінь через ближній фокус після лінзи йде паралельно осі. Дійсне зображення можна отримати на екрані, уявне безпосередньо на екрані не виникає.",
+			"components": "За шкільним правилом знаків 1/F = 1/d + 1/f, де F > 0 для збиральної лінзи, F < 0 для розсіювальної, d > 0 для дійсного предмета, f > 0 для дійсного зображення, f < 0 для уявного. Лінійне збільшення Γ = −f/d зі знаком орієнтації; відстані в метрах.",
+			"apply": "Побудуйте три характерні промені. Зазначте правило знаків. Знайдіть 1/f = 1/F − 1/d, визначте знак відстані й розмір зображення через збільшення.",
+			"example": "Збиральна лінза має F = +0,10 м, предмет розміщений на d = 0,30 м. 1/f = 10 м⁻¹ − 3,33 м⁻¹ = 6,67 м⁻¹; f = +0,15 м. Γ = −0,15/0,30 = −0,50: зображення перевернуте й удвічі менше. Спробуйте самі: де зображення предмета на відстані 2F? (На 2F з іншого боку.)",
+			"limits": "Формула тонкої лінзи є параксіальним наближенням і не враховує аберацій. Обов’язково вкажіть правило знаків: від’ємна відстань зображення означає уявне зображення.",
+			"related": "Лінзи. Оптична сила лінзи (#142); Відбивання світла. Плоске дзеркало (#138); Око як оптична система. Вади зору та їх корекція (#144)"
+		}
+	}
+}

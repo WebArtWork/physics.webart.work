@@ -1,0 +1,52 @@
+{
+	"n": 90,
+	"slug": "090-work-of-the-electric-field-potential-and-voltage",
+	"title": {
+		"en": "Work of the Electric Field, Potential and Voltage",
+		"ua": "Робота електричного поля. Потенціал. Напруга"
+	},
+	"short": {
+		"en": "Electric potential describes electric potential energy per unit charge. Voltage is the potential difference between two points and determines the work a static electric field does when charge moves between them. A 2 C positive charge moving through a 3 V potential drop releases 6 J of electric potential energy.",
+		"ua": "Потенціал електричного поля характеризує потенціальну енергію одиничного заряду. Напруга є різницею потенціалів і визначає роботу електростатичного поля під час перенесення заряду. Якщо додатний заряд 2 Кл переходить між точками з різницею потенціалів 3 В у напрямі спадання потенціалу, поле виконує 6 Дж роботи."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Potential energy in electrostatics developed alongside Coulomb's law and nineteenth-century field theory. The electronvolt became a convenient energy unit in atomic physics.",
+			"core": "For a positive charge, electric force tends to move it from higher to lower potential, reducing its potential energy. A negative charge responds oppositely. In an electrostatic field the work depends only on the endpoints, not the path. Potential itself depends on a chosen zero; voltage differences have direct physical meaning.",
+			"components": "φ = U_p/q (potential, V), U_AB = φ_A − φ_B (voltage, V), A_AB = qU_AB (work, J), and ΔU_p = −A_AB. For a point charge Q in vacuum with zero at infinity, φ = kQ/r, where r is in m. 1 eV = 1.602176634 · 10⁻¹⁹ J.",
+			"apply": "Select initial A and final B and write U_AB = φ_A − φ_B before inserting signs. Multiply by charge q in C to find work in J. Distinguish electric work A from an external agent's work and never confuse the potential at one location with voltage across two points.",
+			"example": "A charge q = +2.0 μC moves from φ_A = 12 V to φ_B = 5 V. U_AB = 12 − 5 = 7 V; A_AB = 2.0 · 10⁻⁶ C · 7 V = 1.4 · 10⁻⁵ J. Try it: a +3 C charge drops through 2 V; what work? (+6 J).",
+			"limits": "Electrostatic work is path-independent only in electrostatics; changing magnetic fields can induce nonconservative electric fields. Signs matter: work done by the field is the negative change of potential energy. Potential and voltage are not the same.",
+			"related": "Electric Field and Field Strength (#87); Field Strength and Voltage in a Uniform Field (#91); Capacitance and Capacitors (#92)"
+		},
+		"ua": {
+			"origin": "Поняття потенціалу сформувалося під час розвитку електростатики та теорії поля у XIX столітті. Електронвольт поширився як зручна одиниця енергії в атомній фізиці.",
+			"core": "Додатний заряд у полі прагне рухатися до нижчого потенціалу, від’ємний у протилежному напрямі. Робота електростатичних сил не залежить від форми шляху. Нуль потенціалу можна обирати довільно, а різниця потенціалів між двома точками має безпосередній фізичний зміст.",
+			"components": "φ = W_p/q, де φ у В, W_p у Дж, q у Кл; U_AB = φ_A − φ_B у В; A_AB = qU_AB у Дж; ΔW_p = −A_AB. Для точкового заряду Q у вакуумі за нульового потенціалу на нескінченності φ = kQ/r. 1 еВ = 1,602176634 · 10⁻¹⁹ Дж.",
+			"apply": "Позначте початкову точку A і кінцеву B. Спочатку обчисліть U_AB = φ_A − φ_B зі знаком, а потім помножте на q. Розрізняйте роботу поля та роботу зовнішньої сили. Не плутайте потенціал точки з напругою між точками.",
+			"example": "Заряд q = +2,0 мкКл переходить від φ_A = 12 В до φ_B = 5 В. U_AB = 7 В; A_AB = 2,0 · 10⁻⁶ Кл · 7 В = 1,4 · 10⁻⁵ Дж. Спробуйте самі: заряд +3 Кл проходить спад потенціалу 2 В. Яка робота поля? (+6 Дж).",
+			"limits": "Незалежність роботи від шляху стосується електростатичного поля; змінне магнітне поле створює вихрове електричне поле. Робота поля дорівнює зміні потенціальної енергії з протилежним знаком. Потенціал і напруга не тотожні.",
+			"related": "Електричне поле. Напруженість електричного поля (#87); Зв’язок напруженості та напруги. Еквіпотенціальні поверхні (#91); Електроємність. Конденсатори (#92)"
+		}
+	}
+}

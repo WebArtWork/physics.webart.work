@@ -1,0 +1,52 @@
+{
+	"n": 36,
+	"slug": "036-moment-of-force-and-conditions-of-equilibrium",
+	"title": {
+		"en": "Moment of Force and Conditions of Equilibrium",
+		"ua": "Момент сили. Умови рівноваги тіла"
+	},
+	"short": {
+		"en": "For a body to remain at rest without turning, both its net force and net torque must be zero. Torque measures the turning tendency of a force: τ = Fd, where d is the perpendicular lever arm. A 20 N force applied 0.30 m from a hinge gives torque magnitude 6.0 N·m, provided it is perpendicular to the lever.",
+		"ua": "Для спокою твердого тіла необхідно, щоб рівнодійна сил і сума моментів сил дорівнювали нулю. Момент сили визначає її здатність обертати тіло: M = Fd, де d є перпендикулярним плечем. Сила 20 Н із плечем 0,30 м створює момент 6,0 Н·м."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "The law of the lever was studied by Archimedes in antiquity. Newtonian statics developed the combined requirements for translational and rotational equilibrium.",
+			"core": "A force acting through a pivot has zero moment about that pivot. Another force applied farther away can have greater turning effect even if it is smaller. Clockwise and counterclockwise torques have opposite signs by an agreed convention. A beam supported at two points requires both force and moment balance.",
+			"components": "|τ| = rF sin θ = Fd, torque in Н·м, r and perpendicular lever arm d in м, F in Н. Conditions of static equilibrium are ΣFₓ = 0, ΣFᵧ = 0 and Στ = 0 about any axis. The equality of clockwise and counterclockwise moments applies for a planar nonrotating body.",
+			"apply": "Choose the full body, draw all forces including support reactions and weight. Pick a pivot that eliminates unknown reaction torques. Assign signs to moments, solve Στ = 0, then apply ΣF = 0 to find remaining forces. Verify results using a different pivot.",
+			"example": "A horizontal lever has a 20 N downward force 0.30 m to the right of the pivot. Its clockwise torque magnitude is τ = 20 N · 0.30 m = 6.0 N·m. A downward force 0.20 m to the left must be 6.0 N·m / 0.20 m = 30 N to balance the torque. Try it: balancing force at 0.60 m on the left? (Answer: 10 N.)",
+			"limits": "Zero net torque alone does not guarantee equilibrium if net force is not zero. Do not use the full distance r when the force is oblique: use d = r sin θ. Torque unit N·m is not interchangeable with energy simply because joules also reduce dimensionally to N·m.",
+			"related": "Force and Net Force (#22); Center of Mass and Types of Equilibrium (#37); Simple Machines and the Golden Rule of Mechanics (#38)"
+		},
+		"ua": {
+			"origin": "Правило важеля вивчав Архімед у давнину. У межах ньютонівської статики сформулювали умови одночасної поступальної та обертальної рівноваги.",
+			"core": "Сила, лінія дії якої проходить через вісь, не створює моменту відносно неї. Слабша сила на довшому плечі може обертати ефективніше за сильнішу на короткому. Моменти за та проти годинникової стрілки мають протилежні знаки. Для балки на опорах потрібно врахувати і сили, і моменти.",
+			"components": "|M| = rF sin θ = Fd, де M у Н·м, r і плече d у м, F у Н. Умови рівноваги: ΣFₓ = 0, ΣFᵧ = 0, ΣM = 0 відносно довільної осі. Для плоского тіла сумарні моменти за та проти годинникової стрілки мають бути однакові.",
+			"apply": "Виділіть тверде тіло, накресліть усі сили, зокрема реакції опор і тяжіння. Оберіть вісь так, щоб невідомі реакції мали нульові плечі. Запишіть суму моментів із знаками, потім рівняння проєкцій сил. Перевірте результат відносно іншої осі.",
+			"example": "На горизонтальному важелі сила 20 Н діє вниз на відстані 0,30 м праворуч від осі. Її момент 20 Н · 0,30 м = 6,0 Н·м за годинниковою стрілкою. Ліворуч на плечі 0,20 м потрібна сила 6,0 Н·м / 0,20 м = 30 Н. Спробуйте самі: яке зусилля потрібно на плечі 0,60 м ліворуч? (Відповідь: 10 Н.)",
+			"limits": "Нульова сума моментів не гарантує рівноваги, якщо рівнодійна сил не дорівнює нулю. Для похилої сили використовуйте перпендикулярне плече d = r sin θ. Одиниця моменту Н·м має інший фізичний зміст, ніж джоуль, хоч розмірності збігаються.",
+			"related": "Сила. Рівнодійна сил (#22); Центр мас. Види рівноваги (#37); Прості механізми. «Золоте правило» механіки (#38)"
+		}
+	}
+}

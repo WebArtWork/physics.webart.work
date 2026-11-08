@@ -1,0 +1,52 @@
+{
+	"n": 52,
+	"slug": "052-pascals-law-and-the-hydraulic-press",
+	"title": {
+		"en": "Pascal's Law and the Hydraulic Press",
+		"ua": "Закон Паскаля. Гідравлічна машина"
+	},
+	"short": {
+		"en": "Pascal’s law says that a change of pressure applied to an enclosed fluid is transmitted throughout that fluid. A hydraulic press uses a small input force on a small piston to create a larger force on a larger piston. If piston areas are 0.002 m² and 0.020 m², a 100 N input produces an ideal 1000 N output. The larger piston moves a shorter distance.",
+		"ua": "Закон Паскаля стверджує, що зміна тиску, створена на замкнену рідину, передається всією рідиною. У гідравлічному пресі мала сила на малому поршні створює більшу силу на більшому поршні. Якщо площі поршнів 0,002 м² і 0,020 м², сила 100 Н в ідеалі створить 1000 Н. Великий поршень переміститься на меншу відстань."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Blaise Pascal investigated pressure transmission in fluids during the seventeenth century. Hydraulic machinery later used this effect in presses, lifts and brakes.",
+			"core": "An enclosed, nearly incompressible fluid passes an applied pressure increase to other parts of the system. Because force equals pressure multiplied by area, the same pressure on a larger piston creates greater force. Conservation of energy requires a trade-off: the large piston moves less distance than the small one.",
+			"components": "For ideal pistons at equal elevation, F₁/A₁ = F₂/A₂, where forces are in N and areas in m². Displaced volumes obey A₁s₁ = A₂s₂, with distances s in m, so F₁s₁ = F₂s₂ without losses. At different heights include hydrostatic pressure differences.",
+			"apply": "Label the small and large piston areas. Convert areas to m² and use their ratio to find output force. Then use volume conservation to calculate travel distance and check that output work does not exceed input work.",
+			"example": "A press has A₁ = 0.0020 m², A₂ = 0.020 m² and F₁ = 100 N. F₂ = 100 N · 0.020 m² / 0.0020 m² = 1000 N. If the small piston moves 0.10 m, the large moves 0.010 m. Try it: with input 50 N, find output force. (500 N).",
+			"limits": "The ideal model ignores friction, fluid compression and piston-height differences. High-pressure fluid can injure people; do not open or service a pressurised hydraulic system. Never treat force multiplication as a gain in mechanical work.",
+			"related": "Pressure (#50); Hydrostatic Pressure and Communicating Vessels (#51); Simple Machines and the Golden Rule of Mechanics (#38)"
+		},
+		"ua": {
+			"origin": "Блез Паскаль дослідив передавання тиску в рідинах у XVII столітті. Згодом на цьому принципі створили гідравлічні преси, підіймачі й гальма.",
+			"core": "Практично нестислива рідина передає приріст тиску в усі частини замкненої системи. Оскільки сила дорівнює добутку тиску на площу, збільшення площі поршня збільшує силу. Водночас великий поршень проходить меншу відстань, тому виграшу в роботі немає.",
+			"components": "Для ідеальних поршнів на однаковій висоті F₁/S₁ = F₂/S₂, де F у Н, S у м². Об’єми витісненої рідини однакові: S₁s₁ = S₂s₂, де s у м. Отже без втрат F₁s₁ = F₂s₂. За різної висоти враховують гідростатичний тиск.",
+			"apply": "Позначте площі обох поршнів та переведіть їх у м². За відношенням площ знайдіть вихідну силу. Потім застосуйте рівність витіснених об’ємів та перевірте баланс роботи.",
+			"example": "S₁ = 0,0020 м², S₂ = 0,020 м², F₁ = 100 Н. F₂ = 100 Н · 0,020 м² / 0,0020 м² = 1000 Н. Якщо малий поршень змістився на 0,10 м, великий пройде 0,010 м. Спробуйте самі: яка вихідна сила за F₁ = 50 Н? (500 Н).",
+			"limits": "Ідеальна модель нехтує тертям, стисливістю рідини й різницею висот. Рідина під високим тиском небезпечна: не розбирайте систему під тиском. Помилка: вважати, що гідравлічна машина збільшує і силу, і роботу.",
+			"related": "Тиск (#50); Гідростатичний тиск. Сполучені посудини (#51); Прості механізми. «Золоте правило» механіки (#38)"
+		}
+	}
+}

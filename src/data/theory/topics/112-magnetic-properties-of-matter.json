@@ -1,0 +1,52 @@
+{
+	"n": 112,
+	"slug": "112-magnetic-properties-of-matter",
+	"title": {
+		"en": "Magnetic Properties of Matter",
+		"ua": "Магнітні властивості речовини"
+	},
+	"short": {
+		"en": "Materials respond differently to a magnetic field. Diamagnets weakly oppose the applied field; paramagnets weakly align with it; ferromagnets such as iron can develop strong magnetization and retain part of it. Ferromagnetic domains explain the behavior of permanent magnets and magnetic recording. Above a Curie temperature, many ferromagnets lose spontaneous ferromagnetic order.",
+		"ua": "Речовини по-різному реагують на магнітне поле. Діамагнетики слабо послаблюють його, парамагнетики слабко підсилюють, а феромагнетики на зразок заліза можуть сильно намагнічуватися. Магнітні домени пояснюють поведінку постійних магнітів і магнітних носіїв інформації. Вище температури Кюрі багато феромагнетиків втрачають феромагнітне впорядкування."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Faraday studied magnetic responses of materials in the nineteenth century. Pierre Curie's work in the 1890s linked magnetism with temperature; twentieth-century physics explained magnetic domains and microscopic moments.",
+			"core": "Magnetization arises mainly from electron magnetic moments. Diamagnetic response generally points opposite the applied field, while paramagnetic response weakly follows it. Ferromagnets contain regions called domains with aligned moments; domain growth and rotation produce strong magnetic responses. A magnetic hysteresis loop shows that the response depends on field history, allowing permanent magnets and memory devices.",
+			"components": "For a linear isotropic medium, B = μ₀μᵣH, where B in T, H in A/m, relative permeability μᵣ dimensionless and μ₀ ≈ 1.256637 · 10⁻⁶ H/m. This simple constant-μᵣ relation is generally unsuitable for ferromagnets because of saturation and hysteresis. Curie temperature T_C is material-specific.",
+			"apply": "First classify the material and determine whether the field is weak or strong. If μᵣ is given for a linear material, calculate B from H; otherwise use a measured magnetization curve. For ferromagnets distinguish initial magnetization, remanence and saturation. Never assume every metal is ferromagnetic or that a magnet remains unchanged after heating.",
+			"example": "A linear material with μᵣ = 2.0 is exposed to H = 1000 A/m. B = μ₀μᵣH ≈ 1.256637 · 10⁻⁶ · 2.0 · 1000 T = 2.51 · 10⁻³ T. Try it: if H halves within the same linear regime, find B. (1.26 mT).",
+			"limits": "A constant relative permeability is invalid for strongly nonlinear ferromagnets. Do not classify all metals as ferromagnets or ignore temperature, hysteresis and saturation.",
+			"related": "Magnetic Field and Magnetic Induction (#108); Magnetic Field of an Electric Current (#109); Self-Induction, Inductance and Magnetic Field Energy (#117)"
+		},
+		"ua": {
+			"origin": "Фарадей у XIX столітті досліджував магнітні властивості речовин. П’єр Кюрі в 1890-х роках вивчав залежність магнетизму від температури, а пізніша фізика пояснила природу магнітних доменів.",
+			"core": "Магнітні моменти речовини значною мірою пов’язані з електронами. У діамагнетиках індукована намагніченість спрямована проти прикладеного поля; у парамагнетиках переважно вздовж нього. У феромагнетиках є домени з узгодженими моментами, здатні перебудовуватися. Гістерезис означає залежність намагніченості від попереднього стану поля.",
+			"components": "Для лінійного ізотропного середовища B = μ₀μᵣH, де B у Тл, H у А/м, відносна проникність μᵣ безрозмірна, μ₀ ≈ 1,256637 · 10⁻⁶ Гн/м. Для феромагнетиків через насичення та гістерезис ця формула зі сталою μᵣ зазвичай непридатна. Температура Кюрі залежить від речовини.",
+			"apply": "Визначте тип матеріалу й робочий діапазон поля. Якщо μᵣ стала та відома, знайдіть B із H. Для феромагнетика потрібна крива намагнічування, а також облік залишкової намагніченості. Не припускайте, що кожен метал є феромагнетиком або що сильне нагрівання не змінює властивостей магніту.",
+			"example": "Лінійне середовище має μᵣ = 2,0, H = 1000 А/м. B = μ₀μᵣH ≈ 1,256637 · 10⁻⁶ · 2,0 · 1000 Тл = 2,51 · 10⁻³ Тл. Спробуйте самі: знайдіть B за удвічі меншого H. (1,26 мТл).",
+			"limits": "Стала проникність не описує нелінійні феромагнетики. Не вважайте всі метали феромагнетиками та враховуйте температуру, гістерезис і насичення.",
+			"related": "Магнітне поле. Індукція магнітного поля (#108); Магнітне поле струму (#109); Самоіндукція. Індуктивність. Енергія магнітного поля (#117)"
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"n": 33,
+	"slug": "033-satellite-motion-and-cosmic-velocities",
+	"title": {
+		"en": "Satellite Motion and Cosmic Velocities",
+		"ua": "Рух штучних супутників. Космічні швидкості"
+	},
+	"short": {
+		"en": "A satellite can remain in orbit because gravity continuously bends its path. For a circular orbit of radius r around a spherical planet, speed is v = √(GM/r). Near Earth’s surface the ideal circular-orbit speed is about 7.9 km/s; Earth’s escape speed at the same location is about 11.2 km/s without air resistance. Real low orbits lie above the atmosphere.",
+		"ua": "Супутник залишається на орбіті, оскільки тяжіння безперервно викривляє його траєкторію. Для кругової орбіти радіуса r навколо кулястої планети v = √(GM/r). Біля поверхні Землі ідеальна перша космічна швидкість становить близько 7,9 км/с, друга космічна близько 11,2 км/с без урахування атмосфери. Реальні низькі орбіти проходять вище щільних шарів повітря."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Newton showed how gravity could account for orbital motion, and Kepler’s planetary laws were established earlier in the seventeenth century. Modern artificial-satellite flight began in 1957 with Sputnik 1.",
+			"core": "A satellite moving sideways fast enough falls around Earth rather than directly into it. Higher circular orbits have lower speeds but longer periods. A geostationary satellite circles above Earth’s equator in the same direction as Earth’s rotation with an orbital period equal to one sidereal day, remaining over nearly the same longitude.",
+			"components": "For circular orbits, GMm/r² = mv²/r, v = √(GM/r), T = 2π√(r³/(GM)). Here G ≈ 6.67430 · 10⁻¹¹ Н·м²/кг², M planet mass in кг, r distance from its centre in м, v in м/с and T in с. Escape speed from radius r is v_esc = √(2GM/r) under a two-body model.",
+			"apply": "Write r = R + h and decide whether the orbit is circular. Balance gravity with the required radial force and solve for speed or period. For escape speed apply energy conservation rather than the circular-orbit formula. State whether atmosphere and planetary rotation are neglected.",
+			"example": "Using Earth’s surface values g = 9.8 m/s² and R = 6.37 · 10⁶ m, ideal circular speed v = √(gR) = √(9.8 m/s² · 6.37 · 10⁶ m) ≈ 7.90 · 10³ m/s = 7.90 km/s. Try it: escape speed at that radius? (Answer: √2 · 7.90 km/s ≈ 11.2 km/s.)",
+			"limits": "A surface-hugging orbit is a mathematical idealization because atmospheric drag and terrain prevent it. The formulas assume spherical gravity and ignore other bodies. Do not use height h instead of orbital radius R + h or confuse escape speed with the speed for a circular orbit.",
+			"related": "Law of Universal Gravitation (#26); Dynamics of Circular Motion (#32); Conservation of Mechanical Energy (#48)"
+		},
+		"ua": {
+			"origin": "Ньютон пояснив орбітальний рух силою тяжіння, спираючись також на закони Кеплера початку XVII століття. Епоха штучних супутників почалася 1957 року із запуском «Супутника-1».",
+			"core": "За достатньої бічної швидкості супутник падає навколо Землі, а не безпосередньо на її поверхню. На вищій круговій орбіті швидкість менша, а період більший. Геостаціонарний супутник обертається над екватором у напрямку обертання Землі з періодом однієї зоряної доби.",
+			"components": "GMm/r² = mv²/r, звідки v = √(GM/r), T = 2π√(r³/(GM)). G ≈ 6,67430 · 10⁻¹¹ Н·м²/кг², M у кг, r від центра планети в м, v у м/с, T у с. Друга космічна швидкість v₂ = √(2GM/r) у наближенні двох тіл.",
+			"apply": "Знайдіть радіус орбіти r = R + h. Для кругового руху прирівняйте гравітаційну силу до потрібної доцентрової та обчисліть швидкість або період. Для швидкості втечі скористайтеся законом збереження енергії. Зазначте нехтування атмосферою та іншими тілами.",
+			"example": "Для Землі візьмемо g = 9,8 м/с² та R = 6,37 · 10⁶ м. Ідеальна кругова швидкість біля поверхні v = √(gR) = √(9,8 м/с² · 6,37 · 10⁶ м) ≈ 7,90 · 10³ м/с = 7,90 км/с. Спробуйте самі: друга космічна швидкість на цій відстані? (Відповідь: √2 · 7,90 км/с ≈ 11,2 км/с.)",
+			"limits": "Орбіта безпосередньо біля поверхні є ідеалізацією через атмосферу й рельєф. Формули припускають сферично-симетричне поле тяжіння та нехтують іншими небесними тілами. Не підставляйте висоту h замість r = R + h і не плутайте кругову швидкість зі швидкістю втечі.",
+			"related": "Закон всесвітнього тяжіння (#26); Динаміка руху по колу (#32); Закон збереження механічної енергії (#48)"
+		}
+	}
+}

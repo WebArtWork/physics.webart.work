@@ -1,0 +1,52 @@
+{
+	"n": 121,
+	"slug": "121-energy-in-oscillations-and-damping",
+	"title": {
+		"en": "Energy in Oscillations and Damping",
+		"ua": "Перетворення енергії під час коливань. Згасаючі коливання"
+	},
+	"short": {
+		"en": "A pendulum exchanges kinetic energy with potential energy as it swings. At the lowest point its speed is greatest; at its turning points it momentarily stops. Real oscillations fade because friction and air resistance convert mechanical energy to internal energy.",
+		"ua": "Під час коливань маятника кінетична та потенціальна енергії переходять одна в одну. У положенні рівноваги швидкість найбільша, а в крайніх положеннях на мить дорівнює нулю. У реальному світі коливання згасають, адже тертя й опір повітря перетворюють механічну енергію на внутрішню."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Energy conservation was formulated in the nineteenth century by several scientists including Joule and Helmholtz. Studies of damped springs and pendulums led to mathematical models of energy loss.",
+			"core": "For a freely oscillating ideal spring, total energy stays constant while elastic potential energy and kinetic energy alternate. With damping, the amplitude decreases and energy is transferred to the surroundings. Weak damping usually produces an exponentially shrinking amplitude, but a very strong damping can prevent repeated crossings of equilibrium.",
+			"components": "E = kA²/2 = kx²/2 + mv²/2, with spring stiffness k in N/m, amplitude A and displacement x in m, mass m in kg and speed v in m/s. For viscous damping F_d = −bv, b is measured in kg/s. These equations assume a linear spring, a fixed equilibrium and no external drive.",
+			"apply": "Draw the turning points and equilibrium. For an ideal spring evaluate total energy at maximum extension, then subtract spring energy at a chosen displacement to find kinetic energy. With friction do not set mechanical energies at two times equal; include dissipated energy. Distinguish amplitude from instantaneous displacement.",
+			"example": "A spring has k = 200 N/m and amplitude A = 0.10 m. E = 200 N/m · (0.10 m)² / 2 = 1.0 J. At x = 0.060 m, spring energy is 0.36 J and kinetic energy is 0.64 J. Try it: energy at x = A? (1.0 J potential, zero kinetic).",
+			"limits": "With strong friction, total mechanical energy is not conserved; energy becomes internal energy. Do not treat displacement as amplitude or assume every damped motion remains sinusoidal.",
+			"related": "Oscillatory Motion: Amplitude, Period and Frequency (#118); Harmonic Oscillations (#119); Spring and Simple Pendulums (#120)"
+		},
+		"ua": {
+			"origin": "Закон збереження енергії встановили в XIX столітті, зокрема завдяки працям Джоуля та Гельмгольца. Дослідження маятників і пружин дали змогу описати втрати енергії під час згасання.",
+			"core": "Для ідеального пружинного маятника повна механічна енергія стала, а кінетична та потенціальна енергії змінюються взаємно. За наявності опору амплітуда зменшується, а частина енергії передається оточенню. За слабкого в’язкого опору амплітуда спадає приблизно експоненційно. Надмірне гальмування може взагалі усунути повторні коливання.",
+			"components": "E = kA²/2 = kx²/2 + mv²/2, де жорсткість k вимірюється в Н/м, амплітуда A і зміщення x у м, маса m у кг, швидкість v у м/с. Для в’язкого тертя F_оп = −bv, де b у кг/с. Формули енергії справедливі для лінійної пружини без зовнішньої дії.",
+			"apply": "Позначте крайні положення та рівновагу. Визначте повну енергію за амплітудою, потім відніміть потенціальну енергію за заданого зміщення. Якщо є тертя, урахуйте енергію, що перейшла у внутрішню; не прирівнюйте механічні енергії без пояснення. Не плутайте амплітуду зі зміщенням у певну мить.",
+			"example": "Пружина має k = 200 Н/м та A = 0,10 м. E = 200 Н/м · (0,10 м)² / 2 = 1,0 Дж. За x = 0,060 м потенціальна енергія дорівнює 0,36 Дж, кінетична 0,64 Дж. Спробуйте самі: яка енергія за x = A? (1,0 Дж потенціальної та нуль кінетичної).",
+			"limits": "За значного тертя механічна енергія не зберігається, вона переходить у внутрішню. Не плутайте зміщення з амплітудою й не вважайте всі згасаючі процеси синусоїдальними.",
+			"related": "Механічні коливання. Амплітуда, період, частота (#118); Гармонічні коливання (#119); Пружинний і математичний маятники (#120)"
+		}
+	}
+}

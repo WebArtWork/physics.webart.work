@@ -1,0 +1,12 @@
+{
+	"n": 1,
+	"slug": "001-what-physics-studies-phenomena-models-and-laws",
+	"title": {
+		"en": "What Physics Studies: Phenomena, Models and Laws",
+		"ua": "Що вивчає фізика: явища, моделі та закони"
+	},
+	"short": {
+		"en": "Physics investigates matter, energy, motion and interactions through observations, controlled experiments and mathematical models. A model keeps essential features and leaves out others. A 5 m long car can be treated as a point when studying a 100 km trip. It cannot be treated as a point when parking in a 5.2 m space. A law describes a reliable relationship, while a theory explains a connected set of observations. Every conclusion has a domain where its assumptions hold.",
+		"ua": "Фізика вивчає речовину, енергію, рух і взаємодії за допомогою спостережень, керованих експериментів і математичних моделей. Модель залишає головне та відкидає другорядне: автомобіль завдовжки 5 м можна вважати матеріальною точкою під час поїздки на 100 км, але не під час паркування в місці завдовжки 5,2 м. Закон описує стійку закономірність, а теорія пояснює пов’язані явища. Кожне твердження має умови застосування."
+	}
+}

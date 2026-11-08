@@ -1,0 +1,52 @@
+{
+	"n": 114,
+	"slug": "114-electromagnetic-induction-and-faradays-law",
+	"title": {
+		"en": "Electromagnetic Induction and Faraday's Law",
+		"ua": "Явище електромагнітної індукції. Закон Фарадея"
+	},
+	"short": {
+		"en": "A changing magnetic flux through a conducting loop creates an induced electromotive force (EMF). If the loop is closed, it can drive current. Moving a magnet through a coil or switching current in a nearby coil changes flux and induces an EMF even without a battery connected to the detecting loop. This is the principle behind generators and transformers.",
+		"ua": "Зміна магнітного потоку через провідний контур створює електрорушійну силу індукції. Якщо контур замкнений, виникає індукційний струм. Наприклад, рух магніту відносно котушки або зміна струму в сусідній котушці може створити ЕРС без під’єднаного до першої котушки джерела живлення. Це основа генераторів і трансформаторів."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "In 1831 Michael Faraday observed electromagnetic induction; Joseph Henry independently investigated related effects. Faraday's law was later expressed in mathematical form within electromagnetic field theory.",
+			"core": "Induction depends on how rapidly the magnetic flux changes, not on the magnitude of flux alone. No flux change means no induced EMF in a stationary circuit, even when the field is strong and constant. The minus sign in the law specifies the induced orientation according to Lenz's rule, expressing opposition to the change that creates the current.",
+			"components": "For one turn, ℰ = −ΔΦ/Δt as an average, where ℰ is EMF in V, flux Φ in Wb and time t in s. For a coil of N identical tightly coupled turns, ℰ = −NΔΦ/Δt. For instantaneous changes use the corresponding time derivative. EMF can exist in an open loop without a sustained current.",
+			"apply": "Mark a consistent surface normal and the positive direction around the loop. Calculate initial and final flux through each turn, then ΔΦ and elapsed time. Multiply by N, keep sign if direction matters, and use |ℰ| when asked only for magnitude. If resistance R is known for a closed loop, estimate current I = |ℰ|/R. Do not connect induction coils to unsafe voltage sources.",
+			"example": "A 100-turn coil has flux per turn increasing from 0.0010 Wb to 0.0030 Wb in 0.20 s. |ℰ| = 100(0.0030 − 0.0010) Wb/0.20 s = 1.0 V. Try it: if the change takes 0.10 s, find |ℰ|. (2.0 V).",
+			"limits": "Changing flux, not merely a nonzero magnetic field, induces EMF. The average formula uses a finite interval; rapid variation requires derivatives. An open circuit can have EMF without current.",
+			"related": "Magnetic Flux (#113); Lenz's Rule (#115); Induced EMF in a Moving Conductor (#116)"
+		},
+		"ua": {
+			"origin": "1831 року Майкл Фарадей відкрив явище електромагнітної індукції; Джозеф Генрі незалежно досліджував близькі явища. Пізніше закон отримав математичне формулювання в теорії електромагнітного поля.",
+			"core": "ЕРС визначається швидкістю зміни магнітного потоку, а не лише його величиною. У нерухомому контурі за сталого потоку індукційна ЕРС не виникає. Знак мінус у законі відображає правило Ленца: індукційний струм протидіє зміні, яка його спричинила.",
+			"components": "Для одного витка середня ЕРС ℰ = −ΔΦ/Δt, де ℰ у В, Φ у Вб, t у с. Для котушки з N однакових витків ℰ = −NΔΦ/Δt. Для миттєвого значення застосовують похідну за часом. ЕРС можлива й у розімкненому контурі, хоча сталого струму немає.",
+			"apply": "Виберіть нормаль до площини витка та додатний напрям обходу. Обчисліть початковий і кінцевий потоки, знайдіть ΔΦ, час зміни й кількість витків. Для модуля ЕРС відкиньте знак, але для напряму струму використайте правило Ленца. Якщо відомий опір замкненого кола, знайдіть I = |ℰ|/R. Не працюйте з небезпечними високовольтними котушками.",
+			"example": "У котушці зі 100 витків потік через кожен виток змінився від 0,0010 Вб до 0,0030 Вб за 0,20 с. |ℰ| = 100(0,0030 − 0,0010) Вб/0,20 с = 1,0 В. Спробуйте самі: яка ЕРС за тієї самої зміни протягом 0,10 с? (2,0 В).",
+			"limits": "Індукцію спричиняє зміна потоку, а не просто ненульове B. Формула середньої ЕРС стосується скінченного часу; в розімкненому колі може бути ЕРС без струму.",
+			"related": "Магнітний потік (#113); Правило Ленца (#115); ЕРС індукції в провіднику, що рухається (#116)"
+		}
+	}
+}

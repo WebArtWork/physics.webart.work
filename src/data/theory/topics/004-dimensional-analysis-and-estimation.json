@@ -1,0 +1,52 @@
+{
+	"n": 4,
+	"slug": "004-dimensional-analysis-and-estimation",
+	"title": {
+		"en": "Dimensional Analysis and Estimation",
+		"ua": "Аналіз розмірностей і оцінювання"
+	},
+	"short": {
+		"en": "Dimensional analysis checks whether an equation uses compatible kinds of quantities. You may add 3 m to 2 m, but not to 2 s. The period of a simple pendulum can depend on length l and gravity g as √(l / g), which has the unit second. A quick estimate then tests whether a numerical answer is plausible. Matching dimensions is necessary but does not prove a formula physically correct.",
+		"ua": "Аналіз розмірностей показує, чи узгоджені величини у формулі. Можна додати 3 м і 2 м, але не 3 м і 2 с. Наприклад, період математичного маятника має залежати від його довжини l і прискорення g через √(l / g), адже ця комбінація має розмірність часу. Оцінювання порядку величини перевіряє правдоподібність відповіді. Правильна розмірність необхідна, але сама по собі не доводить правильності формули."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "The systematic use of dimensions grew in nineteenth-century mechanics and fluid physics. Fourier emphasized dimensional consistency, and later Rayleigh and Buckingham developed methods for finding relationships among physical variables. Fermi popularized order-of-magnitude estimation for problems with incomplete information.",
+			"core": "Every quantity has a dimension, such as length L, mass M or time T. An equation must have the same dimension on both sides, and terms being added must share a dimension. Ratios of like quantities have dimension one. Dimensional reasoning can suggest how variables combine but cannot find every numerical coefficient or distinguish some physically different mechanisms.",
+			"components": "Dimensions: [v] = LT⁻¹, [a] = LT⁻², [F] = MLT⁻² and [g] = LT⁻². For a pendulum, [l/g] = L / (LT⁻²) = T², so √(l/g) has dimension T. The actual small-angle period is Tₚ = 2π√(l/g); the dimensionless 2π cannot be predicted from units alone. For estimates, powers of ten such as 10² or 10⁶ are often sufficient.",
+			"apply": "First identify the desired output dimension. Replace each variable in a candidate formula with L, M and T; simplify powers. Reject any expression with mismatched sides. If data are incomplete, estimate independent factors, calculate their product and compare it with familiar scales. Check extreme cases: doubling a length must not cause a physically implausible change.",
+			"example": "Estimate the period of a 1.0 m pendulum for small swings using g = 9.8 m/s². Tₚ = 2π√(1.0 m / 9.8 m/s²) = 2π√(0.102 s²) ≈ 2.01 s. The units inside the square root reduce to s². Try it: how does the period change if length becomes 4.0 m? (Answer: it doubles, to about 4.01 s.)",
+			"limits": "Correct dimensions cannot detect a missing coefficient, wrong sign or wrong physical assumption. The pendulum expression above needs small angles and negligible damping. Never add incompatible units or treat a dimensionless angle in radians as a length. An estimate should state its assumptions and sensible precision rather than claiming exactness.",
+			"related": "Physical Quantities and SI Units (#2); Graphs in Physics (#6); Uniform Circular Motion: Period, Frequency and Angular Velocity (#18)"
+		},
+		"ua": {
+			"origin": "Аналіз розмірностей сформувався у фізиці XIX століття. Фур’є наголошував на однорідності рівнянь, а Релей і Бакінгем розвинули способи визначення залежностей між величинами. Фермі використовував наближені оцінки для задач із неповними даними.",
+			"core": "Кожна фізична величина має розмірність, наприклад довжину L, масу M або час T. Ліва і права частини рівняння повинні мати однакову розмірність; додавати можна лише однорідні величини. Відношення однакових величин безрозмірне. Аналіз розмірностей може визначити можливу форму залежності, але не завжди знаходить числовий коефіцієнт чи пояснює механізм явища.",
+			"components": "Приклади розмірностей: [v] = LT⁻¹, [a] = LT⁻², [F] = MLT⁻², [g] = LT⁻². Для маятника [l/g] = L / (LT⁻²) = T², отже √(l/g) має розмірність часу. Точна формула для малих коливань: Tₚ = 2π√(l/g); безрозмірний коефіцієнт 2π не випливає лише з аналізу одиниць. Для грубих оцінок достатньо порядку величини, наприклад 10² чи 10⁶.",
+			"apply": "Визначте розмірність шуканої величини. Замініть символи в запропонованій формулі на L, M, T та скоротіть степені. Якщо розмірності не збігаються, формулу використовувати не можна. За нестачі даних оцініть окремі множники й порівняйте відповідь зі знайомими величинами. Окремо перевірте граничні випадки.",
+			"example": "Оцінимо період маятника довжиною 1,0 м за малих коливань, якщо g = 9,8 м/с². Tₚ = 2π√(1,0 м / 9,8 м/с²) = 2π√(0,102 с²) ≈ 2,01 с. Під коренем маємо секунди у квадраті. Спробуйте самі: що буде, якщо довжину збільшити до 4,0 м? (Відповідь: період подвоїться, приблизно до 4,01 с.)",
+			"limits": "Навіть розмірнісно правильна формула може мати неправильний знак чи коефіцієнт. Формула маятника справджується для малих кутів і незначного тертя. Не додавайте величини різних розмірностей та не надавайте наближеній оцінці вигляду точного результату.",
+			"related": "Фізичні величини та одиниці SI (#2); Графіки у фізичних задачах (#6); Рівномірний рух по колу: період, частота, кутова швидкість (#18)"
+		}
+	}
+}

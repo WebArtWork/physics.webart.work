@@ -1,0 +1,52 @@
+{
+	"n": 10,
+	"slug": "010-uniform-straight-line-motion",
+	"title": {
+		"en": "Uniform Straight-Line Motion",
+		"ua": "Рівномірний прямолінійний рух"
+	},
+	"short": {
+		"en": "Uniform straight-line motion means velocity stays constant in magnitude and direction. Position then follows x = x₀ + vt. A bus at x₀ = 20 m moving at 5 m/s reaches x = 70 m after 10 s. Its position-time graph is a straight line and its velocity-time graph is horizontal. The rule does not describe an accelerating bus or a vehicle turning a corner.",
+		"ua": "Рівномірний прямолінійний рух означає сталу за модулем і напрямком швидкість. Координата змінюється за законом x = x₀ + vt. Автобус із початковою координатою 20 м і швидкістю 5 м/с через 10 с матиме координату 70 м. Графік координати від часу є прямою, а графік швидкості горизонтальним. Модель не описує прискорення або поворот."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Galileo analyzed uniform motion as part of his seventeenth-century studies of mechanics. The Cartesian coordinate system made it possible to represent the same motion by an equation and a graph. Newton later used uniform motion in his statement of inertia.",
+			"core": "Equal displacement in equal time intervals is the defining feature of uniform rectilinear motion. The direction matters: negative velocity means movement opposite to the chosen positive axis. An object’s coordinate may increase, decrease or remain fixed, depending on its velocity. Two objects meet when their coordinates in the same frame become equal at the same time.",
+			"components": "For constant velocity projection vₓ, x = x₀ + vₓt where x and x₀ are metres, vₓ is m/s and t is seconds measured from the chosen starting instant. Displacement Δx = vₓt. The x–t slope is vₓ; the vₓ–t graph is a horizontal line at vₓ. For two bodies, solve x₁₀ + v₁t = x₂₀ + v₂t using the same time origin.",
+			"apply": "Select one axis and a single clock for all moving bodies. Record initial positions and signed velocities, then write a separate coordinate equation for each. To find a meeting, set the equations equal and solve for t. Check that t is nonnegative and the coordinates agree. Use a graph to visualize which body catches the other.",
+			"example": "At t = 0 s, car A is at x = 0 m and moves at 12 m/s; car B is at x = 100 m and moves in the same direction at 7 m/s. Their positions are x_A = 12t and x_B = 100 + 7t in metres. Meeting: 12t = 100 + 7t, so t = 20 s and x = 240 m. Try it: where is A after 5 s? (Answer: 60 m.)",
+			"limits": "This model needs a straight path and constant velocity, not merely a constant speed during turns. The position-time graph slope can be negative. Do not confuse the initial coordinate x₀ with distance travelled, and avoid mixing km/h with metres and seconds. Two moving objects can have equal coordinates only at the same chosen instant.",
+			"related": "Mechanical Motion and Frames of Reference (#7); Average and Instantaneous Velocity (#9); Motion Graphs (#13)"
+		},
+		"ua": {
+			"origin": "Галілей досліджував рівномірний рух у XVII столітті. Координатний метод Декарта дозволив записувати рух рівняннями й графіками. Пізніше Ньютон поклав збереження рівномірного прямолінійного руху в основу закону інерції.",
+			"core": "За рівномірного прямолінійного руху за однакові проміжки часу відбуваються однакові переміщення. Знак швидкості важливий: від’ємна проєкція означає рух проти додатного напрямку осі. Координата може збільшуватися або зменшуватися. Два тіла зустрінуться тоді, коли їхні координати в одній системі відліку збігатимуться в той самий момент.",
+			"components": "За сталої проєкції швидкості vₓ координата x = x₀ + vₓt, де x та x₀ у метрах, vₓ у м/с, t у секундах від початкового моменту. Переміщення Δx = vₓt. Нахил графіка x(t) дорівнює vₓ, а графік vₓ(t) є горизонтальною прямою. Для зустрічі розв’язують рівняння x₁₀ + v₁t = x₂₀ + v₂t.",
+			"apply": "Виберіть одну вісь і спільний початок часу. Запишіть початкові координати та проєкції швидкостей із відповідними знаками. Складіть рівняння руху кожного тіла. Для зустрічі прирівняйте координати й знайдіть t. Перевірте, чи t не від’ємний і чи обидва вирази дають ту саму координату.",
+			"example": "Автомобіль A починає рух із x = 0 м зі швидкістю 12 м/с; автомобіль B перебуває в x = 100 м та їде в тому самому напрямку зі швидкістю 7 м/с. Рівняння: x_A = 12t, x_B = 100 + 7t, координати в метрах. 12t = 100 + 7t, тому t = 20 с, x = 240 м. Спробуйте самі: яка координата A через 5 с? (Відповідь: 60 м.)",
+			"limits": "Рівномірний прямолінійний рух потребує сталої векторної швидкості: за повороту навіть сталий модуль швидкості не зберігає умови. Нахил графіка координати може бути від’ємним. Не плутайте початкову координату з пройденим шляхом та не змішуйте км/год із метрами й секундами.",
+			"related": "Механічний рух і система відліку (#7); Середня та миттєва швидкість (#9); Графіки руху (#13)"
+		}
+	}
+}

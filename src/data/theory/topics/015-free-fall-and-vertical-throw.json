@@ -1,0 +1,52 @@
+{
+	"n": 15,
+	"slug": "015-free-fall-and-vertical-throw",
+	"title": {
+		"en": "Free Fall and Vertical Throw",
+		"ua": "Вільне падіння. Рух тіла, кинутого вертикально"
+	},
+	"short": {
+		"en": "In free fall without air resistance, every body near Earth accelerates downward at approximately g = 9.8 m/s² regardless of its mass. A ball dropped from rest falls about 4.9 m in the first second. A ball thrown vertically upward slows, stops momentarily at its highest point, and then falls. The upward and downward times are equal only when it returns to the same height and air resistance is neglected.",
+		"ua": "За вільного падіння без опору повітря всі тіла поблизу Землі прискорюються вниз приблизно з g = 9,8 м/с² незалежно від маси. Тіло, відпущене без початкової швидкості, за першу секунду пролітає близько 4,9 м. М’яч, кинутий вертикально вгору, сповільнюється, на мить зупиняється у верхній точці й падає. Час підйому дорівнює часу спуску лише для повернення на ту саму висоту без опору повітря."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Galileo investigated falling objects and accelerated motion in the early seventeenth century. Newton later explained near-Earth gravitational acceleration through universal gravitation. In evacuated-tube demonstrations a feather and a heavier object fall together because air resistance is removed.",
+			"core": "Free fall means gravity is the only significant force. Choose upward as positive: acceleration is −g throughout the flight, even at the highest point where velocity is momentarily zero. When an object is launched upward, gravity reduces its upward velocity until it reaches zero, then makes the downward speed increase. Mass does not enter the ideal equations.",
+			"components": "Near Earth, g ≈ 9.8 m/s² downward. With upward-positive axis, v = v₀ − gt and y = y₀ + v₀t − gt²/2. Also v² = v₀² − 2g(y − y₀). For upward launch from level y₀, time to maximum height t_top = v₀/g and height gain h = v₀²/(2g). For a return to the starting height, total time = 2v₀/g.",
+			"apply": "Mark a vertical axis and origin. Record initial height and signed initial velocity; use a = −g. If the highest point is involved, set v = 0 only at that instant. For a return to the launch height solve y = y₀ and discard t = 0 when seeking the later landing. Check whether air drag or a different gravitational field is relevant.",
+			"example": "A ball is thrown upward at 19.6 m/s from ground level, with g = 9.8 m/s². Time to the top is t = 19.6 m/s / 9.8 m/s² = 2.0 s. Height gain h = (19.6 m/s)²/(2·9.8 m/s²) = 19.6 m. The ideal return time is 4.0 s. Try it: what is its velocity after 1.0 s? (Answer: 9.8 m/s upward.)",
+			"limits": "Real feathers fall differently in air because drag matters, not because gravitational acceleration depends strongly on mass. g changes slightly with latitude and altitude. Do not set acceleration to zero at the top; only velocity is zero there. The symmetry of upward and downward times fails if landing height differs or air resistance is significant.",
+			"related": "Acceleration (#11); Uniformly Accelerated Straight-Line Motion (#12); Horizontal Launch (#16)"
+		},
+		"ua": {
+			"origin": "На початку XVII століття Галілей досліджував падіння тіл та прискорений рух. Ньютон згодом пояснив прискорення всесвітнім тяжінням. У вакуумній трубці легка пір’їна й важче тіло падають разом, оскільки на них не діє помітний опір повітря.",
+			"core": "Вільне падіння означає рух, за якого суттєво діє лише сила тяжіння. Якщо вісь спрямовано вгору, прискорення завжди дорівнює −g, навіть у найвищій точці, де миттєва швидкість нульова. Під час руху вгору сила тяжіння зменшує швидкість до нуля, а потім прискорює тіло вниз. Маса в ідеальних рівняннях відсутня.",
+			"components": "Поблизу Землі g ≈ 9,8 м/с² вниз. За осі вгору v = v₀ − gt, y = y₀ + v₀t − gt²/2 і v² = v₀² − 2g(y − y₀). Час до вершини t_верх = v₀/g, приріст висоти h = v₀²/(2g). Якщо тіло повертається на висоту старту, повний час польоту дорівнює 2v₀/g.",
+			"apply": "Проведіть вертикальну вісь, позначте початкову висоту й напрямок початкової швидкості. За напрямку осі вгору візьміть a = −g. Для верхньої точки використайте v = 0 лише в цей момент. Для повернення на початкову висоту розв’яжіть y = y₀ і виберіть ненульовий момент часу. Перевірте умови нехтування опором повітря.",
+			"example": "М’яч кинули вертикально вгору зі швидкістю 19,6 м/с від землі, g = 9,8 м/с². Час підйому t = 19,6 м/с / 9,8 м/с² = 2,0 с. Висота h = (19,6 м/с)²/(2·9,8 м/с²) = 19,6 м. Повний час повернення 4,0 с. Спробуйте самі: яка швидкість через 1,0 с? (Відповідь: 9,8 м/с угору.)",
+			"limits": "У повітрі пір’їна падає інакше через опір середовища, а не через більшу дію тяжіння на масивні предмети. Прискорення g трохи залежить від широти й висоти. У верхній точці нульова швидкість, але не прискорення. Симетрія часу не зберігається для різних висот старту й фінішу або значного опору.",
+			"related": "Прискорення (#11); Рівноприскорений прямолінійний рух (#12); Рух тіла, кинутого горизонтально (#16)"
+		}
+	}
+}

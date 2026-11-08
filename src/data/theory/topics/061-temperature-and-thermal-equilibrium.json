@@ -1,0 +1,52 @@
+{
+	"n": 61,
+	"slug": "061-temperature-and-thermal-equilibrium",
+	"title": {
+		"en": "Temperature and Thermal Equilibrium",
+		"ua": "Температура. Теплова рівновага"
+	},
+	"short": {
+		"en": "Temperature tells us whether energy will flow as heat when two bodies touch. When the flow stops, they have reached thermal equilibrium. A room at 20 °C has temperature 293.15 K, while boiling water at ordinary pressure is near 100 °C. Temperature is not the same as the amount of heat or internal energy stored in an object.",
+		"ua": "Температура визначає напрям передавання енергії під час теплообміну. Коли два тіла досягають теплової рівноваги, теплообмін між ними не має переважного напряму. Температурі 20 °C відповідає 293,15 К. Температура не тотожна кількості теплоти або запасу внутрішньої енергії тіла."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Early thermometers were developed during the seventeenth century. Fahrenheit and Celsius established practical scales in the eighteenth century; Kelvin introduced an absolute temperature scale in the nineteenth century. The zeroth law of thermodynamics later formalised the transitive property of thermal equilibrium.",
+			"core": "Two bodies in thermal contact exchange energy until neither has a net tendency to heat the other. A thermometer measures its own temperature after equilibrating with an object, so its reading represents the object's temperature only if contact and calibration are suitable. The Kelvin scale starts at absolute zero, the limiting temperature of lowest thermal energy, rather than at the freezing point of water.",
+			"components": "T = t + 273.15, where T is thermodynamic temperature in kelvin (K) and t is Celsius temperature in degrees Celsius (°C). Temperature differences have equal numerical values in K and °C: ΔT = Δt. Fahrenheit conversion is t_F = 1.8t + 32, with t_F in °F. Absolute zero is 0 K = −273.15 °C; ordinary laboratory temperatures are about 290–300 K.",
+			"apply": "Identify whether the problem asks for a temperature or a temperature difference. Convert Celsius to kelvin before using a gas-law or molecular-energy formula. For temperature differences, retain the same numerical interval in degrees Celsius or kelvin. If a thermometer is moved between objects, allow it to settle before recording a result.",
+			"example": "A classroom thermometer reads 22 °C. Convert using T = 22 °C + 273.15 K = 295.15 K, usually 295 K. At the same temperature Fahrenheit reads t_F = 1.8 · 22 + 32 = 71.6 °F. Try it: convert −3 °C to kelvin. (270.15 K).",
+			"limits": "Do not treat temperature as an amount of heat or confuse a hot spark with a large store of thermal energy. The relation T = t + 273 is a rounded classroom approximation; use 273.15 for precise work. Real thermometers need calibration, and a rapidly changing object may not be in equilibrium with the sensor.",
+			"related": "Temperature and the Kinetic Energy of Molecules (#62); Ideal Gas Equation of State (#63); Quantity of Heat and Specific Heat Capacity (#74)"
+		},
+		"ua": {
+			"origin": "Перші термометри створювали в XVII столітті. Фаренгейт і Цельсій запропонували температурні шкали у XVIII столітті, а Кельвін розвинув абсолютну шкалу в XIX столітті. Нульовий закон термодинаміки формалізує умови теплової рівноваги.",
+			"core": "Під час теплового контакту тіла обмінюються енергією до встановлення спільної температури. Термометр показує власну температуру після досягнення рівноваги з досліджуваним тілом. Шкала Кельвіна починається від абсолютного нуля, який є граничною найнижчою термодинамічною температурою, а не від температури замерзання води.",
+			"components": "T = t + 273,15, де T є абсолютною температурою в К, а t температурою за Цельсієм у °C. Різниця температур має однакове числове значення: ΔT = Δt у К і °C. Для шкали Фаренгейта t_F = 1,8t + 32; абсолютний нуль дорівнює 0 К = −273,15 °C.",
+			"apply": "З'ясуйте, чи задано саму температуру, чи її зміну. Для газових законів і формул МКТ переведіть температуру в кельвіни. Під час обчислення різниці температур можна використати числове значення в градусах Цельсія. Дочекайтеся стабілізації показів термометра.",
+			"example": "У класі термометр показав 22 °C. T = 22 + 273,15 = 295,15 К, приблизно 295 К. За шкалою Фаренгейта t_F = 1,8 · 22 + 32 = 71,6 °F. Спробуйте самі: скільки кельвінів відповідає −3 °C? (270,15 К).",
+			"limits": "Не плутайте температуру з кількістю теплоти та внутрішньою енергією. Додавання 273 замість 273,15 є наближенням для навчальних задач. Покази термометра можуть запізнюватися, якщо температура тіла швидко змінюється.",
+			"related": "Температура як міра середньої кінетичної енергії молекул (#62); Рівняння стану ідеального газу (Клапейрона–Менделєєва) (#63); Кількість теплоти. Питома теплоємність речовини (#74)"
+		}
+	}
+}

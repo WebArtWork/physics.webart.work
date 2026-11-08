@@ -1,0 +1,52 @@
+{
+	"n": 99,
+	"slug": "099-kirchhoffs-rules",
+	"title": {
+		"en": "Kirchhoff's Rules",
+		"ua": "Правила Кірхгофа"
+	},
+	"short": {
+		"en": "Kirchhoff's rules solve electrical networks whose branches cannot be simplified by simple series and parallel combinations. The junction rule expresses conservation of charge: currents entering a node balance currents leaving it. The loop rule expresses conservation of energy: signed voltage changes around a closed path sum to zero.",
+		"ua": "Правила Кірхгофа дозволяють розв’язувати розгалужені кола, які не зводяться лише до простого послідовного й паралельного з’єднання. Перше правило відображає збереження заряду у вузлі, а друге збереження енергії в замкненому контурі."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Gustav Kirchhoff formulated circuit rules in 1845 while studying electric networks. The laws are foundational for modern circuit analysis.",
+			"core": "At a junction, charge does not accumulate in the steady-state model, so currents balance. Around a closed loop each rise in potential across a source must be balanced by drops over resistors and other elements. Assigning a trial current direction is allowed; a negative solved current means the actual flow is opposite.",
+			"components": "Junction rule: ΣI_enter = ΣI_leave, where I is in A. Loop rule: ΣΔV = 0, voltage changes in V. Across an ideal resistor going with current, ΔV = −IR; across a source from negative to positive terminal, ΔV = +ℰ. For a source with internal resistance include its Ir drop.",
+			"apply": "Choose current directions and label every loop traversal. Apply the junction rule at independent nodes, then write independent loop equations using one sign convention. Solve simultaneous equations and check both charge and voltage balances. For rapidly varying fields, simple lumped-circuit assumptions may fail.",
+			"example": "A junction carries I₁ = 2.0 A and I₂ = 1.5 A inward, and I₃ outward. Kirchhoff's junction rule gives I₃ = 2.0 + 1.5 = 3.5 A. In a loop with source ℰ = 12 V and resistors 2 Ω and 4 Ω in series, 12 − 2I − 4I = 0, so I = 2 A. Try it: currents 4 A and 1 A enter a junction; what total current leaves? (5 A).",
+			"limits": "The lumped-circuit rules assume charge does not accumulate significantly at nodes and changing magnetic flux through loops is negligible or explicitly accounted for. Sign consistency matters more than guessed direction. Do not count dependent loop equations twice.",
+			"related": "Ohm's Law for a Circuit Section (#96); Series and Parallel Connections (#97); Electromotive Force and Ohm's Law for a Complete Circuit (#98)"
+		},
+		"ua": {
+			"origin": "Густав Кірхгоф сформулював правила для електричних кіл 1845 року. Вони стали основою аналізу складних мереж.",
+			"core": "За сталого режиму електричний заряд у вузлі не накопичується, тому сума вхідних струмів дорівнює сумі вихідних. Під час обходу замкненого контуру сума підвищень потенціалу та його спадів дорівнює нулю. Напрям струму можна обрати довільно: від’ємне знайдене значення означає протилежний напрям.",
+			"components": "Перше правило: ΣI_вх = ΣI_вих, де I у А. Друге: ΣΔV = 0, де напруга у В. Під час обходу резистора за напрямом струму ΔV = −IR; під час переходу через джерело від «мінуса» до «плюса» ΔV = +ℰ. Для реального джерела враховують спад Ir.",
+			"apply": "Накресліть схему, оберіть умовні напрямки струмів та обходу контурів. Запишіть незалежні рівняння для вузлів і контурів, розв’яжіть систему. Перевірте баланс струмів і напруг. Для швидкозмінних полів просте зосереджене наближення може не працювати.",
+			"example": "У вузол входять I₁ = 2,0 А та I₂ = 1,5 А. Виходить I₃ = 2,0 + 1,5 = 3,5 А. Для контуру з ℰ = 12 В, R₁ = 2 Ом, R₂ = 4 Ом: 12 − 2I − 4I = 0, тому I = 2 А. Спробуйте самі: у вузол входять 4 А та 1 А. Скільки виходить загалом? (5 А).",
+			"limits": "Правила зосередженого кола припускають відсутність значного накопичення заряду у вузлах та належний облік змінного магнітного потоку. Послідовність у виборі знаків важливіша за вгаданий напрям. Не записуйте залежні рівняння контурів як незалежні.",
+			"related": "Закон Ома для ділянки кола (#96); Послідовне та паралельне з’єднання провідників (#97); Електрорушійна сила. Закон Ома для повного кола (#98)"
+		}
+	}
+}

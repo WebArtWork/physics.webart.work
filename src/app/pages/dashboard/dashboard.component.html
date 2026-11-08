@@ -1,0 +1,63 @@
+<section class="mx-auto flex w-full max-w-6xl flex-col gap-12 px-4 py-8 sm:px-6 sm:py-12">
+	<div class="grid items-start gap-8 lg:grid-cols-2 lg:gap-12">
+		<header class="flex flex-col items-start gap-6">
+			<h1 class="m-0! text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
+				{{ 'Understand how the universe works' | t }}
+			</h1>
+			<p class="max-w-lg text-base leading-relaxed text-mute">
+				{{
+					'171 theories, from motion and energy to electricity, optics and quantum physics.'
+						| t
+				}}
+			</p>
+			<p class="text-sm text-mute">
+				{{ 'English and Ukrainian. Short and detailed explanations.' | t }}
+			</p>
+			<a class="ds-btn ds-btn-primary" [routerLink]="['/theory', sample.slug]">{{
+				'Start learning' | t
+			}}</a>
+		</header>
+		<section class="ds-card flex flex-col gap-4 p-6" aria-labelledby="sample-title">
+			<h2 id="sample-title" class="m-0! text-xl font-semibold leading-snug">
+				{{ sample.title[lang()] }}
+			</h2>
+			<p class="text-sm text-mute">{{ 'Sample theory' | t }} · #1</p>
+			<p class="leading-relaxed">{{ sample.short[lang()] }}</p>
+			<a
+				class="self-start text-sm font-medium underline underline-offset-4"
+				[routerLink]="['/theory', sample.slug]"
+				>{{ 'Read this theory' | t }} →</a
+			>
+		</section>
+	</div>
+	<section class="flex flex-col gap-5" aria-labelledby="topics-title">
+		<div class="flex flex-wrap items-baseline justify-between gap-3">
+			<h2 id="topics-title" class="m-0! text-xl font-semibold">
+				{{ 'Explore physics' | t }}
+			</h2>
+			<a class="text-sm underline underline-offset-4" routerLink="/theory"
+				>{{ 'Browse all theories' | t }} →</a
+			>
+		</div>
+		<ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+			@for (group of groups; track group.id) {
+				<li>
+					<a
+						class="ds-card flex h-full flex-row! items-center justify-between gap-4 p-5 text-fg! no-underline hover:bg-soft"
+						[routerLink]="['/theory', firstIn(group)]"
+						><span class="font-medium">{{ group.label | t }}</span
+						><span class="shrink-0 text-sm tabular-nums text-mute">{{
+							'{count} theory|{count} theories'
+								| t: { count: group.to - group.from + 1 }
+						}}</span></a
+					>
+				</li>
+			}
+		</ul>
+	</section>
+	<nav class="flex flex-wrap gap-x-5 gap-y-2 text-sm" [attr.aria-label]="'About' | t">
+		<a routerLink="/privacy">{{ 'Privacy policy' | t }}</a>
+		<a routerLink="/support">{{ 'Support' | t }}</a>
+		<a routerLink="/licenses">{{ 'Licenses and credits' | t }}</a>
+	</nav>
+</section>

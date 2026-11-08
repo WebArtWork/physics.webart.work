@@ -1,0 +1,52 @@
+{
+	"n": 145,
+	"slug": "145-optical-instruments",
+	"title": {
+		"en": "Optical Instruments",
+		"ua": "Оптичні прилади"
+	},
+	"short": {
+		"en": "Optical instruments control how images appear to the eye or to a sensor. A magnifier increases angular size, a microscope reveals tiny nearby structures, and a telescope gathers light from distant objects. A camera projects a real image onto a sensor; a projector creates a real enlarged image on a screen.",
+		"ua": "Оптичні прилади змінюють зображення, яке бачить око або реєструє сенсор. Лупа збільшує кутовий розмір предмета, мікроскоп допомагає роздивитися дрібні структури, а телескоп збирає світло від віддалених об’єктів. Фотоапарат створює дійсне зображення на сенсорі, проєктор на екрані."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "The early seventeenth century saw rapid development of telescopes and microscopes. Later improved lenses, mirrors and photography expanded their applications.",
+			"core": "A magnifier uses a converging lens and an object inside its focal length to create a larger virtual image. A compound microscope combines an objective and eyepiece. A refracting telescope uses lenses; a reflecting telescope uses a curved mirror to collect light.",
+			"components": "For relaxed-eye viewing, an ideal magnifier has angular magnification M ≈ 0.25 m/f, where f is focal length in metres and 0.25 m is conventional near-point distance. Telescope angular magnification magnitude is |M| ≈ fobjective/feyepiece for a simple astronomical telescope.",
+			"apply": "Identify whether the instrument produces a real intermediate image or a virtual final image. Draw the objective, eyepiece and light path, then calculate angular rather than linear magnification when appropriate.",
+			"example": "A magnifier with f = 0.050 m has M ≈ 0.25 m/0.050 m = 5 for relaxed-eye viewing. Try it: which part of a telescope chiefly gathers light? (The objective or primary mirror.)",
+			"limits": "Angular and linear magnification are different. Simple formulas assume ideal thin lenses and relaxed-eye viewing; aberrations and diffraction limit real instruments.",
+			"related": "Lenses and Optical Power (#142); Image Formation by Thin Lenses (#143); Polarization of Light (#149)"
+		},
+		"ua": {
+			"origin": "На початку XVII століття швидко вдосконалювали телескопи й мікроскопи. Подальший розвиток лінз, дзеркал і фотографії розширив їхні можливості.",
+			"core": "Лупа є збиральною лінзою, предмет розташовують ближче за фокус для збільшеного уявного зображення. Складний мікроскоп містить об’єктив та окуляр. Лінзовий телескоп збирає світло лінзами, дзеркальний увігнутим головним дзеркалом.",
+			"components": "Для розслабленого ока кутове збільшення ідеальної лупи M ≈ 0,25 м/F, де F фокусна відстань у метрах. Для простого астрономічного телескопа модуль кутового збільшення |M| ≈ Fоб/Fок, де індекси означають об’єктив і окуляр.",
+			"apply": "Визначте, чи прилад формує дійсне проміжне зображення та уявне кінцеве. Накресліть шлях променів через об’єктив та окуляр. Не плутайте кутове збільшення з лінійним.",
+			"example": "Лупа з F = 0,050 м має M ≈ 0,25 м/0,050 м = 5 для розслабленого ока. Спробуйте самі: який елемент телескопа насамперед збирає світло? (Об’єктив або головне дзеркало.)",
+			"limits": "Кутове й лінійне збільшення не тотожні. Прості формули припускають ідеальні тонкі лінзи й розслаблене око; реальні прилади обмежують аберації та дифракція.",
+			"related": "Лінзи. Оптична сила лінзи (#142); Побудова зображень у тонких лінзах. Формула тонкої лінзи (#143); Поляризація світла (#149)"
+		}
+	}
+}

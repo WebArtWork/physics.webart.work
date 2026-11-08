@@ -1,0 +1,52 @@
+{
+	"n": 59,
+	"slug": "059-brownian-motion-and-diffusion",
+	"title": {
+		"en": "Brownian Motion and Diffusion",
+		"ua": "Броунівський рух і дифузія"
+	},
+	"short": {
+		"en": "Brownian motion is the irregular jitter of tiny particles suspended in a liquid or gas, caused by countless impacts from surrounding molecules. Diffusion is the net spreading of particles from regions of higher concentration toward lower concentration. A drop of dye spreads through still water even without stirring. Both effects provide evidence of continual molecular motion and often become faster at higher temperatures.",
+		"ua": "Броунівський рух є нерегулярним рухом дрібних частинок у рідині або газі через удари молекул середовища. Дифузія є поступовим вирівнюванням концентрації частинок. Крапля барвника розповсюджується у спокійній воді навіть без перемішування. Обидва явища підтверджують безперервний тепловий рух молекул і зазвичай посилюються з підвищенням температури."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Robert Brown described the irregular movement of pollen-related particles in water in 1827. Einstein gave a quantitative explanation in 1905, and Jean Perrin’s experiments strengthened evidence for atoms and molecules.",
+			"core": "Surrounding molecules strike a microscopic suspended particle unevenly, producing a random zigzag path: Brownian motion. Diffusion instead describes the statistical redistribution of many particles. Both arise from thermal motion. Higher temperature generally increases molecular motion, while diffusion through solids is much slower than through liquids or gases.",
+			"components": "For simple one-dimensional diffusion, the mean-square displacement is ⟨x²⟩ = 2Dt, where D is diffusion coefficient in m²/s, t time in s and ⟨x²⟩ mean-square displacement in m². A characteristic spread is x_rms = √(2Dt). This relation describes an ideal diffusive regime, not one molecule following a predictable straight path.",
+			"apply": "Distinguish an individual suspended particle’s jitter from the collective concentration change. For a diffusion estimate identify D and duration, then find the root-mean-square spread. Interpret the result statistically, not as a guaranteed position.",
+			"example": "A tracer diffuses in one dimension with D = 2.0 · 10⁻⁹ m²/s for t = 10 s. x_rms = √(2 · 2.0 · 10⁻⁹ m²/s · 10 s) = √(4.0 · 10⁻⁸ m²) = 2.0 · 10⁻⁴ m = 0.20 mm. Try it: after 40 s, what is x_rms? (0.40 mm).",
+			"limits": "The simple model assumes ordinary diffusion in a uniform medium; bulk flow, boundaries and variable diffusion coefficients alter spreading. Do not confuse Brownian particles with individual molecules or suppose diffusion always proceeds in only one direction.",
+			"related": "Main Ideas of Molecular-Kinetic Theory (#57); Amount of Substance and the Avogadro Constant (#58); Ideal Gas and the Basic Equation of Molecular-Kinetic Theory (#60)"
+		},
+		"ua": {
+			"origin": "Роберт Броун описав хаотичний рух частинок у воді в 1827 році. Альберт Ейнштейн теоретично пояснив його у 1905 році, а досліди Жана Перрена підтвердили молекулярну природу явища.",
+			"core": "Частинка, зважена у воді, зазнає нерівномірних ударів молекул з усіх боків і хаотично змінює напрям руху. Дифузія описує поширення великої кількості частинок через їхній тепловий рух. За більшої температури рух зазвичай інтенсивніший. У твердих тілах дифузія зазвичай відбувається значно повільніше.",
+			"components": "Для простого одновимірного випадку ⟨x²⟩ = 2Dt, де D є коефіцієнтом дифузії в м²/с, t часом у с, ⟨x²⟩ середнім квадратом зміщення в м². Середньоквадратичне зміщення x_rms = √(2Dt). Це статистичний закон для дифузійного режиму, а не точна траєкторія частинки.",
+			"apply": "Розрізняйте випадкові коливання однієї зваженої частинки й поширення домішки в об’ємі. Для оцінки дифузії знайдіть коефіцієнт D, підставте час, обчисліть середньоквадратичне зміщення й поясніть його статистичний зміст.",
+			"example": "D = 2,0 · 10⁻⁹ м²/с, t = 10 с. x_rms = √(2 · 2,0 · 10⁻⁹ м²/с · 10 с) = √(4,0 · 10⁻⁸ м²) = 2,0 · 10⁻⁴ м = 0,20 мм. Спробуйте самі: яке зміщення через 40 с? (0,40 мм).",
+			"limits": "Формула припускає звичайну дифузію в однорідному середовищі. Потоки рідини, стінки та зміна коефіцієнта D ускладнюють картину. Не плутайте видимі броунівські частинки з молекулами й не вважайте дифузію рухом усіх частинок лише в один бік.",
+			"related": "Основні положення молекулярно-кінетичної теорії (#57); Кількість речовини. Стала Авогадро. Молярна маса (#58); Ідеальний газ. Основне рівняння МКТ (#60)"
+		}
+	}
+}

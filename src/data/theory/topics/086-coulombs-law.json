@@ -1,0 +1,52 @@
+{
+	"n": 86,
+	"slug": "086-coulombs-law",
+	"title": {
+		"en": "Coulomb's Law",
+		"ua": "Закон Кулона"
+	},
+	"short": {
+		"en": "Coulomb's law gives the magnitude of the electrostatic force between two stationary point charges. It grows with the product of charge magnitudes and decreases as the inverse square of their separation. Two charges of 1 μC each, 0.10 m apart in vacuum, repel with a force of about 0.90 N.",
+		"ua": "Закон Кулона визначає модуль сили взаємодії двох нерухомих точкових зарядів. Вона прямо пропорційна добутку модулів зарядів та обернено пропорційна квадрату відстані. Два заряди по 1 мкКл на відстані 0,10 м у вакуумі відштовхуються із силою приблизно 0,90 Н."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Charles-Augustin de Coulomb measured electrostatic forces with a torsion balance in the 1780s, establishing their inverse-square dependence in the point-charge approximation.",
+			"core": "Charges of the same sign repel along the joining line; opposite signs attract. Doubling the separation reduces the force to one quarter. A uniform insulating medium changes the force through its relative permittivity. Unlike gravity, electric forces can repel as well as attract.",
+			"components": "F = (1/(4πε₀ε_r)) |q₁q₂|/r² = k|q₁q₂|/(ε_r r²), with F in N, charges q in C, separation r in m, ε_r dimensionless, ε₀ ≈ 8.854 · 10⁻¹² F/m and k ≈ 8.99 · 10⁹ N·m²/C² in vacuum.",
+			"apply": "Convert charges to coulombs and distance to metres. Identify the sign of each charge to select attraction or repulsion, then calculate the positive force magnitude. Check that multiplying distance by two divides the force by four. Use vector addition if more than two charges are present.",
+			"example": "For q₁ = +2.0 μC, q₂ = −3.0 μC, r = 0.30 m in vacuum: F = 8.99 · 10⁹ · (2.0 · 10⁻⁶)(3.0 · 10⁻⁶)/(0.30)² N ≈ 0.60 N, attractive. Try it: double r. What is F? (0.15 N, attractive).",
+			"limits": "The point-charge approximation fails when dimensions are comparable with separation; nonuniform media need more advanced methods. Never omit the square on r or use microcoulombs directly as coulombs. Direction follows charge signs, not the absolute-value formula.",
+			"related": "Electric Charge and Its Conservation (#85); Electric Field and Field Strength (#87); Field Lines and the Superposition Principle (#88)"
+		},
+		"ua": {
+			"origin": "Шарль Кулон у 1780-х роках досліджував електростатичну взаємодію за допомогою крутильних терезів і встановив закон обернених квадратів.",
+			"core": "Однойменні заряди відштовхуються, різнойменні притягуються; сила діє вздовж прямої, яка з’єднує заряди. За подвоєння відстані сила зменшується в чотири рази. Діелектрик змінює її величину через відносну діелектричну проникність.",
+			"components": "F = k|q₁q₂|/(ε_r r²), де F у Н, q₁ і q₂ у Кл, r у м, ε_r безрозмірна, k = 1/(4πε₀) ≈ 8,99 · 10⁹ Н·м²/Кл², ε₀ ≈ 8,854 · 10⁻¹² Ф/м. Формула справедлива для точкових зарядів у відповідному однорідному середовищі.",
+			"apply": "Переведіть заряди в Кл, відстань у м. За знаками визначте притягання або відштовхування. Обчисліть модуль сили, а для багатьох зарядів додайте сили як вектори. Перевірте залежність від квадрата відстані.",
+			"example": "Для q₁ = +2,0 мкКл, q₂ = −3,0 мкКл, r = 0,30 м у вакуумі: F = 8,99 · 10⁹ · (2,0 · 10⁻⁶)(3,0 · 10⁻⁶)/(0,30)² Н ≈ 0,60 Н, притягання. Спробуйте самі: відстань подвоїли. Яка сила? (0,15 Н, притягання).",
+			"limits": "Наближення точкових зарядів порушується, якщо їхні розміри порівнянні з відстанню; неоднорідні середовища складніші. Не забувайте квадрат r і переведення мкКл у Кл. Знак визначає напрям сили, а формула модулів лише величину.",
+			"related": "Електричний заряд. Закон збереження заряду (#85); Електричне поле. Напруженість електричного поля (#87); Лінії напруженості. Принцип суперпозиції полів (#88)"
+		}
+	}
+}

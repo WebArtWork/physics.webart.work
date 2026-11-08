@@ -1,0 +1,52 @@
+{
+	"n": 94,
+	"slug": "094-electric-current-and-current-strength",
+	"title": {
+		"en": "Electric Current and Current Strength",
+		"ua": "Електричний струм. Сила струму"
+	},
+	"short": {
+		"en": "Electric current is directed transport of electric charge. In a metal, mobile electrons drift opposite the conventional positive-current direction. A current of 2 A means 2 C of charge crosses a chosen conductor cross-section each second. Individual electrons drift slowly, while changes in the electric field propagate through a circuit much faster.",
+		"ua": "Електричний струм є напрямленим рухом заряджених частинок. У металах електрони дрейфують проти умовного напряму струму, який збігається з напрямом руху додатних зарядів. Сила струму 2 А означає проходження 2 Кл заряду через поперечний переріз щосекунди."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Volta's battery around 1800 enabled sustained currents. Ampère and other nineteenth-century scientists studied their magnetic and electrical effects.",
+			"core": "A sustained conduction current needs mobile charge carriers and a driving electric field maintained by a source. Metals conduct mainly via electrons, electrolytes via ions and semiconductors via electrons and holes. Conventional current is defined in the direction of positive charge flow. Current is not consumed by a resistor; energy is transferred while charge continues through the circuit.",
+			"components": "I = Δq/Δt for average current, and I = dq/dt instantaneously, where I is current strength in amperes (A), q in coulombs (C), and t in seconds (s). For steady current, q = It; 1 A = 1 C/s. Current is a scalar signed by a chosen reference direction.",
+			"apply": "Choose a cross-section and current direction, then divide transported charge by elapsed time. Distinguish the movement of positive carriers from electrons. For alternating or varying currents use a time interval or the instantaneous derivative as appropriate. Avoid touching mains wiring.",
+			"example": "A steady current I = 0.50 A flows for t = 3.0 min = 180 s. Charge transferred is q = It = 0.50 C/s · 180 s = 90 C. Try it: 24 C passes in 6 s; what current? (4 A).",
+			"limits": "I = q/t with a single q/t quotient applies to average or constant current, not all instantaneous variations. Electrons in metal move opposite conventional current. Do not imagine a resistor consumes charges or that electron drift speed is signal speed.",
+			"related": "Electric Charge and Its Conservation (#85); Electrical Resistance and Resistivity (#95); Ohm's Law for a Circuit Section (#96)"
+		},
+		"ua": {
+			"origin": "Батарея Вольти близько 1800 року дала змогу підтримувати тривалий струм. Ампер та інші дослідники XIX століття вивчали його дію.",
+			"core": "Для струму провідності потрібні вільні носії заряду й електричне поле, яке підтримує джерело. У металах носіями є електрони, в електролітах іони, у напівпровідниках електрони й дірки. Умовний напрям струму протилежний руху електронів у металі. Заряд у резисторі не «витрачається», хоча енергія передається.",
+			"components": "I = Δq/Δt для середньої сили струму; за сталого струму q = It. Тут I у А, q у Кл, t у с; 1 А = 1 Кл/с. Миттєва сила струму I = dq/dt. Знак залежить від вибраного напряму відліку.",
+			"apply": "Оберіть поперечний переріз провідника та напрям струму. Знайдіть заряд, який проходить за час t, або поділіть заданий заряд на час. Для змінного струму враховуйте часову залежність. Не працюйте з відкритою електромережею.",
+			"example": "За I = 0,50 А протягом t = 3,0 хв = 180 с проходить q = It = 0,50 Кл/с · 180 с = 90 Кл. Спробуйте самі: за 6 с проходить 24 Кл. Яка сила струму? (4 А).",
+			"limits": "I = q/t без приростів придатна для сталого струму, а для змінного беруть Δq/Δt або похідну. Електрони рухаються проти умовного напряму. Резистор не споживає заряд; швидкість дрейфу не дорівнює швидкості поширення сигналу.",
+			"related": "Електричний заряд. Закон збереження заряду (#85); Електричний опір. Питомий опір провідника (#95); Закон Ома для ділянки кола (#96)"
+		}
+	}
+}

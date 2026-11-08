@@ -1,0 +1,52 @@
+{
+	"n": 164,
+	"slug": "164-nuclear-forces-mass-defect-and-binding-energy",
+	"title": {
+		"en": "Nuclear Forces, Mass Defect and Binding Energy",
+		"ua": "Ядерні сили. Дефект мас. Енергія зв’язку ядра"
+	},
+	"short": {
+		"en": "Nuclear binding energy is the energy needed to separate a nucleus into free protons and neutrons. A bound nucleus has slightly less mass than its separated nucleons: the mass defect Δm corresponds to energy E = Δmc². For example, a mass defect of 0.010 u represents about 9.31 MeV. Binding energy per nucleon helps explain why both light-nucleus fusion and heavy-nucleus fission can release energy.",
+		"ua": "Енергія зв’язку ядра дорівнює енергії, потрібній для розділення його на вільні протони й нейтрони. Маса зв’язаного ядра трохи менша за суму мас окремих нуклонів. Цю різницю називають дефектом мас Δm, і їй відповідає енергія E = Δmc². Наприклад, дефект мас 0,010 а. о. м. відповідає приблизно 9,31 МеВ. Залежність енергії зв’язку на один нуклон пояснює можливість виділення енергії під час поділу та синтезу ядер."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Einstein established mass–energy equivalence in 1905. Measurements of atomic and nuclear masses later established mass defects. Nuclear force models developed during the twentieth century to explain the strong attraction between nearby nucleons despite electric repulsion between protons.",
+			"core": "Nucleons attract at nuclear distances through the residual strong interaction, which is short-ranged and saturating. A stable bound nucleus has lower energy than its free constituents. Energy must be supplied to pull it apart. Average binding energy per nucleon increases strongly among light nuclei and peaks around the iron-nickel region, then tends to fall for much heavier ones. This shape explains energy release from reactions toward more tightly bound products.",
+			"components": "For bare nucleons and a nucleus, Δm = Zmₚ + Nmₙ − m_nucleus. If using neutral atomic masses, include hydrogen-atom masses consistently to account approximately for electrons: Δm ≈ Zm_H + Nmₙ − m_atom. Binding energy Eᵦ = Δmc². One unified atomic mass unit corresponds to about 931.5 MeV/c², so Eᵦ(MeV) ≈ Δm(u) · 931.5. Binding energy per nucleon is Eᵦ / A.",
+			"apply": "Choose one mass convention and do not mix bare nuclear and neutral atomic masses without electron corrections. Find Z and N, subtract the product mass from the free-constituent mass, then multiply by c² or 931.5 MeV per u. Divide by A only when asked for average binding energy per nucleon. Compare initial and final total mass to determine reaction energy.",
+			"example": "A hypothetical nucleus has Δm = 0.010 u. Its binding energy is Eᵦ ≈ 0.010 · 931.5 MeV = 9.315 MeV ≈ 9.3 MeV. Try it: what is Eᵦ for Δm = 0.020 u? (Answer: 18.6 MeV.)",
+			"limits": "More binding energy per nucleon does not automatically imply that a particular reaction proceeds without a barrier. The nuclear force is not just a classical short-range force; quantum physics is essential. The mass defect of a nucleus must not be confused with a loss of total mass-energy of an isolated system.",
+			"related": "Mass–Energy Equivalence (#153); Structure of the Atomic Nucleus and Isotopes (#163); Nuclear Fission and Nuclear Reactors (#168); Nuclear Fusion (#169)"
+		},
+		"ua": {
+			"origin": "Альберт Ейнштейн установив зв’язок маси й енергії у 1905 році. Пізніші точні вимірювання мас атомів і ядер виявили дефект мас. У XX столітті фізики розробили теорії ядерних сил, що долають електричне відштовхування протонів на малих відстанях.",
+			"core": "Нуклони притягуються завдяки залишковій сильній взаємодії, яка діє на малих відстанях. Зв’язане ядро має меншу енергію, ніж відповідний набір вільних нуклонів, тому для його розділення потрібна енергія. Середня енергія зв’язку на нуклон зростає для легких ядер, досягає максимуму поблизу заліза й нікелю, а для дуже важких ядер загалом зменшується. Реакції з утворенням міцніше зв’язаних продуктів можуть вивільняти енергію.",
+			"components": "Для мас окремих нуклонів і ядра Δm = Zmₚ + Nmₙ − m_ядра. Якщо користуєтеся масами нейтральних атомів, узгоджено враховуйте електрони: Δm ≈ Zm_H + Nmₙ − m_атома. Енергія зв’язку Eᵦ = Δmc². Одна атомна одиниця маси відповідає приблизно 931,5 МеВ/c², тому Eᵦ(МеВ) ≈ Δm(а. о. м.) · 931,5. Питома енергія зв’язку дорівнює Eᵦ / A.",
+			"apply": "З’ясуйте, які саме маси наведено: ядер чи нейтральних атомів. Визначте Z і N, знайдіть різницю між сумою мас вільних складників і масою зв’язаного ядра. Переведіть дефект мас в енергію множенням на c² або на 931,5 МеВ для однієї атомної одиниці маси. Діліть на A лише тоді, коли шукаєте енергію зв’язку на один нуклон.",
+			"example": "Для умовного ядра Δm = 0,010 а. о. м. Енергія зв’язку Eᵦ ≈ 0,010 · 931,5 МеВ = 9,315 МеВ ≈ 9,3 МеВ. Спробуйте самі: яка енергія зв’язку за Δm = 0,020 а. о. м.? (Відповідь: 18,6 МеВ.)",
+			"limits": "Більша енергія зв’язку на нуклон ще не означає, що будь-яка реакція відбудеться самочинно: існують енергетичні бар’єри. Ядерні сили не можна повністю описати класичною моделлю. Дефект мас не означає порушення закону збереження енергії: енергія зв’язку є частиною повного балансу маси й енергії.",
+			"related": "Взаємозв’язок маси та енергії (#153); Склад атомного ядра. Ізотопи (#163); Поділ ядер урану. Ланцюгова реакція. Ядерний реактор (#168); Термоядерний синтез (#169)"
+		}
+	}
+}

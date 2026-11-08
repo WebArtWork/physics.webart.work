@@ -1,0 +1,52 @@
+{
+	"n": 89,
+	"slug": "089-conductors-and-dielectrics-in-an-electric-field",
+	"title": {
+		"en": "Conductors and Dielectrics in an Electric Field",
+		"ua": "Провідники та діелектрики в електричному полі"
+	},
+	"short": {
+		"en": "A conductor contains mobile charges that move until electrostatic equilibrium is reached. In that equilibrium, the electric field inside the conducting material is zero and excess net charge lies on its surface. Dielectrics instead respond mainly by electric polarisation, changing the field and often increasing capacitor capacitance.",
+		"ua": "У провіднику є вільні носії заряду, які переміщуються до встановлення електростатичної рівноваги. Тоді напруженість поля всередині матеріалу провідника дорівнює нулю, а надлишковий заряд розміщується на поверхні. Діелектрики переважно поляризуються й змінюють поле."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Faraday demonstrated electrostatic shielding in the nineteenth century. Later studies of matter clarified how mobile carriers in metals and bound charges in insulators respond to electric fields.",
+			"core": "If a static field remained inside an ideal conductor, its mobile charges would continue moving, contradicting equilibrium. Their redistribution creates an opposing field. A closed conducting shell shields its interior from external static fields under ideal conditions. In an insulator, molecules develop or align electric dipoles; the field is generally reduced but not necessarily cancelled.",
+			"components": "In electrostatic equilibrium E_inside conductor = 0, where E is measured in N/C. For a linear uniform dielectric between ideal parallel plates, C = ε_r ε₀S/d, where ε_r is relative permittivity, ε₀ ≈ 8.854 · 10⁻¹² F/m, S is plate area in m², d separation in m, C capacitance in F.",
+			"apply": "Decide whether the material is a conductor or dielectric and whether the situation is static. For a metal in equilibrium, set the internal field to zero. For a capacitor with dielectric, identify the dielectric constant and whether voltage or free charge is fixed. Do not assume every dielectric perfectly blocks electric fields.",
+			"example": "A parallel-plate capacitor with air has C₀ = 20 pF. Filling its gap completely with an ideal dielectric of ε_r = 4 gives C = ε_r C₀ = 4 · 20 pF = 80 pF. Try it: ε_r = 3 and C₀ = 15 pF; find C. (45 pF).",
+			"limits": "Zero field inside a conductor assumes electrostatic equilibrium, not a conducting wire with current. Shielding is incomplete for some time-varying fields and openings. A dielectric may break down at high voltage; do not test shielding on live mains.",
+			"related": "Electric Field and Field Strength (#87); Capacitance and Capacitors (#92); Capacitor Combinations and Electric Field Energy (#93)"
+		},
+		"ua": {
+			"origin": "Фарадей у XIX столітті продемонстрував електростатичне екранування. Подальші дослідження речовини пояснили рух вільних носіїв у провідниках і поляризацію зв’язаних зарядів у діелектриках.",
+			"core": "За наявності сталого поля в металі вільні заряди продовжували б рухатися, тому в рівновазі їхній перерозподіл компенсує поле всередині. Замкнена провідна оболонка може екранувати статичне зовнішнє поле. У діелектрику виникають або орієнтуються електричні диполі; поле змінюється, але зазвичай не зникає.",
+			"components": "У рівноважному провіднику E_всередині = 0, E у Н/Кл. Для ідеального плоского конденсатора з однорідним лінійним діелектриком C = ε_r ε₀S/d, де C у Ф, ε_r безрозмірна, ε₀ ≈ 8,854 · 10⁻¹² Ф/м, S у м², d у м.",
+			"apply": "Спочатку визначте тип речовини й чи є ситуація електростатичною. Для металу в рівновазі покладіть внутрішнє поле нульовим. Для діелектрика в конденсаторі врахуйте ε_r та умову сталої напруги або заряду. Не вважайте будь-який діелектрик абсолютним екраном.",
+			"example": "Плоский конденсатор з повітрям має C₀ = 20 пФ. Якщо повністю заповнити проміжок діелектриком ε_r = 4, то C = 4 · 20 пФ = 80 пФ. Спробуйте самі: ε_r = 3 і C₀ = 15 пФ. Яка нова ємність? (45 пФ).",
+			"limits": "Нульове поле всередині провідника стосується електростатичної рівноваги, а не дроту зі струмом. Екранування не завжди діє на змінні поля й крізь отвори. Діелектрик може пробиватися високою напругою; не експериментуйте з електромережею.",
+			"related": "Електричне поле. Напруженість електричного поля (#87); Електроємність. Конденсатори (#92); З’єднання конденсаторів. Енергія електричного поля (#93)"
+		}
+	}
+}

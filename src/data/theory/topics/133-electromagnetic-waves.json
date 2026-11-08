@@ -1,0 +1,52 @@
+{
+	"n": 133,
+	"slug": "133-electromagnetic-waves",
+	"title": {
+		"en": "Electromagnetic Waves",
+		"ua": "Електромагнітні хвилі"
+	},
+	"short": {
+		"en": "Electromagnetic waves consist of coupled changing electric and magnetic fields. Unlike sound, they travel through empty space. They are transverse, carry energy and momentum, and undergo reflection, refraction, interference and diffraction. Radio signals and visible light are members of the same family.",
+		"ua": "Електромагнітна хвиля є поширенням пов’язаних змінних електричного й магнітного полів. На відміну від звуку вона рухається навіть у вакуумі. Це поперечна хвиля, яка переносить енергію та імпульс, відбивається, заломлюється, інтерферує й дифрагує. Радіосигнал і видиме світло належать до одного виду хвиль."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Maxwell predicted electromagnetic waves through his field equations in the 1860s. Hertz produced and detected radio waves in experiments during the late 1880s, confirming the prediction.",
+			"core": "A changing electric field is related to a changing magnetic field, allowing a wave to propagate. In a plane wave in vacuum the electric and magnetic fields are mutually perpendicular and each is perpendicular to propagation. Their changing pattern travels at the speed of light. Electromagnetic waves need no material medium.",
+			"components": "In vacuum c = λf, where c = 299 792 458 m/s exactly, wavelength λ in m and frequency f in Hz. Field amplitudes obey E₀ = cB₀, with E₀ in V/m and B₀ in T, for a plane wave in vacuum. In materials propagation speed depends on their electromagnetic properties.",
+			"apply": "Identify the medium and frequency. Use c for vacuum, or the stated phase speed for a material. Convert MHz and GHz to Hz, then find wavelength. Do not treat mechanical and electromagnetic waves as both requiring matter.",
+			"example": "For f = 100 MHz = 1.00 · 10⁸ Hz, λ = c/f ≈ 3.00 · 10⁸ m/s / 1.00 · 10⁸ Hz = 3.00 m. Try it: what is the vacuum wavelength at 1.0 GHz? (0.300 m).",
+			"limits": "A plane wave in vacuum is an ideal model; media may absorb and disperse fields. Electromagnetic waves do not need matter, unlike sound waves.",
+			"related": "Wavelength, Frequency and Wave Speed (#124); The Electromagnetic Spectrum (#135); Light: Its Nature and Speed (#136)"
+		},
+		"ua": {
+			"origin": "Максвелл у 1860-х роках передбачив існування електромагнітних хвиль. Герц у 1880-х роках створив і виявив радіохвилі експериментально.",
+			"core": "Змінне електричне поле пов’язане зі змінним магнітним полем. У плоскій хвилі в вакуумі вектори обох полів взаємно перпендикулярні та перпендикулярні до напряму поширення. Така хвиля не потребує речовини.",
+			"components": "У вакуумі c = λν, де c = 299 792 458 м/с точно, λ у м, частота ν у Гц. Для амплітуд плоскої хвилі E₀ = cB₀, де E₀ у В/м, B₀ у Тл. У речовині швидкість залежить від її електромагнітних властивостей.",
+			"apply": "Визначте середовище та частоту. Для вакууму використайте c, для речовини задану фазову швидкість. Переведіть МГц або ГГц у Гц та знайдіть λ = v/ν. Не вимагайте для електромагнітної хвилі матеріального середовища.",
+			"example": "Для ν = 100 МГц = 1,00 · 10⁸ Гц: λ = c/ν ≈ 3,00 · 10⁸ м/с / 1,00 · 10⁸ Гц = 3,00 м. Спробуйте самі: яка довжина хвилі у вакуумі за 1,0 ГГц? (0,300 м).",
+			"limits": "Плоска хвиля у вакуумі є ідеальною моделлю; у речовині можливі поглинання й дисперсія. На відміну від звуку електромагнітна хвиля не потребує середовища.",
+			"related": "Довжина хвилі. Швидкість поширення хвилі (#124); Шкала електромагнітних хвиль (#135); Світло. Природа світла та швидкість його поширення (#136)"
+		}
+	}
+}

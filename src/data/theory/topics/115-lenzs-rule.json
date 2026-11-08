@@ -1,0 +1,52 @@
+{
+	"n": 115,
+	"slug": "115-lenzs-rule",
+	"title": {
+		"en": "Lenz's Rule",
+		"ua": "Правило Ленца"
+	},
+	"short": {
+		"en": "Lenz's rule tells which way an induced current flows. Its magnetic field opposes the change in magnetic flux that produced the current. When a north pole approaches a conducting loop, the near side of the loop behaves like a north pole and tends to repel the magnet; when the pole moves away, it tends to attract it. This is a consequence of energy conservation, not opposition to all magnetic fields.",
+		"ua": "Правило Ленца визначає напрям індукційного струму: створене ним магнітне поле протидіє зміні магнітного потоку, що викликала струм. Коли північний полюс магніту наближається до замкненого контуру, ближній бік контуру поводиться як північний полюс і відштовхує магніт. Коли магніт віддаляється, контур протидіє віддаленню."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Heinrich Lenz formulated the direction rule in 1834, shortly after Faraday's discovery of induction. It explains the negative sign in Faraday's law.",
+			"core": "A changing external flux drives a current whose own field acts against the flux change. If the original flux increases into the page, the induced field points out of the page; if it decreases into the page, the induced field points into the page. Conducting surfaces can sustain eddy currents that oppose relative motion, causing magnetic braking and heating.",
+			"components": "For a fixed orientation, ℰ = −NΔΦ/Δt, where ℰ in V, flux Φ in Wb, time t in s and N turns. The minus sign encodes direction rather than making the EMF magnitude negative. The induced magnetic field is chosen to resist the change of flux, not always to point opposite the external field.",
+			"apply": "Draw the external B through the loop and decide whether its flux grows or shrinks. Draw the induced field that opposes that specific change. Then use the right-hand rule around the loop to determine clockwise or counterclockwise current as viewed from the chosen side. If the conductor is open, an EMF can exist but the closed-path induced current does not.",
+			"example": "A field into the page through a loop increases from 0.10 T to 0.30 T. The induced field points out of the page, so the induced current is counterclockwise as viewed on the page. Try it: the into-page field decreases. Which direction is the induced current? (clockwise).",
+			"limits": "Opposition is to the change of flux, not always to the external field itself. The chosen viewing side controls clockwise labels; an open loop has no circulating current.",
+			"related": "Magnetic Flux (#113); Electromagnetic Induction and Faraday's Law (#114); Induced EMF in a Moving Conductor (#116)"
+		},
+		"ua": {
+			"origin": "Генріх Ленц сформулював це правило 1834 року після відкриття індукції Фарадеєм. Воно пояснює знак мінус у законі електромагнітної індукції.",
+			"core": "Індукційний струм утворює власне поле, спрямоване проти збільшення або зменшення зовнішнього потоку. Якщо потік у напрямі від спостерігача зростає, індуковане поле спрямоване до спостерігача. Якщо цей потік спадає, індуковане поле має той самий напрям, що й зовнішнє. Вихрові струми в металевих пластинах можуть гальмувати рух і спричиняти нагрівання.",
+			"components": "ℰ = −NΔΦ/Δt, де ЕРС ℰ у В, Φ у Вб, t у с, N є кількістю витків. Знак мінус показує напрям, а модуль ЕРС є додатною величиною. Індуковане поле протидіє саме зміні потоку, а не обов’язково всьому зовнішньому полю.",
+			"apply": "Накресліть напрям зовнішнього B через контур, з’ясуйте, збільшується чи зменшується потік. Виберіть індуковане поле, яке протидіє цій зміні. Правилом правої руки визначте напрям струму в контурі. У розімкненому колі може бути ЕРС, але немає замкненого індукційного струму.",
+			"example": "Поле, спрямоване від нас за площину аркуша, зростає від 0,10 Тл до 0,30 Тл. Індуковане поле спрямоване до нас, тому струм іде проти годинникової стрілки при погляді на аркуш. Спробуйте самі: поле від нас зменшується. Напрям струму? (за годинниковою стрілкою).",
+			"limits": "Індуковане поле протидіє зміні потоку, а не завжди зовнішньому полю. Напрям за годинниковою стрілкою залежить від боку спостереження; у розімкненому колі замкненого струму немає.",
+			"related": "Магнітний потік (#113); Явище електромагнітної індукції. Закон Фарадея (#114); ЕРС індукції в провіднику, що рухається (#116)"
+		}
+	}
+}

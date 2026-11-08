@@ -1,0 +1,52 @@
+{
+	"n": 118,
+	"slug": "118-oscillatory-motion-amplitude-period-and-frequency",
+	"title": {
+		"en": "Oscillatory Motion: Amplitude, Period and Frequency",
+		"ua": "Механічні коливання. Амплітуда, період, частота"
+	},
+	"short": {
+		"en": "Oscillatory motion repeats around an equilibrium position, as in a swinging pendulum or vibrating spring. The amplitude describes the maximum distance from equilibrium, the period the time for one full cycle, and the frequency the number of cycles per second. A pendulum that makes ten oscillations in 20 s has period 2.0 s and frequency 0.50 Hz.",
+		"ua": "Механічні коливання є рухом, що повторюється навколо положення рівноваги, наприклад у маятника або вантажу на пружині. Амплітуда показує найбільше відхилення від рівноваги, період є часом одного повного коливання, а частота показує кількість коливань за секунду. Якщо маятник робить 10 коливань за 20 с, період становить 2,0 с, частота 0,50 Гц."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Galileo investigated pendulum motion around the start of the seventeenth century. Huygens later developed pendulum clocks and refined the understanding of periodic motion.",
+			"core": "Oscillations require a restoring influence and inertia, so a disturbed system can pass through equilibrium rather than simply stop there. For ideal free oscillations, energy alternates between kinetic and potential forms. Friction reduces amplitude in real systems; a sustained periodic drive can maintain motion. The phase tells where the oscillator is within its cycle.",
+			"components": "T = t/N, ν = N/t = 1/T, ω = 2π/T = 2πν, where period T in seconds (s), elapsed time t in s, cycle count N dimensionless, frequency ν in hertz (Hz) and angular frequency ω in rad/s. Amplitude A uses the same unit as displacement, usually m. These definitions apply to periodic motion.",
+			"apply": "Choose a clear event, such as passage through equilibrium in the same direction, to mark a complete cycle. Count several cycles to reduce timing uncertainty, then divide total time by N. Determine amplitude from the equilibrium position, not from one turning point to the other. Distinguish ordinary frequency ν from angular frequency ω.",
+			"example": "A pendulum completes 15 cycles in 30.0 s. T = 30.0 s/15 = 2.00 s; ν = 15/30.0 s = 0.500 Hz; ω = 2π/2.00 s ≈ 3.14 rad/s. Try it: if 12 cycles last 24 s, find T. (2.0 s).",
+			"limits": "A real damped oscillator is not exactly periodic forever. A full cycle returns to the same state and direction; amplitude is half the peak-to-peak distance.",
+			"related": "Harmonic Oscillations (#119); Spring and Simple Pendulums (#120); Energy in Oscillations and Damping (#121)"
+		},
+		"ua": {
+			"origin": "Галілей досліджував коливання маятника на початку XVII століття. Гюйгенс удосконалив маятникові годинники та вивчав періодичний рух.",
+			"core": "Для коливань потрібні повертаюча дія і інерція: тіло проходить положення рівноваги й рухається далі. У вільних коливаннях відбувається перетворення кінетичної та потенціальної енергії. Через тертя амплітуда реальних коливань зменшується, а зовнішня періодична дія може їх підтримувати. Фаза визначає стан коливальної системи в циклі.",
+			"components": "T = t/N, ν = N/t = 1/T, ω = 2π/T = 2πν, де T у с, час t у с, число коливань N безрозмірне, частота ν у Гц, циклічна частота ω у рад/с. Амплітуда A вимірюється в одиницях зміщення, зазвичай м. Формули стосуються періодичного руху.",
+			"apply": "Виберіть однаковий стан для початку й кінця відліку, наприклад проходження рівноваги в одному напрямі. Виміряйте час багатьох коливань, а не одного, і поділіть на їх кількість. Амплітуду відлічуйте від положення рівноваги, а не між двома крайніми положеннями. Не плутайте ν і ω.",
+			"example": "Маятник здійснив 15 коливань за 30,0 с. T = 30,0 с/15 = 2,00 с; ν = 15/30,0 с = 0,500 Гц; ω = 2π/2,00 с ≈ 3,14 рад/с. Спробуйте самі: 12 коливань тривають 24 с. Який період? (2,0 с).",
+			"limits": "Реальні згасаючі коливання не залишаються точно періодичними. Повне коливання повертає тіло до того самого стану та напряму руху; амплітуда є половиною розмаху.",
+			"related": "Гармонічні коливання (#119); Пружинний і математичний маятники (#120); Перетворення енергії під час коливань. Згасаючі коливання (#121)"
+		}
+	}
+}

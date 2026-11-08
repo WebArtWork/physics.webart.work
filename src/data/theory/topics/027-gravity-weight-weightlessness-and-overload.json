@@ -1,0 +1,52 @@
+{
+	"n": 27,
+	"slug": "027-gravity-weight-weightlessness-and-overload",
+	"title": {
+		"en": "Gravity, Weight, Weightlessness and Overload",
+		"ua": "Сила тяжіння, вага тіла, невагомість і перевантаження"
+	},
+	"short": {
+		"en": "Gravity is the force mg exerted by Earth, whereas weight is the force a body exerts on its support or suspension. A 60 kg person at rest has weight about 588 N. In an elevator accelerating upward at 2.0 m/s², the scale reads 708 N. In free fall a scale reads zero even though gravity still acts.",
+		"ua": "Сила тяжіння mg діє на тіло з боку Землі, а вага тіла є силою, з якою воно діє на опору або підвіс. Людина масою 60 кг у спокої має вагу близько 588 Н. Коли ліфт прискорюється вгору з прискоренням 2,0 м/с², показ ваг становить 708 Н. За вільного падіння показ дорівнює нулю, хоча тяжіння зберігається."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Newtonian mechanics separates gravitational attraction from forces of support. Studies of accelerated motion and orbital flight made apparent weight and weightlessness especially important in modern physics.",
+			"core": "Gravity acts on a body and produces downward acceleration near Earth. A scale responds to the contact force between body and support, which changes when the support accelerates. In a freely falling spacecraft, objects and the vehicle accelerate together, so support forces can vanish; astronauts are not beyond Earth’s gravity.",
+			"components": "F_g = mg (Н), where m is in кг and g ≈ 9.8 m/s². Apparent weight P = m(g + a) for an elevator accelerating upward, P = m(g − a) downward, and P = 0 in ideal free fall (a = g downward). Overload factor n = P / (mg), dimensionless, for cases with nonzero mg.",
+			"apply": "Draw separate arrows for gravity mg and support force N. Choose upward positive. For the passenger, N − mg = ma. The scale measures N, while the body’s weight on the scale has equal magnitude. Check that a = 0 recovers mg and free fall gives zero scale reading.",
+			"example": "A 60 kg passenger rides in an elevator accelerating upward at 2.0 m/s². Gravity is mg = 60 kg · 9.8 m/s² = 588 N. Scale reading P = 60 kg · (9.8 + 2.0) m/s² = 708 N. Try it: at downward acceleration 2.0 m/s², what is P? (Answer: 468 N.)",
+			"limits": "Do not identify weight with mass or conclude that no gravity acts during weightlessness. P = m(g ± a) assumes a vertical elevator and an ordinary contact scale. In orbit, weightlessness is chiefly shared free fall, not the absence of gravitational attraction.",
+			"related": "Newton's Second Law (#23); Law of Universal Gravitation (#26); Satellite Motion and Cosmic Velocities (#33)"
+		},
+		"ua": {
+			"origin": "У ньютонівській механіці розрізняють гравітаційне притягання й контактні сили. Дослідження прискореного руху, авіації та польотів на орбіті зробили поняття ваги, невагомості й перевантаження особливо важливими.",
+			"core": "Сила тяжіння спричиняє прискорення вниз. Терези вимірюють силу контакту з опорою, що залежить від її прискорення. У вільно падаючому кораблі тіло та корабель падають разом, тому сила опори може зникати. Космонавти залишаються під дією тяжіння Землі.",
+			"components": "Fтяж = mg у Н, m у кг, g ≈ 9,8 м/с². Для ліфта з прискоренням вгору P = m(g + a), вниз P = m(g − a), за ідеального вільного падіння P = 0. Коефіцієнт перевантаження n = P / (mg), безрозмірний.",
+			"apply": "Намалюйте силу тяжіння mg вниз і реакцію опори N вгору. Оберіть вісь вгору, запишіть N − mg = ma. Вага тіла за модулем дорівнює силі його дії на терези, а показ терезів дорівнює N. Перевірте випадок a = 0 і режим вільного падіння.",
+			"example": "Пасажир масою 60 кг у ліфті прискорюється вгору з a = 2,0 м/с². Сила тяжіння mg = 60 кг · 9,8 м/с² = 588 Н. Вага P = 60 кг · (9,8 + 2,0) м/с² = 708 Н. Спробуйте самі: вага за прискорення ліфта 2,0 м/с² вниз? (Відповідь: 468 Н.)",
+			"limits": "Не ототожнюйте вагу з масою та не вважайте невагомість відсутністю тяжіння. Формула P = m(g ± a) описує вертикальний рух ліфта з контактною опорою. На орбіті невагомість виникає через спільне вільне падіння.",
+			"related": "Другий закон Ньютона (#23); Закон всесвітнього тяжіння (#26); Рух штучних супутників. Космічні швидкості (#33)"
+		}
+	}
+}

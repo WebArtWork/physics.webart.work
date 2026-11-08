@@ -1,0 +1,52 @@
+{
+	"n": 29,
+	"slug": "029-friction-forces",
+	"title": {
+		"en": "Friction Forces",
+		"ua": "Сили тертя"
+	},
+	"short": {
+		"en": "Friction resists relative sliding or the tendency to slide between surfaces. Static friction adjusts up to a limit, while kinetic friction approximately obeys Fₖ = μₖN. On level ground a 10 kg sliding box with μₖ = 0.20 experiences about 19.6 N of friction. Friction makes walking and braking possible, but it also wastes energy as heat.",
+		"ua": "Сила тертя перешкоджає відносному ковзанню або його початку. Тертя спокою змінюється до граничного значення, а тертя ковзання приблизно дорівнює F = μN. Для ящика масою 10 кг на горизонтальній підлозі з μ = 0,20 сила тертя ковзання близько 19,6 Н. Тертя допомагає ходити й гальмувати, але водночас викликає нагрівання."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Leonardo da Vinci and Guillaume Amontons investigated friction empirically; Charles-Augustin de Coulomb developed related studies in the eighteenth century. Modern tribology examines contact surfaces from microscopic to industrial scales.",
+			"core": "At a contact, microscopic roughness and adhesion impede slipping. Static friction is whatever force is needed for sticking up to its maximum, not automatically μₛN. Once sliding starts, a simple model treats kinetic friction as μₖN. Rolling resistance is usually much smaller and has different physical causes.",
+			"components": "0 ≤ Fₛ ≤ μₛN for the magnitude of static friction; maximum Fₛ,max = μₛN. During sliding Fₖ ≈ μₖN. N is normal reaction in Н; μₛ and μₖ are dimensionless coefficients. On a horizontal floor without extra vertical forces N = mg. Coefficients depend on surfaces and conditions.",
+			"apply": "Draw the body and locate the direction of relative sliding or impending slip. Find N from forces perpendicular to the surface, then check the static-friction inequality. Use μₖN only after establishing sliding. Apply ΣF = ma for the remaining forces and signs.",
+			"example": "A 10 kg box slides across a horizontal floor with μₖ = 0.20. N = 10 kg · 9.8 m/s² = 98 N. Sliding friction is Fₖ = 0.20 · 98 N = 19.6 N, opposite the sliding direction. Try it: if μₖ is 0.30, find friction. (Answer: 29.4 N.)",
+			"limits": "The μN model is approximate and can fail for sticky, wet, lubricated or high-speed contacts. Static friction is not always at its maximum. Do not automatically set N = mg on an incline, and do not assume friction always opposes the body’s overall motion rather than relative slip.",
+			"related": "Free-Body Diagrams and Solving Dynamics Problems (#25); Motion on an Inclined Plane (#30); Drag Forces and Terminal Velocity (#34)"
+		},
+		"ua": {
+			"origin": "Тертя досліджували Леонардо да Вінчі та Гійом Амонтон, а у XVIII столітті Шарль Кулон розвинув кількісні уявлення. Сучасна трибологія вивчає контакт поверхонь на різних масштабах.",
+			"core": "Нерівності та міжмолекулярне зчеплення поверхонь заважають ковзанню. Сила тертя спокою пристосовується до зовнішніх сил аж до максимуму, тому не завжди дорівнює μₛN. Після початку ковзання застосовують наближення Fₖ = μₖN. Опір коченню зазвичай значно менший.",
+			"components": "0 ≤ Fₛ ≤ μₛN; найбільша сила тертя спокою Fₛ,max = μₛN. За ковзання Fₖ ≈ μₖN. N є реакцією опори в Н, μₛ і μₖ безрозмірні коефіцієнти. На горизонтальній підлозі без додаткових вертикальних сил N = mg. Коефіцієнти залежать від поверхонь і умов.",
+			"apply": "Намалюйте напрямок ковзання або його можливої появи. Знайдіть реакцію опори з рівнянь перпендикулярно контакту. Якщо тіло не ковзає, перевірте межу тертя спокою. Для ковзання застосуйте μₖN та другий закон Ньютона.",
+			"example": "Ящик масою 10 кг ковзає по горизонтальній підлозі, μₖ = 0,20. N = 10 кг · 9,8 м/с² = 98 Н. Тертя Fₖ = 0,20 · 98 Н = 19,6 Н проти ковзання. Спробуйте самі: сила тертя за μₖ = 0,30? (Відповідь: 29,4 Н.)",
+			"limits": "Модель μN є наближеною: для вологих, липких і змащених поверхонь можуть діяти інші закономірності. Тертя спокою не завжди максимальне. Не приймайте N = mg на похилій поверхні та визначайте напрямок тертя за відносним ковзанням.",
+			"related": "Схема сил і алгоритм розв’язування задач динаміки (#25); Рух тіла по похилій площині (#30); Сила опору середовища. Гранична швидкість (#34)"
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"n": 73,
+	"slug": "073-heat-transfer-conduction-convection-and-radiation",
+	"title": {
+		"en": "Heat Transfer: Conduction, Convection and Radiation",
+		"ua": "Види теплопередачі: теплопровідність, конвекція, випромінювання"
+	},
+	"short": {
+		"en": "Energy transfers as heat by conduction, convection and radiation. A metal spoon warms by conduction, circulating air carries heat by convection, and sunlight reaches Earth by radiation. A vacuum flask limits conduction, convection and radiation using several different layers; no single insulating material blocks all three processes perfectly.",
+		"ua": "Теплота передається теплопровідністю, конвекцією та випромінюванням. Металева ложка нагрівається завдяки теплопровідності, потоки повітря переносять енергію конвекцією, а сонячне світло приносить енергію випромінюванням. Термос послаблює всі три механізми завдяки спеціальній конструкції."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Fourier formulated quantitative heat conduction in the early nineteenth century. Studies of fluid circulation and electromagnetic radiation later clarified the other two mechanisms. The three processes are often present simultaneously in real buildings and devices.",
+			"core": "Conduction moves energy through microscopic particle interactions without bulk movement of material. Convection transports energy with moving liquids or gases. Radiation uses electromagnetic waves and can travel through vacuum. Metal feels colder than wood at the same room temperature because it transfers energy away from your hand faster, not because it must have a lower temperature.",
+			"components": "For steady one-dimensional conduction through a uniform slab, P = k_th SΔT/d, where heat-transfer power P is in W, conductivity k_th in W/(m·K), cross-section S in m², temperature difference ΔT in K and thickness d in m. This simplified formula presumes fixed surface temperatures and negligible edge effects.",
+			"apply": "Identify the medium and motion: bulk fluid motion suggests convection, transfer through a still solid suggests conduction, and transfer across vacuum requires radiation. For a slab use thickness perpendicular to heat flow and conductivity of the given material. Examine insulation as a way to increase thermal resistance rather than to destroy energy.",
+			"example": "A wall has area S = 10 m², thickness d = 0.20 m, conductivity k_th = 0.040 W/(m·K) and ΔT = 20 K. P = 0.040 W/(m·K) · 10 m² · 20 K / 0.20 m = 40 W. Try it: double the thickness. (20 W).",
+			"limits": "Convection varies with flow and geometry; radiation depends strongly on surface temperature and emissivity. The slab formula omits these contributions and thermal bridges. Do not claim a vacuum prevents radiation or that shiny foil blocks all heat transfer.",
+			"related": "Internal Energy and Ways to Change It (#72); Quantity of Heat and Specific Heat Capacity (#74); Thermal Expansion (#71)"
+		},
+		"ua": {
+			"origin": "Фур’є на початку XIX століття сформулював закон теплопровідності. Подальші дослідження руху рідин і електромагнітного випромінювання пояснили інші способи передавання теплоти.",
+			"core": "Під час теплопровідності енергія передається між частинками без помітного перенесення речовини. Конвекція супроводжується рухом рідини чи газу. Випромінювання переносить енергію електромагнітними хвилями навіть у вакуумі. Метал здається холоднішим за деревину тієї самої температури, бо швидше відводить тепло від руки.",
+			"components": "Для усталеного потоку через однорідну плоску стінку P = λSΔT/d, де P у Вт, λ теплопровідність у Вт/(м·К), S площа в м², ΔT у К, d товщина в м. Формула наближено справедлива за сталої температури поверхонь і невеликих крайових втрат.",
+			"apply": "За умовою визначте механізм передавання енергії. Для стінки використовуйте її товщину в напрямі теплового потоку, площу та теплопровідність матеріалу. Оцініть, чи можна знехтувати конвекцією та випромінюванням з поверхонь.",
+			"example": "Стіна має S = 10 м², d = 0,20 м, λ = 0,040 Вт/(м·К), ΔT = 20 К. P = 0,040 Вт/(м·К) · 10 м² · 20 К / 0,20 м = 40 Вт. Спробуйте самі: що буде, якщо подвоїти товщину? (20 Вт).",
+			"limits": "На конвекцію впливають швидкість повітря та форма поверхні, а на випромінювання температура й властивості покриття. Формула для стінки не враховує теплові містки. Вакуум не усуває теплове випромінювання.",
+			"related": "Внутрішня енергія та способи її зміни (#72); Кількість теплоти. Питома теплоємність речовини (#74); Теплове розширення тіл (#71)"
+		}
+	}
+}

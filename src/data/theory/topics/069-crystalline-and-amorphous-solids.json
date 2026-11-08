@@ -1,0 +1,52 @@
+{
+	"n": 69,
+	"slug": "069-crystalline-and-amorphous-solids",
+	"title": {
+		"en": "Crystalline and Amorphous Solids",
+		"ua": "Кристалічні та аморфні тіла"
+	},
+	"short": {
+		"en": "A crystal has long-range ordered atomic arrangement; an amorphous solid lacks such periodic order. Table salt forms crystals with repeating structure, while ordinary glass is amorphous. Many crystals melt over a relatively narrow temperature interval, but glasses typically soften over a range rather than having one sharp melting point.",
+		"ua": "У кристалах частинки утворюють впорядковану структуру, що повторюється на великих відстанях. В аморфних тілах такого далекого періодичного порядку немає. Кухонна сіль є кристалічною, а звичайне скло аморфним. Скло зазвичай розм’якшується в інтервалі температур, а не плавиться за однієї чіткої температури."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Crystallography developed through mineral studies and became quantitative with X-ray diffraction in the early twentieth century. Laue and the Braggs showed how diffraction reveals orderly atomic positions in crystals.",
+			"core": "The repeating arrangement of particles in a crystal is called a lattice. A single crystal may have different physical properties along different directions, known as anisotropy. A polycrystal consists of many small crystalline grains whose different orientations may average out these effects. Amorphous solids have local organisation but no repeating three-dimensional pattern over large distances.",
+			"components": "No single school-level equation distinguishes every solid, but density ρ = m/V in kg/m³ and melting temperature in K or °C help compare samples. Anisotropy may make thermal conductivity, optical response and mechanical strength direction-dependent. A sharp melting point often suggests crystallinity but is not a universal diagnostic.",
+			"apply": "Look for observations of crystal faces, diffraction patterns, direction-dependent behaviour and the temperature range of softening or melting. Determine whether the specimen is one grain, many grains or glassy material. State which evidence supports the classification rather than relying only on appearance.",
+			"example": "A 120 g glass sample occupies 50 cm³. Its density is ρ = 120 g / 50 cm³ = 2.4 g/cm³ = 2400 kg/m³. This measurement does not by itself prove amorphous structure. Try it: find density for 80 g in 40 cm³. (2.0 g/cm³).",
+			"limits": "Crystalline materials may contain defects and polycrystalline materials can be approximately isotropic. Some amorphous solids have a glass transition, not a single equilibrium melting temperature. Do not label an object crystalline merely because it is hard or transparent, and do not infer internal ordering from density alone.",
+			"related": "Mechanical Properties of Solids (#70); Thermal Expansion (#71); Surface Tension (#67)"
+		},
+		"ua": {
+			"origin": "Кристалографія розвивалася з дослідження мінералів. На початку XX століття Лауе та Бреґґи використали дифракцію рентгенівського випромінювання для визначення будови кристалів.",
+			"core": "Кристалічна ґратка описує періодичне розташування частинок. Монокристал може мати різні властивості в різних напрямах, що називають анізотропією. Полікристал складається з багатьох дрібних кристалічних зерен. Аморфні тіла мають ближній порядок частинок, але не мають просторової періодичності у великих масштабах.",
+			"components": "Єдиної простої формули для розрізнення всіх типів твердих тіл немає. Густина ρ = m/V у кг/м³ і температури фазових змін у К або °C допомагають порівнювати матеріали. Теплопровідність, міцність і оптичні властивості монокристала можуть залежати від напряму.",
+			"apply": "Дослідіть форму кристалів, характер плавлення, анізотропію та, за наявності, результати дифракції. З’ясуйте, чи зразок є монокристалом, полікристалом або аморфним тілом. Поясніть висновок спостережуваною ознакою.",
+			"example": "Зразок скла масою 120 г має об’єм 50 см³. ρ = 120 г / 50 см³ = 2,4 г/см³ = 2400 кг/м³. Одна лише густина не доводить аморфності. Спробуйте самі: знайдіть густину тіла масою 80 г і об’ємом 40 см³. (2,0 г/см³).",
+			"limits": "Кристали можуть мати дефекти, а властивості полікристалів часто майже однакові в усіх напрямах. Аморфні тіла зазнають склування та розм’якшення. Не визначайте структуру лише за твердістю, прозорістю або густиною.",
+			"related": "Механічні властивості твердих тіл (#70); Теплове розширення тіл (#71); Поверхневий натяг (#67)"
+		}
+	}
+}

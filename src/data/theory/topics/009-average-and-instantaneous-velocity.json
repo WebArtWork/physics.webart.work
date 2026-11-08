@@ -1,0 +1,52 @@
+{
+	"n": 9,
+	"slug": "009-average-and-instantaneous-velocity",
+	"title": {
+		"en": "Average and Instantaneous Velocity",
+		"ua": "Середня та миттєва швидкість"
+	},
+	"short": {
+		"en": "Average speed compares total path with total time; average velocity compares displacement with total time and includes direction. A runner who completes a 400 m lap in 100 s has average speed 4.0 m/s but average velocity zero. Instantaneous velocity describes motion at one moment and points along the trajectory. On trips with different speeds, you must divide the whole path by the whole time rather than blindly averaging speed readings.",
+		"ua": "Середня шляхова швидкість дорівнює відношенню всього шляху до всього часу, а середня векторна швидкість визначається переміщенням за цей час. Бігун, що подолав коло 400 м за 100 с, має середню шляхову швидкість 4,0 м/с, але нульову середню векторну швидкість. Миттєва швидкість описує рух у певний момент і напрямлена по дотичній до траєкторії. Для різних ділянок слід ділити весь шлях на весь час."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Galileo developed quantitative descriptions of speeds in the early seventeenth century. The idea of instantaneous velocity became precise with calculus, developed by Newton and Leibniz later that century. Modern measurement estimates instantaneous velocity from very short time intervals.",
+			"core": "Average speed answers how quickly a route was covered. Average velocity answers how quickly position changed and in which direction. Instantaneous velocity is the limit of average velocity over a shrinking time interval; its magnitude is instantaneous speed, the number shown on a vehicle speedometer. A curved path can have changing velocity even when instantaneous speed is constant.",
+			"components": "Average speed v̄ₛ = s_total / Δt in m/s. Average velocity along x is v̄ₓ = Δx / Δt in m/s; in two dimensions use the displacement vector divided by time. Instantaneous vₓ = dx/dt and speed is the magnitude |v|. For equal distances d travelled at speeds v₁ and v₂, the average speed is 2v₁v₂ / (v₁ + v₂), not generally (v₁ + v₂) / 2.",
+			"apply": "Draw the route and label initial and final positions. Sum the total distance and elapsed times, including stops when they count in the trip duration. For average velocity, calculate signed displacement instead. For equal-distance legs calculate each travel time d/v before taking an average. Use the tangent direction to describe instantaneous velocity on a curved route.",
+			"example": "A cyclist rides 60 m at 3.0 m/s and then another 60 m at 6.0 m/s, always forward. Times are t₁ = 60 m / 3.0 m/s = 20 s and t₂ = 60 m / 6.0 m/s = 10 s. Average speed is 120 m / 30 s = 4.0 m/s, not 4.5 m/s. Try it: a 400 m track lap in 80 s gives what average velocity? (Answer: zero.)",
+			"limits": "Average speed is nonnegative, whereas a velocity component can be negative. Never compute average speed by averaging two speed numbers unless time spent at each speed is equal. A speedometer gives the speed at that moment, not average velocity. Do not substitute path for displacement in velocity calculations.",
+			"related": "Trajectory, Path Length and Displacement (#8); Uniform Straight-Line Motion (#10); Acceleration (#11)"
+		},
+		"ua": {
+			"origin": "Галілей кількісно досліджував швидкість на початку XVII століття. Поняття миттєвої швидкості набуло точного математичного змісту з розвитком аналізу Ньютоном і Лейбніцем пізніше того самого століття. Нині її наближено визначають за дуже короткі проміжки часу.",
+			"core": "Середня шляхова швидкість показує темп подолання маршруту. Середня векторна швидкість враховує переміщення і напрямок. Миттєва швидкість є границею середньої векторної швидкості за дедалі меншого проміжку часу; її модуль показує спідометр. На криволінійній траєкторії вектор швидкості змінюється навіть за сталого модуля.",
+			"components": "Середня шляхова швидкість v̄ₛ = s_заг / Δt, одиниця м/с. Проєкція середньої векторної швидкості v̄ₓ = Δx / Δt, також м/с. Миттєва проєкція vₓ = dx/dt, а модуль миттєвої швидкості дорівнює |v|. Для двох однакових за довжиною ділянок зі швидкостями v₁ і v₂ середня шляхова швидкість дорівнює 2v₁v₂ / (v₁ + v₂), а не звичайному середньому арифметичному.",
+			"apply": "Накресліть маршрут, позначте його початок і кінець. Для середньої шляхової швидкості знайдіть повний шлях і весь час, врахувавши зупинки, якщо вони входять у тривалість руху. Для середньої векторної швидкості використайте переміщення. Для ділянок однакової довжини окремо знайдіть час s/v на кожній.",
+			"example": "Велосипедист проїхав 60 м зі швидкістю 3,0 м/с, а потім 60 м зі швидкістю 6,0 м в тому самому напрямку. Час t₁ = 60 м / 3,0 м/с = 20 с; t₂ = 60 м / 6,0 м/с = 10 с. Середня шляхова швидкість 120 м / 30 с = 4,0 м/с, а не 4,5 м/с. Спробуйте самі: чому дорівнює середня векторна швидкість за повне коло 400 м тривалістю 80 с? (Відповідь: нулю.)",
+			"limits": "Середня шляхова швидкість не буває від’ємною, але проєкція векторної швидкості може мати знак мінус. Не усереднюйте два значення швидкості арифметично, якщо час руху з кожним значенням різний. Спідометр показує миттєву шляхову швидкість, а не середню векторну. Не підставляйте шлях замість переміщення.",
+			"related": "Траєкторія, шлях і переміщення (#8); Рівномірний прямолінійний рух (#10); Прискорення (#11)"
+		}
+	}
+}

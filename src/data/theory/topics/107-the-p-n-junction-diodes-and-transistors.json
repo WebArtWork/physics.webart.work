@@ -1,0 +1,52 @@
+{
+	"n": 107,
+	"slug": "107-the-p-n-junction-diodes-and-transistors",
+	"title": {
+		"en": "The p–n Junction, Diodes and Transistors",
+		"ua": "p–n-перехід. Напівпровідниковий діод. Транзистор"
+	},
+	"short": {
+		"en": "A p–n junction is the boundary between p-type and n-type semiconductor regions. It conducts readily under forward bias but limits current under reverse bias, so a diode can rectify alternating current. A light-emitting diode converts electrical energy into light. Transistors use semiconductor junctions or electric fields to control a much larger circuit current and to switch digital circuits.",
+		"ua": "p–n-перехід є межею між ділянками напівпровідника p- та n-типу. За прямого зміщення він добре проводить струм, а за зворотного значно гірше. Тому діод випрямляє змінний струм. Світлодіод перетворює частину електричної енергії на світло. Транзистор керує струмом у колі й працює як перемикач або підсилювач."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "The point-contact transistor was demonstrated at Bell Labs in 1947; junction transistors followed. Semiconductor diodes and transistors became building blocks of integrated circuits.",
+			"core": "Near the boundary, electrons and holes diffuse and recombine, leaving a depletion layer containing fixed charged dopant ions and a built-in electric field. Forward voltage lowers the effective barrier; reverse bias raises it. A diode's forward voltage is not a strict universal constant. In a bipolar transistor a small base current can control a larger collector current; field-effect transistors use a gate voltage.",
+			"components": "In a simple LED circuit, R = (U_s − U_LED)/I where source voltage U_s and LED drop U_LED are in V, current I in A, and series resistance R in Ω. This is an approximate design equation for a known forward drop. The ideal diode approximation allows current one way and blocks it the other, but actual devices have leakage, breakdown and current limits.",
+			"apply": "Draw the diode orientation and identify anode and cathode before connecting a low-voltage source. Include a current-limiting resistor for LEDs and check the manufacturer's ratings. For switching problems distinguish control terminal from the load-current path. Never connect an LED directly across an uncontrolled power source.",
+			"example": "A 5.0 V source powers an LED with an approximate 2.0 V forward drop at 0.010 A. The resistor needs 5.0 V − 2.0 V = 3.0 V, so R = 3.0 V/0.010 A = 300 Ω. Try it: at the same voltage drop, what resistor gives 0.020 A? (150 Ω).",
+			"limits": "A diode is not a perfect one-way switch; breakdown, leakage and overheating are real. Do not use one universal LED forward voltage or neglect current limiting and transistor terminal ratings.",
+			"related": "Ohm's Law for a Circuit Section (#96); Semiconductors and Their Conductivity (#106); Ammeters, Voltmeters and Multimeters (#101)"
+		},
+		"ua": {
+			"origin": "Перший точковий транзистор продемонстрували в лабораторіях Bell 1947 року. Пізніше з’явилися площинні транзистори та інтегральні схеми на напівпровідниках.",
+			"core": "Поблизу межі електрони й дірки дифундують і рекомбінують, утворюючи збіднений шар із нерухомими зарядженими йонами домішок. Пряме зміщення знижує бар’єр, зворотне підвищує його. Напруга відкривання не є абсолютно сталою. У біполярному транзисторі невеликий струм бази може керувати струмом колектора, а в польовому головну роль відіграє напруга затвора.",
+			"components": "Для кола зі світлодіодом R = (U_дж − U_LED)/I, де напруги в В, сила струму в А, опір у Ом. Формула наближена й потребує відомого робочого падіння напруги на світлодіоді. Ідеальний діод проводить лише в один бік, але реальні діоди мають витік струму, межі струму та напругу пробою.",
+			"apply": "Позначте анод і катод, перевірте полярність низьковольтного джерела та додайте резистор для обмеження струму світлодіода. Порівняйте обраний режим із паспортними даними. У задачах про транзистор відрізняйте керувальний вивід від кола навантаження. Не підключайте світлодіод безпосередньо до джерела без обмеження струму.",
+			"example": "Джерело 5,0 В живить світлодіод із приблизним падінням 2,0 В за I = 0,010 А. На резисторі U_R = 5,0 − 2,0 = 3,0 В, R = 3,0 В/0,010 А = 300 Ом. Спробуйте самі: який опір потрібен для I = 0,020 А? (150 Ом).",
+			"limits": "Діод не є ідеальним ключем: існують витік, пробій і перегрівання. Не використовуйте одну незмінну напругу для всіх світлодіодів і не нехтуйте резистором.",
+			"related": "Закон Ома для ділянки кола (#96); Напівпровідники. Власна та домішкова провідність (#106); Вимірювання сили струму та напруги: амперметр, вольтметр, мультиметр (#101)"
+		}
+	}
+}

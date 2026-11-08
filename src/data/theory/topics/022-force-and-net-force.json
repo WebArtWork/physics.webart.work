@@ -1,0 +1,52 @@
+{
+	"n": 22,
+	"slug": "022-force-and-net-force",
+	"title": {
+		"en": "Force and Net Force",
+		"ua": "Сила. Рівнодійна сил"
+	},
+	"short": {
+		"en": "A force describes an interaction that can change a body’s velocity or shape. Forces are vectors, so 8 N to the right and 3 N to the left produce a net force of 5 N to the right, not 11 N. A spring dynamometer measures force. Add force vectors acting on the same body before deciding how it moves.",
+		"ua": "Сила описує взаємодію, яка може змінити швидкість або форму тіла. Сили є векторами: 8 Н праворуч і 3 Н ліворуч дають рівнодійну 5 Н праворуч, а не 11 Н. Силу вимірюють динамометром. Для визначення руху треба додавати сили, що діють на одне тіло."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Galileo investigated motion under forces; Newton systematically expressed force and dynamics in 1687. Spring scales became practical instruments through the study of elastic deformation and calibration.",
+			"core": "A force has magnitude, direction and a point of application. Gravity, support reactions, friction and tension are different interactions. The resultant or net force is the vector sum of external forces on one selected body. Two equally large opposing forces on that body can cancel, but forces acting on different bodies cannot be added in one free-body diagram.",
+			"components": "ΣF = F₁ + F₂ + … represents vector addition; each force has SI unit newton (N = kg·m/s²). Along x, ΣFₓ = ΣFᵢₓ. For perpendicular components, |ΣF| = √(ΣFₓ² + ΣFᵧ²). A spring dynamometer indicates force through calibrated elastic extension within its operating range.",
+			"apply": "Isolate the body and draw arrows for each external force, naming its source. Choose right and upward as positive, project vectors on axes, add signed projections, then find the resultant direction and magnitude. Check whether balanced forces act on the same object.",
+			"example": "Two people pull a crate horizontally: 12 N east and 5 N west. Net force is 12 N − 5 N = 7 N east. If an additional 24 N northward acts, the resultant magnitude is √((7 N)² + (24 N)²) = 25 N. Try it: 9 N right and 9 N left give what net force? (Answer: 0 N.)",
+			"limits": "A resultant alone does not reveal which specific interaction caused it. Be careful not to add magnitudes when directions differ or treat a Newton-third-law pair as balanced forces on one body. The point of application matters for rotation even if the resultant force is zero.",
+			"related": "Newton's Second Law (#23); Newton's Third Law (#24); Free-Body Diagrams and Solving Dynamics Problems (#25)"
+		},
+		"ua": {
+			"origin": "Галілей досліджував рух тіл під дією сил. Ньютон 1687 року сформулював систематичні закони динаміки. Пружинні динамометри розвивалися разом із вивченням пружної деформації та способами калібрування.",
+			"core": "Сила має модуль, напрямок і точку прикладання. Тяжіння, реакція опори, тертя та натяг є проявами різних взаємодій. Рівнодійна дорівнює векторній сумі зовнішніх сил, що діють на вибране тіло. Дві протилежні однакові сили на одному тілі можуть зрівноважитися, але сили на різних тілах так не додають.",
+			"components": "ΣF = F₁ + F₂ + … є векторною сумою, одиниця сили Н = кг·м/с². Для осі x: ΣFₓ = ΣFᵢₓ. За перпендикулярних складових модуль рівнодійної |ΣF| = √(ΣFₓ² + ΣFᵧ²). Пружинний динамометр використовує залежність видовження від сили в робочому діапазоні.",
+			"apply": "Виділіть одне тіло та накресліть стрілки зовнішніх сил із зазначенням джерел. Оберіть додатні напрями осей, знайдіть проєкції сил і складіть їх з урахуванням знаків. Якщо складові перпендикулярні, визначте модуль за теоремою Піфагора. Перевірте, що всі сили діють на одне тіло.",
+			"example": "Двоє людей тягнуть ящик: 12 Н на схід і 5 Н на захід. Рівнодійна 12 Н − 5 Н = 7 Н на схід. Якщо додати 24 Н на північ, її модуль √((7 Н)² + (24 Н)²) = 25 Н. Спробуйте самі: рівнодійна сил 9 Н праворуч і 9 Н ліворуч? (Відповідь: 0 Н.)",
+			"limits": "Рівнодійна не пояснює сама по собі джерела взаємодії. Не складайте лише модулі сил із різними напрямками та не вважайте сили третього закону Ньютона зрівноваженими на одному тілі. Точка прикладання сили має значення для обертання.",
+			"related": "Другий закон Ньютона (#23); Третій закон Ньютона (#24); Схема сил і алгоритм розв’язування задач динаміки (#25)"
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"n": 91,
+	"slug": "091-field-strength-and-voltage-in-a-uniform-field",
+	"title": {
+		"en": "Field Strength and Voltage in a Uniform Field",
+		"ua": "Зв’язок напруженості та напруги. Еквіпотенціальні поверхні"
+	},
+	"short": {
+		"en": "In an approximately uniform electric field, voltage between two points separated along the field direction equals field strength times distance. Therefore E = U/d for a suitable pair of parallel plates. A 120 V potential difference across a 4.0 mm gap gives 30,000 V/m if the field is uniform.",
+		"ua": "В однорідному електричному полі напруга між точками, розділеними вздовж ліній поля відстанню d, дорівнює Ed. Тому між ідеальними паралельними пластинами E = U/d. За напруги 120 В і проміжку 4,0 мм напруженість дорівнює 30000 В/м."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Field lines and equipotential surfaces were central to nineteenth-century electrostatics, especially Faraday's field picture and Maxwell's mathematical development.",
+			"core": "Field strength describes force per charge, whereas voltage describes energy change per charge between locations. An equipotential surface has the same potential everywhere; moving a charge along it requires no electrostatic work. In electrostatics field lines meet equipotential surfaces at right angles. For an ideal plate region the potential changes linearly across the gap.",
+			"components": "For uniform field parallel to displacement, |U| = Ed and E = |U|/d, where E is in V/m = N/C, U in V, and d in m. In general the potential change is Δφ = −∫E·dl. A charge q accelerated through a voltage magnitude U changes kinetic energy by |q|U if other energy changes are negligible.",
+			"apply": "Sketch plate polarity, field arrows from positive to negative, and equipotential planes perpendicular to them. Convert gap to metres. Compute E = U/d, then check force direction for a positive or negative particle. This simple formula does not apply directly to strongly nonuniform fields.",
+			"example": "Two ideal plates differ by 150 V and are 5.0 mm = 0.0050 m apart. E = 150 V/0.0050 m = 3.0 · 10⁴ V/m. Try it: 60 V across a 2.0 mm gap gives what E? (3.0 · 10⁴ V/m).",
+			"limits": "E = U/d requires a uniform field and a distance measured along its direction. Near plate edges the field bends. Do not replace d by an arbitrary diagonal distance or use centimetres as metres.",
+			"related": "Electric Field and Field Strength (#87); Work of the Electric Field, Potential and Voltage (#90); Capacitance and Capacitors (#92)"
+		},
+		"ua": {
+			"origin": "У XIX столітті вчення про силові лінії й еквіпотенціальні поверхні розвивали Фарадей і Максвелл, пояснюючи зв’язок між силою поля та різницею потенціалів.",
+			"core": "Напруженість визначає силу на одиничний заряд, а напруга показує зміну енергії одиничного заряду між точками. На еквіпотенціальній поверхні потенціал сталий, тому електростатичне поле не виконує роботи під час руху вздовж неї. Лінії поля перпендикулярні до еквіпотенціальних поверхонь.",
+			"components": "Для однорідного поля і переміщення вздовж його напряму |U| = Ed, E = |U|/d, де U у В, d у м, E у В/м або Н/Кл. У загальному випадку Δφ = −∫E·dl. Зміна кінетичної енергії заряду за прискорення напругою U дорівнює |q|U за відсутності інших втрат.",
+			"apply": "Накресліть пластини, позначте їхні знаки й напрям поля від додатної до від’ємної. Переведіть міліметри в метри. Обчисліть E та за потреби силу на заряд. Для неоднорідного поля проста формула U/d не дає локальну напруженість.",
+			"example": "Дві пластини мають напругу 150 В і проміжок d = 5,0 мм = 0,0050 м. E = 150 В/0,0050 м = 3,0 · 10⁴ В/м. Спробуйте самі: 60 В на 2,0 мм. Яка E? (3,0 · 10⁴ В/м).",
+			"limits": "E = U/d потребує однорідного поля та відстані вздовж його напряму. Поблизу країв пластин поле викривлене. Не використовуйте довільну діагональ замість d і не підставляйте сантиметри як метри.",
+			"related": "Електричне поле. Напруженість електричного поля (#87); Робота електричного поля. Потенціал. Напруга (#90); Електроємність. Конденсатори (#92)"
+		}
+	}
+}

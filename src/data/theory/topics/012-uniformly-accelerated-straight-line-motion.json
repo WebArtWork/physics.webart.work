@@ -1,0 +1,52 @@
+{
+	"n": 12,
+	"slug": "012-uniformly-accelerated-straight-line-motion",
+	"title": {
+		"en": "Uniformly Accelerated Straight-Line Motion",
+		"ua": "Рівноприскорений прямолінійний рух"
+	},
+	"short": {
+		"en": "With constant acceleration in a straight line, velocity changes by equal amounts during equal times. Position follows x = x₀ + v₀t + at² / 2. A car starting from rest with a = 2.0 m/s² reaches 10 m/s after 5 s and travels 25 m. Braking distance increases with the square of starting speed when deceleration has the same magnitude, so doubling speed can quadruple braking distance.",
+		"ua": "За рівноприскореного прямолінійного руху швидкість за однакові проміжки часу змінюється на однакову величину. Координата x = x₀ + v₀t + at² / 2. Автомобіль, що рушає зі стану спокою з прискоренням 2,0 м/с², через 5 с має швидкість 10 м/с і проходить 25 м. За однакового гальмівного прискорення гальмівний шлях пропорційний квадрату початкової швидкості."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Galileo described uniformly accelerated motion using experiments and geometric reasoning in the seventeenth century. His work established that distance from rest grows as the square of time under constant acceleration, a principle later incorporated into Newtonian mechanics.",
+			"core": "Acceleration is a constant change of velocity per second. The velocity-time graph is a straight line; its area gives displacement. The position-time graph is a parabola. Starting from rest, displacements in successive equal time intervals are in the ratio 1 : 3 : 5 : 7. Braking is the same model with acceleration opposite to velocity, provided the deceleration remains nearly constant.",
+			"components": "For one-dimensional constant a: v = v₀ + at, x = x₀ + v₀t + at² / 2 and v² − v₀² = 2a(x − x₀). Mean velocity during the interval is (v₀ + v)/2, so Δx = (v₀ + v)t/2. Positions x are in m, velocities in m/s, acceleration in m/s² and time in s. Stopping distance at deceleration magnitude b is d = v₀²/(2b), when final speed is zero.",
+			"apply": "Choose the axis and write the signs of v₀ and a. Pick an equation containing the unknown and the supplied data, avoiding time if it is not given. If the question is about stopping, set v = 0 and check the resulting displacement is in the initial travel direction. Verify with the triangular or trapezoidal area beneath v(t).",
+			"example": "A car starts from rest and accelerates steadily at 2.0 m/s² for 5.0 s. v = 0 + 2.0 m/s² · 5.0 s = 10 m/s. Displacement is Δx = 0 + (2.0 m/s²)(5.0 s)²/2 = 25 m. Try it: from rest with the same acceleration, how far in 3.0 s? (Answer: 9.0 m.)",
+			"limits": "The equations need constant acceleration and a straight path, not arbitrary car motion. The squared-speed equation uses displacement with sign, not always total path. When a moving car brakes, acceleration is negative only if the positive axis points forward. Do not apply the 1 : 3 : 5 rule to bodies with nonzero initial velocity.",
+			"related": "Acceleration (#11); Motion Graphs (#13); Free Fall and Vertical Throw (#15)"
+		},
+		"ua": {
+			"origin": "Галілей у XVII столітті дослідив рівноприскорений рух експериментально та геометрично. Він установив, що за початкової швидкості нуль шлях при сталому прискоренні пропорційний квадрату часу. Цей результат увійшов до основ класичної механіки.",
+			"core": "Стале прискорення означає однакову зміну швидкості за кожну секунду. Графік швидкості від часу є прямою, а площа під ним дає переміщення. Графік координати має форму параболи. Для руху зі спокою шляхи за послідовні однакові проміжки часу відносяться як 1 : 3 : 5 : 7. Гальмування описується прискоренням, напрямленим проти швидкості.",
+			"components": "За сталого прискорення на прямій: v = v₀ + at, x = x₀ + v₀t + at² / 2, v² − v₀² = 2a(x − x₀). Середня проєкція швидкості (v₀ + v)/2, тому Δx = (v₀ + v)t/2. Координати й переміщення у метрах, швидкість у м/с, прискорення в м/с², час у с. За модуля гальмівного прискорення b зупинний шлях d = v₀²/(2b).",
+			"apply": "Виберіть додатний напрямок і знаки v₀ та a. Оберіть формулу, що містить шукану величину й відомі дані. Для зупинки покладіть v = 0 і перевірте напрямок переміщення. Результат можна звірити з площею трапеції під графіком v(t). Окремо перевірте, чи сталою є прискореність протягом усього інтервалу.",
+			"example": "Автомобіль рушає зі спокою з прискоренням 2,0 м/с² протягом 5,0 с. v = 0 + 2,0 м/с² · 5,0 с = 10 м/с. Переміщення Δx = (2,0 м/с²)(5,0 с)²/2 = 25 м. Спробуйте самі: який шлях зі спокою за 3,0 с із тим самим прискоренням? (Відповідь: 9,0 м.)",
+			"limits": "Формули застосовують лише за сталого прискорення на прямій. Формула з квадратами швидкостей використовує переміщення зі знаком, а не завжди повний шлях. Прискорення під час гальмування від’ємне лише тоді, коли вісь напрямлена вздовж початкової швидкості. Співвідношення 1 : 3 : 5 не діє за ненульової початкової швидкості.",
+			"related": "Прискорення (#11); Графіки руху (#13); Вільне падіння. Рух тіла, кинутого вертикально (#15)"
+		}
+	}
+}

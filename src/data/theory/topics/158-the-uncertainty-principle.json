@@ -1,0 +1,52 @@
+{
+	"n": 158,
+	"slug": "158-the-uncertainty-principle",
+	"title": {
+		"en": "The Uncertainty Principle",
+		"ua": "Співвідношення невизначеностей Гейзенберга"
+	},
+	"short": {
+		"en": "Quantum mechanics imposes a fundamental lower limit on how sharply position and momentum can simultaneously be specified for one state. A sharply localized particle has a broad spread of possible momentum measurements. This is not merely an error caused by a careless observer or an imperfect instrument.",
+		"ua": "Квантова механіка встановлює фундаментальну межу одночасної визначеності координати та імпульсу квантового стану. Для дуже локалізованої частинки можливі результати вимірювання імпульсу мають великий розкид. Це не просто похибка недосконалого приладу чи втручання спостерігача."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Werner Heisenberg formulated the uncertainty principle in 1927. It emerged from the mathematical structure of quantum mechanics and wave-packet descriptions.",
+			"core": "Position uncertainty Δx and momentum uncertainty Δp are statistical spreads for many identically prepared systems. Making one spread smaller generally requires the conjugate spread to become larger. The effect is negligible for many macroscopic motions because Planck's constant is so small.",
+			"components": "For standard deviations, ΔxΔp ≥ ħ/2, where ħ = h/(2π) ≈ 1.055 · 10⁻³⁴ J·s. Δx is in metres and Δp in kg·m/s, so their product has units J·s. This inequality is not an exact equality for arbitrary states.",
+			"apply": "Identify the specified position spread and solve for the minimum compatible momentum spread. Use Δp ≥ ħ/(2Δx); do not confuse spread with average momentum or attribute it solely to measurement disturbance.",
+			"example": "For an electron localized to Δx = 1.0 nm = 1.0 · 10⁻⁹ m, Δp ≥ (1.055 · 10⁻³⁴ J·s)/(2.0 · 10⁻⁹ m) ≈ 5.3 · 10⁻²⁶ kg·m/s. Try it: halve Δx; what happens to the lower bound? (It doubles.)",
+			"limits": "The inequality concerns statistical spreads in a quantum state. It does not imply a measurement apparatus secretly pushes every particle; equality applies only to special states.",
+			"related": "Wave–Particle Duality and de Broglie Waves (#157); Photons (#155); Bohr's Postulates and Energy Levels (#160)"
+		},
+		"ua": {
+			"origin": "Вернер Гейзенберг сформулював принцип невизначеності 1927 року. Він пов’язаний із математичною будовою квантової механіки та хвильових пакетів.",
+			"core": "Невизначеності координати Δx та імпульсу Δp описують статистичний розкид вимірювань для однаково підготовлених систем. Зменшення одного розкиду зазвичай збільшує інший. Для макроскопічних рухів ефект здебільшого непомітний через мале значення сталої Планка.",
+			"components": "Для стандартних відхилень ΔxΔp ≥ ħ/2, де ħ = h/(2π) ≈ 1,055 · 10⁻³⁴ Дж·с. Δx вимірюють у метрах, Δp у кг·м/с, їхній добуток має одиницю Дж·с. Рівність не обов’язкова для довільного стану.",
+			"apply": "За заданою невизначеністю координати знайдіть нижню межу для імпульсу: Δp ≥ ħ/(2Δx). Не плутайте розкид із середнім імпульсом і не зводьте принцип лише до впливу вимірювання.",
+			"example": "Для електрона з Δx = 1,0 нм = 1,0 · 10⁻⁹ м: Δp ≥ (1,055 · 10⁻³⁴ Дж·с)/(2,0 · 10⁻⁹ м) ≈ 5,3 · 10⁻²⁶ кг·м/с. Спробуйте самі: що буде з нижньою межею, якщо Δx зменшити вдвічі? (Подвоїться.)",
+			"limits": "Нерівність описує статистичні розкиди квантового стану, а не лише механічне збурення приладом. Рівність досягається лише в особливих станах.",
+			"related": "Корпускулярно-хвильовий дуалізм. Хвилі де Бройля (#157); Фотон. Енергія та імпульс фотона (#155); Квантові постулати Бора. Енергетичні рівні атома (#160)"
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"n": 168,
+	"slug": "168-nuclear-fission-and-nuclear-reactors",
+	"title": {
+		"en": "Nuclear Fission and Nuclear Reactors",
+		"ua": "Поділ ядер урану. Ланцюгова реакція. Ядерний реактор"
+	},
+	"short": {
+		"en": "Nuclear fission splits a heavy nucleus into lighter fragments and releases energy, typically together with neutrons. Neutrons can induce further fissions, allowing a chain reaction. A power reactor regulates this process while transferring released heat to an electricity-generating system. Nuclear energy produces little direct carbon dioxide during operation, but it requires strict safety, cooling and radioactive-waste management.",
+		"ua": "Під час поділу важке атомне ядро розпадається на легші уламки з виділенням енергії та, як правило, нейтронів. Нові нейтрони можуть спричиняти наступні поділи, утворюючи ланцюгову реакцію. У ядерному реакторі її регулюють і відводять тепло для виробництва електроенергії. Під час роботи атомної електростанції прямі викиди вуглекислого газу невеликі, проте потрібні суворий контроль безпеки, охолодження та поводження з відходами."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Otto Hahn and Fritz Strassmann reported key uranium-fission chemical evidence in 1938; Lise Meitner and Otto Frisch explained the process in 1939. The first controlled self-sustaining chain reaction was achieved in Chicago in 1942. The 1986 Chornobyl disaster exposed severe reactor-design and operational failures.",
+			"core": "When a suitable heavy nucleus, such as uranium-235, absorbs a neutron, it may become unstable and split into two main fragments, releasing energy and additional neutrons. A sustained chain reaction needs enough neutrons from one generation to cause fissions in the next. A moderator can slow neutrons in thermal reactors, while control rods absorb neutrons to regulate reactivity. Coolant removes heat from the core.",
+			"components": "An illustrative energy scale is about 200 MeV released per uranium-235 fission, approximately 3.2 · 10⁻¹¹ J because 1 eV = 1.602 · 10⁻¹⁹ J. Reactor power P = E / t is measured in watts (W); electricity output is smaller than the heat release because conversion efficiency is less than 100%. The neutron multiplication factor k describes chain-reaction growth: k = 1 is steady critical operation, k < 1 subcritical, k > 1 supercritical.",
+			"apply": "In a textbook calculation, convert energy per fission from MeV to joules, multiply by the number of fissions, and divide by elapsed time for average thermal power. Separate thermal power from electrical output. For conceptual diagrams, identify fuel, moderator if present, control elements, cooling system and containment. Reactor design and operation require specialised licensed professionals.",
+			"example": "If 1.0 · 10¹⁸ fissions each release approximately 200 MeV, then energy per fission is 200 · 10⁶ eV · 1.602 · 10⁻¹⁹ J/eV ≈ 3.20 · 10⁻¹¹ J. Total energy ≈ 1.0 · 10¹⁸ · 3.20 · 10⁻¹¹ J = 3.20 · 10⁷ J. Try it: what energy is released by 2.0 · 10¹⁸ such fissions? (Answer: 6.4 · 10⁷ J.)",
+			"limits": "Not all reactors use a moderator, and critical operation is not the same as a dangerous uncontrolled event. Energy per fission varies with reaction products. Simplified diagrams omit delayed neutrons and important safety systems. Chornobyl cannot be explained as an inevitable result of nuclear power: specific design and operational factors mattered. Never attempt to handle nuclear material.",
+			"related": "Nuclear Forces, Mass Defect and Binding Energy (#164); Radioactivity: Alpha, Beta and Gamma Radiation (#165); Nuclear Reactions (#167); Ionizing Radiation: Dose and Protection (#170)"
+		},
+		"ua": {
+			"origin": "Отто Ган і Фріц Штрассман у 1938 році отримали важливі експериментальні свідчення поділу Урану. Ліза Майтнер і Отто Фріш пояснили процес у 1939 році. Першу керовану самопідтримувану ланцюгову реакцію здійснили в Чикаго у 1942 році. Чорнобильська аварія 1986 року виявила небезпечні особливості конструкції реактора та порушення експлуатації.",
+			"core": "Ядро Урану-235 після поглинання нейтрона може стати нестійким і розділитися на два головні уламки. При цьому виділяється енергія та з’являються нейтрони, які здатні спричинити наступні поділи. У теплових реакторах сповільнювач зменшує швидкість нейтронів, а керувальні стрижні поглинають їх і допомагають регулювати реакцію. Теплоносій відводить теплоту від активної зони.",
+			"components": "Типове енерговиділення одного поділу Урану-235 становить близько 200 МеВ, або 3,2 · 10⁻¹¹ Дж, оскільки 1 еВ = 1,602 · 10⁻¹⁹ Дж. Потужність P = E / t вимірюють у ватах (Вт). Електрична потужність менша за теплову через обмежений ККД перетворення. Коефіцієнт розмноження нейтронів k характеризує перебіг ланцюгової реакції: за k = 1 реакція стаціонарна, за k < 1 згасає, а за k > 1 наростає.",
+			"apply": "У розрахункових задачах переведіть енергію одного поділу з МеВ у джоулі, помножте її на кількість актів поділу, а за потреби поділіть на час для потужності. Не плутайте теплову та електричну потужності. На схемі реактора розрізняйте паливо, сповільнювач, керувальні елементи, систему охолодження і захисні бар’єри. Реактори експлуатують лише спеціально підготовлені фахівці.",
+			"example": "За 1,0 · 10¹⁸ поділів із виділенням близько 200 МеВ кожен енергія одного поділу становить 200 · 10⁶ еВ · 1,602 · 10⁻¹⁹ Дж/еВ ≈ 3,20 · 10⁻¹¹ Дж. Загальна енергія E ≈ 1,0 · 10¹⁸ · 3,20 · 10⁻¹¹ Дж = 3,20 · 10⁷ Дж. Спробуйте самі: яку енергію дадуть 2,0 · 10¹⁸ таких поділів? (Відповідь: 6,4 · 10⁷ Дж.)",
+			"limits": "Не всі реактори мають сповільнювач, а критичний стан не тотожний некерованій аварії. Енергія поділу залежить від продуктів реакції. Спрощена схема не показує роль запізнілих нейтронів та всіх систем захисту. Аварія в Чорнобилі мала конкретні конструкційні й експлуатаційні причини. Заборонено самостійно працювати з ядерними матеріалами.",
+			"related": "Ядерні сили. Дефект мас. Енергія зв’язку ядра (#164); Радіоактивність. Альфа-, бета- і гамма-випромінювання (#165); Ядерні реакції (#167); Дія іонізуючого випромінювання. Дозиметрія. Захист (#170)"
+		}
+	}
+}

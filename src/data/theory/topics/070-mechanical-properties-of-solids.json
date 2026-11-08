@@ -1,0 +1,52 @@
+{
+	"n": 70,
+	"slug": "070-mechanical-properties-of-solids",
+	"title": {
+		"en": "Mechanical Properties of Solids",
+		"ua": "Механічні властивості твердих тіл"
+	},
+	"short": {
+		"en": "Solids respond to forces by changing shape or size. Small elastic deformation disappears when the load is removed, while plastic deformation remains. A metal wire lengthens under tension, and its stress is the applied force per cross-sectional area. Within the elastic range, stress is approximately proportional to relative strain.",
+		"ua": "Тверді тіла під дією сил змінюють форму або розміри. Пружна деформація зникає після усунення навантаження, а пластична залишається. Металевий дріт розтягується під дією сили, причому механічна напруга залежить від сили та площі поперечного перерізу. У межах пружності напруга приблизно пропорційна відносній деформації."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Robert Hooke studied elastic deformation in the seventeenth century, while Thomas Young helped quantify the relationship between force and elongation in the nineteenth century. Modern materials science extends these ideas to complex materials and failure modes.",
+			"core": "Tension, compression, shear, bending and torsion are different kinds of deformation. Normal stress describes force distributed over area; strain measures relative change in length. Young's modulus E indicates how resistant a material is to elastic stretching: a larger E means less strain under the same stress. Strength is the load at which material fails, not the same as stiffness.",
+			"components": "Normal stress σ = F/S in Pa, where force F is in N and area S in m². Longitudinal strain ε = Δl/l₀ is dimensionless. For small elastic deformation σ = Eε, where E is Young's modulus in Pa, giving Δl = Fl₀/(ES). These formulas assume uniaxial loading, uniform section and linear elastic behaviour.",
+			"apply": "Draw the loading direction and the cross-section perpendicular to force. Convert mm² to m²; calculate stress and then strain using E. Multiply by the original length to obtain extension. Check that the resulting strain is small enough for the elastic model.",
+			"example": "A 2.0 m steel wire has area S = 1.0 mm² = 1.0 · 10⁻⁶ m². A force 100 N acts along it; take E = 2.0 · 10¹¹ Pa. Δl = 100 N · 2.0 m / (2.0 · 10¹¹ Pa · 1.0 · 10⁻⁶ m²) = 0.0010 m = 1.0 mm. Try it: double the force within the elastic range. (2.0 mm).",
+			"limits": "Hooke's law fails after the proportional limit and is unsuitable for large deformation, many polymers or materials undergoing creep. Brittle materials may fracture with little plastic deformation; ductile ones deform more. Do not confuse stress in pascals with force in newtons or stiffness with breaking strength.",
+			"related": "Elastic Force and Hooke's Law (#28); Crystalline and Amorphous Solids (#69); Moment of Force and Conditions of Equilibrium (#36)"
+		},
+		"ua": {
+			"origin": "Роберт Гук дослідив закономірності пружності в XVII столітті. Томас Юнг у XIX столітті сприяв кількісному опису пружного розтягування. Сучасне матеріалознавство досліджує і складніші види деформацій.",
+			"core": "Розтягування, стискання, зсув, згинання та кручення є різними видами деформації. Механічна напруга показує силу на одиницю площі. Відносне видовження характеризує частку зміни довжини. Модуль Юнга E визначає жорсткість матеріалу щодо розтягування, але сам по собі не визначає межу міцності.",
+			"components": "σ = F/S у Па, де F у Н, S у м². Відносна деформація ε = Δl/l₀ не має одиниці. У межах лінійної пружності σ = Eε, E у Па, тому Δl = Fl₀/(ES). Формули придатні для рівномірного розтягування й малих деформацій.",
+			"apply": "Намалюйте напрям сили та поперечний переріз дроту. Переведіть мм² у м². Знайдіть σ, потім ε = σ/E та Δl = εl₀. Перевірте, що деформація мала й матеріал не вийшов за межу пружності.",
+			"example": "Сталевий дріт має l₀ = 2,0 м, S = 1,0 мм² = 1,0 · 10⁻⁶ м². Сила F = 100 Н, E = 2,0 · 10¹¹ Па. Δl = 100 Н · 2,0 м / (2,0 · 10¹¹ Па · 1,0 · 10⁻⁶ м²) = 0,0010 м = 1,0 мм. Спробуйте самі: що буде за сили 200 Н у межах пружності? (2,0 мм).",
+			"limits": "Закон Гука не працює після межі пропорційності й не описує всіх властивостей полімерів. Крихкі матеріали руйнуються з малою пластичною деформацією, пластичні можуть значно витягуватися. Не плутайте напругу в Па із силою в Н, а жорсткість із міцністю.",
+			"related": "Сила пружності. Закон Гука (#28); Кристалічні та аморфні тіла (#69); Момент сили. Умови рівноваги тіла (#36)"
+		}
+	}
+}

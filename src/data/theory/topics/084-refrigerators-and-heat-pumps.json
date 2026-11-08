@@ -1,0 +1,52 @@
+{
+	"n": 84,
+	"slug": "084-refrigerators-and-heat-pumps",
+	"title": {
+		"en": "Refrigerators and Heat Pumps",
+		"ua": "Холодильні машини та теплові насоси"
+	},
+	"short": {
+		"en": "A refrigerator uses work to move heat from a cooler space into warmer surroundings. A heat pump uses the same principle but values the heat delivered to the warm space. A heat pump delivering 4 kWh of heat for 1 kWh of electrical input has a heating coefficient of performance of 4, not an energy efficiency of 400% in the heat-engine sense.",
+		"ua": "Холодильна машина витрачає роботу, щоб переносити теплоту з холоднішої області в тепліше оточення. Тепловий насос працює за тим самим принципом, але корисною є теплота, передана приміщенню. Якщо насос дає 4 кВт·год теплоти на 1 кВт·год електроенергії, його опалювальний коефіцієнт перетворення дорівнює 4."
+	},
+	"labels": {
+		"en": [
+			"Origin",
+			"Core idea",
+			"Key terms and formulas",
+			"How to apply it",
+			"Worked example",
+			"Limits and common mistakes",
+			"Related theories"
+		],
+		"ua": [
+			"Походження",
+			"Основна ідея",
+			"Ключові поняття та формули",
+			"Як застосувати",
+			"Розв’язаний приклад",
+			"Межі застосування та типові помилки",
+			"Пов’язані теорії"
+		]
+	},
+	"full": {
+		"en": {
+			"origin": "Mechanical refrigeration developed in the nineteenth century, following advances in the study of vapour compression and thermodynamics. Modern electric compressors circulate refrigerant through evaporation, compression, condensation and expansion.",
+			"core": "The refrigerant evaporates at low pressure while absorbing heat Q_c from a cold region. A compressor supplies work W; at higher pressure the refrigerant releases Q_h to a warm region. Energy balance requires Q_h = Q_c + W. Refrigerators and heat pumps differ mainly in which heat flow is useful.",
+			"components": "COP_cooling = Q_c/W and COP_heating = Q_h/W = 1 + COP_cooling; all energy terms are in J or the same energy unit, COP is dimensionless. For an ideal reversible device, COP_heating,Carnot = T_h/(T_h − T_c), temperatures in K.",
+			"apply": "Determine whether the desired result is cooling removed or heating delivered. Draw the heat and work arrows, apply energy conservation, then compute the appropriate COP. For the Carnot formula convert temperatures to kelvin and remember that real values are lower.",
+			"example": "A heat pump takes Q_c = 3.0 kWh from outdoor air and uses W = 1.0 kWh of electricity. Q_h = 3.0 + 1.0 = 4.0 kWh; COP_heating = 4.0/1.0 = 4.0. Try it: a refrigerator removes 600 J with 200 J of work. What is COP_cooling? (3.0).",
+			"limits": "COP is not the same as heat-engine efficiency and may exceed one. It depends on the indoor–outdoor temperature gap and equipment conditions. Do not identify delivered heat with electrical input alone; refrigerants and pressurised parts require qualified servicing.",
+			"related": "Heat Engines and Their Efficiency (#81); The Carnot Cycle and Maximum Efficiency (#82); Second Law of Thermodynamics and Entropy (#83)"
+		},
+		"ua": {
+			"origin": "У XIX столітті розвивалися механічні холодильні машини разом із дослідженнями парокомпресійних циклів. У сучасних пристроях компресор забезпечує циркуляцію холодоагенту через випарник, конденсатор і регулювальний елемент.",
+			"core": "У випарнику холодоагент забирає Qхол від холодного середовища. Компресор виконує роботу W, а в конденсаторі виділяється теплота Qгар. Закон збереження енергії дає Qгар = Qхол + W. У холодильнику корисне охолодження, а в тепловому насосі нагрівання.",
+			"components": "COP_хол = Qхол/W, COP_опал = Qгар/W = 1 + COP_хол. Усі енергії мають бути в однакових одиницях Дж або кВт·год, COP безрозмірний. Для оборотного ідеального насоса COP_опал,max = Tгар/(Tгар − Tхол), температура в К.",
+			"apply": "Визначте, чи потрібно обчислити відведену або передану теплоту. Накресліть напрямки потоків і застосуйте баланс енергії. Для граничного коефіцієнта Карно використовуйте абсолютні температури. Реальне значення менше за ідеальне.",
+			"example": "Насос забрав з повітря Qхол = 3,0 кВт·год і витратив W = 1,0 кВт·год. Qгар = 4,0 кВт·год; COP_опал = 4,0/1,0 = 4,0. Спробуйте самі: холодильник відводить 600 Дж за роботи 200 Дж. Який COP_хол? (3,0).",
+			"limits": "COP не є звичайним ККД і може перевищувати одиницю. Значення залежить від різниці температур та стану обладнання. Не прирівнюйте віддану теплоту лише до спожитої електроенергії; холодоагенти обслуговують фахівці.",
+			"related": "Теплові двигуни. ККД теплового двигуна (#81); Цикл Карно. Максимальний ККД теплового двигуна (#82); Другий закон термодинаміки. Ентропія (#83)"
+		}
+	}
+}

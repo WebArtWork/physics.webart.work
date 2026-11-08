@@ -1,0 +1,110 @@
+html {
+	--text: var(--foreground);
+	--strong: var(--foreground);
+	--muted-text: var(--muted-foreground);
+	--inner: var(--muted);
+	--inner-foreground: var(--foreground);
+	--track: var(--border);
+	--radius-sm: calc(var(--radius) - 0.25rem);
+	--radius-md: calc(var(--radius) - 0.125rem);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) + 0.25rem);
+	--radius-card: var(--radius-xl);
+	--c-primary: var(--primary);
+	--c-bg-primary: var(--background);
+	--c-bg-secondary: var(--card);
+	--c-text: var(--foreground);
+	--c-text-strong: var(--foreground);
+	--c-text-muted: var(--muted-foreground);
+	--c-border: var(--border);
+}
+html:not([data-mode='dark']) {
+	--font-sans: 'Geist Variable', 'Inter Variable', system-ui, sans-serif;
+	--shadow-card: var(--shadow-lift);
+	--shadow-button: var(--shadow-cap);
+	--shadow-button-hover: var(--shadow-focus-lift);
+}
+html[data-mode='dark'] {
+	--font-sans: 'Inter Variable', system-ui, sans-serif;
+	--shadow-card: var(--shadow-glass);
+	--shadow-button: var(--shadow-primary);
+	--shadow-button-hover: var(--shadow-primary-hover);
+}
+html .ds .ds-card {
+	border-radius: var(--radius-card);
+	box-shadow: var(--shadow-card);
+}
+html .ds .ds-btn {
+	min-height: 2.75rem;
+	border-radius: var(--radius-md);
+	padding-block: 0.75rem;
+}
+html .ds main a {
+	min-height: 2.75rem;
+}
+html .ds main a:not(.ds-card):not(.flex) {
+	display: inline-flex;
+	align-items: center;
+}
+html .brand-home {
+	width: 2.75rem;
+	height: 2.75rem;
+}
+html .ds .ds-btn.size-10 {
+	width: 2.75rem;
+	height: 2.75rem;
+}
+nav a {
+	min-height: 2.75rem;
+}
+html .ds .ds-btn-primary {
+	background: var(--primary);
+	color: var(--primary-foreground);
+	box-shadow: var(--shadow-button);
+}
+html .ds .ds-btn-outline {
+	border-color: var(--muted-foreground);
+	color: var(--foreground);
+}
+html .ds .ds-btn:focus-visible {
+	outline: 2px solid var(--ring);
+	outline-offset: 3px;
+}
+@media (hover: hover) and (pointer: fine) {
+	html .ds .ds-btn-primary:hover:not(:disabled) {
+		box-shadow: var(--shadow-button-hover);
+		filter: brightness(1.08);
+	}
+}
+html .ds a {
+	color: var(--foreground);
+}
+html .ds a.ds-btn-primary {
+	color: var(--primary-foreground);
+}
+html .ds .text-mute {
+	color: var(--muted-foreground);
+}
+html .ds article a:not(.ds-btn) {
+	text-decoration: underline;
+	text-underline-offset: 0.2em;
+}
+h1,
+h2,
+h3 {
+	text-wrap: balance;
+}
+p,
+li {
+	text-wrap: pretty;
+}
+article p {
+	line-height: 1.75;
+	overflow-wrap: anywhere;
+}
+input[type='search'] {
+	background: var(--input);
+	color: var(--foreground);
+	border: 1px solid var(--muted-foreground);
+	border-radius: var(--radius-md);
+}
