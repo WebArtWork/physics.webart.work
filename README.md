@@ -22,7 +22,7 @@ Interior light mode and Ember dark mode, selected by the user from Better Design
 
 ## Native apps
 
-The native identities are `work.webart.physics`. Before a native release, provision Physics-specific Firebase clients and supply `android/app/google-services.json` and `ios/App/App/GoogleService-Info.plist`, then run Capacitor sync and the platform builds. Copied Chess Firebase configurations were removed rather than reused. Native signing and native builds were not verified on this Windows host. The native workflow is manual; a web push does not launch the copied chess Fastlane release.
+The native identities are `work.webart.physics`. Before a native release, provision Physics-specific Firebase clients and supply `android/app/google-services.json` and `ios/App/App/GoogleService-Info.plist`, then run Capacitor sync and the platform builds. The web app uses the shared learning Firebase project (`learning-c2766`). Native signing and native builds were not verified on this Windows host. The native workflow is manual; a web push does not launch the copied chess Fastlane release.
 
 ## Content integrity and checks
 
