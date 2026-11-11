@@ -1,0 +1,1 @@
+import{i as o,r as m}from"./main-5BR7VARN.js";function s(t){return t.split(/;\s*/).filter(Boolean).map(e=>{let r=/^(.*?)\s*\(#(\d+)\)\s*$/.exec(e);return r?{text:e,slug:m(Number(r[2]))?.slug}:{text:e}})}function a(t){return t===`ua`?`ua`:`en`}function i(t){let e=o.findIndex(r=>r.slug===t.slug);return{prev:o[e-1],next:o[e+1]}}export{i as n,s as r,a as t};
